@@ -14,6 +14,8 @@ declare global {
       validatedQuery?: unknown;
       /** Which configured API token authenticated this request. Never the token itself. */
       apiTokenIndex?: number;
+      /** Raw request bytes, kept so webhook signatures can be verified. */
+      rawBody?: Buffer;
     }
   }
 }

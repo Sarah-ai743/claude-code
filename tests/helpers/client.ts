@@ -1,3 +1,4 @@
+import { createHmac } from "node:crypto";
 import request from "supertest";
 import type { Express } from "express";
 
@@ -23,4 +24,22 @@ export function authed(app: Express) {
     patch: (url: string) => auth(request(app).patch(url)),
     delete: (url: string) => auth(request(app).delete(url)),
   };
+}
+
+/** Must match EMAIL_WEBHOOK_SECRET in vitest.config.ts. A throwaway fixture. */
+export const TEST_WEBHOOK_SECRET = "test-webhook-secret-0123456789abcdef0123456789ab";
+
+/**
+ * Posts a webhook the way a real email provider would: the signature is
+ * computed over the exact bytes sent, not over the object.
+ */
+export function postSignedWebhook(app: Express, url: string, payload: unknown) {
+  const body = JSON.stringify(payload);
+  const signature = createHmac("sha256", TEST_WEBHOOK_SECRET).update(body).digest("hex");
+
+  return request(app)
+    .post(url)
+    .set("Content-Type", "application/json")
+    .set("X-Webhook-Signature", signature)
+    .send(body);
 }

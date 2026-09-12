@@ -11,6 +11,7 @@ import { leadsRouter } from "./modules/leads/leads.routes.js";
 import { followupsRouter } from "./modules/followups/followups.routes.js";
 import { approvalsRouter } from "./modules/approvals/approvals.routes.js";
 import { activityRouter } from "./modules/audit/audit.routes.js";
+import { emailsRouter } from "./modules/emails/emails.routes.js";
 
 /**
  * Builds the Express application. Kept separate from server.ts so tests can
@@ -46,12 +47,27 @@ export function createApp(): Express {
     }),
   );
 
-  // A body limit is a cheap denial-of-service and cost guard.
-  app.use(express.json({ limit: "128kb" }));
+  // A body limit is a cheap denial-of-service and cost guard. Emails are larger
+  // than ordinary API calls, so the limit allows for a long message.
+  app.use(
+    express.json({
+      limit: "1mb",
+      // Keep the raw bytes: webhook signatures are computed over exactly what
+      // was sent, and re-serializing parsed JSON would change those bytes.
+      verify: (req, _res, buf) => {
+        (req as express.Request).rawBody = buf;
+      },
+    }),
+  );
 
   // Public: uptime monitors and the hosting platform's health check need to
   // reach this without a credential. It reveals nothing but liveness.
   app.use("/api/health", healthRouter);
+
+  // Inbound email from your provider. It cannot present the API token — a mail
+  // provider has no way to know it — so it proves itself with a signed body
+  // instead. See middleware/webhookSignature.ts.
+  app.use("/api/emails", emailsRouter);
 
   // Everything else requires the shared API token.
   app.use("/api/leads", apiTokenAuth, leadsRouter);

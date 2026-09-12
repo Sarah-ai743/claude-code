@@ -12,6 +12,12 @@ export default defineConfig({
       // Must match TEST_API_TOKEN in tests/helpers/client.ts.
       LEADPILOT_API_TOKEN:
         "test-token-0123456789abcdef0123456789abcdef0123456789abcdef",
+      // Throwaway fixtures — see tests/helpers/client.ts.
+      EMAIL_WEBHOOK_SECRET: "test-webhook-secret-0123456789abcdef0123456789ab",
+      EMAIL_DEFAULT_BUSINESS_TYPE: "Cleaning Company",
+      EMAIL_DEFAULT_SERVICES: "Home Cleaning,End of Tenancy Cleaning",
+      EMAIL_DEFAULT_LANGUAGE: "English",
+      EMAIL_APPROVAL_REQUIRED: "true",
     },
     include: ["tests/**/*.test.ts"],
     environment: "node",

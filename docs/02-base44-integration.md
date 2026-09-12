@@ -189,6 +189,8 @@ GET    /api/approvals                      ✅ the human-in-the-loop queue
 POST   /api/approvals/:id/approve          ✅ approve (records only, runs nothing)
 POST   /api/approvals/:id/reject           ✅ reject, with a reason
 GET    /api/activity                       ✅ the activity feed / audit log
+POST   /api/emails/inbound                 ✅ inbound email → lead (HMAC-signed,
+                                              not token-authenticated)
 
 All of the above require `Authorization: Bearer <LEADPILOT_API_TOKEN>`,
 except `GET /api/health`, which is public.

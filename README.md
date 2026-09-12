@@ -7,9 +7,9 @@ follow-ups, and automate repetitive sales work.
 The frontend is built in **Base44**. This repository is the REST API it talks to,
 and the only place secrets, business rules, and AI calls live.
 
-> **Current status:** the architecture is designed, and four features are
-> built — lead analysis, follow-up suggestion, the human approval queue, and
-> the activity log every one of them writes to. There is no database and no authentication yet, and
+> **Current status:** the architecture is designed, and five features are
+> built — lead analysis, follow-up suggestion, the human approval queue, the
+> activity log every one of them writes to, and inbound email ingestion. There is no database and no authentication yet, and
 > nothing is ever sent to a customer: approving records a decision and executes
 > nothing. See [docs/03-build-order.md](docs/03-build-order.md).
 
@@ -21,6 +21,7 @@ and the only place secrets, business rules, and AI calls live.
 | [docs/02-base44-integration.md](docs/02-base44-integration.md) | How Base44 authenticates and calls this API, plus the draft endpoint map |
 | [docs/03-build-order.md](docs/03-build-order.md) | What to build first, phase by phase, and what to deliberately skip |
 | [docs/05-deployment.md](docs/05-deployment.md) | Deploying publicly, generating the API token, and connecting Base44 |
+| [docs/06-email-ingestion.md](docs/06-email-ingestion.md) | Turning an inbound email into an analyzed lead with a drafted reply |
 
 ## The stack, in one line
 

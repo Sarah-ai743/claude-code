@@ -47,6 +47,30 @@ const EnvSchema = z
      * token, move callers across, then remove the old one.
      */
     LEADPILOT_API_TOKEN: z.string().optional(),
+
+    /**
+     * Shared secret used to verify that an inbound email webhook really came
+     * from your email provider. Note what is NOT here: no mailbox password and
+     * no IMAP credentials. A webhook never logs into an inbox.
+     */
+    EMAIL_WEBHOOK_SECRET: z.string().optional(),
+
+    /**
+     * Company context for analyzing an inbound email. An email provider cannot
+     * know what business you are in, so it is configured here.
+     *
+     * TEMPORARY: this moves to the organizations table in Phase 1, where each
+     * tenant has its own. Until then one backend serves one business.
+     */
+    EMAIL_DEFAULT_BUSINESS_TYPE: z.string().trim().min(2).max(120).default("Service Business"),
+    EMAIL_DEFAULT_SERVICES: z.string().default(""),
+    EMAIL_DEFAULT_LANGUAGE: z.string().trim().min(2).max(40).default("English"),
+
+    /** Every drafted reply waits for a human. Turning this off sends nothing — there is no sender yet. */
+    EMAIL_APPROVAL_REQUIRED: z
+      .enum(["true", "false"])
+      .default("true")
+      .transform((value) => value === "true"),
   })
   .superRefine((env, ctx) => {
     if (env.AI_PROVIDER === "anthropic" && !env.ANTHROPIC_API_KEY) {
@@ -58,6 +82,16 @@ const EnvSchema = z
     }
 
     const tokens = splitTokens(env.LEADPILOT_API_TOKEN);
+
+    if (env.NODE_ENV === "production" && !env.EMAIL_WEBHOOK_SECRET) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["EMAIL_WEBHOOK_SECRET"],
+        message:
+          "EMAIL_WEBHOOK_SECRET is required in production so inbound email " +
+          "webhooks can be verified. Generate one with: openssl rand -hex 32",
+      });
+    }
 
     if (env.NODE_ENV === "production" && tokens.length === 0) {
       ctx.addIssue({
@@ -125,3 +159,13 @@ export const isProduction = env.NODE_ENV === "production";
  * returned in a response, never written to the activity log.
  */
 export const apiTokens: string[] = splitTokens(env.LEADPILOT_API_TOKEN);
+
+/** Company context used when analyzing an inbound email. */
+export const emailDefaults = {
+  businessType: env.EMAIL_DEFAULT_BUSINESS_TYPE,
+  services: env.EMAIL_DEFAULT_SERVICES.split(",")
+    .map((service) => service.trim())
+    .filter(Boolean),
+  language: env.EMAIL_DEFAULT_LANGUAGE,
+  approvalRequired: env.EMAIL_APPROVAL_REQUIRED,
+};
