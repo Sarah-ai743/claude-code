@@ -190,6 +190,9 @@ POST   /api/approvals/:id/approve          ✅ approve (records only, runs nothi
 POST   /api/approvals/:id/reject           ✅ reject, with a reason
 GET    /api/activity                       ✅ the activity feed / audit log
 
+All of the above require `Authorization: Bearer <LEADPILOT_API_TOKEN>`,
+except `GET /api/health`, which is public.
+
 GET    /v1/health                          # is the service up (no auth)
 GET    /v1/me                              # current user + organization
 

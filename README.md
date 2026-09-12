@@ -20,12 +20,25 @@ and the only place secrets, business rules, and AI calls live.
 | [docs/01-architecture.md](docs/01-architecture.md) | Which technologies, which folders, and *why* each choice was made |
 | [docs/02-base44-integration.md](docs/02-base44-integration.md) | How Base44 authenticates and calls this API, plus the draft endpoint map |
 | [docs/03-build-order.md](docs/03-build-order.md) | What to build first, phase by phase, and what to deliberately skip |
+| [docs/05-deployment.md](docs/05-deployment.md) | Deploying publicly, generating the API token, and connecting Base44 |
 
 ## The stack, in one line
 
 TypeScript on Node.js · Express · PostgreSQL with Prisma · Zod validation · JWTs
 from a managed identity provider · Pino logging · Anthropic behind a provider
 interface · deployed as a Docker image on Railway or Render.
+
+## Authentication
+
+Every route except `GET /api/health` requires a shared API token:
+
+```
+Authorization: Bearer <LEADPILOT_API_TOKEN>
+```
+
+Generate one with `openssl rand -hex 32`. The server refuses to start in
+production without it, and refuses to start with the placeholder value. See
+[docs/05-deployment.md](docs/05-deployment.md).
 
 ## Non-negotiables
 

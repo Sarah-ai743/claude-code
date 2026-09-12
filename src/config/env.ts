@@ -9,6 +9,16 @@ import { z } from "zod";
  *   2. If a required variable is missing or malformed, the process refuses to
  *      start. A loud crash at deploy time beats a mysterious 500 at 2am.
  */
+/** Short tokens are guessable. 32 characters is the floor, not the target. */
+export const MIN_API_TOKEN_LENGTH = 32;
+
+function splitTokens(raw: string | undefined): string[] {
+  return (raw ?? "")
+    .split(",")
+    .map((token) => token.trim())
+    .filter(Boolean);
+}
+
 const EnvSchema = z
   .object({
     NODE_ENV: z.enum(["development", "test", "production"]).default("development"),
@@ -30,6 +40,13 @@ const EnvSchema = z
 
     /** Read from the environment only — never hard-coded, never logged. */
     ANTHROPIC_API_KEY: z.string().min(1).optional(),
+
+    /**
+     * The token callers must present to use the API. One or more, separated by
+     * commas — more than one lets you rotate without downtime: add the new
+     * token, move callers across, then remove the old one.
+     */
+    LEADPILOT_API_TOKEN: z.string().optional(),
   })
   .superRefine((env, ctx) => {
     if (env.AI_PROVIDER === "anthropic" && !env.ANTHROPIC_API_KEY) {
@@ -38,6 +55,40 @@ const EnvSchema = z
         path: ["ANTHROPIC_API_KEY"],
         message: "ANTHROPIC_API_KEY is required when AI_PROVIDER=anthropic",
       });
+    }
+
+    const tokens = splitTokens(env.LEADPILOT_API_TOKEN);
+
+    if (env.NODE_ENV === "production" && tokens.length === 0) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["LEADPILOT_API_TOKEN"],
+        message:
+          "LEADPILOT_API_TOKEN is required in production. " +
+          "Generate one with: openssl rand -hex 32",
+      });
+    }
+
+    for (const token of tokens) {
+      if (token.length < MIN_API_TOKEN_LENGTH) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["LEADPILOT_API_TOKEN"],
+          message:
+            `Each API token must be at least ${MIN_API_TOKEN_LENGTH} characters. ` +
+            "Generate one with: openssl rand -hex 32",
+        });
+      }
+      // Refuse to boot with the value copied straight out of .env.example.
+      if (/^replace[-_]me/i.test(token)) {
+        ctx.addIssue({
+          code: "custom",
+          path: ["LEADPILOT_API_TOKEN"],
+          message:
+            "LEADPILOT_API_TOKEN is still the placeholder from .env.example. " +
+            "Generate a real one with: openssl rand -hex 32",
+        });
+      }
     }
   });
 
@@ -68,3 +119,9 @@ export const corsAllowedOrigins: string[] = env.CORS_ALLOWED_ORIGINS.split(",")
   .filter(Boolean);
 
 export const isProduction = env.NODE_ENV === "production";
+
+/**
+ * Every token currently accepted. Read once at boot; never logged, never
+ * returned in a response, never written to the activity log.
+ */
+export const apiTokens: string[] = splitTokens(env.LEADPILOT_API_TOKEN);

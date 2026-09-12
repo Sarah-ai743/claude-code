@@ -44,6 +44,20 @@ export class NotFoundError extends AppError {
   }
 }
 
+/** No credential, or a credential that is not recognised. */
+export class UnauthorizedError extends AppError {
+  constructor(message: string, code = "UNAUTHORIZED") {
+    super(message, { status: 401, code });
+  }
+}
+
+/** The server is not configured to serve this request. An operator problem. */
+export class ServiceUnavailableError extends AppError {
+  constructor(message: string) {
+    super(message, { status: 503, code: "SERVICE_UNAVAILABLE" });
+  }
+}
+
 /** The request is valid, but the resource is not in a state that allows it. */
 export class ConflictError extends AppError {
   constructor(message: string, details: unknown[] = []) {

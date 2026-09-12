@@ -9,6 +9,9 @@ export default defineConfig({
       AI_PROVIDER: "mock",
       LOG_LEVEL: "silent",
       CORS_ALLOWED_ORIGINS: "http://localhost:3000",
+      // Must match TEST_API_TOKEN in tests/helpers/client.ts.
+      LEADPILOT_API_TOKEN:
+        "test-token-0123456789abcdef0123456789abcdef0123456789abcdef",
     },
     include: ["tests/**/*.test.ts"],
     environment: "node",

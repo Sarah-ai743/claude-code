@@ -1,10 +1,12 @@
 import { describe, expect, it, afterEach } from "vitest";
-import request from "supertest";
 import { createApp } from "../../src/app.js";
+import { authed } from "../helpers/client.js";
 import { setAIProvider } from "../../src/ai/providers/index.js";
 import type { AIProvider } from "../../src/ai/types.js";
 
 const app = createApp();
+// Every request below carries a valid API token — see tests/helpers/client.ts.
+const api = authed(app);
 
 const validPayload = {
   message:
@@ -24,7 +26,7 @@ afterEach(() => {
 
 describe("POST /api/leads/analyze", () => {
   it("returns a structured analysis for a valid enquiry", async () => {
-    const response = await request(app).post("/api/leads/analyze").send(validPayload);
+    const response = await api.post("/api/leads/analyze").send(validPayload);
 
     expect(response.status).toBe(200);
 
@@ -56,12 +58,12 @@ describe("POST /api/leads/analyze", () => {
   });
 
   it("echoes a correlation id on every response", async () => {
-    const response = await request(app).post("/api/leads/analyze").send(validPayload);
+    const response = await api.post("/api/leads/analyze").send(validPayload);
     expect(response.headers["x-request-id"]).toMatch(/^req_/);
   });
 
   it("rejects a request with no message", async () => {
-    const response = await request(app)
+    const response = await api
       .post("/api/leads/analyze")
       .send({ companyContext: validPayload.companyContext });
 
@@ -74,7 +76,7 @@ describe("POST /api/leads/analyze", () => {
   });
 
   it("rejects a message that is too short to analyze", async () => {
-    const response = await request(app)
+    const response = await api
       .post("/api/leads/analyze")
       .send({ ...validPayload, message: "hi" });
 
@@ -83,7 +85,7 @@ describe("POST /api/leads/analyze", () => {
   });
 
   it("rejects a request with no company context", async () => {
-    const response = await request(app)
+    const response = await api
       .post("/api/leads/analyze")
       .send({ message: validPayload.message });
 
@@ -94,7 +96,7 @@ describe("POST /api/leads/analyze", () => {
   });
 
   it("applies defaults for optional company context fields", async () => {
-    const response = await request(app)
+    const response = await api
       .post("/api/leads/analyze")
       .send({
         message: validPayload.message,
@@ -113,7 +115,7 @@ describe("POST /api/leads/analyze", () => {
     };
     setAIProvider(brokenProvider);
 
-    const response = await request(app).post("/api/leads/analyze").send(validPayload);
+    const response = await api.post("/api/leads/analyze").send(validPayload);
 
     expect(response.status).toBe(500);
     // The internal error text must never reach the client.
@@ -129,7 +131,7 @@ describe("POST /api/leads/analyze", () => {
       },
     });
 
-    const response = await request(app).post("/api/leads/analyze").send(validPayload);
+    const response = await api.post("/api/leads/analyze").send(validPayload);
 
     expect(response.status).toBe(502);
     expect(response.body.error.code).toBe("AI_PROVIDER_ERROR");
@@ -138,19 +140,19 @@ describe("POST /api/leads/analyze", () => {
 
 describe("routing basics", () => {
   it("reports health", async () => {
-    const response = await request(app).get("/api/health");
+    const response = await api.get("/api/health");
     expect(response.status).toBe(200);
     expect(response.body.data.status).toBe("ok");
   });
 
   it("returns a structured 404 for unknown routes", async () => {
-    const response = await request(app).get("/api/does-not-exist");
+    const response = await api.get("/api/does-not-exist");
     expect(response.status).toBe(404);
     expect(response.body.error.code).toBe("NOT_FOUND");
   });
 
   it("rejects other methods on the analyze route", async () => {
-    const response = await request(app).get("/api/leads/analyze");
+    const response = await api.get("/api/leads/analyze");
     expect(response.status).toBe(404);
   });
 });

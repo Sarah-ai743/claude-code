@@ -1,10 +1,12 @@
 import { beforeEach, describe, expect, it } from "vitest";
-import request from "supertest";
 import { createApp } from "../../src/app.js";
+import { authed } from "../helpers/client.js";
 import { approvalRepository } from "../../src/modules/approvals/approvals.repository.js";
 import { auditRepository } from "../../src/modules/audit/audit.repository.js";
 
 const app = createApp();
+// Every request below carries a valid API token — see tests/helpers/client.ts.
+const api = authed(app);
 
 const proposal = {
   leadId: "lead_123",
@@ -17,7 +19,7 @@ const proposal = {
 };
 
 async function createProposal(overrides: Record<string, unknown> = {}) {
-  const response = await request(app)
+  const response = await api
     .post("/api/approvals")
     .send({ ...proposal, ...overrides });
   return response;
@@ -89,7 +91,7 @@ describe("POST /api/approvals", () => {
     });
 
     it("rejects a missing leadId", async () => {
-      const response = await request(app)
+      const response = await api
         .post("/api/approvals")
         .send({ ...proposal, leadId: undefined });
       expect(response.status).toBe(422);
@@ -110,7 +112,7 @@ describe("POST /api/approvals", () => {
 
 describe("GET /api/approvals", () => {
   it("returns an empty list when the queue is empty", async () => {
-    const response = await request(app).get("/api/approvals");
+    const response = await api.get("/api/approvals");
     expect(response.status).toBe(200);
     expect(response.body.data).toEqual([]);
     expect(response.body.meta.hasMore).toBe(false);
@@ -120,7 +122,7 @@ describe("GET /api/approvals", () => {
     const first = await createProposal({ customerName: "First" });
     const second = await createProposal({ customerName: "Second" });
 
-    const response = await request(app).get("/api/approvals");
+    const response = await api.get("/api/approvals");
     const ids = response.body.data.map((item: { id: string }) => item.id);
 
     expect(ids).toHaveLength(2);
@@ -132,14 +134,14 @@ describe("GET /api/approvals", () => {
     const toReject = await createProposal();
     await createProposal();
 
-    await request(app)
+    await api
       .post(`/api/approvals/${toReject.body.data.id}/reject`)
       .send({ decidedBy: "anna@example.com", reason: "Too soon after the last message." });
 
-    const pending = await request(app).get("/api/approvals?status=PENDING");
+    const pending = await api.get("/api/approvals?status=PENDING");
     expect(pending.body.data).toHaveLength(1);
 
-    const rejected = await request(app).get("/api/approvals?status=REJECTED");
+    const rejected = await api.get("/api/approvals?status=REJECTED");
     expect(rejected.body.data).toHaveLength(1);
     expect(rejected.body.data[0].id).toBe(toReject.body.data.id);
   });
@@ -148,11 +150,11 @@ describe("GET /api/approvals", () => {
     await createProposal({ leadId: "lead_a", proposedAction: "CHANGE_LEAD_STATUS" });
     await createProposal({ leadId: "lead_b" });
 
-    const high = await request(app).get("/api/approvals?riskLevel=HIGH");
+    const high = await api.get("/api/approvals?riskLevel=HIGH");
     expect(high.body.data).toHaveLength(1);
     expect(high.body.data[0].leadId).toBe("lead_b");
 
-    const byLead = await request(app).get("/api/approvals?leadId=lead_a");
+    const byLead = await api.get("/api/approvals?leadId=lead_a");
     expect(byLead.body.data).toHaveLength(1);
   });
 
@@ -161,11 +163,11 @@ describe("GET /api/approvals", () => {
       await createProposal({ customerName: `Customer ${index}` });
     }
 
-    const firstPage = await request(app).get("/api/approvals?limit=2");
+    const firstPage = await api.get("/api/approvals?limit=2");
     expect(firstPage.body.data).toHaveLength(2);
     expect(firstPage.body.meta.hasMore).toBe(true);
 
-    const secondPage = await request(app).get(
+    const secondPage = await api.get(
       `/api/approvals?limit=2&cursor=${firstPage.body.meta.nextCursor}`,
     );
     expect(secondPage.body.data).toHaveLength(2);
@@ -176,13 +178,13 @@ describe("GET /api/approvals", () => {
   });
 
   it("rejects an invalid query", async () => {
-    const response = await request(app).get("/api/approvals?status=MAYBE");
+    const response = await api.get("/api/approvals?status=MAYBE");
     expect(response.status).toBe(422);
     expect(response.body.error.message).toMatch(/query string/i);
   });
 
   it("rejects an out-of-range limit", async () => {
-    const response = await request(app).get("/api/approvals?limit=5000");
+    const response = await api.get("/api/approvals?limit=5000");
     expect(response.status).toBe(422);
   });
 });
@@ -191,7 +193,7 @@ describe("POST /api/approvals/:id/approve", () => {
   it("approves a pending item and records who decided", async () => {
     const created = await createProposal();
 
-    const response = await request(app)
+    const response = await api
       .post(`/api/approvals/${created.body.data.id}/approve`)
       .send({ decidedBy: "anna@example.com", note: "Looks good." });
 
@@ -204,7 +206,7 @@ describe("POST /api/approvals/:id/approve", () => {
 
   it("executes nothing, and says so", async () => {
     const created = await createProposal();
-    const response = await request(app)
+    const response = await api
       .post(`/api/approvals/${created.body.data.id}/approve`)
       .send({ decidedBy: "anna@example.com" });
 
@@ -216,7 +218,7 @@ describe("POST /api/approvals/:id/approve", () => {
     const created = await createProposal();
     const edited = "Hi Anna — following up on the quote. Does Friday still work?";
 
-    const response = await request(app)
+    const response = await api
       .post(`/api/approvals/${created.body.data.id}/approve`)
       .send({ decidedBy: "anna@example.com", editedMessage: edited });
 
@@ -230,7 +232,7 @@ describe("POST /api/approvals/:id/approve", () => {
 
   it("returns the full audit trail with the decision", async () => {
     const created = await createProposal();
-    const response = await request(app)
+    const response = await api
       .post(`/api/approvals/${created.body.data.id}/approve`)
       .send({ decidedBy: "anna@example.com" });
 
@@ -243,8 +245,8 @@ describe("POST /api/approvals/:id/approve", () => {
     const created = await createProposal();
     const url = `/api/approvals/${created.body.data.id}/approve`;
 
-    await request(app).post(url).send({ decidedBy: "anna@example.com" });
-    const second = await request(app).post(url).send({ decidedBy: "anna@example.com" });
+    await api.post(url).send({ decidedBy: "anna@example.com" });
+    const second = await api.post(url).send({ decidedBy: "anna@example.com" });
 
     expect(second.status).toBe(409);
     expect(second.body.error.code).toBe("CONFLICT");
@@ -252,11 +254,11 @@ describe("POST /api/approvals/:id/approve", () => {
 
   it("refuses to approve something already rejected", async () => {
     const created = await createProposal();
-    await request(app)
+    await api
       .post(`/api/approvals/${created.body.data.id}/reject`)
       .send({ decidedBy: "anna@example.com", reason: "Not appropriate for this customer." });
 
-    const response = await request(app)
+    const response = await api
       .post(`/api/approvals/${created.body.data.id}/approve`)
       .send({ decidedBy: "anna@example.com" });
 
@@ -264,7 +266,7 @@ describe("POST /api/approvals/:id/approve", () => {
   });
 
   it("returns 404 for an unknown id", async () => {
-    const response = await request(app)
+    const response = await api
       .post("/api/approvals/apr_does_not_exist/approve")
       .send({ decidedBy: "anna@example.com" });
 
@@ -277,7 +279,7 @@ describe("POST /api/approvals/:id/reject", () => {
   it("rejects a pending item and keeps the reason", async () => {
     const created = await createProposal();
 
-    const response = await request(app)
+    const response = await api
       .post(`/api/approvals/${created.body.data.id}/reject`)
       .send({ decidedBy: "anna@example.com", reason: "Customer already replied elsewhere." });
 
@@ -289,7 +291,7 @@ describe("POST /api/approvals/:id/reject", () => {
 
   it("requires a reason", async () => {
     const created = await createProposal();
-    const response = await request(app)
+    const response = await api
       .post(`/api/approvals/${created.body.data.id}/reject`)
       .send({ decidedBy: "anna@example.com" });
 
@@ -299,7 +301,7 @@ describe("POST /api/approvals/:id/reject", () => {
 
   it("writes the rejection to the audit trail", async () => {
     const created = await createProposal();
-    await request(app)
+    await api
       .post(`/api/approvals/${created.body.data.id}/reject`)
       .send({ decidedBy: "anna@example.com", reason: "Wrong tone for this customer." });
 
@@ -316,8 +318,8 @@ describe("POST /api/approvals/:id/reject", () => {
     const url = `/api/approvals/${created.body.data.id}/reject`;
     const body = { decidedBy: "anna@example.com", reason: "Not needed." };
 
-    await request(app).post(url).send(body);
-    const second = await request(app).post(url).send(body);
+    await api.post(url).send(body);
+    const second = await api.post(url).send(body);
 
     expect(second.status).toBe(409);
   });
@@ -326,7 +328,7 @@ describe("POST /api/approvals/:id/reject", () => {
 describe("the audit trail as a whole", () => {
   it("never loses an entry, even after a decision changes the record", async () => {
     const created = await createProposal();
-    await request(app)
+    await api
       .post(`/api/approvals/${created.body.data.id}/approve`)
       .send({ decidedBy: "anna@example.com", editedMessage: "Edited before sending." });
 

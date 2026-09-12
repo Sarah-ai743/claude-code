@@ -1,10 +1,12 @@
 import { describe, expect, it, afterEach } from "vitest";
-import request from "supertest";
 import { createApp } from "../../src/app.js";
+import { authed } from "../helpers/client.js";
 import { setAIProvider } from "../../src/ai/providers/index.js";
 import type { AIProvider } from "../../src/ai/types.js";
 
 const app = createApp();
+// Every request below carries a valid API token — see tests/helpers/client.ts.
+const api = authed(app);
 
 const hoursAgo = (hours: number) =>
   new Date(Date.now() - hours * 60 * 60 * 1000).toISOString();
@@ -58,7 +60,7 @@ afterEach(() => {
 
 describe("POST /api/followups/suggest", () => {
   it("suggests a follow-up for a warm lead that has gone quiet", async () => {
-    const response = await request(app).post("/api/followups/suggest").send(validPayload);
+    const response = await api.post("/api/followups/suggest").send(validPayload);
 
     expect(response.status).toBe(200);
 
@@ -80,7 +82,7 @@ describe("POST /api/followups/suggest", () => {
   });
 
   it("schedules inside the business's working hours, in its own timezone", async () => {
-    const response = await request(app).post("/api/followups/suggest").send(validPayload);
+    const response = await api.post("/api/followups/suggest").send(validPayload);
 
     const when = response.body.data.recommendedFollowUpTime;
     expect(when).toMatch(/^\d{4}-\d{2}-\d{2}T/);
@@ -92,13 +94,13 @@ describe("POST /api/followups/suggest", () => {
   });
 
   it("schedules for the future, never the past", async () => {
-    const response = await request(app).post("/api/followups/suggest").send(validPayload);
+    const response = await api.post("/api/followups/suggest").send(validPayload);
     const when = new Date(response.body.data.recommendedFollowUpTime).getTime();
     expect(when).toBeGreaterThan(Date.now());
   });
 
   it("always marks the draft as needing human approval", async () => {
-    const response = await request(app).post("/api/followups/suggest").send(validPayload);
+    const response = await api.post("/api/followups/suggest").send(validPayload);
 
     expect(response.body.meta.approval).toMatchObject({
       required: true,
@@ -118,7 +120,7 @@ describe("POST /api/followups/suggest", () => {
         },
       });
 
-      const response = await request(app)
+      const response = await api
         .post("/api/followups/suggest")
         .send({
           ...validPayload,
@@ -162,7 +164,7 @@ describe("POST /api/followups/suggest", () => {
         },
       } as AIProvider);
 
-      const response = await request(app).post("/api/followups/suggest").send(validPayload);
+      const response = await api.post("/api/followups/suggest").send(validPayload);
 
       expect(response.body.data.shouldFollowUp).toBe(false);
       expect(response.body.data.suggestedMessage).toBeNull();
@@ -171,7 +173,7 @@ describe("POST /api/followups/suggest", () => {
   });
 
   it("refuses to follow up too soon after the last contact", async () => {
-    const response = await request(app)
+    const response = await api
       .post("/api/followups/suggest")
       .send({ ...validPayload, leadTemperature: "HOT", lastContactAt: hoursAgo(2) });
 
@@ -182,7 +184,7 @@ describe("POST /api/followups/suggest", () => {
   });
 
   it("stops after three unanswered messages", async () => {
-    const response = await request(app)
+    const response = await api
       .post("/api/followups/suggest")
       .send({
         ...validPayload,
@@ -199,7 +201,7 @@ describe("POST /api/followups/suggest", () => {
   });
 
   it("does not chase a lost lead", async () => {
-    const response = await request(app)
+    const response = await api
       .post("/api/followups/suggest")
       .send({ ...validPayload, leadStatus: "LOST" });
 
@@ -228,7 +230,7 @@ describe("POST /api/followups/suggest", () => {
       },
     } as AIProvider);
 
-    const response = await request(app)
+    const response = await api
       .post("/api/followups/suggest")
       .send({ ...validPayload, leadTemperature: "HOT", lastContactAt: hoursAgo(1) });
 
@@ -238,7 +240,7 @@ describe("POST /api/followups/suggest", () => {
 
   describe("validation", () => {
     it("rejects an empty message history", async () => {
-      const response = await request(app)
+      const response = await api
         .post("/api/followups/suggest")
         .send({ ...validPayload, messageHistory: [] });
 
@@ -247,7 +249,7 @@ describe("POST /api/followups/suggest", () => {
     });
 
     it("rejects an unknown lead status", async () => {
-      const response = await request(app)
+      const response = await api
         .post("/api/followups/suggest")
         .send({ ...validPayload, leadStatus: "MAYBE" });
 
@@ -255,7 +257,7 @@ describe("POST /api/followups/suggest", () => {
     });
 
     it("rejects an invalid timezone", async () => {
-      const response = await request(app)
+      const response = await api
         .post("/api/followups/suggest")
         .send({
           ...validPayload,
@@ -267,7 +269,7 @@ describe("POST /api/followups/suggest", () => {
     });
 
     it("rejects a non-ISO timestamp", async () => {
-      const response = await request(app)
+      const response = await api
         .post("/api/followups/suggest")
         .send({ ...validPayload, lastContactAt: "last Tuesday" });
 
@@ -275,7 +277,7 @@ describe("POST /api/followups/suggest", () => {
     });
 
     it("rejects closing hours that precede opening hours", async () => {
-      const response = await request(app)
+      const response = await api
         .post("/api/followups/suggest")
         .send({
           ...validPayload,
@@ -289,7 +291,7 @@ describe("POST /api/followups/suggest", () => {
     });
 
     it("applies defaults for tone, timezone and business hours", async () => {
-      const response = await request(app)
+      const response = await api
         .post("/api/followups/suggest")
         .send({
           ...validPayload,

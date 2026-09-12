@@ -1,12 +1,14 @@
 import { beforeEach, describe, expect, it } from "vitest";
-import request from "supertest";
 import { createApp } from "../../src/app.js";
+import { authed } from "../helpers/client.js";
 import { auditRepository } from "../../src/modules/audit/audit.repository.js";
 import { approvalRepository } from "../../src/modules/approvals/approvals.repository.js";
 import { recordActivity } from "../../src/modules/audit/audit.service.js";
 import type { EventType } from "../../src/modules/audit/audit.types.js";
 
 const app = createApp();
+// Every request below carries a valid API token — see tests/helpers/client.ts.
+const api = authed(app);
 
 const hoursAgo = (hours: number) =>
   new Date(Date.now() - hours * 60 * 60 * 1000).toISOString();
@@ -35,7 +37,7 @@ beforeEach(() => {
 
 describe("GET /api/activity", () => {
   it("returns an empty feed when nothing has happened", async () => {
-    const response = await request(app).get("/api/activity");
+    const response = await api.get("/api/activity");
 
     expect(response.status).toBe(200);
     expect(response.body.data).toEqual([]);
@@ -45,7 +47,7 @@ describe("GET /api/activity", () => {
   it("returns every stored field", async () => {
     await seed("LEAD_ANALYZED");
 
-    const response = await request(app).get("/api/activity");
+    const response = await api.get("/api/activity");
     const entry = response.body.data[0];
 
     expect(Object.keys(entry).sort()).toEqual([
@@ -70,7 +72,7 @@ describe("GET /api/activity", () => {
     await seed("FOLLOWUP_SUGGESTED");
     await seed("APPROVAL_REQUESTED");
 
-    const response = await request(app).get("/api/activity");
+    const response = await api.get("/api/activity");
     expect(response.body.data.map((item: { eventType: string }) => item.eventType)).toEqual([
       "APPROVAL_REQUESTED",
       "FOLLOWUP_SUGGESTED",
@@ -83,7 +85,7 @@ describe("GET /api/activity", () => {
       await seed("LEAD_ANALYZED", { leadId: "lead_a" });
       await seed("LEAD_ANALYZED", { leadId: "lead_b" });
 
-      const response = await request(app).get("/api/activity?leadId=lead_a");
+      const response = await api.get("/api/activity?leadId=lead_a");
       expect(response.body.data).toHaveLength(1);
       expect(response.body.data[0].leadId).toBe("lead_a");
     });
@@ -93,7 +95,7 @@ describe("GET /api/activity", () => {
       await seed("APPROVAL_APPROVED");
       await seed("APPROVAL_APPROVED");
 
-      const response = await request(app).get("/api/activity?eventType=APPROVAL_APPROVED");
+      const response = await api.get("/api/activity?eventType=APPROVAL_APPROVED");
       expect(response.body.data).toHaveLength(2);
     });
 
@@ -101,22 +103,22 @@ describe("GET /api/activity", () => {
       await seed("LEAD_ANALYZED");
       const today = new Date().toISOString().slice(0, 10);
 
-      const match = await request(app).get(`/api/activity?date=${today}`);
+      const match = await api.get(`/api/activity?date=${today}`);
       expect(match.body.data).toHaveLength(1);
 
-      const other = await request(app).get("/api/activity?date=2020-01-01");
+      const other = await api.get("/api/activity?date=2020-01-01");
       expect(other.body.data).toEqual([]);
     });
 
     it("filters by an explicit from/to window", async () => {
       await seed("LEAD_ANALYZED");
 
-      const inside = await request(app).get(
+      const inside = await api.get(
         `/api/activity?from=${hoursAgo(1)}&to=${new Date(Date.now() + 60_000).toISOString()}`,
       );
       expect(inside.body.data).toHaveLength(1);
 
-      const outside = await request(app).get(
+      const outside = await api.get(
         `/api/activity?from=${hoursAgo(48)}&to=${hoursAgo(24)}`,
       );
       expect(outside.body.data).toEqual([]);
@@ -127,7 +129,7 @@ describe("GET /api/activity", () => {
       await seed("APPROVAL_APPROVED", { leadId: "lead_a" });
       await seed("APPROVAL_APPROVED", { leadId: "lead_b" });
 
-      const response = await request(app).get(
+      const response = await api.get(
         "/api/activity?leadId=lead_a&eventType=APPROVAL_APPROVED",
       );
       expect(response.body.data).toHaveLength(1);
@@ -139,11 +141,11 @@ describe("GET /api/activity", () => {
         await seed("LEAD_ANALYZED");
       }
 
-      const first = await request(app).get("/api/activity?limit=2");
+      const first = await api.get("/api/activity?limit=2");
       expect(first.body.data).toHaveLength(2);
       expect(first.body.meta.hasMore).toBe(true);
 
-      const second = await request(app).get(
+      const second = await api.get(
         `/api/activity?limit=2&cursor=${first.body.meta.nextCursor}`,
       );
       const firstIds = first.body.data.map((item: { id: string }) => item.id);
@@ -154,34 +156,34 @@ describe("GET /api/activity", () => {
 
   describe("query validation", () => {
     it("rejects an unknown event type", async () => {
-      const response = await request(app).get("/api/activity?eventType=SOMETHING_ELSE");
+      const response = await api.get("/api/activity?eventType=SOMETHING_ELSE");
       expect(response.status).toBe(422);
       expect(response.body.error.code).toBe("VALIDATION_FAILED");
     });
 
     it("rejects a malformed date", async () => {
-      const response = await request(app).get("/api/activity?date=yesterday");
+      const response = await api.get("/api/activity?date=yesterday");
       expect(response.status).toBe(422);
       expect(JSON.stringify(response.body.error.details)).toMatch(/calendar day/);
     });
 
     it("rejects a window that ends before it starts", async () => {
-      const response = await request(app).get(
+      const response = await api.get(
         `/api/activity?from=${hoursAgo(1)}&to=${hoursAgo(5)}`,
       );
       expect(response.status).toBe(422);
     });
 
     it("rejects an out-of-range limit", async () => {
-      expect((await request(app).get("/api/activity?limit=0")).status).toBe(422);
-      expect((await request(app).get("/api/activity?limit=101")).status).toBe(422);
+      expect((await api.get("/api/activity?limit=0")).status).toBe(422);
+      expect((await api.get("/api/activity?limit=101")).status).toBe(422);
     });
   });
 });
 
 describe("the features feed the activity log", () => {
   it("records LEAD_ANALYZED when an inquiry is analyzed", async () => {
-    await request(app)
+    await api
       .post("/api/leads/analyze")
       .send({
         leadId: "lead_analyzed",
@@ -189,7 +191,7 @@ describe("the features feed the activity log", () => {
         companyContext: { businessType: "Cleaning Company" },
       });
 
-    const response = await request(app).get("/api/activity?eventType=LEAD_ANALYZED");
+    const response = await api.get("/api/activity?eventType=LEAD_ANALYZED");
     expect(response.body.data).toHaveLength(1);
 
     const entry = response.body.data[0];
@@ -202,7 +204,7 @@ describe("the features feed the activity log", () => {
   });
 
   it("records FOLLOWUP_SUGGESTED when a follow-up is drafted", async () => {
-    await request(app)
+    await api
       .post("/api/followups/suggest")
       .send({
         leadId: "lead_followup",
@@ -215,14 +217,14 @@ describe("the features feed the activity log", () => {
         companyContext: { businessType: "Cleaning Company", timezone: "Europe/Berlin" },
       });
 
-    const response = await request(app).get("/api/activity?eventType=FOLLOWUP_SUGGESTED");
+    const response = await api.get("/api/activity?eventType=FOLLOWUP_SUGGESTED");
     expect(response.body.data).toHaveLength(1);
     expect(response.body.data[0].leadId).toBe("lead_followup");
     expect(response.body.data[0].metadata.approvalRequired).toBe(true);
   });
 
   it("records FOLLOWUP_BLOCKED when the rules refuse to chase a customer", async () => {
-    await request(app)
+    await api
       .post("/api/followups/suggest")
       .send({
         leadId: "lead_optout",
@@ -235,13 +237,13 @@ describe("the features feed the activity log", () => {
         companyContext: { businessType: "Cleaning Company" },
       });
 
-    const response = await request(app).get("/api/activity?eventType=FOLLOWUP_BLOCKED");
+    const response = await api.get("/api/activity?eventType=FOLLOWUP_BLOCKED");
     expect(response.body.data).toHaveLength(1);
     expect(response.body.data[0].metadata.policyCode).toBe("CUSTOMER_OPTED_OUT");
   });
 
   it("records the whole approval lifecycle against one lead", async () => {
-    const created = await request(app)
+    const created = await api
       .post("/api/approvals")
       .send({
         leadId: "lead_99",
@@ -253,11 +255,11 @@ describe("the features feed the activity log", () => {
         actorType: "AI",
       });
 
-    await request(app)
+    await api
       .post(`/api/approvals/${created.body.data.id}/approve`)
       .send({ decidedBy: "anna@cleaning.example" });
 
-    const feed = await request(app).get("/api/activity?leadId=lead_99");
+    const feed = await api.get("/api/activity?leadId=lead_99");
     const events = feed.body.data.map(
       (item: { eventType: string; userId: string | null }) => [item.eventType, item.userId],
     );
@@ -270,7 +272,7 @@ describe("the features feed the activity log", () => {
   });
 
   it("answers 'was that a person or the AI?' for every entry", async () => {
-    await request(app)
+    await api
       .post("/api/approvals")
       .send({
         leadId: "lead_actor",
@@ -281,7 +283,7 @@ describe("the features feed the activity log", () => {
         actorType: "AI",
       });
 
-    const feed = await request(app).get("/api/activity?leadId=lead_actor");
+    const feed = await api.get("/api/activity?leadId=lead_actor");
     const entry = feed.body.data[0];
 
     expect(entry.actorType).toBe("AI");

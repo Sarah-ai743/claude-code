@@ -5,6 +5,7 @@ import { requestId } from "./middleware/requestId.js";
 import { httpLogger } from "./middleware/httpLogger.js";
 import { errorHandler } from "./middleware/errorHandler.js";
 import { notFound } from "./middleware/notFound.js";
+import { apiTokenAuth } from "./middleware/apiTokenAuth.js";
 import { healthRouter } from "./modules/health/health.routes.js";
 import { leadsRouter } from "./modules/leads/leads.routes.js";
 import { followupsRouter } from "./modules/followups/followups.routes.js";
@@ -39,7 +40,7 @@ export function createApp(): Express {
         callback(null, false);
       },
       methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
-      allowedHeaders: ["Content-Type", "Authorization", "X-Request-Id"],
+      allowedHeaders: ["Content-Type", "Authorization", "X-API-Token", "X-Request-Id"],
       exposedHeaders: ["X-Request-Id"],
       maxAge: 600,
     }),
@@ -48,11 +49,15 @@ export function createApp(): Express {
   // A body limit is a cheap denial-of-service and cost guard.
   app.use(express.json({ limit: "128kb" }));
 
+  // Public: uptime monitors and the hosting platform's health check need to
+  // reach this without a credential. It reveals nothing but liveness.
   app.use("/api/health", healthRouter);
-  app.use("/api/leads", leadsRouter);
-  app.use("/api/followups", followupsRouter);
-  app.use("/api/approvals", approvalsRouter);
-  app.use("/api/activity", activityRouter);
+
+  // Everything else requires the shared API token.
+  app.use("/api/leads", apiTokenAuth, leadsRouter);
+  app.use("/api/followups", apiTokenAuth, followupsRouter);
+  app.use("/api/approvals", apiTokenAuth, approvalsRouter);
+  app.use("/api/activity", apiTokenAuth, activityRouter);
 
   app.use(notFound);
   app.use(errorHandler);

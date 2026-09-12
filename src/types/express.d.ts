@@ -12,6 +12,8 @@ declare global {
        * so the parsed result is kept here instead of replacing it.
        */
       validatedQuery?: unknown;
+      /** Which configured API token authenticated this request. Never the token itself. */
+      apiTokenIndex?: number;
     }
   }
 }
