@@ -5,7 +5,9 @@ WORKDIR /app
 # package files first: this layer is cached unless dependencies change,
 # so day-to-day code edits rebuild in seconds.
 COPY package.json package-lock.json ./
-RUN npm ci
+# --include=dev explicitly: TypeScript is a devDependency, and if the build
+# environment sets NODE_ENV=production npm would silently skip it.
+RUN npm ci --include=dev
 
 COPY tsconfig.json tsconfig.build.json ./
 COPY src ./src

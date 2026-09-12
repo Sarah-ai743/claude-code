@@ -108,7 +108,7 @@ If asked for commands:
 
 | Setting | Value |
 |---|---|
-| Build command | `npm ci && npm run build` |
+| Build command | `npm ci --include=dev && npm run build` |
 | Start command | `npm start` |
 | Node version | 22 or newer |
 | Health check path | `/api/health` |
@@ -116,6 +116,12 @@ If asked for commands:
 There is also a `Dockerfile` in the repo if you prefer a container deploy — most
 platforms detect it automatically. Either route runs the same thing in the end:
 `node dist/server.js`.
+
+> **Why `--include=dev`?** You also set `NODE_ENV=production`, and npm reads
+> that as "skip development packages". TypeScript is a development package — it
+> is needed to *build* the app but not to *run* it. Without this flag the
+> compiler is never installed and the build fails with
+> `error TS2688: Cannot find type definition file for 'node'`.
 
 **Do not set `PORT` yourself.** The platform assigns one and passes it in; the
 config already reads it.
