@@ -74,9 +74,10 @@ describe("POST /api/approvals", () => {
 
     expect(trail).toHaveLength(1);
     expect(trail[0]).toMatchObject({
-      action: "approval.created",
+      eventType: "APPROVAL_REQUESTED",
       actorType: "AI",
-      actorId: "ai",
+      userId: null,
+      leadId: "lead_123",
     });
   });
 
@@ -233,10 +234,9 @@ describe("POST /api/approvals/:id/approve", () => {
       .post(`/api/approvals/${created.body.data.id}/approve`)
       .send({ decidedBy: "anna@example.com" });
 
-    expect(response.body.data.history.map((item: { action: string }) => item.action)).toEqual([
-      "approval.created",
-      "approval.approved",
-    ]);
+    expect(
+      response.body.data.history.map((item: { eventType: string }) => item.eventType),
+    ).toEqual(["APPROVAL_REQUESTED", "APPROVAL_APPROVED"]);
   });
 
   it("refuses to approve the same item twice", async () => {
@@ -304,9 +304,9 @@ describe("POST /api/approvals/:id/reject", () => {
       .send({ decidedBy: "anna@example.com", reason: "Wrong tone for this customer." });
 
     const trail = await auditRepository.listBySubject("approval", created.body.data.id);
-    expect(trail.map((item) => item.action)).toEqual([
-      "approval.created",
-      "approval.rejected",
+    expect(trail.map((item) => item.eventType)).toEqual([
+      "APPROVAL_REQUESTED",
+      "APPROVAL_REJECTED",
     ]);
     expect(trail.at(-1)?.metadata).toMatchObject({ reason: "Wrong tone for this customer." });
   });
@@ -333,8 +333,8 @@ describe("the audit trail as a whole", () => {
     const all = await auditRepository.listAll();
     expect(all).toHaveLength(2);
     // The creating entry still describes the original state.
-    expect(all[0]?.action).toBe("approval.created");
-    expect(all[1]?.action).toBe("approval.approved");
+    expect(all[0]?.eventType).toBe("APPROVAL_REQUESTED");
+    expect(all[1]?.eventType).toBe("APPROVAL_APPROVED");
   });
 
   it("ties every entry back to the HTTP request that caused it", async () => {

@@ -1,6 +1,7 @@
 import { suggestFollowUpTask } from "../../ai/tasks/suggestFollowUp.task.js";
 import { getAIProvider } from "../../ai/providers/index.js";
 import { logger } from "../../lib/logger.js";
+import { recordActivity } from "../audit/audit.service.js";
 import { formatInTimeZone } from "../../lib/businessTime.js";
 import { checkFollowUpPolicy, computeFollowUpTime } from "./followups.policy.js";
 import type { SuggestFollowUpRequest, SuggestFollowUpResponse } from "./followups.schema.js";
@@ -72,6 +73,23 @@ export async function suggestFollowUp(
       "followup.suggestion.blocked",
     );
 
+    await recordActivity({
+      eventType: "FOLLOWUP_BLOCKED",
+      leadId: input.leadId ?? null,
+      userId: null,
+      actorType: "SYSTEM",
+      description: `No follow-up suggested: ${block.reason}`,
+      metadata: {
+        policyCode: block.code,
+        leadStatus: input.leadStatus,
+        leadTemperature: input.leadTemperature,
+        aiCalled: false,
+      },
+      requestId: context.requestId,
+      subjectType: input.leadId ? "lead" : null,
+      subjectId: input.leadId ?? null,
+    });
+
     return {
       suggestion: {
         shouldFollowUp: false,
@@ -136,6 +154,25 @@ export async function suggestFollowUp(
       "followup.suggestion.declined",
     );
 
+    await recordActivity({
+      eventType: "FOLLOWUP_BLOCKED",
+      leadId: input.leadId ?? null,
+      userId: null,
+      actorType: "AI",
+      description: suggestion.customerOptedOut
+        ? "No follow-up suggested: the AI judged that the customer asked not to be contacted."
+        : "No follow-up suggested: the AI judged that a message would not help.",
+      metadata: {
+        optedOut: suggestion.customerOptedOut,
+        model: result.model,
+        promptVersion: result.promptVersion,
+        aiCalled: true,
+      },
+      requestId: context.requestId,
+      subjectType: input.leadId ? "lead" : null,
+      subjectId: input.leadId ?? null,
+    });
+
     return {
       suggestion: {
         shouldFollowUp: false,
@@ -189,6 +226,29 @@ export async function suggestFollowUp(
     },
     "followup.suggestion.completed",
   );
+
+  await recordActivity({
+    eventType: "FOLLOWUP_SUGGESTED",
+    leadId: input.leadId ?? null,
+    userId: null,
+    actorType: "AI",
+    description:
+      `The AI drafted a follow-up (${suggestion.urgency} urgency) for ` +
+      `${formatInTimeZone(followUpAt, timezone)} (${timezone}). ` +
+      "It needs human approval before it can be sent.",
+    metadata: {
+      urgency: suggestion.urgency,
+      scheduledFor: followUpAt.toISOString(),
+      timezone,
+      delayHours: suggestion.recommendedDelayHours,
+      model: result.model,
+      promptVersion: result.promptVersion,
+      approvalRequired: true,
+    },
+    requestId: context.requestId,
+    subjectType: input.leadId ? "lead" : null,
+    subjectId: input.leadId ?? null,
+  });
 
   return {
     suggestion: {

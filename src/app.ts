@@ -9,6 +9,7 @@ import { healthRouter } from "./modules/health/health.routes.js";
 import { leadsRouter } from "./modules/leads/leads.routes.js";
 import { followupsRouter } from "./modules/followups/followups.routes.js";
 import { approvalsRouter } from "./modules/approvals/approvals.routes.js";
+import { activityRouter } from "./modules/audit/audit.routes.js";
 
 /**
  * Builds the Express application. Kept separate from server.ts so tests can
@@ -51,6 +52,7 @@ export function createApp(): Express {
   app.use("/api/leads", leadsRouter);
   app.use("/api/followups", followupsRouter);
   app.use("/api/approvals", approvalsRouter);
+  app.use("/api/activity", activityRouter);
 
   app.use(notFound);
   app.use(errorHandler);

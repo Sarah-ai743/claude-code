@@ -14,6 +14,8 @@ import { CompanyContextSchema } from "../organizations/organizations.schema.js";
 export { CompanyContextSchema };
 
 export const AnalyzeLeadRequestSchema = z.object({
+  /** Optional: ties the resulting activity entry to a lead when you have one. */
+  leadId: z.string().trim().min(1).max(120).optional(),
   message: z
     .string()
     .trim()

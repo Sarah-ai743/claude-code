@@ -1,6 +1,7 @@
 import { analyzeLeadTask, type LeadAnalysis } from "../../ai/tasks/analyzeLead.task.js";
 import { getAIProvider } from "../../ai/providers/index.js";
 import { logger } from "../../lib/logger.js";
+import { recordActivity } from "../audit/audit.service.js";
 import type { AnalyzeLeadRequest } from "./leads.schema.js";
 import { findUnsupportedPriceClaims, normalizeConfidence } from "./leads.guardrails.js";
 
@@ -62,6 +63,29 @@ export async function analyzeLead(
     },
     "lead.analysis.completed",
   );
+
+  await recordActivity({
+    eventType: "LEAD_ANALYZED",
+    leadId: input.leadId ?? null,
+    userId: null,
+    actorType: "AI",
+    // Deliberately no customer message content: the activity log is permanent,
+    // and a permanent store is the wrong home for personal information.
+    description:
+      `The AI analyzed an inquiry: ${analysis.temperature} lead, ` +
+      `${analysis.urgency} urgency, confidence ${analysis.confidence}.`,
+    metadata: {
+      temperature: analysis.temperature,
+      urgency: analysis.urgency,
+      confidence: analysis.confidence,
+      model: result.model,
+      promptVersion: result.promptVersion,
+      unsupportedPriceClaims: invented.length,
+    },
+    requestId: context.requestId,
+    subjectType: input.leadId ? "lead" : null,
+    subjectId: input.leadId ?? null,
+  });
 
   return {
     analysis,

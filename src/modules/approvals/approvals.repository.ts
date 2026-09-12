@@ -23,9 +23,13 @@ export interface ApprovalRepository {
  */
 export class InMemoryApprovalRepository implements ApprovalRepository {
   private readonly records = new Map<string, ApprovalRecord>();
+  /** Insertion order, used to break createdAt ties. Postgres will use a sequence. */
+  private readonly order = new Map<string, number>();
+  private sequence = 0;
 
   async create(record: ApprovalRecord): Promise<ApprovalRecord> {
     this.records.set(record.id, record);
+    this.order.set(record.id, this.sequence += 1);
     return record;
   }
 
@@ -39,11 +43,13 @@ export class InMemoryApprovalRepository implements ApprovalRepository {
   }
 
   async list(query: ListApprovalsQuery): Promise<ApprovalPage> {
-    // Newest first, with the id as a tie-breaker so the order is total and
-    // stable — otherwise cursor pagination can skip or repeat rows.
+    // Newest first. The tie-breaker is insertion order, not the id: two items
+    // created in the same millisecond share a createdAt, and ids are random, so
+    // breaking the tie on the id would scramble same-millisecond items.
     let items = [...this.records.values()].sort((a, b) => {
       const byDate = b.createdAt.localeCompare(a.createdAt);
-      return byDate !== 0 ? byDate : b.id.localeCompare(a.id);
+      if (byDate !== 0) return byDate;
+      return (this.order.get(b.id) ?? 0) - (this.order.get(a.id) ?? 0);
     });
 
     if (query.status) items = items.filter((item) => item.status === query.status);
@@ -69,6 +75,8 @@ export class InMemoryApprovalRepository implements ApprovalRepository {
   /** Test helper. Not part of the interface a database will implement. */
   clear(): void {
     this.records.clear();
+    this.order.clear();
+    this.sequence = 0;
   }
 }
 

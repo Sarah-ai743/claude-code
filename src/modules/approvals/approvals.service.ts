@@ -58,17 +58,22 @@ export async function createApproval(
   await approvalRepository.create(record);
 
   await recordActivity({
+    eventType: "APPROVAL_REQUESTED",
+    leadId: record.leadId,
+    // A person only when a person proposed it; null when the AI did.
+    userId: input.actorType === "USER" ? input.createdBy : null,
     actorType: input.actorType,
-    actorId: input.createdBy,
-    action: "approval.created",
-    subjectType: APPROVAL_SUBJECT,
-    subjectId: record.id,
+    description:
+      `${input.actorType === "USER" ? input.createdBy : "The AI"} proposed ` +
+      `${record.proposedAction} for ${record.customerName} (${record.riskLevel} risk).`,
     metadata: {
-      leadId: record.leadId,
       proposedAction: record.proposedAction,
       riskLevel: record.riskLevel,
+      approvalId: record.id,
     },
     requestId: context.requestId,
+    subjectType: APPROVAL_SUBJECT,
+    subjectId: record.id,
   });
 
   logger.info(
@@ -114,20 +119,24 @@ export async function approve(
     input.editedMessage !== undefined && input.editedMessage !== record.proposedMessage;
 
   await recordActivity({
+    eventType: "APPROVAL_APPROVED",
+    leadId: decided.leadId,
+    userId: input.decidedBy,
     actorType: "USER",
-    actorId: input.decidedBy,
-    action: "approval.approved",
-    subjectType: APPROVAL_SUBJECT,
-    subjectId: decided.id,
+    description:
+      `${input.decidedBy} approved ${decided.proposedAction} for ${decided.customerName}` +
+      `${wasEdited ? ", after editing the message" : ""}. Nothing was executed.`,
     metadata: {
-      leadId: decided.leadId,
       proposedAction: decided.proposedAction,
       riskLevel: decided.riskLevel,
       messageEdited: wasEdited,
       note: decided.decisionNote,
       executed: false,
+      approvalId: decided.id,
     },
     requestId: context.requestId,
+    subjectType: APPROVAL_SUBJECT,
+    subjectId: decided.id,
   });
 
   logger.info(
@@ -168,18 +177,20 @@ export async function reject(
   await approvalRepository.save(decided);
 
   await recordActivity({
+    eventType: "APPROVAL_REJECTED",
+    leadId: decided.leadId,
+    userId: input.decidedBy,
     actorType: "USER",
-    actorId: input.decidedBy,
-    action: "approval.rejected",
-    subjectType: APPROVAL_SUBJECT,
-    subjectId: decided.id,
+    description: `${input.decidedBy} rejected ${decided.proposedAction} for ${decided.customerName}.`,
     metadata: {
-      leadId: decided.leadId,
       proposedAction: decided.proposedAction,
       riskLevel: decided.riskLevel,
       reason: input.reason,
+      approvalId: decided.id,
     },
     requestId: context.requestId,
+    subjectType: APPROVAL_SUBJECT,
+    subjectId: decided.id,
   });
 
   logger.info(

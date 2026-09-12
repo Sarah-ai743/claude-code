@@ -188,6 +188,7 @@ POST   /api/approvals                      ✅ queue a proposed action
 GET    /api/approvals                      ✅ the human-in-the-loop queue
 POST   /api/approvals/:id/approve          ✅ approve (records only, runs nothing)
 POST   /api/approvals/:id/reject           ✅ reject, with a reason
+GET    /api/activity                       ✅ the activity feed / audit log
 
 GET    /v1/health                          # is the service up (no auth)
 GET    /v1/me                              # current user + organization

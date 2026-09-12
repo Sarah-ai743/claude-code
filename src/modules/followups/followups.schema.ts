@@ -21,6 +21,8 @@ export const LeadStatusSchema = z.enum([
 export const LeadTemperatureSchema = z.enum(["HOT", "WARM", "COLD"]);
 
 export const SuggestFollowUpRequestSchema = z.object({
+  /** Optional: ties the resulting activity entry to a lead when you have one. */
+  leadId: z.string().trim().min(1).max(120).optional(),
   messageHistory: z
     .array(ConversationMessageSchema)
     .min(1, "messageHistory needs at least one message")

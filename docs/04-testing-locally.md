@@ -354,6 +354,98 @@ You can watch it in the server terminal:
   no authentication yet. A client-supplied actor in an audit log can be forged,
   so once Phase 1 lands these must come from the verified token instead.
 
+
+---
+
+## 5d. The activity log: `GET /api/activity`
+
+Every important action writes one append-only row. Run the three features
+above, then read back what happened:
+
+```bash
+curl "http://localhost:8080/api/activity?leadId=lead_123"
+```
+
+```
+18:58:46  APPROVAL_APPROVED    anna@cleaning.example  approved SEND_FOLLOW_UP for Anna. Nothing was executed.
+18:58:46  APPROVAL_REQUESTED   (ai)                   The AI proposed SEND_FOLLOW_UP for Anna (HIGH risk).
+18:58:46  FOLLOWUP_SUGGESTED   (ai)                   The AI drafted a follow-up (MEDIUM urgency) for Wed, 16 Sept…
+18:58:46  LEAD_ANALYZED        (ai)                   The AI analyzed an inquiry: HOT lead, HIGH urgency…
+```
+
+Each row carries `eventType`, `leadId`, `userId`, `description`, `metadata`,
+`createdAt`, plus `actorType`, `requestId` and the subject it concerns.
+
+**`userId` is null whenever the AI or the system acted alone.** That is the
+question customers ask first — "was that a person or the robot?" — and the feed
+answers it on every row without you having to interpret anything.
+
+### Event types
+
+| Event | Written when | Emitted today |
+|---|---|---|
+| `LEAD_ANALYZED` | an inquiry is analyzed | ✅ |
+| `FOLLOWUP_SUGGESTED` | a follow-up draft is produced | ✅ |
+| `FOLLOWUP_BLOCKED` | the anti-spam or opt-out rules refuse | ✅ |
+| `APPROVAL_REQUESTED` | something is queued for a human | ✅ |
+| `APPROVAL_APPROVED` | a human approves it | ✅ |
+| `APPROVAL_REJECTED` | a human rejects it | ✅ |
+| `LEAD_CREATED` | a lead is created | — no endpoint yet |
+| `REPLY_GENERATED` | a reply is drafted | — no endpoint yet |
+
+The last two are defined so the vocabulary is settled, and will be written the
+moment those endpoints exist.
+
+### Filters
+
+```bash
+curl "http://localhost:8080/api/activity?leadId=lead_123"
+curl "http://localhost:8080/api/activity?eventType=APPROVAL_APPROVED"
+curl "http://localhost:8080/api/activity?date=2026-09-12"
+curl "http://localhost:8080/api/activity?from=2026-09-01T00:00:00Z&to=2026-09-08T00:00:00Z"
+curl "http://localhost:8080/api/activity?leadId=lead_123&limit=10"
+```
+
+Filters combine. Paging works as it does elsewhere: `limit` (default 25,
+max 100) plus `cursor` from `meta.nextCursor`.
+
+> **`date` is a UTC calendar day.** Timestamps are stored in UTC, so a business
+> in Berlin asking for `2026-09-12` gets 02:00 on the 12th to 02:00 on the 13th
+> in its own clock. When the frontend needs a *local* day, send explicit
+> `from`/`to` bounds instead — that is what they are for.
+
+Invalid filters are refused rather than ignored:
+
+```bash
+curl -i "http://localhost:8080/api/activity?date=yesterday"      # 422
+curl -i "http://localhost:8080/api/activity?eventType=WHATEVER"  # 422
+```
+
+### Secrets never reach this table
+
+The activity log is never deleted, so anything that lands in it lands there
+permanently. Metadata is filtered on the way in by two independent checks:
+
+- **field name** — anything matching `apiKey`, `password`, `token`, `secret`,
+  `authorization`, `credential`, `session`, `cookie`, `privateKey` and similar
+  becomes `[Redacted]`, at any depth, inside arrays too.
+- **value shape** — an `sk-…` key, a `Bearer …` header, a JWT, a Postgres URL
+  with a password in it, an AWS key id, or a PEM block is redacted *whatever*
+  the field is called.
+
+Long strings are truncated and recursion is depth-capped, so one bad object
+cannot bloat the store. Customer message content is also deliberately kept out
+of descriptions and metadata: a permanent store is the wrong home for personal
+information.
+
+Try it:
+
+```bash
+# The metadata written by our own code never contains a key — this is the
+# safety net for the day someone passes the wrong object by mistake.
+npm test -- auditRedact
+```
+
 ---
 
 ## 6. Check the failure paths too
@@ -403,17 +495,19 @@ npm test
 
 ```
 ✓ tests/unit/approvalsRisk.test.ts (3 tests)
-✓ tests/unit/auditService.test.ts (5 tests)
+✓ tests/unit/auditRedact.test.ts (23 tests)
+✓ tests/unit/auditService.test.ts (8 tests)
 ✓ tests/unit/businessTime.test.ts (13 tests)
 ✓ tests/unit/followupsPolicy.test.ts (31 tests)
 ✓ tests/unit/guardrails.test.ts (6 tests)
 ✓ tests/unit/leadAnalysisSchema.test.ts (5 tests)
+✓ tests/integration/activity.test.ts (18 tests)
 ✓ tests/integration/analyzeLead.test.ts (11 tests)
 ✓ tests/integration/approvals.test.ts (28 tests)
 ✓ tests/integration/suggestFollowUp.test.ts (16 tests)
 
-Test Files  9 passed (9)
-     Tests  118 passed (118)
+Test Files  11 passed (11)
+     Tests  162 passed (162)
 ```
 
 The tests force `AI_PROVIDER=mock`, so they never call a real API, never need a

@@ -7,9 +7,9 @@ follow-ups, and automate repetitive sales work.
 The frontend is built in **Base44**. This repository is the REST API it talks to,
 and the only place secrets, business rules, and AI calls live.
 
-> **Current status:** the architecture is designed, and three features are
-> built — lead analysis, follow-up suggestion, and the human approval queue
-> with its audit trail. There is no database and no authentication yet, and
+> **Current status:** the architecture is designed, and four features are
+> built — lead analysis, follow-up suggestion, the human approval queue, and
+> the activity log every one of them writes to. There is no database and no authentication yet, and
 > nothing is ever sent to a customer: approving records a decision and executes
 > nothing. See [docs/03-build-order.md](docs/03-build-order.md).
 
@@ -69,9 +69,10 @@ curl -X POST http://localhost:8080/api/leads/analyze \
   }'
 ```
 
-Two more features sit on top: `POST /api/followups/suggest` decides whether a
-lead should be chased and drafts the message, and `/api/approvals` is the queue
-where a human approves or rejects those drafts. Full walkthrough of all three,
+Three more features sit on top: `POST /api/followups/suggest` decides whether a
+lead should be chased and drafts the message, `/api/approvals` is the queue
+where a human approves or rejects those drafts, and `GET /api/activity` is the
+append-only record of everything that happened. Full walkthrough of all four,
 including what every failure looks like:
 **[docs/04-testing-locally.md](docs/04-testing-locally.md)**
 
