@@ -44,6 +44,13 @@ export class NotFoundError extends AppError {
   }
 }
 
+/** The request is valid, but the resource is not in a state that allows it. */
+export class ConflictError extends AppError {
+  constructor(message: string, details: unknown[] = []) {
+    super(message, { status: 409, code: "CONFLICT", details });
+  }
+}
+
 /** The AI provider was unreachable, errored, or timed out. */
 export class AIProviderError extends AppError {
   constructor(message: string, cause?: unknown) {

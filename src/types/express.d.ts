@@ -7,6 +7,11 @@ declare global {
       requestId: string;
       /** Per-request child logger, added by pino-http. */
       log: Logger;
+      /**
+       * Query string after validation. Express 5 makes `req.query` read-only,
+       * so the parsed result is kept here instead of replacing it.
+       */
+      validatedQuery?: unknown;
     }
   }
 }

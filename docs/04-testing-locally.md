@@ -222,6 +222,138 @@ COLD 168h**.
   hours"; the timestamp is computed in code, in the business's timezone. Models
   are unreliable at date arithmetic.
 
+
+---
+
+## 5c. The approval queue: `/api/approvals`
+
+The gate between what the AI proposes and what actually reaches a customer.
+**Approving records a decision — it executes nothing.** There is no email
+integration, no scheduler, and no action handlers yet.
+
+### Queue a proposed action
+
+```bash
+curl -X POST http://localhost:8080/api/approvals \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "leadId": "lead_123",
+    "customerName": "Anna",
+    "proposedAction": "SEND_FOLLOW_UP",
+    "proposedMessage": "Hi Anna, just checking you have everything you need from us.",
+    "reason": "The customer asked about pricing four days ago and has not had a reply.",
+    "createdBy": "ai",
+    "actorType": "AI"
+  }'
+```
+
+Returns `201` with the new item. Note the id — the decision routes need it.
+
+```json
+{
+  "id": "apr_9a26a771-…",
+  "status": "PENDING",
+  "riskLevel": "HIGH",
+  "proposedAction": "SEND_FOLLOW_UP",
+  "createdAt": "2026-09-12T18:50:41.431Z",
+  "decidedAt": null,
+  "decidedBy": null
+}
+```
+
+`riskLevel` is optional on the way in. Left out, it is derived from the action,
+on one principle — **how hard is this to take back?**
+
+| Action | Risk | Why |
+|---|---|---|
+| `SEND_EMAIL`, `SEND_FOLLOW_UP` | HIGH | Reaches a customer. Cannot be unsent. |
+| `BOOK_MEETING`, `UPDATE_CRM` | MEDIUM | Commits time, or writes to someone else's system. |
+| `CHANGE_LEAD_STATUS` | LOW | Internal, reversible in a second. |
+
+### Read the queue
+
+```bash
+curl "http://localhost:8080/api/approvals?status=PENDING&riskLevel=HIGH&limit=10"
+```
+
+Filters: `status`, `riskLevel`, `leadId`. Paging: `limit` (default 25, max 100)
+and `cursor` — pass `meta.nextCursor` from the previous page. Newest first.
+
+### Approve — optionally editing the draft first
+
+```bash
+curl -X POST http://localhost:8080/api/approvals/apr_9a26a771-…/approve \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "decidedBy": "anna@cleaning.example",
+    "editedMessage": "Hi Anna - following up on your quote. Does Friday still work?",
+    "note": "Tightened the wording."
+  }'
+```
+
+The edit does **not** overwrite the original:
+
+```json
+{
+  "status": "APPROVED",
+  "proposedMessage": "Hi Anna, just checking you have everything you need from us.",
+  "approvedMessage": "Hi Anna - following up on your quote. Does Friday still work?",
+  "history": ["approval.created", "approval.approved"]
+}
+```
+
+That difference — what the AI wrote versus what a person was willing to send —
+is the most useful quality signal this system can collect. Do not throw it away.
+
+The response also states plainly that nothing ran:
+
+```json
+"meta": { "execution": { "status": "NOT_IMPLEMENTED", "note": "Approving records the decision only..." } }
+```
+
+### Reject — a reason is required
+
+```bash
+curl -X POST http://localhost:8080/api/approvals/apr_9a26a771-…/reject \
+  -H 'Content-Type: application/json' \
+  -d '{ "decidedBy": "anna@cleaning.example", "reason": "Customer already replied elsewhere." }'
+```
+
+A rejection with no reason teaches you nothing, so the API insists on one.
+
+### A decision is final
+
+Approving or rejecting twice returns `409 CONFLICT`:
+
+```json
+{ "error": { "code": "CONFLICT", "message": "This approval was already approved and cannot be decided again." } }
+```
+
+Once execution exists, a second approval would mean a second email.
+
+### The audit trail
+
+Every create, approve and reject appends a row that is **never updated and
+never deleted**: who acted (person, AI, or system), what they did, when, and the
+`requestId` of the HTTP call that caused it. Decision responses return that
+trail as `history`.
+
+You can watch it in the server terminal:
+
+```json
+{"msg":"audit.activity_recorded","action":"approval.approved","actorType":"USER","actorId":"anna@cleaning.example","subjectId":"apr_9a26a771-…"}
+```
+
+### Two limits worth knowing
+
+- **Storage is in memory.** The queue lives in the process and is lost on
+  restart, and two server instances would not see each other's items. The
+  repository interface is the real deliverable — swapping it for Postgres in
+  Phase 1 changes no other file.
+- **`createdBy` and `decidedBy` come from the request body**, because there is
+  no authentication yet. A client-supplied actor in an audit log can be forged,
+  so once Phase 1 lands these must come from the verified token instead.
+
 ---
 
 ## 6. Check the failure paths too
@@ -270,15 +402,18 @@ npm test
 ```
 
 ```
+✓ tests/unit/approvalsRisk.test.ts (3 tests)
+✓ tests/unit/auditService.test.ts (5 tests)
 ✓ tests/unit/businessTime.test.ts (13 tests)
 ✓ tests/unit/followupsPolicy.test.ts (31 tests)
 ✓ tests/unit/guardrails.test.ts (6 tests)
 ✓ tests/unit/leadAnalysisSchema.test.ts (5 tests)
 ✓ tests/integration/analyzeLead.test.ts (11 tests)
+✓ tests/integration/approvals.test.ts (28 tests)
 ✓ tests/integration/suggestFollowUp.test.ts (16 tests)
 
-Test Files  6 passed (6)
-     Tests  82 passed (82)
+Test Files  9 passed (9)
+     Tests  118 passed (118)
 ```
 
 The tests force `AI_PROVIDER=mock`, so they never call a real API, never need a

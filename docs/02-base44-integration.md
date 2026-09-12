@@ -31,7 +31,8 @@ The `/v1` matters. When you eventually need a breaking change, you add `/v2` and
 old Base44 screens keep working instead of breaking all at once.
 
 > **What exists today:** `POST /api/leads/analyze`,
-> `POST /api/followups/suggest`, and `GET /api/health`. It is currently mounted under `/api` rather than `/api/v1`
+> `POST /api/followups/suggest`, the four `/api/approvals` routes, and
+> `GET /api/health`. It is currently mounted under `/api` rather than `/api/v1`
 > — worth moving to a versioned prefix before the first real client depends on
 > it. See [04-testing-locally.md](04-testing-locally.md) to run it.
 
@@ -183,6 +184,10 @@ Endpoints marked ✅ are implemented; the rest are planned.
 GET    /api/health                         ✅ is the service up (no auth)
 POST   /api/leads/analyze                  ✅ analyze one inquiry (no auth yet)
 POST   /api/followups/suggest              ✅ should we follow up, and when
+POST   /api/approvals                      ✅ queue a proposed action
+GET    /api/approvals                      ✅ the human-in-the-loop queue
+POST   /api/approvals/:id/approve          ✅ approve (records only, runs nothing)
+POST   /api/approvals/:id/reject           ✅ reject, with a reason
 
 GET    /v1/health                          # is the service up (no auth)
 GET    /v1/me                              # current user + organization
