@@ -1,0 +1,37 @@
+{
+  "name": "leadpilot-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend API for LeadPilot",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/server.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "pino": "^9.5.0",
+    "pino-http": "^10.3.0",
+    "zod": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.0",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}

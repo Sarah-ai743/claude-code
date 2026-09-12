@@ -30,6 +30,11 @@ the **shape of the JSON**. That list is the whole integration.
 The `/v1` matters. When you eventually need a breaking change, you add `/v2` and
 old Base44 screens keep working instead of breaking all at once.
 
+> **What exists today:** one endpoint, `POST /api/leads/analyze`, plus
+> `GET /api/health`. It is currently mounted under `/api` rather than `/api/v1`
+> — worth moving to a versioned prefix before the first real client depends on
+> it. See [04-testing-locally.md](04-testing-locally.md) to run it.
+
 **Every request carries a token:**
 
 ```
@@ -172,7 +177,12 @@ because each one costs you money.
 
 Not final — a target to design against. Grouped by the module that owns it.
 
+Endpoints marked ✅ are implemented; the rest are planned.
+
 ```
+GET    /api/health                         ✅ is the service up (no auth)
+POST   /api/leads/analyze                  ✅ analyze one inquiry (no auth yet)
+
 GET    /v1/health                          # is the service up (no auth)
 GET    /v1/me                              # current user + organization
 
