@@ -34,6 +34,9 @@ export class MockAIProvider implements AIProvider {
   }
 
   private buildFixture(schemaName: string, userPrompt: string): unknown {
+    if (schemaName === "follow_up_suggestion") {
+      return this.followUpFixture(userPrompt);
+    }
     if (schemaName !== "lead_analysis") {
       return null;
     }
@@ -55,6 +58,26 @@ export class MockAIProvider implements AIProvider {
         "To give you an accurate price, could you confirm a few details? " +
         "I'll come back to you with a quote right away.",
       confidence: 0.75,
+    };
+  }
+
+  private followUpFixture(userPrompt: string): unknown {
+    const text = userPrompt.toLowerCase();
+    const optedOut = /stop contacting|unsubscribe|do not contact|don't contact/.test(text);
+    const hot = /temperature: hot/.test(text);
+
+    return {
+      shouldFollowUp: !optedOut,
+      customerOptedOut: optedOut,
+      reason: optedOut
+        ? "The customer asked not to be contacted again."
+        : "The customer asked a question and has not had a reply with the detail they need.",
+      recommendedDelayHours: hot ? 24 : 72,
+      preferredTimeOfDay: "MORNING",
+      suggestedMessage:
+        "Hi, just checking you have everything you need from us. " +
+        "Would you like me to put together the details we discussed?",
+      urgency: hot ? "HIGH" : "MEDIUM",
     };
   }
 }

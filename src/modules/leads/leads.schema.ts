@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { CompanyContextSchema } from "../organizations/organizations.schema.js";
 
 /**
  * The HTTP input contract for POST /api/leads/analyze.
@@ -6,16 +7,11 @@ import { z } from "zod";
  * Everything arriving from Base44 is untrusted until it has been through here.
  * Unknown fields are stripped, strings are trimmed, and sizes are bounded so a
  * huge body cannot be used to run up an AI bill.
+ *
+ * `CompanyContextSchema` is shared with the other modules that need it — see
+ * modules/organizations/organizations.schema.ts.
  */
-export const CompanyContextSchema = z.object({
-  businessType: z
-    .string()
-    .trim()
-    .min(2, "businessType must be at least 2 characters")
-    .max(120),
-  services: z.array(z.string().trim().min(1).max(120)).max(50).default([]),
-  language: z.string().trim().min(2).max(40).default("English"),
-});
+export { CompanyContextSchema };
 
 export const AnalyzeLeadRequestSchema = z.object({
   message: z

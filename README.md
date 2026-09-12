@@ -7,9 +7,11 @@ follow-ups, and automate repetitive sales work.
 The frontend is built in **Base44**. This repository is the REST API it talks to,
 and the only place secrets, business rules, and AI calls live.
 
-> **Current status:** the architecture is designed and **one endpoint is built**:
-> `POST /api/leads/analyze`. There is no database and no authentication yet —
-> those are Phase 1. See [docs/03-build-order.md](docs/03-build-order.md).
+> **Current status:** the architecture is designed and **two endpoints are
+> built** — `POST /api/leads/analyze` and `POST /api/followups/suggest`. There
+> is no database and no authentication yet, and nothing is ever sent to a
+> customer: drafts wait for human approval. See
+> [docs/03-build-order.md](docs/03-build-order.md).
 
 ## Read these in order
 
@@ -67,7 +69,9 @@ curl -X POST http://localhost:8080/api/leads/analyze \
   }'
 ```
 
-Full walkthrough, including what every failure looks like:
+There is a second endpoint, `POST /api/followups/suggest`, which decides
+whether a lead should be chased and drafts the message. Full walkthrough of
+both, including what every failure looks like:
 **[docs/04-testing-locally.md](docs/04-testing-locally.md)**
 
 ## Commands

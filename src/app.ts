@@ -7,6 +7,7 @@ import { errorHandler } from "./middleware/errorHandler.js";
 import { notFound } from "./middleware/notFound.js";
 import { healthRouter } from "./modules/health/health.routes.js";
 import { leadsRouter } from "./modules/leads/leads.routes.js";
+import { followupsRouter } from "./modules/followups/followups.routes.js";
 
 /**
  * Builds the Express application. Kept separate from server.ts so tests can
@@ -47,6 +48,7 @@ export function createApp(): Express {
 
   app.use("/api/health", healthRouter);
   app.use("/api/leads", leadsRouter);
+  app.use("/api/followups", followupsRouter);
 
   app.use(notFound);
   app.use(errorHandler);

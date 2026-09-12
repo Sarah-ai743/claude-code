@@ -135,6 +135,93 @@ Pretty-print it by piping through Python:
 curl -s -X POST ... | python3 -m json.tool
 ```
 
+
+---
+
+## 5b. The second endpoint: `POST /api/followups/suggest`
+
+Decides whether a lead should be chased, when, and with what message.
+
+```bash
+curl -X POST http://localhost:8080/api/followups/suggest \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "messageHistory": [
+      { "sender": "CUSTOMER", "message": "Hi, I need my apartment cleaned next Friday. Can you tell me the price?", "sentAt": "2026-09-04T09:00:00.000Z" },
+      { "sender": "BUSINESS", "message": "Hi Anna, happy to help. Is it a 3-bedroom apartment?", "sentAt": "2026-09-04T13:00:00.000Z" }
+    ],
+    "leadStatus": "CONTACTED",
+    "leadTemperature": "WARM",
+    "lastContactAt": "2026-09-04T13:00:00.000Z",
+    "customerName": "Anna",
+    "companyContext": {
+      "businessType": "Cleaning Company",
+      "services": ["Home Cleaning"],
+      "language": "English",
+      "tone": "FRIENDLY",
+      "timezone": "Europe/Berlin"
+    }
+  }'
+```
+
+> Use timestamps in the **past** — several days back. A follow-up is refused if
+> the last contact was too recent, which is the anti-spam rule working.
+
+```json
+{
+  "data": {
+    "shouldFollowUp": true,
+    "reason": "The customer asked a question and has not had a reply with the detail they need.",
+    "recommendedFollowUpTime": "2026-09-16T07:00:00.000Z",
+    "suggestedMessage": "Hi, just checking you have everything you need from us...",
+    "urgency": "MEDIUM"
+  },
+  "meta": {
+    "aiCalled": true,
+    "policy": { "blocked": false, "code": null, "timezone": "Europe/Berlin" },
+    "approval": {
+      "required": true,
+      "status": "PENDING_HUMAN_APPROVAL",
+      "note": "This is a draft only. Nothing has been sent, scheduled, or queued..."
+    }
+  }
+}
+```
+
+`07:00Z` is 09:00 in Berlin on a Wednesday — the time is always computed in the
+business's timezone and snapped inside working hours.
+
+### The rules, and how to see each one fire
+
+`meta.policy.code` tells you which rule stopped a follow-up. When a rule blocks,
+`suggestedMessage` and `recommendedFollowUpTime` are `null` — a message that
+must not be sent should not exist in a form somebody can copy and paste — and
+`meta.aiCalled` is `false`, so a blocked lead costs nothing.
+
+| Try this | You get |
+|---|---|
+| A customer message saying `"Please stop contacting me."` | `CUSTOMER_OPTED_OUT` |
+| `"We're not interested, thanks"` | `CUSTOMER_DECLINED` |
+| `leadStatus: "LOST"` | `LEAD_CLOSED_LOST` |
+| `leadStatus: "WON"` | `LEAD_CLOSED_WON` |
+| `lastContactAt` 2 hours ago on a `HOT` lead | `TOO_SOON` (+ `earliestAllowedAt`) |
+| Three `BUSINESS` messages in a row with no customer reply | `TOO_MANY_UNANSWERED` |
+
+The quiet period depends on how warm the lead is: **HOT 24h, WARM 72h,
+COLD 168h**.
+
+### What this endpoint deliberately does not do
+
+- **It never sends anything.** No email, no SMS, no scheduled job. It returns a
+  draft, and `meta.approval.required` is always `true`.
+- **It never lets the AI overrule a rule.** The anti-spam and opt-out checks run
+  *before* the model is consulted, so the model is never even asked about a lead
+  it is not allowed to chase. The model can still veto a follow-up the rules
+  permitted — it can only ever turn a follow-up off, never on.
+- **It never asks the model for a calendar date.** The model returns "wait N
+  hours"; the timestamp is computed in code, in the business's timezone. Models
+  are unreliable at date arithmetic.
+
 ---
 
 ## 6. Check the failure paths too
@@ -183,12 +270,15 @@ npm test
 ```
 
 ```
+✓ tests/unit/businessTime.test.ts (13 tests)
+✓ tests/unit/followupsPolicy.test.ts (31 tests)
 ✓ tests/unit/guardrails.test.ts (6 tests)
 ✓ tests/unit/leadAnalysisSchema.test.ts (5 tests)
 ✓ tests/integration/analyzeLead.test.ts (11 tests)
+✓ tests/integration/suggestFollowUp.test.ts (16 tests)
 
-Test Files  3 passed (3)
-     Tests  22 passed (22)
+Test Files  6 passed (6)
+     Tests  82 passed (82)
 ```
 
 The tests force `AI_PROVIDER=mock`, so they never call a real API, never need a
