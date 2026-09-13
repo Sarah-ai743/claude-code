@@ -1,0 +1,834 @@
+[
+  {
+    "id": "006",
+    "concept_id": "EXP-005",
+    "working_title": "Still Online",
+    "anomaly_class": "B5",
+    "twist_architecture": "G7",
+    "target_seconds": 47,
+    "character_lock": "the same man, fifties, thinning hair, reading glasses pushed up, wool jumper, seen lit by a beige CRT monitor in a cluttered loft",
+    "style_lock": "amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos",
+    "hooks": [
+      {
+        "text": "Two hundred thousand messages. Every one of them his.",
+        "note": "Good volume shock, but the impossibility is only implied."
+      },
+      {
+        "text": "He boots the old computer. The conversation never stopped.",
+        "note": "Nine words, cause and impossibility together, no technical knowledge needed."
+      },
+      {
+        "text": "The machine has been in a drawer since 2001. It is still logged in.",
+        "note": "Strong, but too long to land inside the first two seconds."
+      }
+    ],
+    "selected_hook": 1,
+    "hook_rationale": "Hook 2 puts an ordinary action and an impossible result in the same breath, and the word 'stopped' implies a duration the viewer immediately wants measured. Hook 3 says the same thing with five more words, which is five words too many at second zero.",
+    "voiceover": [
+      "He boots the old computer. The conversation never stopped.",
+      "Twenty-five years in a drawer. The chatroom is still open.",
+      "Two hundred thousand lines.",
+      "And his name is on most of them.",
+      "He scrolls. It is his rhythm. His spelling mistakes.",
+      "But it is not his life.",
+      "A line from 1999 about a job he took last year.",
+      "A line from 2003 about his daughter. She is six.",
+      "[BEAT] The words he uses only started existing recently.",
+      "He types hello.",
+      "The room answers before he presses enter.",
+      "It has been holding the conversation the whole time.",
+      "Everything he has said online since is the echo.",
+      "He is not catching up.",
+      "He is three seconds behind."
+    ],
+    "scenes": [
+      {
+        "n": 1,
+        "start": 0,
+        "end": 2,
+        "caption": "It NEVER stopped",
+        "visual": "A beige CRT flickers awake in a dark loft. Text is already scrolling before the boot finishes.",
+        "prompt": "A beige CRT monitor flickering on in a dark dusty loft, green text already scrolling before the boot sequence ends, amber phosphor glow",
+        "sfx": "CRT degauss thunk, fan spin-up",
+        "character": false,
+        "shot_change": "hard cut in"
+      },
+      {
+        "n": 2,
+        "start": 2,
+        "end": 8,
+        "caption": "TWENTY-FIVE years in a drawer",
+        "visual": "Hands lift a dusty tower from a drawer, cables tangled, yellowed plastic.",
+        "prompt": "Hands lifting a dusty yellowed desktop computer tower out of a drawer, tangled beige cables, loft storage clutter, dim light",
+        "sfx": "dust, cable rattle, drawer scrape",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 3,
+        "start": 8,
+        "end": 13,
+        "caption": "Two hundred thousand LINES",
+        "visual": "Endless chat log scrolling at speed, his handle repeating down the left column.",
+        "prompt": "Fast-scrolling retro text chatroom log on a CRT screen, one username repeating down the left column, heavy scanlines and bloom",
+        "sfx": "scroll whirr rising in pitch",
+        "character": false,
+        "shot_change": "cut"
+      },
+      {
+        "n": 4,
+        "start": 13,
+        "end": 19,
+        "caption": "His RHYTHM. His mistakes.",
+        "visual": "Close on individual lines: the same typo, the same double space, decades apart.",
+        "prompt": "Extreme close-up of retro chat text on a curved CRT showing a repeated typing mistake, phosphor bleed, single characters filling frame",
+        "sfx": "keystroke clicks, low drone entering",
+        "character": false,
+        "shot_change": "macro cut"
+      },
+      {
+        "n": 5,
+        "start": 19,
+        "end": 25,
+        "caption": "But NOT his life",
+        "visual": "His face, glasses reflecting the scroll, mouth slightly open.",
+        "prompt": "A man in his fifties lit only by an amber CRT, reading glasses reflecting scrolling text, mouth slightly open, dark loft behind",
+        "sfx": "breath, fan hum",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 6,
+        "start": 25,
+        "end": 31,
+        "caption": "1999. A job from LAST YEAR.",
+        "visual": "A single line highlighted, timestamp 1999, describing something recent. Then a second line, 2003.",
+        "prompt": "A single highlighted line of retro chat text with a 1999 timestamp on a CRT screen, cursor blinking beside it, everything else dimmed",
+        "sfx": "highlight click, drone thickening",
+        "character": false,
+        "shot_change": "cut"
+      },
+      {
+        "n": 7,
+        "start": 31,
+        "end": 37,
+        "caption": "Words that did not EXIST yet",
+        "visual": "Words lift off the screen one by one, isolated against black, all of them modern.",
+        "prompt": "Individual words floating off a CRT screen into black space, retro phosphor glow trailing behind each character, dark void",
+        "sfx": "silence, then a single tone",
+        "character": false,
+        "shot_change": "graphic lift"
+      },
+      {
+        "n": 8,
+        "start": 37,
+        "end": 42,
+        "caption": "He types HELLO",
+        "visual": "His finger over the enter key. The reply appears on screen before he presses it.",
+        "prompt": "A finger hovering above a worn beige keyboard enter key, a reply already visible on the CRT above, amber light on skin",
+        "sfx": "held silence, one keystroke that lands late",
+        "character": true,
+        "shot_change": "locked-off close"
+      },
+      {
+        "n": 9,
+        "start": 42,
+        "end": 45,
+        "caption": "Everything since is the ECHO",
+        "visual": "Modern phone screen beside the CRT, showing the same words a beat later.",
+        "prompt": "A modern phone lying beside a glowing CRT monitor, identical text on both screens, the phone slightly delayed, amber and blue light mixing",
+        "sfx": "doubled notification, phase offset",
+        "character": false,
+        "shot_change": "cut"
+      },
+      {
+        "n": 10,
+        "start": 45,
+        "end": 47,
+        "caption": "Three seconds BEHIND",
+        "visual": "The CRT cursor blinks. The phone's cursor blinks three seconds later. Black.",
+        "prompt": "Two blinking text cursors on separate screens in darkness, one clearly lagging behind the other, tight macro framing",
+        "sfx": "two clicks out of sync, cut to silence",
+        "character": false,
+        "shot_change": "cut to black"
+      }
+    ],
+    "music_mood": "A single warm analogue drone that sounds like hardware rather than music, sitting just under the CRT hum. It drops out entirely at 0:31 and does not return, so the last sixteen seconds run on room tone and cursor clicks.",
+    "sound_bed": "CRT degauss, fan hum, mechanical keyboard, and a deliberate three-second delay applied to every modern sound in the final shots.",
+    "final_twist": "The chatroom is not an old conversation still running. It is the live one, and everything the man has said online for twenty-five years has been a delayed copy of it.",
+    "youtube_title": "He Turned On A Computer From 2001 And The Chat Was Still Going",
+    "description": "Original fiction - not a real event. Two hundred thousand messages, all in his own handwriting, all saying things he had not thought of yet. Part of an original digital-mystery series.",
+    "hashtags": [
+      "#shorts",
+      "#mystery",
+      "#retrotech"
+    ],
+    "pinned_comment": "Original fiction, written for this channel - no real machine and no real chatroom. If he is three seconds behind, which one of them typed this comment first?"
+  },
+  {
+    "id": "007",
+    "concept_id": "PH-019",
+    "working_title": "Significant Locations",
+    "anomaly_class": "B2",
+    "twist_architecture": "G1",
+    "target_seconds": 48,
+    "character_lock": "the same man, thirties, stubble, dark work jacket, phone always in his right hand, seen driving at night and walking a storage corridor with a torch",
+    "style_lock": "sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos",
+    "hooks": [
+      {
+        "text": "Two hundred hours at an address he's never been.",
+        "note": "A number plus a contradiction. Nine words, instantly legible."
+      },
+      {
+        "text": "His phone has a second home address.",
+        "note": "Very short and eerie, but ambiguous enough to lose some viewers."
+      },
+      {
+        "text": "Every Wednesday at two in the morning his phone goes somewhere.",
+        "note": "Good rhythm, but the anomaly arrives too late in the line."
+      }
+    ],
+    "selected_hook": 0,
+    "hook_rationale": "Hook 1 gives the viewer a quantity to be shocked by and a contradiction to resolve, in one clause each. Hook 2 is shorter but requires the viewer to infer what a second home address means, and inference is slower than arithmetic.",
+    "voiceover": [
+      "Two hundred hours at an address he's never been.",
+      "It is in his location history. Under frequent places.",
+      "Three hours away. Every Wednesday. Two until six.",
+      "For two years.",
+      "He has been asleep for every single one of them.",
+      "So he drives out there on a Wednesday.",
+      "It is a storage facility. Row nine. Unit forty-one.",
+      "The rental is in his name.",
+      "Paid monthly from an account he has never opened.",
+      "[BEAT] His signature is on the form.",
+      "The code on his own key ring works.",
+      "Inside, wall to wall, floor to ceiling: phones.",
+      "Hundreds. All his model. All charged. All unlocked.",
+      "And every screen is showing the same thing.",
+      "His location history."
+    ],
+    "scenes": [
+      {
+        "n": 1,
+        "start": 0,
+        "end": 2,
+        "caption": "200 hours. NEVER been.",
+        "visual": "Phone screen: a frequent-locations list with an unfamiliar address at the top and a huge hour count.",
+        "prompt": "Phone screen close-up of a location history list with an unfamiliar address and a large hour total, dark interface, night",
+        "sfx": "sharp UI sting",
+        "character": false,
+        "shot_change": "hard cut in"
+      },
+      {
+        "n": 2,
+        "start": 2,
+        "end": 8,
+        "caption": "Every WEDNESDAY. 2 to 6.",
+        "visual": "Calendar grid filling with identical blocks, two years deep, animated fast.",
+        "prompt": "An animated calendar grid filling with identical repeated time blocks across two years, cold blue data visualisation on black",
+        "sfx": "rapid tick accelerating",
+        "character": false,
+        "shot_change": "graphic"
+      },
+      {
+        "n": 3,
+        "start": 8,
+        "end": 14,
+        "caption": "ASLEEP for all of it",
+        "visual": "Him in bed, phone face down on the nightstand, sleep-tracker graph flat and undisturbed.",
+        "prompt": "A man asleep in a dark bedroom with a phone face down on the nightstand, faint screen glow on the ceiling, blue night light",
+        "sfx": "breathing, room tone, distant traffic",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 4,
+        "start": 14,
+        "end": 20,
+        "caption": "So he DRIVES out there",
+        "visual": "Night motorway from the driver's seat, sodium lights strobing across his face.",
+        "prompt": "Driver point of view on an empty night motorway, sodium lights strobing across a windscreen, wet tarmac reflections",
+        "sfx": "road noise, indicator tick",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 5,
+        "start": 20,
+        "end": 26,
+        "caption": "Row nine. Unit FORTY-ONE.",
+        "visual": "Corrugated storage corridor, identical orange doors receding, his torch swinging.",
+        "prompt": "A long storage facility corridor of identical orange roller doors under harsh strip lighting, torch beam raking the floor",
+        "sfx": "footsteps echoing, strip light buzz",
+        "character": true,
+        "shot_change": "tracking shot"
+      },
+      {
+        "n": 6,
+        "start": 26,
+        "end": 32,
+        "caption": "Rented in HIS NAME",
+        "visual": "A rental form on a clipboard, his name typed, his signature at the bottom.",
+        "prompt": "A paper storage rental agreement on a clipboard with a typed name and a handwritten signature at the bottom, harsh overhead light",
+        "sfx": "paper handling, drone entering",
+        "character": false,
+        "shot_change": "insert cut"
+      },
+      {
+        "n": 7,
+        "start": 32,
+        "end": 38,
+        "caption": "His OWN key works",
+        "visual": "He tries a key from his own ring on the padlock. It turns first time.",
+        "prompt": "A hand fitting a small key into a padlock on an orange roller door, keyring hanging, harsh directional light, close macro",
+        "sfx": "padlock click, held breath",
+        "character": true,
+        "shot_change": "macro cut"
+      },
+      {
+        "n": 8,
+        "start": 38,
+        "end": 43,
+        "caption": "Wall to wall. PHONES.",
+        "visual": "The door rolls up. Hundreds of identical phones on shelving, all screens lit.",
+        "prompt": "A storage unit filled floor to ceiling with hundreds of identical lit phone screens on metal shelving, cold blue glow flooding outward",
+        "sfx": "roller door rattle, a wall of soft electronic hum",
+        "character": false,
+        "shot_change": "reveal"
+      },
+      {
+        "n": 9,
+        "start": 43,
+        "end": 46,
+        "caption": "All CHARGED. All unlocked.",
+        "visual": "Slow track along a shelf: identical models, identical charge levels, no dust.",
+        "prompt": "Slow tracking shot along a shelf of identical unlocked phones all showing the same interface, charging cables neatly routed, no dust",
+        "sfx": "hum thickening, footsteps stop",
+        "character": false,
+        "shot_change": "slow track"
+      },
+      {
+        "n": 10,
+        "start": 46,
+        "end": 48,
+        "caption": "His LOCATION HISTORY",
+        "visual": "Push into one screen: the same frequent-locations list, the same address, hours still counting.",
+        "prompt": "Extreme close-up of one phone screen among many showing a location history list with a live incrementing hour counter, blue glow",
+        "sfx": "single counter tick, hard silence",
+        "character": false,
+        "shot_change": "push to black"
+      }
+    ],
+    "music_mood": "Low motorway drone that never resolves, built from road noise pitched down. One rising tone from 0:38 that stops without landing when the counter ticks.",
+    "sound_bed": "Road noise, strip-light buzz, roller door rattle, and a layered electronic hum that only appears once the unit is open.",
+    "final_twist": "The storage unit is real, rented and paid for in his name, and the hundreds of phones inside it have all been logging the same two hundred hours he has no memory of.",
+    "youtube_title": "His Phone Logged 200 Hours At An Address He Has Never Visited",
+    "description": "Original fiction - not a real event. Every Wednesday, two until six in the morning, for two years, while he was asleep. Part of an original digital-mystery series.",
+    "hashtags": [
+      "#shorts",
+      "#mystery",
+      "#gps"
+    ],
+    "pinned_comment": "Original fiction, written for this channel - no real address and no real facility. All the phones are unlocked. Whose thumbprint opened them?"
+  },
+  {
+    "id": "008",
+    "concept_id": "PIX-004",
+    "working_title": "Nineteen Ninety-Eight",
+    "anomaly_class": "B1",
+    "twist_architecture": "G5",
+    "target_seconds": 47,
+    "character_lock": "the same man, forties, close-cropped hair, plain dark shirt, seen at a desk in a beige-walled room with an anglepoise lamp and an open laptop",
+    "style_lock": "two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos",
+    "hooks": [
+      {
+        "text": "The 1998 tape has a flat screen in it.",
+        "note": "Nine words. The anachronism does all the work and needs no explaining."
+      },
+      {
+        "text": "There is a television in the old tape that did not exist yet.",
+        "note": "Clearer but longer, and the phrase 'did not exist yet' explains the joke."
+      },
+      {
+        "text": "Something in the corner of the old tape is showing today.",
+        "note": "Atmospheric, but 'today' is vague until the reveal."
+      }
+    ],
+    "selected_hook": 0,
+    "hook_rationale": "Hook 1 trusts the audience. Anyone who has seen a 1998 living room knows a flat screen does not belong in one, so the viewer catches the anomaly themselves in under two seconds, which is far stronger than being told about it.",
+    "voiceover": [
+      "The 1998 tape has a flat screen in it.",
+      "Back corner of the room. Behind the cake.",
+      "Flat. Thin. Wrong by about fifteen years.",
+      "He digitises it and zooms in.",
+      "The screen is on. It is showing a room.",
+      "Beige walls. A desk. A laptop open on it.",
+      "[BEAT] It is this room.",
+      "It is the room he is sitting in right now.",
+      "Same angle. Same lamp. Same laptop.",
+      "He looks up. Nothing behind him.",
+      "He looks back at 1998.",
+      "And one by one, everyone at the party turns.",
+      "His mother. His uncle. A child he does not know.",
+      "All of them looking at the screen.",
+      "All of them looking at him."
+    ],
+    "scenes": [
+      {
+        "n": 1,
+        "start": 0,
+        "end": 2,
+        "caption": "1998. A FLAT screen.",
+        "visual": "Camcorder footage of a birthday party. A thin dark rectangle sits wrong in the back corner.",
+        "prompt": "Degraded 1990s camcorder footage of a family birthday party in a living room with date burn-in, a thin dark flat rectangle in the back corner, colour bleed",
+        "sfx": "tape warble, muffled party noise",
+        "character": false,
+        "shot_change": "hard cut in"
+      },
+      {
+        "n": 2,
+        "start": 2,
+        "end": 8,
+        "caption": "Behind the CAKE",
+        "visual": "The camcorder pans past candles and faces; the rectangle passes through frame twice.",
+        "prompt": "Handheld 1990s camcorder pan across birthday candles and blurred faces, heavy motion smear, a dark flat panel drifting through the background",
+        "sfx": "singing, tape hiss, dropout crackle",
+        "character": false,
+        "shot_change": "handheld pan"
+      },
+      {
+        "n": 3,
+        "start": 8,
+        "end": 13,
+        "caption": "Wrong by FIFTEEN years",
+        "visual": "Freeze frame with the rectangle isolated. Everything else in the room is period correct.",
+        "prompt": "Freeze frame of a 1990s living room with one anachronistic flat panel isolated in sharp focus, surrounding décor period accurate, video noise",
+        "sfx": "freeze click, drone enters",
+        "character": false,
+        "shot_change": "freeze"
+      },
+      {
+        "n": 4,
+        "start": 13,
+        "end": 19,
+        "caption": "He ZOOMS in",
+        "visual": "Modern capture rig, tape deck spinning, digital zoom crawling into the corner pixel by pixel.",
+        "prompt": "A modern laptop and video capture rig connected to an old tape deck, digital zoom crawling into a degraded video frame, cold desk light",
+        "sfx": "tape deck mechanism, digital zoom whine",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 5,
+        "start": 19,
+        "end": 25,
+        "caption": "The screen is ON",
+        "visual": "The rectangle resolves: it is lit, and there is an image on it.",
+        "prompt": "A heavily pixelated flat screen resolving out of video noise, faint image becoming visible on its surface, extreme digital magnification",
+        "sfx": "noise floor rising, hum",
+        "character": false,
+        "shot_change": "continuous zoom"
+      },
+      {
+        "n": 6,
+        "start": 25,
+        "end": 31,
+        "caption": "Beige walls. A DESK.",
+        "visual": "The image on the 1998 screen: a modern room, anglepoise lamp, open laptop.",
+        "prompt": "A low-resolution image of a plain beige-walled modern room with an anglepoise lamp and an open laptop on a desk, seen through heavy video artefacting",
+        "sfx": "everything drops to a single tone",
+        "character": false,
+        "shot_change": "cut"
+      },
+      {
+        "n": 7,
+        "start": 31,
+        "end": 36,
+        "caption": "It is THIS room",
+        "visual": "Hard cut between the pixelated image and the real room he is sitting in. Identical.",
+        "prompt": "Split comparison between a pixelated video still of a room and the identical real room shot cleanly, matching lamp and laptop positions",
+        "sfx": "two hard cuts, silence between",
+        "character": false,
+        "shot_change": "match cut"
+      },
+      {
+        "n": 8,
+        "start": 36,
+        "end": 41,
+        "caption": "He looks UP. Nothing.",
+        "visual": "He turns in his chair. The room behind him is empty. Lamp buzzing.",
+        "prompt": "A man turning to look over his shoulder in a plain beige room lit by an anglepoise lamp, empty space behind him, clean modern cinematography",
+        "sfx": "chair creak, lamp buzz, no music",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 9,
+        "start": 41,
+        "end": 45,
+        "caption": "They all TURN",
+        "visual": "Back in 1998: one face, then another, then the whole party turning toward the corner screen.",
+        "prompt": "Degraded camcorder footage of party guests one by one turning their heads to look toward the back corner of the room, faces blurred by motion",
+        "sfx": "party noise cutting out abruptly",
+        "character": false,
+        "shot_change": "series of quick cuts"
+      },
+      {
+        "n": 10,
+        "start": 45,
+        "end": 47,
+        "caption": "Looking at HIM",
+        "visual": "Every face in 1998 held still, facing camera. His own face in the laptop reflection over the top.",
+        "prompt": "A frozen degraded camcorder frame of a room of people all facing the camera directly, a faint modern face reflected over the image in a screen",
+        "sfx": "one tape stop clunk, silence",
+        "character": false,
+        "shot_change": "freeze to black"
+      }
+    ],
+    "music_mood": "Warm nostalgic tape-saturated pad for the first fifteen seconds that curdles into a single held dissonance once the zoom begins. No music at all from 0:36, so the last eleven seconds are lamp buzz and tape noise.",
+    "sound_bed": "Camcorder warble, tape dropouts, capture-deck mechanism, anglepoise buzz, and one abrupt removal of all party sound.",
+    "final_twist": "The screen in 1998 is showing the room where the tape is being watched, which means the party was looking at the viewer twenty-eight years before he sat down.",
+    "youtube_title": "There Is A Flat Screen In The Background Of This 1998 Tape",
+    "description": "Original fiction - not a real event. A family birthday, a thin dark rectangle in the back corner, and an image on it that should not be possible. Part of an original digital-mystery series.",
+    "hashtags": [
+      "#shorts",
+      "#mystery",
+      "#analoghorror"
+    ],
+    "pinned_comment": "Original fiction, written for this channel - no real tape and no real family. Watch the back corner from the first second. Someone turns before he starts zooming."
+  },
+  {
+    "id": "009",
+    "concept_id": "EXP-001",
+    "working_title": "Sold From Your House",
+    "anomaly_class": "B8",
+    "twist_architecture": "G3",
+    "target_seconds": 47,
+    "character_lock": "the same woman, forties, short greying hair, glasses on a cord, cardigan, seen in a cluttered warm living room with a brass table lamp",
+    "style_lock": "warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos",
+    "hooks": [
+      {
+        "text": "The listing is a photo of her living room.",
+        "note": "Nine words, immediately visual, and the violation is obvious without explanation."
+      },
+      {
+        "text": "Someone is selling her lamp. It is still on her table.",
+        "note": "Excellent contradiction, slightly longer, and names the object before the intrusion."
+      },
+      {
+        "text": "The marketplace photo was taken inside her house.",
+        "note": "Strong, but 'was taken inside' is a small extra step of reasoning."
+      }
+    ],
+    "selected_hook": 0,
+    "hook_rationale": "Hook 1 is the only one where the viewer's own recognition does the work. A shopping listing showing someone's private living room is understood instantly and in any market, and the intrusion lands before a single fact has been explained.",
+    "voiceover": [
+      "The listing is a photo of her living room.",
+      "Her lamp. Her table. Her window behind it.",
+      "Posted two weeks ago. The seller has no name.",
+      "The lamp is still on the table.",
+      "She checks the angle. It is from the doorway.",
+      "Nobody has been in that room but her.",
+      "So she buys it.",
+      "[BEAT] The parcel arrives on Thursday.",
+      "It is her lamp. The chip on the base. The taped cable.",
+      "She turns to the table.",
+      "The lamp there is perfect. New. Unmarked.",
+      "So she searches the rest of the house.",
+      "Every object she owns is in somebody's purchase history.",
+      "Bought years ago. Delivered years ago.",
+      "None of the buyers are her."
+    ],
+    "scenes": [
+      {
+        "n": 1,
+        "start": 0,
+        "end": 2,
+        "caption": "That is HER living room",
+        "visual": "Phone marketplace listing filling frame: a brass lamp photographed on a familiar cluttered table.",
+        "prompt": "A phone marketplace listing showing a brass table lamp photographed in a warm cluttered living room, amateur snapshot lighting, listing interface",
+        "sfx": "notification ping, sub hit",
+        "character": false,
+        "shot_change": "hard cut in"
+      },
+      {
+        "n": 2,
+        "start": 2,
+        "end": 8,
+        "caption": "Her lamp. Her WINDOW.",
+        "visual": "Cut between the listing photo and the real room. Identical curtain fold, identical clutter.",
+        "prompt": "Side by side comparison of a listing photograph and a real living room, identical curtain folds and objects, warm domestic light",
+        "sfx": "two-tone cut, clock ticking",
+        "character": false,
+        "shot_change": "A/B cut"
+      },
+      {
+        "n": 3,
+        "start": 8,
+        "end": 13,
+        "caption": "Seller has NO NAME",
+        "visual": "Scrolling the seller profile: blank avatar, no reviews, no other listings, joined today.",
+        "prompt": "A blank marketplace seller profile on a phone screen with an empty avatar, no reviews and no listings, cold interface on a dark background",
+        "sfx": "scroll ticks, drone entering",
+        "character": false,
+        "shot_change": "cut"
+      },
+      {
+        "n": 4,
+        "start": 13,
+        "end": 19,
+        "caption": "Taken from the DOORWAY",
+        "visual": "She stands in the doorway holding the phone up, matching the photo's exact angle.",
+        "prompt": "A woman standing in a living room doorway holding a phone up to match a photograph's angle, warm lamplight, from behind her shoulder",
+        "sfx": "footsteps, floorboard creak",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 5,
+        "start": 19,
+        "end": 25,
+        "caption": "So she BUYS it",
+        "visual": "Thumb on the buy button. Confirmation screen. Delivery estimate: Thursday.",
+        "prompt": "A thumb pressing a purchase confirmation button on a phone, order confirmed screen with a delivery date, warm room reflected in the glass",
+        "sfx": "purchase chime, held silence after",
+        "character": true,
+        "shot_change": "macro cut"
+      },
+      {
+        "n": 6,
+        "start": 25,
+        "end": 31,
+        "caption": "The parcel ARRIVES",
+        "visual": "A plain box on the doormat. She opens it at the table. Brown paper, no label.",
+        "prompt": "A plain unlabelled cardboard parcel being opened on a wooden table, brown paper packing, warm window light, hands only",
+        "sfx": "tape peel, paper rustle",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 7,
+        "start": 31,
+        "end": 37,
+        "caption": "The CHIP on the base",
+        "visual": "Macro on the delivered lamp: a chipped brass base, a cable repaired with old tape.",
+        "prompt": "Macro shot of a chipped brass lamp base and a power cable repaired with yellowed tape, warm soft light, shallow focus",
+        "sfx": "brass on wood, drone thickening",
+        "character": false,
+        "shot_change": "macro"
+      },
+      {
+        "n": 8,
+        "start": 37,
+        "end": 42,
+        "caption": "The table lamp is NEW",
+        "visual": "Pan from the delivered lamp to the one on the table: flawless, unchipped, unrepaired.",
+        "prompt": "Slow pan between two identical brass table lamps, one worn and chipped and one flawless and new, same warm living room light",
+        "sfx": "pan whoosh, sudden silence",
+        "character": false,
+        "shot_change": "slow pan"
+      },
+      {
+        "n": 9,
+        "start": 42,
+        "end": 45,
+        "caption": "EVERY object she owns",
+        "visual": "Fast montage of household objects, each flashing a purchase-history overlay and a date.",
+        "prompt": "Rapid montage of ordinary household objects each overlaid with a small clinical purchase record and date stamp, warm interior, cold overlays",
+        "sfx": "rapid stacked notification tones",
+        "character": false,
+        "shot_change": "rapid cut montage"
+      },
+      {
+        "n": 10,
+        "start": 45,
+        "end": 47,
+        "caption": "None of the buyers are HER",
+        "visual": "A purchase list scrolling, every buyer name blurred, her own name nowhere on it.",
+        "prompt": "A scrolling purchase history list with every buyer name obscured, one empty highlighted row, clinical interface on black",
+        "sfx": "scroll stops dead, single low hit",
+        "character": false,
+        "shot_change": "cut to black"
+      }
+    ],
+    "music_mood": "Warm domestic strings that slowly lose their reverb until they sound like they are being played in a much smaller room. Total silence from 0:37 to 0:42, then one low hit on the last line.",
+    "sound_bed": "Clock tick, floorboards, tape peel, brass on wood, and marketplace notification tones used as rhythm.",
+    "final_twist": "The lamp that arrived is the real one. Everything currently in her house is a replacement, and all of it has already been bought and delivered to somebody else.",
+    "youtube_title": "Someone Listed Her Lamp For Sale. It Was Still On Her Table.",
+    "description": "Original fiction - not a real event. A marketplace listing photographed inside her own living room, two weeks before she ever saw it. Part of an original digital-mystery series.",
+    "hashtags": [
+      "#shorts",
+      "#mystery",
+      "#strangestories"
+    ],
+    "pinned_comment": "Original fiction, written for this channel - no real listing and no real seller. She bought her own lamp back. Check the table lamp in the very first shot."
+  },
+  {
+    "id": "010",
+    "concept_id": "CAM-004",
+    "working_title": "Arrivals",
+    "anomaly_class": "B4",
+    "twist_architecture": "G1",
+    "target_seconds": 45,
+    "character_lock": "the same woman, thirties, long coat, hair down, always carrying a phone and keys, seen on a suburban porch in doorbell-camera fisheye and in clean reverse angles",
+    "style_lock": "wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos",
+    "hooks": [
+      {
+        "text": "Thirty-one people walked in. Nobody walked out.",
+        "note": "Eight words and a complete mystery. The strongest raw hook line in the batch."
+      },
+      {
+        "text": "A year of doorbell footage and not one departure.",
+        "note": "Same idea, stated analytically rather than as an image."
+      },
+      {
+        "text": "The camera records arrivals. It has never recorded a leaving.",
+        "note": "Good rhythm, but a beat slower to comprehend."
+      }
+    ],
+    "selected_hook": 0,
+    "hook_rationale": "Hook 1 is a complete story in eight words: a number, an action, and an impossible absence. It needs no device knowledge, no setup, and no second sentence to become unsettling.",
+    "voiceover": [
+      "Thirty-one people walked in. Nobody walked out.",
+      "A year of doorbell footage. She checks all of it.",
+      "Deliveries. A plumber. Her sister, twice.",
+      "She counts them twice. Thirty-one.",
+      "Every one of them walks up and goes inside.",
+      "The porch is always empty again afterwards.",
+      "No exits. Not one.",
+      "Not in a single year.",
+      "So she checks herself.",
+      "She arrives every evening at six.",
+      "[BEAT] She has never been recorded leaving either.",
+      "She steps outside with the live feed open.",
+      "The screen shows an empty porch.",
+      "Then the front door closes behind somebody.",
+      "She is standing on the path.",
+      "The door is already shut.",
+      "And the camera says the house is occupied."
+    ],
+    "scenes": [
+      {
+        "n": 1,
+        "start": 0,
+        "end": 2,
+        "caption": "31 IN. Nobody out.",
+        "visual": "Doorbell fisheye: a figure steps past the lens into the house. Counter overlay reads 31.",
+        "prompt": "Wide-angle doorbell camera view of a suburban porch as a figure steps past the lens into a doorway, heavy fisheye distortion and vignetting",
+        "sfx": "doorbell chime, sub drop",
+        "character": false,
+        "shot_change": "hard cut in"
+      },
+      {
+        "n": 2,
+        "start": 2,
+        "end": 8,
+        "caption": "A YEAR of footage",
+        "visual": "Rapid scrub through months of clips, seasons changing on the same porch.",
+        "prompt": "Rapid time-lapse of the same suburban porch across four seasons seen from a fixed doorbell camera, changing light and weather, fisheye framing",
+        "sfx": "scrub whirr, layered chimes",
+        "character": false,
+        "shot_change": "fast scrub"
+      },
+      {
+        "n": 3,
+        "start": 8,
+        "end": 14,
+        "caption": "A plumber. Her SISTER.",
+        "visual": "Three clips in sequence: each visitor approaches, the door opens, they step inside.",
+        "prompt": "Three sequential doorbell camera clips of different visitors approaching a front door and stepping inside, daylight, wide-angle distortion",
+        "sfx": "three door latches, no footsteps leaving",
+        "character": false,
+        "shot_change": "cut, cut, cut"
+      },
+      {
+        "n": 4,
+        "start": 14,
+        "end": 20,
+        "caption": "The porch is EMPTY again",
+        "visual": "The same porch after each visit, empty, no departure clip between them.",
+        "prompt": "An empty suburban porch shot from a doorbell camera in flat afternoon light, nothing moving, long static hold, fisheye edges",
+        "sfx": "wind, distant dog, no chime",
+        "character": false,
+        "shot_change": "hold"
+      },
+      {
+        "n": 5,
+        "start": 20,
+        "end": 26,
+        "caption": "No exits. NOT ONE.",
+        "visual": "Clip list with every thumbnail labelled arrival. She scrolls to the bottom. All arrivals.",
+        "prompt": "A scrolling list of video clip thumbnails on a phone, every entry showing a person facing a front door, cold app interface",
+        "sfx": "scroll ticks slowing to a stop",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 6,
+        "start": 26,
+        "end": 32,
+        "caption": "So she checks HERSELF",
+        "visual": "Clips of her own arrivals, evening after evening, same coat, same keys.",
+        "prompt": "Repeated doorbell camera clips of the same woman in a long coat arriving at a front door each evening, dusk light, keys in hand",
+        "sfx": "repeating key jingle, layered",
+        "character": true,
+        "shot_change": "rhythmic montage"
+      },
+      {
+        "n": 7,
+        "start": 32,
+        "end": 37,
+        "caption": "She never LEAVES either",
+        "visual": "Her face in the phone light on the porch, realising. Behind her the door stands open.",
+        "prompt": "A woman standing on a dim porch looking at a phone with a shocked stillness, an open front door behind her, evening light",
+        "sfx": "all sound drops except her breathing",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 8,
+        "start": 37,
+        "end": 41,
+        "caption": "The screen shows NOTHING",
+        "visual": "Split: she is clearly standing on the path, but the live feed shows an empty porch.",
+        "prompt": "Split screen of a woman standing on a garden path beside a doorbell camera live feed showing the same porch completely empty",
+        "sfx": "feed static, one held tone",
+        "character": true,
+        "shot_change": "split screen"
+      },
+      {
+        "n": 9,
+        "start": 41,
+        "end": 43,
+        "caption": "The door CLOSES",
+        "visual": "On the feed, the front door swings shut behind somebody who never appeared.",
+        "prompt": "Doorbell camera view of a front door swinging closed by itself on an empty porch at dusk, motion blur on the door edge",
+        "sfx": "door latch, loud in the silence",
+        "character": false,
+        "shot_change": "hard cut"
+      },
+      {
+        "n": 10,
+        "start": 43,
+        "end": 45,
+        "caption": "House is OCCUPIED",
+        "visual": "The app status flips to OCCUPIED while she stands outside on the path, locked out.",
+        "prompt": "A phone screen showing a home status indicator reading occupied, held in a hand on a dark garden path, house dark behind",
+        "sfx": "status chime, cut to silence",
+        "character": true,
+        "shot_change": "cut to black"
+      }
+    ],
+    "music_mood": "Suburban quiet with a single low pulse tied to the doorbell chime, so the music and the device sound are the same thing. The pulse stops entirely at 0:32 and the last thirteen seconds have no music at all.",
+    "sound_bed": "Doorbell chimes, key jingles, door latches, wind, and a deliberate absence of any footsteps walking away.",
+    "final_twist": "Nobody has ever been recorded leaving the house, including her, and when she finally stands outside it the camera does not record her at all.",
+    "youtube_title": "31 People Entered This House. The Camera Never Saw One Leave.",
+    "description": "Original fiction - not a real event. A year of doorbell footage, thirty-one arrivals, and no departures at all, including her own. Part of an original digital-mystery series.",
+    "hashtags": [
+      "#shorts",
+      "#mystery",
+      "#unsolved"
+    ],
+    "pinned_comment": "Original fiction, written for this channel - no real house and no real footage. Count the arrivals on a rewatch. One of them is wearing her coat."
+  }
+]

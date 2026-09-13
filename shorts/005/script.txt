@@ -1,0 +1,114 @@
+005 - The Hour Ahead
+============================================================
+Concept:       CAM-001  (B7/G7)
+Target length: 48s
+Voiceover:     117 words (~39s at 3.0 w/s)
+Scenes:        10
+
+ORIGINAL FICTION. Not a real event, person, company or recording.
+
+------------------------------------------------------------
+1. ALTERNATIVE OPENING HOOKS
+------------------------------------------------------------
+  [1] "The camera has already recorded tonight."  (6 words)  <-- SELECTED
+      Six words, a complete impossibility, zero setup. The strongest short hook in the batch.
+  [2] "At six in the evening, the camera already has tonight's footage."  (11 words)
+      Clearer, but the clause order buries the strange part until the end.
+  [3] "The camera records one hour of tomorrow. Every single day."  (10 words)
+      Good, but explains the rule before the viewer has felt the wrongness.
+
+2. HOOK SELECTION
+  Hook 1 lands the impossibility inside the first second and leaves a question the viewer cannot answer without the next line. The other two are more informative and less urgent, which is the wrong trade at second zero.
+
+------------------------------------------------------------
+3. VOICEOVER
+------------------------------------------------------------
+  The camera has already recorded tonight.
+  Two in the morning until three. Twenty-four hours early.
+  Always that hour. Always correct.
+  He tests it. He moves a chair at two fifteen.
+  Yesterday's file already shows him doing it.
+  So he watches the whole hour, over and over.
+  And then he notices the angle.
+  The camera is on the ceiling, in the corner.
+  The footage is from the middle of the wall.
+  Eye level. Four metres from where the camera is.
+  [BEAT] There is no camera there.
+  They open the wall on a Tuesday.
+  It is an older model. Dust covered. Still powered.
+  Still recording.
+  It is not pointed at the room.
+  It is pointed at the new camera.
+
+------------------------------------------------------------
+4/5/6. SCENES, CAPTIONS, VISUALS
+------------------------------------------------------------
+  SCENE  1  [ 0.0s -  2.0s]
+    CAPTION : It already recorded TONIGHT
+    VISUAL  : A file list where tomorrow's date already has an entry. Cursor hovering over it.
+    SFX     : sharp digital sting
+
+  SCENE  2  [ 2.0s -  7.0s]
+    CAPTION : 02:00 to 03:00. ALWAYS.
+    VISUAL  : Timestamp overlay ticking through the same hour. Empty office, stripped desks.
+    SFX     : IR filter click, low hum
+
+  SCENE  3  [ 7.0s - 13.0s]
+    CAPTION : So he TESTS it
+    VISUAL  : He drags a chair two metres to the left, checks his watch. 02:15.
+    SFX     : chair legs scraping lino
+
+  SCENE  4  [13.0s - 19.0s]
+    CAPTION : YESTERDAY'S file shows it
+    VISUAL  : He scrubs yesterday's recording. The chair moves on screen exactly as he just moved it.
+    SFX     : scrub whine, doubled chair scrape
+
+  SCENE  5  [19.0s - 25.0s]
+    CAPTION : Then he notices the ANGLE
+    VISUAL  : Split diagram: the ceiling camera's cone versus the footage's actual viewpoint.
+    SFX     : drone enters, pen scratch
+
+  SCENE  6  [25.0s - 31.0s]
+    CAPTION : EYE LEVEL. Wrong wall.
+    VISUAL  : He stands where the footage's viewpoint must be, palms flat on blank magnolia plaster.
+    SFX     : palms on plaster, breathing
+
+  SCENE  7  [31.0s - 37.0s]
+    CAPTION : There is NO CAMERA there
+    VISUAL  : Slow pan across unbroken plaster. No fittings, no cable run, no seams.
+    SFX     : silence except torch buzz
+
+  SCENE  8  [37.0s - 42.0s]
+    CAPTION : They open the WALL
+    VISUAL  : A hammer breaks through. Dust. A dark cavity. Something inside reflects the torch.
+    SFX     : plaster crack, dust fall, one hum starting
+
+  SCENE  9  [42.0s - 46.0s]
+    CAPTION : Dust covered. STILL POWERED.
+    VISUAL  : An old camera in the cavity, thick with dust, its indicator light steady red.
+    SFX     : electrical hum rising
+
+  SCENE 10  [46.0s - 48.0s]
+    CAPTION : Pointed at the NEW camera
+    VISUAL  : Reverse angle: the old lens is aimed precisely at the modern camera in the ceiling corner.
+    SFX     : hum cuts to total silence
+
+------------------------------------------------------------
+8/9. SOUND AND MUSIC
+------------------------------------------------------------
+  Music mood: Institutional quiet. A single fluorescent-pitched tone held throughout, bending very slowly downward. A second tone joins at 0:37 and the two beat against each other until the final cut.
+  Sound bed : Infrared filter clicks, chair scrapes, plaster breaking, and an electrical hum that only becomes audible once the cavity is open.
+
+------------------------------------------------------------
+10. FINAL TWIST
+------------------------------------------------------------
+  The footage is not from the future. It is from an older camera sealed inside the wall that has been recording the new camera, and everything it sees, a day before anyone else does.
+
+------------------------------------------------------------
+11/12/13/14. PUBLISHING
+------------------------------------------------------------
+  Title      : This Security Camera Records Tomorrow Night, One Hour At A Time
+  Description: Original fiction - not a real event. A camera that holds tomorrow's footage, but only ever from two until three in the morning, and only from an angle it cannot reach. Part of an original digital-mystery series.
+  Hashtags   : #shorts #mystery #cctv
+  Pinned     : Original fiction, written for this channel - no real building and no real footage. If the old camera is watching the new one, what has the new one been watching?
+

@@ -1,0 +1,122 @@
+{
+  "id": "007",
+  "concept_id": "PH-019",
+  "working_title": "Significant Locations",
+  "target_seconds": 48,
+  "aspect_ratio": "9:16",
+  "character_lock": "the same man, thirties, stubble, dark work jacket, phone always in his right hand, seen driving at night and walking a storage corridor with a torch",
+  "style_lock": "sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos",
+  "scene_count": 10,
+  "scenes": [
+    {
+      "n": 1,
+      "start": 0,
+      "end": 2,
+      "duration": 2,
+      "caption": "200 hours. NEVER been.",
+      "visual": "Phone screen: a frequent-locations list with an unfamiliar address at the top and a huge hour count.",
+      "prompt": "Phone screen close-up of a location history list with an unfamiliar address and a large hour total, dark interface, night. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "sharp UI sting",
+      "shot_change": "hard cut in"
+    },
+    {
+      "n": 2,
+      "start": 2,
+      "end": 8,
+      "duration": 6,
+      "caption": "Every WEDNESDAY. 2 to 6.",
+      "visual": "Calendar grid filling with identical blocks, two years deep, animated fast.",
+      "prompt": "An animated calendar grid filling with identical repeated time blocks across two years, cold blue data visualisation on black. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "rapid tick accelerating",
+      "shot_change": "graphic"
+    },
+    {
+      "n": 3,
+      "start": 8,
+      "end": 14,
+      "duration": 6,
+      "caption": "ASLEEP for all of it",
+      "visual": "Him in bed, phone face down on the nightstand, sleep-tracker graph flat and undisturbed.",
+      "prompt": "A man asleep in a dark bedroom with a phone face down on the nightstand, faint screen glow on the ceiling, blue night light. the same man, thirties, stubble, dark work jacket, phone always in his right hand, seen driving at night and walking a storage corridor with a torch. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "breathing, room tone, distant traffic",
+      "shot_change": "cut"
+    },
+    {
+      "n": 4,
+      "start": 14,
+      "end": 20,
+      "duration": 6,
+      "caption": "So he DRIVES out there",
+      "visual": "Night motorway from the driver's seat, sodium lights strobing across his face.",
+      "prompt": "Driver point of view on an empty night motorway, sodium lights strobing across a windscreen, wet tarmac reflections. the same man, thirties, stubble, dark work jacket, phone always in his right hand, seen driving at night and walking a storage corridor with a torch. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "road noise, indicator tick",
+      "shot_change": "cut"
+    },
+    {
+      "n": 5,
+      "start": 20,
+      "end": 26,
+      "duration": 6,
+      "caption": "Row nine. Unit FORTY-ONE.",
+      "visual": "Corrugated storage corridor, identical orange doors receding, his torch swinging.",
+      "prompt": "A long storage facility corridor of identical orange roller doors under harsh strip lighting, torch beam raking the floor. the same man, thirties, stubble, dark work jacket, phone always in his right hand, seen driving at night and walking a storage corridor with a torch. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "footsteps echoing, strip light buzz",
+      "shot_change": "tracking shot"
+    },
+    {
+      "n": 6,
+      "start": 26,
+      "end": 32,
+      "duration": 6,
+      "caption": "Rented in HIS NAME",
+      "visual": "A rental form on a clipboard, his name typed, his signature at the bottom.",
+      "prompt": "A paper storage rental agreement on a clipboard with a typed name and a handwritten signature at the bottom, harsh overhead light. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "paper handling, drone entering",
+      "shot_change": "insert cut"
+    },
+    {
+      "n": 7,
+      "start": 32,
+      "end": 38,
+      "duration": 6,
+      "caption": "His OWN key works",
+      "visual": "He tries a key from his own ring on the padlock. It turns first time.",
+      "prompt": "A hand fitting a small key into a padlock on an orange roller door, keyring hanging, harsh directional light, close macro. the same man, thirties, stubble, dark work jacket, phone always in his right hand, seen driving at night and walking a storage corridor with a torch. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "padlock click, held breath",
+      "shot_change": "macro cut"
+    },
+    {
+      "n": 8,
+      "start": 38,
+      "end": 43,
+      "duration": 5,
+      "caption": "Wall to wall. PHONES.",
+      "visual": "The door rolls up. Hundreds of identical phones on shelving, all screens lit.",
+      "prompt": "A storage unit filled floor to ceiling with hundreds of identical lit phone screens on metal shelving, cold blue glow flooding outward. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "roller door rattle, a wall of soft electronic hum",
+      "shot_change": "reveal"
+    },
+    {
+      "n": 9,
+      "start": 43,
+      "end": 46,
+      "duration": 3,
+      "caption": "All CHARGED. All unlocked.",
+      "visual": "Slow track along a shelf: identical models, identical charge levels, no dust.",
+      "prompt": "Slow tracking shot along a shelf of identical unlocked phones all showing the same interface, charging cables neatly routed, no dust. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "hum thickening, footsteps stop",
+      "shot_change": "slow track"
+    },
+    {
+      "n": 10,
+      "start": 46,
+      "end": 48,
+      "duration": 2,
+      "caption": "His LOCATION HISTORY",
+      "visual": "Push into one screen: the same frequent-locations list, the same address, hours still counting.",
+      "prompt": "Extreme close-up of one phone screen among many showing a location history list with a live incrementing hour counter, blue glow. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "single counter tick, hard silence",
+      "shot_change": "push to black"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "003",
+  "concept_id": "HOME-005",
+  "working_title": "The Extra Room",
+  "anomaly_class": "B2",
+  "twist_architecture": "G3",
+  "fiction_notice": "Original fiction. Not a real event, person, company or recording.",
+  "target_seconds": 47,
+  "voiceover_words": 115,
+  "estimated_seconds": 38.3,
+  "hooks": [
+    {
+      "text": "Four rooms in the house. The map shows five.",
+      "words": 9,
+      "note": "Arithmetic. Fastest possible comprehension, and it travels across every market.",
+      "selected": true
+    },
+    {
+      "text": "The robot vacuum has mapped a room the house does not have.",
+      "words": 12,
+      "note": "Very strong, slightly longer, and front-loads the device instead of the impossibility.",
+      "selected": false
+    },
+    {
+      "text": "Every night the cleaner goes somewhere that is not in the house.",
+      "words": 12,
+      "note": "Atmospheric but vague at second zero.",
+      "selected": false
+    }
+  ],
+  "hook_rationale": "Hook 1 is arithmetic. It needs no technical knowledge, translates across every English-speaking market, and the viewer has spotted the impossibility themselves before the second sentence arrives, which is the strongest form of engagement available in two seconds.",
+  "final_twist": "The sealed room is real, it has been cleaned every night for months, and nothing in the house has ever been able to reach it.",
+  "music_mood": "Warm domestic pad that slowly sours into a minor drone. Percussion only as household ticks. Everything drops out at 0:34 and only a single sub-bass hit returns at the final line.",
+  "sound_bed": "House settling, charging dock hum, tape measure snap, plaster dust, and a reverb change when the sealed room opens.",
+  "youtube_title": "The Robot Vacuum Mapped A Room That Does Not Exist",
+  "description": "Original fiction - not a real event. A four-room house, a floor plan with five, and a cleaning log that fills in every night at eleven forty. Part of an original digital-mystery series.",
+  "hashtags": [
+    "#shorts",
+    "#mystery",
+    "#smarthome"
+  ],
+  "pinned_comment": "Original fiction, written for this channel - not a real house and not a real device. If the room has no door, what has been cleaning the floor?",
+  "on_screen_fiction_tag": "FICTION tag, bottom corner, from 0:02 to end",
+  "synthetic_media_disclosure": "Tick YouTube altered/synthetic content disclosure if realistic AI footage is used."
+}

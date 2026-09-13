@@ -1,0 +1,833 @@
+[
+  {
+    "id": "001",
+    "concept_id": "PIX-002",
+    "working_title": "One Frame Longer",
+    "anomaly_class": "B5",
+    "twist_architecture": "G6",
+    "target_seconds": 48,
+    "character_lock": "the same man, late twenties, short dark hair, plain grey t-shirt, thin silver ring on his right hand, seen mostly as hands and a partial face lit by a monitor",
+    "style_lock": "cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos",
+    "hooks": [
+      {
+        "text": "The video gets one frame longer every play.",
+        "note": "Eight words. States the anomaly and implicates the viewer in it."
+      },
+      {
+        "text": "He has played the file eleven times. It is eleven frames longer.",
+        "note": "Stronger specificity, but spends a second on the man before the strangeness."
+      },
+      {
+        "text": "The file never changes size. It keeps getting longer.",
+        "note": "Nice contradiction, but needs a beat of technical understanding to land."
+      }
+    ],
+    "selected_hook": 0,
+    "hook_rationale": "Hook 1 is the only one that is fully legible before the viewer has decided to scroll. It contains the anomaly noun, a complete impossibility, and a second-person address that makes the viewer complicit in the mechanism that drives the story.",
+    "voiceover": [
+      "The video gets one frame longer every play.",
+      "Same file. Same size. Same checksum.",
+      "One more frame.",
+      "He plays it eleven times. Eleven new frames.",
+      "They are all at the end. And they are not noise.",
+      "It is the room where the video was filmed.",
+      "Empty. Still. The light through the window keeps changing.",
+      "So he plays it again. And again. Four hundred times.",
+      "The room stays empty for ten thousand frames.",
+      "[BEAT] Then the door opens.",
+      "Someone sits down. Faces the lens. Waits.",
+      "The room only moves when somebody is watching.",
+      "He stops playing it.",
+      "So now it is your turn.",
+      "There is only one way to find out what he does next."
+    ],
+    "scenes": [
+      {
+        "n": 1,
+        "start": 0,
+        "end": 2,
+        "caption": "One frame LONGER",
+        "visual": "Extreme macro on a video scrubber. The duration readout ticks up by a single frame. Phone-screen glow.",
+        "prompt": "Extreme macro of a video player progress bar on a dark screen, duration counter frozen mid-tick, heavy pixel texture, cold blue monitor glow",
+        "sfx": "single dry UI click, low sub drop",
+        "character": false,
+        "shot_change": "hard cut in"
+      },
+      {
+        "n": 2,
+        "start": 2,
+        "end": 7,
+        "caption": "Same file. Same HASH.",
+        "visual": "File properties panel. Size and checksum identical across two windows side by side. His hand enters frame to point.",
+        "prompt": "A hand with a thin silver ring pointing at two identical file property windows on a dim monitor, cluttered desk, night",
+        "sfx": "hard drive tick, keyboard tap",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 3,
+        "start": 7,
+        "end": 12,
+        "caption": "He plays it ELEVEN times",
+        "visual": "Fast rhythmic cuts of a finger hitting play, eleven times, each cut slightly tighter on the screen.",
+        "prompt": "Close-up of a finger repeatedly pressing a play button on a keyboard, motion blur, monitor light flickering on skin, night interior",
+        "sfx": "eleven overlapping play clicks building into one tone",
+        "character": true,
+        "shot_change": "rapid cut montage"
+      },
+      {
+        "n": 4,
+        "start": 12,
+        "end": 17,
+        "caption": "The new frames are a ROOM",
+        "visual": "The appended frames fill the screen: a plain empty room, static camera, window at the left.",
+        "prompt": "Static wide shot of an empty plain room with a bare window, dust in the air, security-camera flatness, muted colours",
+        "sfx": "tape hiss, distant room tone",
+        "character": false,
+        "shot_change": "match cut into the footage"
+      },
+      {
+        "n": 5,
+        "start": 17,
+        "end": 23,
+        "caption": "EMPTY. Still. Waiting.",
+        "visual": "Time-lapse of the window light shifting across the empty floor while the frame counter climbs.",
+        "prompt": "Time-lapse of sunlight moving across the bare floor of an empty room, long shadows rotating, unchanging furniture, cold light",
+        "sfx": "rising low drone under a ticking frame counter",
+        "character": false,
+        "shot_change": "dissolve"
+      },
+      {
+        "n": 6,
+        "start": 23,
+        "end": 28,
+        "caption": "FOUR HUNDRED plays",
+        "visual": "His face in monitor light, unblinking, as reflected frame counts race in his glasses.",
+        "prompt": "A man's face lit only by a monitor at night, eyes reflecting scrolling numbers, exhausted, unblinking, tight vertical framing",
+        "sfx": "click loop compressed into a stutter",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 7,
+        "start": 28,
+        "end": 33,
+        "caption": "Ten thousand EMPTY frames",
+        "visual": "Frame counter racing past ten thousand over the unchanging empty room.",
+        "prompt": "Empty room shot with a large frame counter overlay racing upward, heavy compression artefacts, static composition",
+        "sfx": "counter whirr, everything else muted",
+        "character": false,
+        "shot_change": "cut"
+      },
+      {
+        "n": 8,
+        "start": 33,
+        "end": 39,
+        "caption": "Then the DOOR opens",
+        "visual": "In the footage, the far door swings inward. Half a second of total silence before it moves.",
+        "prompt": "A door slowly opening into an empty plain room, seen from a fixed low-quality camera, deep shadow beyond the doorway",
+        "sfx": "total silence, then a single wooden creak",
+        "character": false,
+        "shot_change": "hold, no cut"
+      },
+      {
+        "n": 9,
+        "start": 39,
+        "end": 44,
+        "caption": "It moves when you WATCH",
+        "visual": "A figure sits in a chair in the centre of the room and turns to face the lens. Held still.",
+        "prompt": "A seated figure in the centre of an empty room facing the camera directly, face in shadow, absolutely still, grainy footage",
+        "sfx": "sub-bass swell, room tone drops out",
+        "character": false,
+        "shot_change": "slow push in"
+      },
+      {
+        "n": 10,
+        "start": 44,
+        "end": 48,
+        "caption": "YOUR turn.",
+        "visual": "Cut to black except the video player, paused, with the replay button pulsing. Duration ticks up once more.",
+        "prompt": "A paused video player on a black screen with a glowing replay icon, single frame counter ticking upward, nothing else visible",
+        "sfx": "one dry click, then silence",
+        "character": false,
+        "shot_change": "cut to black"
+      }
+    ],
+    "music_mood": "Slow sub-bass pulse at roughly 60 bpm with a single detuned piano note. No melody, no drums. Drops to near silence at 0:33 and returns as a rising low drone under the final ten seconds.",
+    "sound_bed": "Hard drive ticks, keyboard taps, tape hiss, room tone that cuts out completely twice.",
+    "final_twist": "The footage advances only while somebody is watching it, which means the figure in the room is waiting for the next viewer, and the Short ends by handing that role to the person watching.",
+    "youtube_title": "The Video That Gets One Frame Longer Every Time You Play It",
+    "description": "Original fiction - not a real event. A man notices a video file growing by a single frame with every play, and the frames are not noise. Part of an original digital-mystery series.",
+    "hashtags": [
+      "#shorts",
+      "#mystery",
+      "#creepytech"
+    ],
+    "pinned_comment": "Original fiction, written for this channel - nothing here is a real recording. The frames only advance while somebody is watching. So what happens now that you have?"
+  },
+  {
+    "id": "002",
+    "concept_id": "CAM-009",
+    "working_title": "From Behind",
+    "anomaly_class": "B6",
+    "twist_architecture": "G5",
+    "target_seconds": 49,
+    "character_lock": "the same night security guard, fifties, grey stubble, navy uniform shirt with the sleeves rolled, lanyard, seen from behind or in profile in a dim monitor room",
+    "style_lock": "green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos",
+    "hooks": [
+      {
+        "text": "The room has no camera. The footage exists.",
+        "note": "An absence and a contradiction in eight words. No setup needed."
+      },
+      {
+        "text": "He is watching the monitors. Something is filming him doing it.",
+        "note": "More atmospheric, but tells the viewer the answer a beat too early."
+      },
+      {
+        "text": "The archive has a camera number that does not exist.",
+        "note": "Good procedural hook, but abstract at second zero."
+      }
+    ],
+    "selected_hook": 0,
+    "hook_rationale": "Hook 1 pairs an absence with a contradiction in ten words and gives the viewer nothing to resolve except by staying. Hook 2 names the observer, which is the twist, and would spend the ending in the first two seconds.",
+    "voiceover": [
+      "The room has no camera. The footage exists.",
+      "It is in the normal archive. Normal folder. Normal file name.",
+      "Camera fourteen.",
+      "There are eleven cameras.",
+      "He checks the wall. No lens. No cable. No hole.",
+      "He opens the file. It is him, from behind, watching the monitors.",
+      "Tonight. Ten minutes ago.",
+      "He turns around. Nothing there.",
+      "He turns back, and the footage turns with him.",
+      "[BEAT] Then he sees the monitors inside the footage.",
+      "They are showing this room. From the same angle.",
+      "So he zooms in. And in. And in.",
+      "Every screen holds the room again, one layer deeper.",
+      "He counts eleven layers.",
+      "On the eleventh, the chair is empty.",
+      "And the door is open."
+    ],
+    "scenes": [
+      {
+        "n": 1,
+        "start": 0,
+        "end": 2,
+        "caption": "No camera. FOOTAGE anyway.",
+        "visual": "A wall of CCTV monitors in a dark room. One monitor is black with a file icon on it.",
+        "prompt": "A wall of old CCTV monitors glowing in a dark security room, one screen black except a single file icon, scanlines, night",
+        "sfx": "fluorescent hum, faint electrical buzz",
+        "character": false,
+        "shot_change": "hard cut in"
+      },
+      {
+        "n": 2,
+        "start": 2,
+        "end": 7,
+        "caption": "Normal folder. Normal NAME.",
+        "visual": "Screen recording of an archive folder, files listed by camera number, scrolling.",
+        "prompt": "Close-up of a security archive file listing on a dim CRT monitor, rows of camera folders, green-grey interface, heavy scanlines",
+        "sfx": "mouse scroll, hard drive seek",
+        "character": false,
+        "shot_change": "cut"
+      },
+      {
+        "n": 3,
+        "start": 7,
+        "end": 12,
+        "caption": "There are ELEVEN cameras",
+        "visual": "He counts the monitors with a finger. Eleven live feeds. The twelfth screen is the file.",
+        "prompt": "A guard's hand counting along a row of CCTV monitors, eleven live feeds visible, one dark screen at the end, dim room",
+        "sfx": "finger taps on glass, counted breaths",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 4,
+        "start": 12,
+        "end": 17,
+        "caption": "No lens. No CABLE.",
+        "visual": "Torch beam across a blank ceiling corner. Nothing mounted. Dust undisturbed.",
+        "prompt": "A torch beam sweeping across a bare ceiling corner in a dim room, no camera mounted, dust and cobwebs, harsh directional light",
+        "sfx": "torch click, footsteps on lino",
+        "character": false,
+        "shot_change": "handheld"
+      },
+      {
+        "n": 5,
+        "start": 17,
+        "end": 23,
+        "caption": "It is HIM. From behind.",
+        "visual": "The file plays: the guard from behind, seated, watching the same wall of monitors.",
+        "prompt": "CCTV-style shot from behind a seated security guard facing a wall of monitors, grainy, low frame rate, green cast",
+        "sfx": "video playback hiss, chair creak",
+        "character": true,
+        "shot_change": "match cut"
+      },
+      {
+        "n": 6,
+        "start": 23,
+        "end": 28,
+        "caption": "He turns. NOTHING there.",
+        "visual": "He spins in his chair toward the empty corner. Cut to the empty corner. Cut back.",
+        "prompt": "A security guard turning sharply in his chair to look behind him at an empty dim room corner, motion blur, fluorescent light",
+        "sfx": "chair swivel, sudden silence",
+        "character": true,
+        "shot_change": "whip pan"
+      },
+      {
+        "n": 7,
+        "start": 28,
+        "end": 34,
+        "caption": "The footage turns TOO",
+        "visual": "Split screen: his real movement and the recorded movement, perfectly in step.",
+        "prompt": "Split screen of the same seated guard turning in his chair, one side live and one side degraded CCTV footage, identical motion",
+        "sfx": "doubled chair creak, slight phase offset",
+        "character": true,
+        "shot_change": "split screen"
+      },
+      {
+        "n": 8,
+        "start": 34,
+        "end": 40,
+        "caption": "The monitors INSIDE it",
+        "visual": "Zoom into the footage's own monitor wall, which shows the same room from the same angle.",
+        "prompt": "Slow digital zoom into a CCTV image of a monitor wall which itself displays the same monitor wall, recursive nesting, heavy artefacting",
+        "sfx": "digital zoom whine, drone rising",
+        "character": false,
+        "shot_change": "continuous zoom"
+      },
+      {
+        "n": 9,
+        "start": 40,
+        "end": 45,
+        "caption": "ELEVEN layers deep",
+        "visual": "Continuous recursive zoom, each layer more degraded, a counter in the corner climbing to eleven.",
+        "prompt": "Deep recursive zoom through nested monitor screens, each generation more degraded and darker, infinite corridor of screens",
+        "sfx": "pitch-descending drone, counter ticks",
+        "character": false,
+        "shot_change": "continuous zoom"
+      },
+      {
+        "n": 10,
+        "start": 45,
+        "end": 49,
+        "caption": "The chair is EMPTY",
+        "visual": "Final layer: the same room, the chair empty, the door standing open behind it.",
+        "prompt": "A degraded CCTV frame of an empty office chair in front of a monitor wall, a door standing open in the darkness behind it",
+        "sfx": "everything cuts to silence, one distant door knock",
+        "character": false,
+        "shot_change": "hard stop"
+      }
+    ],
+    "music_mood": "Single sustained low string tone, slowly detuning. No percussion. A pitch-descending drone enters at 0:34 and falls continuously through the recursive zoom, stopping dead at the final frame.",
+    "sound_bed": "Fluorescent hum, chair creak, hard drive seeks, and one complete silence at the last cut.",
+    "final_twist": "The recursion is not a display error. Each layer is a real vantage point, and at the deepest one the guard is already gone and something has already left the room.",
+    "youtube_title": "There Is Footage From A Room That Has No Camera",
+    "description": "Original fiction - not a real event. A night guard finds a file in the archive from camera fourteen. The building has eleven cameras. Part of an original digital-mystery series.",
+    "hashtags": [
+      "#shorts",
+      "#mystery",
+      "#unexplained"
+    ],
+    "pinned_comment": "Original fiction, written for this channel - no real footage, no real building. Count the layers again on a rewatch. The door is open on more than one of them."
+  },
+  {
+    "id": "003",
+    "concept_id": "HOME-005",
+    "working_title": "The Extra Room",
+    "anomaly_class": "B2",
+    "twist_architecture": "G3",
+    "target_seconds": 47,
+    "character_lock": "the same woman, late thirties, dark hair tied back, oversized cardigan, phone always in her left hand, seen in a warm-lit suburban hallway",
+    "style_lock": "warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos",
+    "hooks": [
+      {
+        "text": "Four rooms in the house. The map shows five.",
+        "note": "Arithmetic. Fastest possible comprehension, and it travels across every market."
+      },
+      {
+        "text": "The robot vacuum has mapped a room the house does not have.",
+        "note": "Very strong, slightly longer, and front-loads the device instead of the impossibility."
+      },
+      {
+        "text": "Every night the cleaner goes somewhere that is not in the house.",
+        "note": "Atmospheric but vague at second zero."
+      }
+    ],
+    "selected_hook": 0,
+    "hook_rationale": "Hook 1 is arithmetic. It needs no technical knowledge, translates across every English-speaking market, and the viewer has spotted the impossibility themselves before the second sentence arrives, which is the strongest form of engagement available in two seconds.",
+    "voiceover": [
+      "Four rooms in the house. The map shows five.",
+      "She checks the app again. Still five.",
+      "A clean rectangle. A doorway. Right where the hallway wall is.",
+      "She has lived here nine years.",
+      "She measures the hallway. There is nothing behind it.",
+      "The map does not change. It has been there for months.",
+      "Then she opens the travel log.",
+      "Twenty minutes in that room. Every night. Eleven forty.",
+      "So she sets an alarm.",
+      "At eleven forty the robot is on its dock. Not moving.",
+      "The log says it is cleaning.",
+      "[BEAT] So she cuts open the wall.",
+      "The room is there. Exactly as mapped.",
+      "Same size. Same doorway. No door.",
+      "And the floor is clean."
+    ],
+    "scenes": [
+      {
+        "n": 1,
+        "start": 0,
+        "end": 2,
+        "caption": "Four rooms. Map shows FIVE.",
+        "visual": "Phone screen filling frame: a clean vector floor plan with one extra rectangle glowing.",
+        "prompt": "Phone screen close-up showing a minimal vector floor plan of a small house with one extra unexplained rectangular room, blue-on-dark interface",
+        "sfx": "app chime, sharp sub hit",
+        "character": false,
+        "shot_change": "hard cut in"
+      },
+      {
+        "n": 2,
+        "start": 2,
+        "end": 7,
+        "caption": "She checks AGAIN",
+        "visual": "She refreshes. Same map. Her face lit from below by the phone in a dark hallway.",
+        "prompt": "A woman standing in a dim domestic hallway looking down at a phone, face lit from below, cardigan, night, warm and cold light mixing",
+        "sfx": "pull-to-refresh click, house settling",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 3,
+        "start": 7,
+        "end": 12,
+        "caption": "Right where the WALL is",
+        "visual": "Overlay of the map onto the real hallway. The extra rectangle sits inside solid plaster.",
+        "prompt": "A plain suburban hallway with a translucent blue floor-plan overlay showing a rectangular room inside the solid wall, night interior",
+        "sfx": "low drone enters",
+        "character": false,
+        "shot_change": "graphic overlay"
+      },
+      {
+        "n": 4,
+        "start": 12,
+        "end": 17,
+        "caption": "NINE years here",
+        "visual": "Quick flashes of family photos along the hallway, all with the same blank wall behind them.",
+        "prompt": "A row of framed family photographs along a hallway wall, warm lamplight, the same blank plaster visible behind every frame",
+        "sfx": "photo-flip whoosh, muted music swell",
+        "character": false,
+        "shot_change": "rapid cuts"
+      },
+      {
+        "n": 5,
+        "start": 17,
+        "end": 23,
+        "caption": "Nothing BEHIND it",
+        "visual": "Tape measure pulled along the hallway, then against the outside of the house. The numbers match.",
+        "prompt": "A metal tape measure stretched along a hallway wall and then against exterior brickwork, hands only, overcast daylight",
+        "sfx": "tape measure snap and rewind",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 6,
+        "start": 23,
+        "end": 28,
+        "caption": "Every night. ELEVEN FORTY.",
+        "visual": "Travel log list scrolling: identical entries, identical durations, months deep.",
+        "prompt": "Scrolling app log of identical nightly cleaning entries with matching timestamps, dark interface, repeated rows blurring",
+        "sfx": "scroll ticks accelerating",
+        "character": false,
+        "shot_change": "cut"
+      },
+      {
+        "n": 7,
+        "start": 28,
+        "end": 34,
+        "caption": "The robot is NOT MOVING",
+        "visual": "The robot sits still on its dock. Her phone beside it says CLEANING with a timer running.",
+        "prompt": "A robot vacuum sitting motionless on its charging dock in a dark living room, a phone on the floor beside it showing an active timer",
+        "sfx": "dock charging hum, no motor",
+        "character": false,
+        "shot_change": "locked-off shot"
+      },
+      {
+        "n": 8,
+        "start": 34,
+        "end": 40,
+        "caption": "So she CUTS the wall",
+        "visual": "Utility knife into plaster. Dust. A rectangle of darkness widening.",
+        "prompt": "A hand cutting into a plaster wall with a utility knife, plaster dust in lamplight, a dark opening widening beyond",
+        "sfx": "blade through plaster, dust fall, silence",
+        "character": true,
+        "shot_change": "handheld close"
+      },
+      {
+        "n": 9,
+        "start": 40,
+        "end": 44,
+        "caption": "Exactly as MAPPED",
+        "visual": "Torchlight reveals a bare rectangular room with a doorway shape and no door.",
+        "prompt": "Torchlight revealing a bare sealed rectangular room with a doorway-shaped opening and no door, clean empty floor, no dust",
+        "sfx": "reverb changes, breath",
+        "character": false,
+        "shot_change": "reveal push"
+      },
+      {
+        "n": 10,
+        "start": 44,
+        "end": 47,
+        "caption": "And the floor is CLEAN",
+        "visual": "Tight on the spotless floor inside the sealed room while the hallway behind is thick with plaster dust.",
+        "prompt": "Extreme close-up of a perfectly clean bare floor inside a sealed room, plaster dust falling in the torch beam above it",
+        "sfx": "single sub-bass hit, hard silence",
+        "character": false,
+        "shot_change": "cut to black"
+      }
+    ],
+    "music_mood": "Warm domestic pad that slowly sours into a minor drone. Percussion only as household ticks. Everything drops out at 0:34 and only a single sub-bass hit returns at the final line.",
+    "sound_bed": "House settling, charging dock hum, tape measure snap, plaster dust, and a reverb change when the sealed room opens.",
+    "final_twist": "The sealed room is real, it has been cleaned every night for months, and nothing in the house has ever been able to reach it.",
+    "youtube_title": "The Robot Vacuum Mapped A Room That Does Not Exist",
+    "description": "Original fiction - not a real event. A four-room house, a floor plan with five, and a cleaning log that fills in every night at eleven forty. Part of an original digital-mystery series.",
+    "hashtags": [
+      "#shorts",
+      "#mystery",
+      "#smarthome"
+    ],
+    "pinned_comment": "Original fiction, written for this channel - not a real house and not a real device. If the room has no door, what has been cleaning the floor?"
+  },
+  {
+    "id": "004",
+    "concept_id": "PH-003",
+    "working_title": "One Step Closer",
+    "anomaly_class": "B5",
+    "twist_architecture": "G6",
+    "target_seconds": 46,
+    "character_lock": "the same young man, early twenties, cropped hair, dark hoodie, bitten fingernails, only ever seen in phone light or as hands holding a phone",
+    "style_lock": "near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos",
+    "hooks": [
+      {
+        "text": "Delete the photo and it moves closer.",
+        "note": "Seven words. Contains the anomaly and the mechanism. Nothing to explain."
+      },
+      {
+        "text": "There is a photo of a hallway on his phone. He did not take it.",
+        "note": "Solid, but spends the first two seconds on setup."
+      },
+      {
+        "text": "He has deleted the same photograph fourteen times.",
+        "note": "Good rhythm, but the impossibility is only implied."
+      }
+    ],
+    "selected_hook": 0,
+    "hook_rationale": "Hook 1 is the shortest in the entire batch and the only one that states cause and effect together. It also invites the viewer to want him to delete it, which makes the escalation feel like their idea.",
+    "voiceover": [
+      "Delete the photo and it moves closer.",
+      "He does not know whose hallway it is.",
+      "Grey carpet. One light. A door at the end.",
+      "He deletes it. Next morning it is back.",
+      "Same hallway. Two steps further in.",
+      "He deletes it again. Two more steps.",
+      "So he stops. He leaves it alone for a week.",
+      "It still moves. Slower. Only on the days he looks at it.",
+      "[BEAT] It is not the deleting. It is the attention.",
+      "By Friday the door at the end is open.",
+      "By Sunday it is a stairwell he recognises.",
+      "The last photo is his own front door. From the outside.",
+      "He is inside. The door is locked.",
+      "And in the corner of the frame, a hand is already holding up a phone."
+    ],
+    "scenes": [
+      {
+        "n": 1,
+        "start": 0,
+        "end": 2,
+        "caption": "Delete it. It moves CLOSER.",
+        "visual": "A thumb swipes delete. The photo reappears instantly, a fraction deeper into the hallway.",
+        "prompt": "A thumb swiping a delete gesture on a phone photo of a dim hallway, the image reappearing slightly closer, harsh screen glow in darkness",
+        "sfx": "delete whoosh, sub-bass thud",
+        "character": true,
+        "shot_change": "hard cut in"
+      },
+      {
+        "n": 2,
+        "start": 2,
+        "end": 7,
+        "caption": "He did not TAKE it",
+        "visual": "The photo full screen: grey carpet, one ceiling light, a closed door at the far end.",
+        "prompt": "A flash-lit phone photograph of an empty grey-carpeted hallway with one ceiling light and a closed door at the far end, amateur snapshot quality",
+        "sfx": "room tone, faint phone hum",
+        "character": false,
+        "shot_change": "cut"
+      },
+      {
+        "n": 3,
+        "start": 7,
+        "end": 12,
+        "caption": "TWO steps further in",
+        "visual": "Two versions side by side, the second measurably deeper. A ruler line drawn between them.",
+        "prompt": "Two nearly identical photographs of the same hallway side by side, the second taken two paces further forward, comparison framing",
+        "sfx": "shutter click doubled",
+        "character": false,
+        "shot_change": "split screen"
+      },
+      {
+        "n": 4,
+        "start": 12,
+        "end": 18,
+        "caption": "He deletes it AGAIN",
+        "visual": "Rapid montage of deletions across days, the hallway advancing each time, timestamps flicking forward.",
+        "prompt": "Rapid montage of the same hallway photograph advancing forward frame by frame, changing timestamps, phone interface elements",
+        "sfx": "stacked delete tones rising in pitch",
+        "character": false,
+        "shot_change": "rapid cut montage"
+      },
+      {
+        "n": 5,
+        "start": 18,
+        "end": 24,
+        "caption": "So he STOPS",
+        "visual": "The phone face down on a table for days. Dust settles. Light changes across it.",
+        "prompt": "A phone lying face down on a wooden table through a day-to-night time-lapse, dust settling, changing window light",
+        "sfx": "time-lapse hush, distant traffic",
+        "character": false,
+        "shot_change": "time-lapse"
+      },
+      {
+        "n": 6,
+        "start": 24,
+        "end": 30,
+        "caption": "Only when he LOOKS",
+        "visual": "He glances at the screen. The image jumps forward in the instant his eyes land on it.",
+        "prompt": "A young man's eyes reflected in a phone screen at night, the reflected image jumping forward the moment he looks, tight vertical framing",
+        "sfx": "single frame-jump click, held breath",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 7,
+        "start": 30,
+        "end": 36,
+        "caption": "The door is OPEN",
+        "visual": "The far door now standing open onto blackness. Nothing visible beyond it.",
+        "prompt": "A phone photograph of a hallway where the far door now stands open onto complete darkness, flash falling short of the doorway",
+        "sfx": "drone rises, room tone thins",
+        "character": false,
+        "shot_change": "push in"
+      },
+      {
+        "n": 8,
+        "start": 36,
+        "end": 41,
+        "caption": "A stairwell he KNOWS",
+        "visual": "The photo is now his own building's stairwell, his own scuffed step, his own post.",
+        "prompt": "A flash photograph of a familiar shabby apartment stairwell with a scuffed step and a pile of post on the landing, night",
+        "sfx": "recognition sting, heartbeat low in mix",
+        "character": false,
+        "shot_change": "cut"
+      },
+      {
+        "n": 9,
+        "start": 41,
+        "end": 44,
+        "caption": "His OWN front door",
+        "visual": "The photo shows his door, from outside, in the dark. He is behind it, holding the phone.",
+        "prompt": "A flash photograph of a locked apartment front door photographed from the corridor outside at night, peeling paint, number plate",
+        "sfx": "silence, then one deadbolt click",
+        "character": false,
+        "shot_change": "hard cut"
+      },
+      {
+        "n": 10,
+        "start": 44,
+        "end": 46,
+        "caption": "A hand. Holding a PHONE.",
+        "visual": "Crop into the corner of that photo: a hand at the edge of frame, already raising a phone.",
+        "prompt": "Extreme crop into the dark corner of a flash photograph revealing a hand at the frame edge already raising a phone, heavy noise",
+        "sfx": "one camera shutter, cut to silence",
+        "character": false,
+        "shot_change": "crop zoom"
+      }
+    ],
+    "music_mood": "No music for the first twenty seconds, only room tone. A single low pulse enters at 0:24 and doubles in speed every eight seconds until it stops dead on the final shutter.",
+    "sound_bed": "Phone UI sounds used as percussion, deadbolt click, camera shutter, and two complete silences.",
+    "final_twist": "Deleting never moved the photograph. Looking did. The hallway has been walking toward him at the speed of his own attention, and it has arrived.",
+    "youtube_title": "Every Time He Deletes The Photo It Gets One Step Closer",
+    "description": "Original fiction - not a real event. A photograph he never took, a hallway he does not recognise, and a distance that closes every time he looks. Part of an original digital-mystery series.",
+    "hashtags": [
+      "#shorts",
+      "#mystery",
+      "#scarystories"
+    ],
+    "pinned_comment": "Original fiction, written for this channel - no real photo, no real hallway. It moves when someone looks at it. You just watched it nine times."
+  },
+  {
+    "id": "005",
+    "concept_id": "CAM-001",
+    "working_title": "The Hour Ahead",
+    "anomaly_class": "B7",
+    "twist_architecture": "G7",
+    "target_seconds": 48,
+    "character_lock": "the same building manager, forties, glasses, fleece jacket over a shirt, clipboard or torch in hand, seen in a stripped office and a plant room",
+    "style_lock": "flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos",
+    "hooks": [
+      {
+        "text": "The camera has already recorded tonight.",
+        "note": "Six words, a complete impossibility, zero setup. The strongest short hook in the batch."
+      },
+      {
+        "text": "At six in the evening, the camera already has tonight's footage.",
+        "note": "Clearer, but the clause order buries the strange part until the end."
+      },
+      {
+        "text": "The camera records one hour of tomorrow. Every single day.",
+        "note": "Good, but explains the rule before the viewer has felt the wrongness."
+      }
+    ],
+    "selected_hook": 0,
+    "hook_rationale": "Hook 1 lands the impossibility inside the first second and leaves a question the viewer cannot answer without the next line. The other two are more informative and less urgent, which is the wrong trade at second zero.",
+    "voiceover": [
+      "The camera has already recorded tonight.",
+      "Two in the morning until three. Twenty-four hours early.",
+      "Always that hour. Always correct.",
+      "He tests it. He moves a chair at two fifteen.",
+      "Yesterday's file already shows him doing it.",
+      "So he watches the whole hour, over and over.",
+      "And then he notices the angle.",
+      "The camera is on the ceiling, in the corner.",
+      "The footage is from the middle of the wall.",
+      "Eye level. Four metres from where the camera is.",
+      "[BEAT] There is no camera there.",
+      "They open the wall on a Tuesday.",
+      "It is an older model. Dust covered. Still powered.",
+      "Still recording.",
+      "It is not pointed at the room.",
+      "It is pointed at the new camera."
+    ],
+    "scenes": [
+      {
+        "n": 1,
+        "start": 0,
+        "end": 2,
+        "caption": "It already recorded TONIGHT",
+        "visual": "A file list where tomorrow's date already has an entry. Cursor hovering over it.",
+        "prompt": "A CCTV archive file list on a dim monitor where a future date already holds a recording, cursor hovering, cold interface",
+        "sfx": "sharp digital sting",
+        "character": false,
+        "shot_change": "hard cut in"
+      },
+      {
+        "n": 2,
+        "start": 2,
+        "end": 7,
+        "caption": "02:00 to 03:00. ALWAYS.",
+        "visual": "Timestamp overlay ticking through the same hour. Empty office, stripped desks.",
+        "prompt": "Empty stripped office interior at night seen through a ceiling CCTV camera with a running timestamp overlay, flat infrared grey",
+        "sfx": "IR filter click, low hum",
+        "character": false,
+        "shot_change": "cut"
+      },
+      {
+        "n": 3,
+        "start": 7,
+        "end": 13,
+        "caption": "So he TESTS it",
+        "visual": "He drags a chair two metres to the left, checks his watch. 02:15.",
+        "prompt": "A man in a fleece dragging an office chair across a dark empty office floor, torch on a desk, wristwatch visible",
+        "sfx": "chair legs scraping lino",
+        "character": true,
+        "shot_change": "handheld"
+      },
+      {
+        "n": 4,
+        "start": 13,
+        "end": 19,
+        "caption": "YESTERDAY'S file shows it",
+        "visual": "He scrubs yesterday's recording. The chair moves on screen exactly as he just moved it.",
+        "prompt": "A man watching a CCTV playback on a laptop showing himself dragging a chair, his face lit by the screen, dark office",
+        "sfx": "scrub whine, doubled chair scrape",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 5,
+        "start": 19,
+        "end": 25,
+        "caption": "Then he notices the ANGLE",
+        "visual": "Split diagram: the ceiling camera's cone versus the footage's actual viewpoint.",
+        "prompt": "A simple technical diagram overlay on a dark office showing a ceiling camera cone and a second lower viewpoint marked in red, schematic lines",
+        "sfx": "drone enters, pen scratch",
+        "character": false,
+        "shot_change": "graphic overlay"
+      },
+      {
+        "n": 6,
+        "start": 25,
+        "end": 31,
+        "caption": "EYE LEVEL. Wrong wall.",
+        "visual": "He stands where the footage's viewpoint must be, palms flat on blank magnolia plaster.",
+        "prompt": "A man standing with both palms flat against a blank magnolia office wall at eye level, torchlight raking across the surface",
+        "sfx": "palms on plaster, breathing",
+        "character": true,
+        "shot_change": "cut"
+      },
+      {
+        "n": 7,
+        "start": 31,
+        "end": 37,
+        "caption": "There is NO CAMERA there",
+        "visual": "Slow pan across unbroken plaster. No fittings, no cable run, no seams.",
+        "prompt": "Slow lateral pan across an unbroken plaster wall with no fittings or cable runs, raking torchlight, dust in the beam",
+        "sfx": "silence except torch buzz",
+        "character": false,
+        "shot_change": "slow pan"
+      },
+      {
+        "n": 8,
+        "start": 37,
+        "end": 42,
+        "caption": "They open the WALL",
+        "visual": "A hammer breaks through. Dust. A dark cavity. Something inside reflects the torch.",
+        "prompt": "A hammer breaking through plasterboard revealing a dark wall cavity, dust cloud, a small glass lens catching torchlight inside",
+        "sfx": "plaster crack, dust fall, one hum starting",
+        "character": false,
+        "shot_change": "impact cut"
+      },
+      {
+        "n": 9,
+        "start": 42,
+        "end": 46,
+        "caption": "Dust covered. STILL POWERED.",
+        "visual": "An old camera in the cavity, thick with dust, its indicator light steady red.",
+        "prompt": "An old dust-covered security camera inside a wall cavity with a steady red indicator light, cobwebs, close macro, torchlight",
+        "sfx": "electrical hum rising",
+        "character": false,
+        "shot_change": "macro push"
+      },
+      {
+        "n": 10,
+        "start": 46,
+        "end": 48,
+        "caption": "Pointed at the NEW camera",
+        "visual": "Reverse angle: the old lens is aimed precisely at the modern camera in the ceiling corner.",
+        "prompt": "Reverse view from inside a wall cavity looking out at a modern ceiling-corner security camera perfectly centred in frame",
+        "sfx": "hum cuts to total silence",
+        "character": false,
+        "shot_change": "reverse angle"
+      }
+    ],
+    "music_mood": "Institutional quiet. A single fluorescent-pitched tone held throughout, bending very slowly downward. A second tone joins at 0:37 and the two beat against each other until the final cut.",
+    "sound_bed": "Infrared filter clicks, chair scrapes, plaster breaking, and an electrical hum that only becomes audible once the cavity is open.",
+    "final_twist": "The footage is not from the future. It is from an older camera sealed inside the wall that has been recording the new camera, and everything it sees, a day before anyone else does.",
+    "youtube_title": "This Security Camera Records Tomorrow Night, One Hour At A Time",
+    "description": "Original fiction - not a real event. A camera that holds tomorrow's footage, but only ever from two until three in the morning, and only from an angle it cannot reach. Part of an original digital-mystery series.",
+    "hashtags": [
+      "#shorts",
+      "#mystery",
+      "#cctv"
+    ],
+    "pinned_comment": "Original fiction, written for this channel - no real building and no real footage. If the old camera is watching the new one, what has the new one been watching?"
+  }
+]

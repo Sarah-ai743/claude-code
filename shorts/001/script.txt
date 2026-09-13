@@ -1,0 +1,113 @@
+001 - One Frame Longer
+============================================================
+Concept:       PIX-002  (B5/G6)
+Target length: 48s
+Voiceover:     114 words (~38s at 3.0 w/s)
+Scenes:        10
+
+ORIGINAL FICTION. Not a real event, person, company or recording.
+
+------------------------------------------------------------
+1. ALTERNATIVE OPENING HOOKS
+------------------------------------------------------------
+  [1] "The video gets one frame longer every play."  (8 words)  <-- SELECTED
+      Eight words. States the anomaly and implicates the viewer in it.
+  [2] "He has played the file eleven times. It is eleven frames longer."  (12 words)
+      Stronger specificity, but spends a second on the man before the strangeness.
+  [3] "The file never changes size. It keeps getting longer."  (9 words)
+      Nice contradiction, but needs a beat of technical understanding to land.
+
+2. HOOK SELECTION
+  Hook 1 is the only one that is fully legible before the viewer has decided to scroll. It contains the anomaly noun, a complete impossibility, and a second-person address that makes the viewer complicit in the mechanism that drives the story.
+
+------------------------------------------------------------
+3. VOICEOVER
+------------------------------------------------------------
+  The video gets one frame longer every play.
+  Same file. Same size. Same checksum.
+  One more frame.
+  He plays it eleven times. Eleven new frames.
+  They are all at the end. And they are not noise.
+  It is the room where the video was filmed.
+  Empty. Still. The light through the window keeps changing.
+  So he plays it again. And again. Four hundred times.
+  The room stays empty for ten thousand frames.
+  [BEAT] Then the door opens.
+  Someone sits down. Faces the lens. Waits.
+  The room only moves when somebody is watching.
+  He stops playing it.
+  So now it is your turn.
+  There is only one way to find out what he does next.
+
+------------------------------------------------------------
+4/5/6. SCENES, CAPTIONS, VISUALS
+------------------------------------------------------------
+  SCENE  1  [ 0.0s -  2.0s]
+    CAPTION : One frame LONGER
+    VISUAL  : Extreme macro on a video scrubber. The duration readout ticks up by a single frame. Phone-screen glow.
+    SFX     : single dry UI click, low sub drop
+
+  SCENE  2  [ 2.0s -  7.0s]
+    CAPTION : Same file. Same HASH.
+    VISUAL  : File properties panel. Size and checksum identical across two windows side by side. His hand enters frame to point.
+    SFX     : hard drive tick, keyboard tap
+
+  SCENE  3  [ 7.0s - 12.0s]
+    CAPTION : He plays it ELEVEN times
+    VISUAL  : Fast rhythmic cuts of a finger hitting play, eleven times, each cut slightly tighter on the screen.
+    SFX     : eleven overlapping play clicks building into one tone
+
+  SCENE  4  [12.0s - 17.0s]
+    CAPTION : The new frames are a ROOM
+    VISUAL  : The appended frames fill the screen: a plain empty room, static camera, window at the left.
+    SFX     : tape hiss, distant room tone
+
+  SCENE  5  [17.0s - 23.0s]
+    CAPTION : EMPTY. Still. Waiting.
+    VISUAL  : Time-lapse of the window light shifting across the empty floor while the frame counter climbs.
+    SFX     : rising low drone under a ticking frame counter
+
+  SCENE  6  [23.0s - 28.0s]
+    CAPTION : FOUR HUNDRED plays
+    VISUAL  : His face in monitor light, unblinking, as reflected frame counts race in his glasses.
+    SFX     : click loop compressed into a stutter
+
+  SCENE  7  [28.0s - 33.0s]
+    CAPTION : Ten thousand EMPTY frames
+    VISUAL  : Frame counter racing past ten thousand over the unchanging empty room.
+    SFX     : counter whirr, everything else muted
+
+  SCENE  8  [33.0s - 39.0s]
+    CAPTION : Then the DOOR opens
+    VISUAL  : In the footage, the far door swings inward. Half a second of total silence before it moves.
+    SFX     : total silence, then a single wooden creak
+
+  SCENE  9  [39.0s - 44.0s]
+    CAPTION : It moves when you WATCH
+    VISUAL  : A figure sits in a chair in the centre of the room and turns to face the lens. Held still.
+    SFX     : sub-bass swell, room tone drops out
+
+  SCENE 10  [44.0s - 48.0s]
+    CAPTION : YOUR turn.
+    VISUAL  : Cut to black except the video player, paused, with the replay button pulsing. Duration ticks up once more.
+    SFX     : one dry click, then silence
+
+------------------------------------------------------------
+8/9. SOUND AND MUSIC
+------------------------------------------------------------
+  Music mood: Slow sub-bass pulse at roughly 60 bpm with a single detuned piano note. No melody, no drums. Drops to near silence at 0:33 and returns as a rising low drone under the final ten seconds.
+  Sound bed : Hard drive ticks, keyboard taps, tape hiss, room tone that cuts out completely twice.
+
+------------------------------------------------------------
+10. FINAL TWIST
+------------------------------------------------------------
+  The footage advances only while somebody is watching it, which means the figure in the room is waiting for the next viewer, and the Short ends by handing that role to the person watching.
+
+------------------------------------------------------------
+11/12/13/14. PUBLISHING
+------------------------------------------------------------
+  Title      : The Video That Gets One Frame Longer Every Time You Play It
+  Description: Original fiction - not a real event. A man notices a video file growing by a single frame with every play, and the frames are not noise. Part of an original digital-mystery series.
+  Hashtags   : #shorts #mystery #creepytech
+  Pinned     : Original fiction, written for this channel - nothing here is a real recording. The frames only advance while somebody is watching. So what happens now that you have?
+

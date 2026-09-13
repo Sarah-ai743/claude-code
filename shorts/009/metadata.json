@@ -1,0 +1,45 @@
+{
+  "id": "009",
+  "concept_id": "EXP-001",
+  "working_title": "Sold From Your House",
+  "anomaly_class": "B8",
+  "twist_architecture": "G3",
+  "fiction_notice": "Original fiction. Not a real event, person, company or recording.",
+  "target_seconds": 47,
+  "voiceover_words": 113,
+  "estimated_seconds": 37.7,
+  "hooks": [
+    {
+      "text": "The listing is a photo of her living room.",
+      "words": 9,
+      "note": "Nine words, immediately visual, and the violation is obvious without explanation.",
+      "selected": true
+    },
+    {
+      "text": "Someone is selling her lamp. It is still on her table.",
+      "words": 11,
+      "note": "Excellent contradiction, slightly longer, and names the object before the intrusion.",
+      "selected": false
+    },
+    {
+      "text": "The marketplace photo was taken inside her house.",
+      "words": 8,
+      "note": "Strong, but 'was taken inside' is a small extra step of reasoning.",
+      "selected": false
+    }
+  ],
+  "hook_rationale": "Hook 1 is the only one where the viewer's own recognition does the work. A shopping listing showing someone's private living room is understood instantly and in any market, and the intrusion lands before a single fact has been explained.",
+  "final_twist": "The lamp that arrived is the real one. Everything currently in her house is a replacement, and all of it has already been bought and delivered to somebody else.",
+  "music_mood": "Warm domestic strings that slowly lose their reverb until they sound like they are being played in a much smaller room. Total silence from 0:37 to 0:42, then one low hit on the last line.",
+  "sound_bed": "Clock tick, floorboards, tape peel, brass on wood, and marketplace notification tones used as rhythm.",
+  "youtube_title": "Someone Listed Her Lamp For Sale. It Was Still On Her Table.",
+  "description": "Original fiction - not a real event. A marketplace listing photographed inside her own living room, two weeks before she ever saw it. Part of an original digital-mystery series.",
+  "hashtags": [
+    "#shorts",
+    "#mystery",
+    "#strangestories"
+  ],
+  "pinned_comment": "Original fiction, written for this channel - no real listing and no real seller. She bought her own lamp back. Check the table lamp in the very first shot.",
+  "on_screen_fiction_tag": "FICTION tag, bottom corner, from 0:02 to end",
+  "synthetic_media_disclosure": "Tick YouTube altered/synthetic content disclosure if realistic AI footage is used."
+}

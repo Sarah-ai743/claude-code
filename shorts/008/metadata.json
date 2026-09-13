@@ -1,0 +1,45 @@
+{
+  "id": "008",
+  "concept_id": "PIX-004",
+  "working_title": "Nineteen Ninety-Eight",
+  "anomaly_class": "B1",
+  "twist_architecture": "G5",
+  "fiction_notice": "Original fiction. Not a real event, person, company or recording.",
+  "target_seconds": 47,
+  "voiceover_words": 112,
+  "estimated_seconds": 37.3,
+  "hooks": [
+    {
+      "text": "The 1998 tape has a flat screen in it.",
+      "words": 9,
+      "note": "Nine words. The anachronism does all the work and needs no explaining.",
+      "selected": true
+    },
+    {
+      "text": "There is a television in the old tape that did not exist yet.",
+      "words": 13,
+      "note": "Clearer but longer, and the phrase 'did not exist yet' explains the joke.",
+      "selected": false
+    },
+    {
+      "text": "Something in the corner of the old tape is showing today.",
+      "words": 11,
+      "note": "Atmospheric, but 'today' is vague until the reveal.",
+      "selected": false
+    }
+  ],
+  "hook_rationale": "Hook 1 trusts the audience. Anyone who has seen a 1998 living room knows a flat screen does not belong in one, so the viewer catches the anomaly themselves in under two seconds, which is far stronger than being told about it.",
+  "final_twist": "The screen in 1998 is showing the room where the tape is being watched, which means the party was looking at the viewer twenty-eight years before he sat down.",
+  "music_mood": "Warm nostalgic tape-saturated pad for the first fifteen seconds that curdles into a single held dissonance once the zoom begins. No music at all from 0:36, so the last eleven seconds are lamp buzz and tape noise.",
+  "sound_bed": "Camcorder warble, tape dropouts, capture-deck mechanism, anglepoise buzz, and one abrupt removal of all party sound.",
+  "youtube_title": "There Is A Flat Screen In The Background Of This 1998 Tape",
+  "description": "Original fiction - not a real event. A family birthday, a thin dark rectangle in the back corner, and an image on it that should not be possible. Part of an original digital-mystery series.",
+  "hashtags": [
+    "#shorts",
+    "#mystery",
+    "#analoghorror"
+  ],
+  "pinned_comment": "Original fiction, written for this channel - no real tape and no real family. Watch the back corner from the first second. Someone turns before he starts zooming.",
+  "on_screen_fiction_tag": "FICTION tag, bottom corner, from 0:02 to end",
+  "synthetic_media_disclosure": "Tick YouTube altered/synthetic content disclosure if realistic AI footage is used."
+}

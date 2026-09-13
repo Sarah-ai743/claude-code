@@ -1,0 +1,112 @@
+004 - One Step Closer
+============================================================
+Concept:       PH-003  (B5/G6)
+Target length: 46s
+Voiceover:     127 words (~42s at 3.0 w/s)
+Scenes:        10
+
+ORIGINAL FICTION. Not a real event, person, company or recording.
+
+------------------------------------------------------------
+1. ALTERNATIVE OPENING HOOKS
+------------------------------------------------------------
+  [1] "Delete the photo and it moves closer."  (7 words)  <-- SELECTED
+      Seven words. Contains the anomaly and the mechanism. Nothing to explain.
+  [2] "There is a photo of a hallway on his phone. He did not take it."  (15 words)
+      Solid, but spends the first two seconds on setup.
+  [3] "He has deleted the same photograph fourteen times."  (8 words)
+      Good rhythm, but the impossibility is only implied.
+
+2. HOOK SELECTION
+  Hook 1 is the shortest in the entire batch and the only one that states cause and effect together. It also invites the viewer to want him to delete it, which makes the escalation feel like their idea.
+
+------------------------------------------------------------
+3. VOICEOVER
+------------------------------------------------------------
+  Delete the photo and it moves closer.
+  He does not know whose hallway it is.
+  Grey carpet. One light. A door at the end.
+  He deletes it. Next morning it is back.
+  Same hallway. Two steps further in.
+  He deletes it again. Two more steps.
+  So he stops. He leaves it alone for a week.
+  It still moves. Slower. Only on the days he looks at it.
+  [BEAT] It is not the deleting. It is the attention.
+  By Friday the door at the end is open.
+  By Sunday it is a stairwell he recognises.
+  The last photo is his own front door. From the outside.
+  He is inside. The door is locked.
+  And in the corner of the frame, a hand is already holding up a phone.
+
+------------------------------------------------------------
+4/5/6. SCENES, CAPTIONS, VISUALS
+------------------------------------------------------------
+  SCENE  1  [ 0.0s -  2.0s]
+    CAPTION : Delete it. It moves CLOSER.
+    VISUAL  : A thumb swipes delete. The photo reappears instantly, a fraction deeper into the hallway.
+    SFX     : delete whoosh, sub-bass thud
+
+  SCENE  2  [ 2.0s -  7.0s]
+    CAPTION : He did not TAKE it
+    VISUAL  : The photo full screen: grey carpet, one ceiling light, a closed door at the far end.
+    SFX     : room tone, faint phone hum
+
+  SCENE  3  [ 7.0s - 12.0s]
+    CAPTION : TWO steps further in
+    VISUAL  : Two versions side by side, the second measurably deeper. A ruler line drawn between them.
+    SFX     : shutter click doubled
+
+  SCENE  4  [12.0s - 18.0s]
+    CAPTION : He deletes it AGAIN
+    VISUAL  : Rapid montage of deletions across days, the hallway advancing each time, timestamps flicking forward.
+    SFX     : stacked delete tones rising in pitch
+
+  SCENE  5  [18.0s - 24.0s]
+    CAPTION : So he STOPS
+    VISUAL  : The phone face down on a table for days. Dust settles. Light changes across it.
+    SFX     : time-lapse hush, distant traffic
+
+  SCENE  6  [24.0s - 30.0s]
+    CAPTION : Only when he LOOKS
+    VISUAL  : He glances at the screen. The image jumps forward in the instant his eyes land on it.
+    SFX     : single frame-jump click, held breath
+
+  SCENE  7  [30.0s - 36.0s]
+    CAPTION : The door is OPEN
+    VISUAL  : The far door now standing open onto blackness. Nothing visible beyond it.
+    SFX     : drone rises, room tone thins
+
+  SCENE  8  [36.0s - 41.0s]
+    CAPTION : A stairwell he KNOWS
+    VISUAL  : The photo is now his own building's stairwell, his own scuffed step, his own post.
+    SFX     : recognition sting, heartbeat low in mix
+
+  SCENE  9  [41.0s - 44.0s]
+    CAPTION : His OWN front door
+    VISUAL  : The photo shows his door, from outside, in the dark. He is behind it, holding the phone.
+    SFX     : silence, then one deadbolt click
+
+  SCENE 10  [44.0s - 46.0s]
+    CAPTION : A hand. Holding a PHONE.
+    VISUAL  : Crop into the corner of that photo: a hand at the edge of frame, already raising a phone.
+    SFX     : one camera shutter, cut to silence
+
+------------------------------------------------------------
+8/9. SOUND AND MUSIC
+------------------------------------------------------------
+  Music mood: No music for the first twenty seconds, only room tone. A single low pulse enters at 0:24 and doubles in speed every eight seconds until it stops dead on the final shutter.
+  Sound bed : Phone UI sounds used as percussion, deadbolt click, camera shutter, and two complete silences.
+
+------------------------------------------------------------
+10. FINAL TWIST
+------------------------------------------------------------
+  Deleting never moved the photograph. Looking did. The hallway has been walking toward him at the speed of his own attention, and it has arrived.
+
+------------------------------------------------------------
+11/12/13/14. PUBLISHING
+------------------------------------------------------------
+  Title      : Every Time He Deletes The Photo It Gets One Step Closer
+  Description: Original fiction - not a real event. A photograph he never took, a hallway he does not recognise, and a distance that closes every time he looks. Part of an original digital-mystery series.
+  Hashtags   : #shorts #mystery #scarystories
+  Pinned     : Original fiction, written for this channel - no real photo, no real hallway. It moves when someone looks at it. You just watched it nine times.
+

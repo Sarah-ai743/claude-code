@@ -1,0 +1,122 @@
+{
+  "id": "005",
+  "concept_id": "CAM-001",
+  "working_title": "The Hour Ahead",
+  "target_seconds": 48,
+  "aspect_ratio": "9:16",
+  "character_lock": "the same building manager, forties, glasses, fleece jacket over a shirt, clipboard or torch in hand, seen in a stripped office and a plant room",
+  "style_lock": "flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos",
+  "scene_count": 10,
+  "scenes": [
+    {
+      "n": 1,
+      "start": 0,
+      "end": 2,
+      "duration": 2,
+      "caption": "It already recorded TONIGHT",
+      "visual": "A file list where tomorrow's date already has an entry. Cursor hovering over it.",
+      "prompt": "A CCTV archive file list on a dim monitor where a future date already holds a recording, cursor hovering, cold interface. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "sharp digital sting",
+      "shot_change": "hard cut in"
+    },
+    {
+      "n": 2,
+      "start": 2,
+      "end": 7,
+      "duration": 5,
+      "caption": "02:00 to 03:00. ALWAYS.",
+      "visual": "Timestamp overlay ticking through the same hour. Empty office, stripped desks.",
+      "prompt": "Empty stripped office interior at night seen through a ceiling CCTV camera with a running timestamp overlay, flat infrared grey. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "IR filter click, low hum",
+      "shot_change": "cut"
+    },
+    {
+      "n": 3,
+      "start": 7,
+      "end": 13,
+      "duration": 6,
+      "caption": "So he TESTS it",
+      "visual": "He drags a chair two metres to the left, checks his watch. 02:15.",
+      "prompt": "A man in a fleece dragging an office chair across a dark empty office floor, torch on a desk, wristwatch visible. the same building manager, forties, glasses, fleece jacket over a shirt, clipboard or torch in hand, seen in a stripped office and a plant room. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "chair legs scraping lino",
+      "shot_change": "handheld"
+    },
+    {
+      "n": 4,
+      "start": 13,
+      "end": 19,
+      "duration": 6,
+      "caption": "YESTERDAY'S file shows it",
+      "visual": "He scrubs yesterday's recording. The chair moves on screen exactly as he just moved it.",
+      "prompt": "A man watching a CCTV playback on a laptop showing himself dragging a chair, his face lit by the screen, dark office. the same building manager, forties, glasses, fleece jacket over a shirt, clipboard or torch in hand, seen in a stripped office and a plant room. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "scrub whine, doubled chair scrape",
+      "shot_change": "cut"
+    },
+    {
+      "n": 5,
+      "start": 19,
+      "end": 25,
+      "duration": 6,
+      "caption": "Then he notices the ANGLE",
+      "visual": "Split diagram: the ceiling camera's cone versus the footage's actual viewpoint.",
+      "prompt": "A simple technical diagram overlay on a dark office showing a ceiling camera cone and a second lower viewpoint marked in red, schematic lines. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "drone enters, pen scratch",
+      "shot_change": "graphic overlay"
+    },
+    {
+      "n": 6,
+      "start": 25,
+      "end": 31,
+      "duration": 6,
+      "caption": "EYE LEVEL. Wrong wall.",
+      "visual": "He stands where the footage's viewpoint must be, palms flat on blank magnolia plaster.",
+      "prompt": "A man standing with both palms flat against a blank magnolia office wall at eye level, torchlight raking across the surface. the same building manager, forties, glasses, fleece jacket over a shirt, clipboard or torch in hand, seen in a stripped office and a plant room. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "palms on plaster, breathing",
+      "shot_change": "cut"
+    },
+    {
+      "n": 7,
+      "start": 31,
+      "end": 37,
+      "duration": 6,
+      "caption": "There is NO CAMERA there",
+      "visual": "Slow pan across unbroken plaster. No fittings, no cable run, no seams.",
+      "prompt": "Slow lateral pan across an unbroken plaster wall with no fittings or cable runs, raking torchlight, dust in the beam. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "silence except torch buzz",
+      "shot_change": "slow pan"
+    },
+    {
+      "n": 8,
+      "start": 37,
+      "end": 42,
+      "duration": 5,
+      "caption": "They open the WALL",
+      "visual": "A hammer breaks through. Dust. A dark cavity. Something inside reflects the torch.",
+      "prompt": "A hammer breaking through plasterboard revealing a dark wall cavity, dust cloud, a small glass lens catching torchlight inside. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "plaster crack, dust fall, one hum starting",
+      "shot_change": "impact cut"
+    },
+    {
+      "n": 9,
+      "start": 42,
+      "end": 46,
+      "duration": 4,
+      "caption": "Dust covered. STILL POWERED.",
+      "visual": "An old camera in the cavity, thick with dust, its indicator light steady red.",
+      "prompt": "An old dust-covered security camera inside a wall cavity with a steady red indicator light, cobwebs, close macro, torchlight. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "electrical hum rising",
+      "shot_change": "macro push"
+    },
+    {
+      "n": 10,
+      "start": 46,
+      "end": 48,
+      "duration": 2,
+      "caption": "Pointed at the NEW camera",
+      "visual": "Reverse angle: the old lens is aimed precisely at the modern camera in the ceiling corner.",
+      "prompt": "Reverse view from inside a wall cavity looking out at a modern ceiling-corner security camera perfectly centred in frame. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "hum cuts to total silence",
+      "shot_change": "reverse angle"
+    }
+  ]
+}

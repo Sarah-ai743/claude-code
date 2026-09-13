@@ -1,0 +1,45 @@
+{
+  "id": "007",
+  "concept_id": "PH-019",
+  "working_title": "Significant Locations",
+  "anomaly_class": "B2",
+  "twist_architecture": "G1",
+  "fiction_notice": "Original fiction. Not a real event, person, company or recording.",
+  "target_seconds": 48,
+  "voiceover_words": 113,
+  "estimated_seconds": 37.7,
+  "hooks": [
+    {
+      "text": "Two hundred hours at an address he's never been.",
+      "words": 9,
+      "note": "A number plus a contradiction. Nine words, instantly legible.",
+      "selected": true
+    },
+    {
+      "text": "His phone has a second home address.",
+      "words": 7,
+      "note": "Very short and eerie, but ambiguous enough to lose some viewers.",
+      "selected": false
+    },
+    {
+      "text": "Every Wednesday at two in the morning his phone goes somewhere.",
+      "words": 11,
+      "note": "Good rhythm, but the anomaly arrives too late in the line.",
+      "selected": false
+    }
+  ],
+  "hook_rationale": "Hook 1 gives the viewer a quantity to be shocked by and a contradiction to resolve, in one clause each. Hook 2 is shorter but requires the viewer to infer what a second home address means, and inference is slower than arithmetic.",
+  "final_twist": "The storage unit is real, rented and paid for in his name, and the hundreds of phones inside it have all been logging the same two hundred hours he has no memory of.",
+  "music_mood": "Low motorway drone that never resolves, built from road noise pitched down. One rising tone from 0:38 that stops without landing when the counter ticks.",
+  "sound_bed": "Road noise, strip-light buzz, roller door rattle, and a layered electronic hum that only appears once the unit is open.",
+  "youtube_title": "His Phone Logged 200 Hours At An Address He Has Never Visited",
+  "description": "Original fiction - not a real event. Every Wednesday, two until six in the morning, for two years, while he was asleep. Part of an original digital-mystery series.",
+  "hashtags": [
+    "#shorts",
+    "#mystery",
+    "#gps"
+  ],
+  "pinned_comment": "Original fiction, written for this channel - no real address and no real facility. All the phones are unlocked. Whose thumbprint opened them?",
+  "on_screen_fiction_tag": "FICTION tag, bottom corner, from 0:02 to end",
+  "synthetic_media_disclosure": "Tick YouTube altered/synthetic content disclosure if realistic AI footage is used."
+}

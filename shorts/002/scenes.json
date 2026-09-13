@@ -1,0 +1,122 @@
+{
+  "id": "002",
+  "concept_id": "CAM-009",
+  "working_title": "From Behind",
+  "target_seconds": 49,
+  "aspect_ratio": "9:16",
+  "character_lock": "the same night security guard, fifties, grey stubble, navy uniform shirt with the sleeves rolled, lanyard, seen from behind or in profile in a dim monitor room",
+  "style_lock": "green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos",
+  "scene_count": 10,
+  "scenes": [
+    {
+      "n": 1,
+      "start": 0,
+      "end": 2,
+      "duration": 2,
+      "caption": "No camera. FOOTAGE anyway.",
+      "visual": "A wall of CCTV monitors in a dark room. One monitor is black with a file icon on it.",
+      "prompt": "A wall of old CCTV monitors glowing in a dark security room, one screen black except a single file icon, scanlines, night. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "fluorescent hum, faint electrical buzz",
+      "shot_change": "hard cut in"
+    },
+    {
+      "n": 2,
+      "start": 2,
+      "end": 7,
+      "duration": 5,
+      "caption": "Normal folder. Normal NAME.",
+      "visual": "Screen recording of an archive folder, files listed by camera number, scrolling.",
+      "prompt": "Close-up of a security archive file listing on a dim CRT monitor, rows of camera folders, green-grey interface, heavy scanlines. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "mouse scroll, hard drive seek",
+      "shot_change": "cut"
+    },
+    {
+      "n": 3,
+      "start": 7,
+      "end": 12,
+      "duration": 5,
+      "caption": "There are ELEVEN cameras",
+      "visual": "He counts the monitors with a finger. Eleven live feeds. The twelfth screen is the file.",
+      "prompt": "A guard's hand counting along a row of CCTV monitors, eleven live feeds visible, one dark screen at the end, dim room. the same night security guard, fifties, grey stubble, navy uniform shirt with the sleeves rolled, lanyard, seen from behind or in profile in a dim monitor room. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "finger taps on glass, counted breaths",
+      "shot_change": "cut"
+    },
+    {
+      "n": 4,
+      "start": 12,
+      "end": 17,
+      "duration": 5,
+      "caption": "No lens. No CABLE.",
+      "visual": "Torch beam across a blank ceiling corner. Nothing mounted. Dust undisturbed.",
+      "prompt": "A torch beam sweeping across a bare ceiling corner in a dim room, no camera mounted, dust and cobwebs, harsh directional light. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "torch click, footsteps on lino",
+      "shot_change": "handheld"
+    },
+    {
+      "n": 5,
+      "start": 17,
+      "end": 23,
+      "duration": 6,
+      "caption": "It is HIM. From behind.",
+      "visual": "The file plays: the guard from behind, seated, watching the same wall of monitors.",
+      "prompt": "CCTV-style shot from behind a seated security guard facing a wall of monitors, grainy, low frame rate, green cast. the same night security guard, fifties, grey stubble, navy uniform shirt with the sleeves rolled, lanyard, seen from behind or in profile in a dim monitor room. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "video playback hiss, chair creak",
+      "shot_change": "match cut"
+    },
+    {
+      "n": 6,
+      "start": 23,
+      "end": 28,
+      "duration": 5,
+      "caption": "He turns. NOTHING there.",
+      "visual": "He spins in his chair toward the empty corner. Cut to the empty corner. Cut back.",
+      "prompt": "A security guard turning sharply in his chair to look behind him at an empty dim room corner, motion blur, fluorescent light. the same night security guard, fifties, grey stubble, navy uniform shirt with the sleeves rolled, lanyard, seen from behind or in profile in a dim monitor room. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "chair swivel, sudden silence",
+      "shot_change": "whip pan"
+    },
+    {
+      "n": 7,
+      "start": 28,
+      "end": 34,
+      "duration": 6,
+      "caption": "The footage turns TOO",
+      "visual": "Split screen: his real movement and the recorded movement, perfectly in step.",
+      "prompt": "Split screen of the same seated guard turning in his chair, one side live and one side degraded CCTV footage, identical motion. the same night security guard, fifties, grey stubble, navy uniform shirt with the sleeves rolled, lanyard, seen from behind or in profile in a dim monitor room. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "doubled chair creak, slight phase offset",
+      "shot_change": "split screen"
+    },
+    {
+      "n": 8,
+      "start": 34,
+      "end": 40,
+      "duration": 6,
+      "caption": "The monitors INSIDE it",
+      "visual": "Zoom into the footage's own monitor wall, which shows the same room from the same angle.",
+      "prompt": "Slow digital zoom into a CCTV image of a monitor wall which itself displays the same monitor wall, recursive nesting, heavy artefacting. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "digital zoom whine, drone rising",
+      "shot_change": "continuous zoom"
+    },
+    {
+      "n": 9,
+      "start": 40,
+      "end": 45,
+      "duration": 5,
+      "caption": "ELEVEN layers deep",
+      "visual": "Continuous recursive zoom, each layer more degraded, a counter in the corner climbing to eleven.",
+      "prompt": "Deep recursive zoom through nested monitor screens, each generation more degraded and darker, infinite corridor of screens. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "pitch-descending drone, counter ticks",
+      "shot_change": "continuous zoom"
+    },
+    {
+      "n": 10,
+      "start": 45,
+      "end": 49,
+      "duration": 4,
+      "caption": "The chair is EMPTY",
+      "visual": "Final layer: the same room, the chair empty, the door standing open behind it.",
+      "prompt": "A degraded CCTV frame of an empty office chair in front of a monitor wall, a door standing open in the darkness behind it. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "everything cuts to silence, one distant door knock",
+      "shot_change": "hard stop"
+    }
+  ]
+}

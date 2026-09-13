@@ -1,0 +1,24 @@
+# 006 - Still Online - IMAGE / VIDEO PROMPTS
+# 10 scenes | 9:16 vertical
+# CHARACTER LOCK: the same man, fifties, thinning hair, reading glasses pushed up, wool jumper, seen lit by a beige CRT monitor in a cluttered loft
+# STYLE LOCK: amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos
+
+[01] A beige CRT monitor flickering on in a dark dusty loft, green text already scrolling before the boot sequence ends, amber phosphor glow. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[02] Hands lifting a dusty yellowed desktop computer tower out of a drawer, tangled beige cables, loft storage clutter, dim light. the same man, fifties, thinning hair, reading glasses pushed up, wool jumper, seen lit by a beige CRT monitor in a cluttered loft. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[03] Fast-scrolling retro text chatroom log on a CRT screen, one username repeating down the left column, heavy scanlines and bloom. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[04] Extreme close-up of retro chat text on a curved CRT showing a repeated typing mistake, phosphor bleed, single characters filling frame. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[05] A man in his fifties lit only by an amber CRT, reading glasses reflecting scrolling text, mouth slightly open, dark loft behind. the same man, fifties, thinning hair, reading glasses pushed up, wool jumper, seen lit by a beige CRT monitor in a cluttered loft. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[06] A single highlighted line of retro chat text with a 1999 timestamp on a CRT screen, cursor blinking beside it, everything else dimmed. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[07] Individual words floating off a CRT screen into black space, retro phosphor glow trailing behind each character, dark void. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[08] A finger hovering above a worn beige keyboard enter key, a reply already visible on the CRT above, amber light on skin. the same man, fifties, thinning hair, reading glasses pushed up, wool jumper, seen lit by a beige CRT monitor in a cluttered loft. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[09] A modern phone lying beside a glowing CRT monitor, identical text on both screens, the phone slightly delayed, amber and blue light mixing. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[10] Two blinking text cursors on separate screens in darkness, one clearly lagging behind the other, tight macro framing. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.

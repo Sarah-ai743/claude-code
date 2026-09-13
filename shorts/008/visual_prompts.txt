@@ -1,0 +1,24 @@
+# 008 - Nineteen Ninety-Eight - IMAGE / VIDEO PROMPTS
+# 10 scenes | 9:16 vertical
+# CHARACTER LOCK: the same man, forties, close-cropped hair, plain dark shirt, seen at a desk in a beige-walled room with an anglepoise lamp and an open laptop
+# STYLE LOCK: two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos
+
+[01] Degraded 1990s camcorder footage of a family birthday party in a living room with date burn-in, a thin dark flat rectangle in the back corner, colour bleed. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[02] Handheld 1990s camcorder pan across birthday candles and blurred faces, heavy motion smear, a dark flat panel drifting through the background. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[03] Freeze frame of a 1990s living room with one anachronistic flat panel isolated in sharp focus, surrounding décor period accurate, video noise. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[04] A modern laptop and video capture rig connected to an old tape deck, digital zoom crawling into a degraded video frame, cold desk light. the same man, forties, close-cropped hair, plain dark shirt, seen at a desk in a beige-walled room with an anglepoise lamp and an open laptop. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[05] A heavily pixelated flat screen resolving out of video noise, faint image becoming visible on its surface, extreme digital magnification. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[06] A low-resolution image of a plain beige-walled modern room with an anglepoise lamp and an open laptop on a desk, seen through heavy video artefacting. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[07] Split comparison between a pixelated video still of a room and the identical real room shot cleanly, matching lamp and laptop positions. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[08] A man turning to look over his shoulder in a plain beige room lit by an anglepoise lamp, empty space behind him, clean modern cinematography. the same man, forties, close-cropped hair, plain dark shirt, seen at a desk in a beige-walled room with an anglepoise lamp and an open laptop. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[09] Degraded camcorder footage of party guests one by one turning their heads to look toward the back corner of the room, faces blurred by motion. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[10] A frozen degraded camcorder frame of a room of people all facing the camera directly, a faint modern face reflected over the image in a screen. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.

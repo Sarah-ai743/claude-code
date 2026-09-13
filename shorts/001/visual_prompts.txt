@@ -1,0 +1,24 @@
+# 001 - One Frame Longer - IMAGE / VIDEO PROMPTS
+# 10 scenes | 9:16 vertical
+# CHARACTER LOCK: the same man, late twenties, short dark hair, plain grey t-shirt, thin silver ring on his right hand, seen mostly as hands and a partial face lit by a monitor
+# STYLE LOCK: cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos
+
+[01] Extreme macro of a video player progress bar on a dark screen, duration counter frozen mid-tick, heavy pixel texture, cold blue monitor glow. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[02] A hand with a thin silver ring pointing at two identical file property windows on a dim monitor, cluttered desk, night. the same man, late twenties, short dark hair, plain grey t-shirt, thin silver ring on his right hand, seen mostly as hands and a partial face lit by a monitor. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[03] Close-up of a finger repeatedly pressing a play button on a keyboard, motion blur, monitor light flickering on skin, night interior. the same man, late twenties, short dark hair, plain grey t-shirt, thin silver ring on his right hand, seen mostly as hands and a partial face lit by a monitor. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[04] Static wide shot of an empty plain room with a bare window, dust in the air, security-camera flatness, muted colours. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[05] Time-lapse of sunlight moving across the bare floor of an empty room, long shadows rotating, unchanging furniture, cold light. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[06] A man's face lit only by a monitor at night, eyes reflecting scrolling numbers, exhausted, unblinking, tight vertical framing. the same man, late twenties, short dark hair, plain grey t-shirt, thin silver ring on his right hand, seen mostly as hands and a partial face lit by a monitor. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[07] Empty room shot with a large frame counter overlay racing upward, heavy compression artefacts, static composition. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[08] A door slowly opening into an empty plain room, seen from a fixed low-quality camera, deep shadow beyond the doorway. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[09] A seated figure in the centre of an empty room facing the camera directly, face in shadow, absolutely still, grainy footage. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[10] A paused video player on a black screen with a glowing replay icon, single frame counter ticking upward, nothing else visible. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.

@@ -1,0 +1,45 @@
+{
+  "id": "002",
+  "concept_id": "CAM-009",
+  "working_title": "From Behind",
+  "anomaly_class": "B6",
+  "twist_architecture": "G5",
+  "fiction_notice": "Original fiction. Not a real event, person, company or recording.",
+  "target_seconds": 49,
+  "voiceover_words": 116,
+  "estimated_seconds": 38.7,
+  "hooks": [
+    {
+      "text": "The room has no camera. The footage exists.",
+      "words": 8,
+      "note": "An absence and a contradiction in eight words. No setup needed.",
+      "selected": true
+    },
+    {
+      "text": "He is watching the monitors. Something is filming him doing it.",
+      "words": 11,
+      "note": "More atmospheric, but tells the viewer the answer a beat too early.",
+      "selected": false
+    },
+    {
+      "text": "The archive has a camera number that does not exist.",
+      "words": 10,
+      "note": "Good procedural hook, but abstract at second zero.",
+      "selected": false
+    }
+  ],
+  "hook_rationale": "Hook 1 pairs an absence with a contradiction in ten words and gives the viewer nothing to resolve except by staying. Hook 2 names the observer, which is the twist, and would spend the ending in the first two seconds.",
+  "final_twist": "The recursion is not a display error. Each layer is a real vantage point, and at the deepest one the guard is already gone and something has already left the room.",
+  "music_mood": "Single sustained low string tone, slowly detuning. No percussion. A pitch-descending drone enters at 0:34 and falls continuously through the recursive zoom, stopping dead at the final frame.",
+  "sound_bed": "Fluorescent hum, chair creak, hard drive seeks, and one complete silence at the last cut.",
+  "youtube_title": "There Is Footage From A Room That Has No Camera",
+  "description": "Original fiction - not a real event. A night guard finds a file in the archive from camera fourteen. The building has eleven cameras. Part of an original digital-mystery series.",
+  "hashtags": [
+    "#shorts",
+    "#mystery",
+    "#unexplained"
+  ],
+  "pinned_comment": "Original fiction, written for this channel - no real footage, no real building. Count the layers again on a rewatch. The door is open on more than one of them.",
+  "on_screen_fiction_tag": "FICTION tag, bottom corner, from 0:02 to end",
+  "synthetic_media_disclosure": "Tick YouTube altered/synthetic content disclosure if realistic AI footage is used."
+}

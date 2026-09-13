@@ -1,0 +1,24 @@
+# 003 - The Extra Room - IMAGE / VIDEO PROMPTS
+# 10 scenes | 9:16 vertical
+# CHARACTER LOCK: the same woman, late thirties, dark hair tied back, oversized cardigan, phone always in her left hand, seen in a warm-lit suburban hallway
+# STYLE LOCK: warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos
+
+[01] Phone screen close-up showing a minimal vector floor plan of a small house with one extra unexplained rectangular room, blue-on-dark interface. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[02] A woman standing in a dim domestic hallway looking down at a phone, face lit from below, cardigan, night, warm and cold light mixing. the same woman, late thirties, dark hair tied back, oversized cardigan, phone always in her left hand, seen in a warm-lit suburban hallway. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[03] A plain suburban hallway with a translucent blue floor-plan overlay showing a rectangular room inside the solid wall, night interior. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[04] A row of framed family photographs along a hallway wall, warm lamplight, the same blank plaster visible behind every frame. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[05] A metal tape measure stretched along a hallway wall and then against exterior brickwork, hands only, overcast daylight. the same woman, late thirties, dark hair tied back, oversized cardigan, phone always in her left hand, seen in a warm-lit suburban hallway. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[06] Scrolling app log of identical nightly cleaning entries with matching timestamps, dark interface, repeated rows blurring. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[07] A robot vacuum sitting motionless on its charging dock in a dark living room, a phone on the floor beside it showing an active timer. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[08] A hand cutting into a plaster wall with a utility knife, plaster dust in lamplight, a dark opening widening beyond. the same woman, late thirties, dark hair tied back, oversized cardigan, phone always in her left hand, seen in a warm-lit suburban hallway. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[09] Torchlight revealing a bare sealed rectangular room with a doorway-shaped opening and no door, clean empty floor, no dust. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[10] Extreme close-up of a perfectly clean bare floor inside a sealed room, plaster dust falling in the torch beam above it. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.

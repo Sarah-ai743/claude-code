@@ -1,0 +1,45 @@
+{
+  "id": "005",
+  "concept_id": "CAM-001",
+  "working_title": "The Hour Ahead",
+  "anomaly_class": "B7",
+  "twist_architecture": "G7",
+  "fiction_notice": "Original fiction. Not a real event, person, company or recording.",
+  "target_seconds": 48,
+  "voiceover_words": 117,
+  "estimated_seconds": 39.0,
+  "hooks": [
+    {
+      "text": "The camera has already recorded tonight.",
+      "words": 6,
+      "note": "Six words, a complete impossibility, zero setup. The strongest short hook in the batch.",
+      "selected": true
+    },
+    {
+      "text": "At six in the evening, the camera already has tonight's footage.",
+      "words": 11,
+      "note": "Clearer, but the clause order buries the strange part until the end.",
+      "selected": false
+    },
+    {
+      "text": "The camera records one hour of tomorrow. Every single day.",
+      "words": 10,
+      "note": "Good, but explains the rule before the viewer has felt the wrongness.",
+      "selected": false
+    }
+  ],
+  "hook_rationale": "Hook 1 lands the impossibility inside the first second and leaves a question the viewer cannot answer without the next line. The other two are more informative and less urgent, which is the wrong trade at second zero.",
+  "final_twist": "The footage is not from the future. It is from an older camera sealed inside the wall that has been recording the new camera, and everything it sees, a day before anyone else does.",
+  "music_mood": "Institutional quiet. A single fluorescent-pitched tone held throughout, bending very slowly downward. A second tone joins at 0:37 and the two beat against each other until the final cut.",
+  "sound_bed": "Infrared filter clicks, chair scrapes, plaster breaking, and an electrical hum that only becomes audible once the cavity is open.",
+  "youtube_title": "This Security Camera Records Tomorrow Night, One Hour At A Time",
+  "description": "Original fiction - not a real event. A camera that holds tomorrow's footage, but only ever from two until three in the morning, and only from an angle it cannot reach. Part of an original digital-mystery series.",
+  "hashtags": [
+    "#shorts",
+    "#mystery",
+    "#cctv"
+  ],
+  "pinned_comment": "Original fiction, written for this channel - no real building and no real footage. If the old camera is watching the new one, what has the new one been watching?",
+  "on_screen_fiction_tag": "FICTION tag, bottom corner, from 0:02 to end",
+  "synthetic_media_disclosure": "Tick YouTube altered/synthetic content disclosure if realistic AI footage is used."
+}

@@ -1,0 +1,113 @@
+003 - The Extra Room
+============================================================
+Concept:       HOME-005  (B2/G3)
+Target length: 47s
+Voiceover:     115 words (~38s at 3.0 w/s)
+Scenes:        10
+
+ORIGINAL FICTION. Not a real event, person, company or recording.
+
+------------------------------------------------------------
+1. ALTERNATIVE OPENING HOOKS
+------------------------------------------------------------
+  [1] "Four rooms in the house. The map shows five."  (9 words)  <-- SELECTED
+      Arithmetic. Fastest possible comprehension, and it travels across every market.
+  [2] "The robot vacuum has mapped a room the house does not have."  (12 words)
+      Very strong, slightly longer, and front-loads the device instead of the impossibility.
+  [3] "Every night the cleaner goes somewhere that is not in the house."  (12 words)
+      Atmospheric but vague at second zero.
+
+2. HOOK SELECTION
+  Hook 1 is arithmetic. It needs no technical knowledge, translates across every English-speaking market, and the viewer has spotted the impossibility themselves before the second sentence arrives, which is the strongest form of engagement available in two seconds.
+
+------------------------------------------------------------
+3. VOICEOVER
+------------------------------------------------------------
+  Four rooms in the house. The map shows five.
+  She checks the app again. Still five.
+  A clean rectangle. A doorway. Right where the hallway wall is.
+  She has lived here nine years.
+  She measures the hallway. There is nothing behind it.
+  The map does not change. It has been there for months.
+  Then she opens the travel log.
+  Twenty minutes in that room. Every night. Eleven forty.
+  So she sets an alarm.
+  At eleven forty the robot is on its dock. Not moving.
+  The log says it is cleaning.
+  [BEAT] So she cuts open the wall.
+  The room is there. Exactly as mapped.
+  Same size. Same doorway. No door.
+  And the floor is clean.
+
+------------------------------------------------------------
+4/5/6. SCENES, CAPTIONS, VISUALS
+------------------------------------------------------------
+  SCENE  1  [ 0.0s -  2.0s]
+    CAPTION : Four rooms. Map shows FIVE.
+    VISUAL  : Phone screen filling frame: a clean vector floor plan with one extra rectangle glowing.
+    SFX     : app chime, sharp sub hit
+
+  SCENE  2  [ 2.0s -  7.0s]
+    CAPTION : She checks AGAIN
+    VISUAL  : She refreshes. Same map. Her face lit from below by the phone in a dark hallway.
+    SFX     : pull-to-refresh click, house settling
+
+  SCENE  3  [ 7.0s - 12.0s]
+    CAPTION : Right where the WALL is
+    VISUAL  : Overlay of the map onto the real hallway. The extra rectangle sits inside solid plaster.
+    SFX     : low drone enters
+
+  SCENE  4  [12.0s - 17.0s]
+    CAPTION : NINE years here
+    VISUAL  : Quick flashes of family photos along the hallway, all with the same blank wall behind them.
+    SFX     : photo-flip whoosh, muted music swell
+
+  SCENE  5  [17.0s - 23.0s]
+    CAPTION : Nothing BEHIND it
+    VISUAL  : Tape measure pulled along the hallway, then against the outside of the house. The numbers match.
+    SFX     : tape measure snap and rewind
+
+  SCENE  6  [23.0s - 28.0s]
+    CAPTION : Every night. ELEVEN FORTY.
+    VISUAL  : Travel log list scrolling: identical entries, identical durations, months deep.
+    SFX     : scroll ticks accelerating
+
+  SCENE  7  [28.0s - 34.0s]
+    CAPTION : The robot is NOT MOVING
+    VISUAL  : The robot sits still on its dock. Her phone beside it says CLEANING with a timer running.
+    SFX     : dock charging hum, no motor
+
+  SCENE  8  [34.0s - 40.0s]
+    CAPTION : So she CUTS the wall
+    VISUAL  : Utility knife into plaster. Dust. A rectangle of darkness widening.
+    SFX     : blade through plaster, dust fall, silence
+
+  SCENE  9  [40.0s - 44.0s]
+    CAPTION : Exactly as MAPPED
+    VISUAL  : Torchlight reveals a bare rectangular room with a doorway shape and no door.
+    SFX     : reverb changes, breath
+
+  SCENE 10  [44.0s - 47.0s]
+    CAPTION : And the floor is CLEAN
+    VISUAL  : Tight on the spotless floor inside the sealed room while the hallway behind is thick with plaster dust.
+    SFX     : single sub-bass hit, hard silence
+
+------------------------------------------------------------
+8/9. SOUND AND MUSIC
+------------------------------------------------------------
+  Music mood: Warm domestic pad that slowly sours into a minor drone. Percussion only as household ticks. Everything drops out at 0:34 and only a single sub-bass hit returns at the final line.
+  Sound bed : House settling, charging dock hum, tape measure snap, plaster dust, and a reverb change when the sealed room opens.
+
+------------------------------------------------------------
+10. FINAL TWIST
+------------------------------------------------------------
+  The sealed room is real, it has been cleaned every night for months, and nothing in the house has ever been able to reach it.
+
+------------------------------------------------------------
+11/12/13/14. PUBLISHING
+------------------------------------------------------------
+  Title      : The Robot Vacuum Mapped A Room That Does Not Exist
+  Description: Original fiction - not a real event. A four-room house, a floor plan with five, and a cleaning log that fills in every night at eleven forty. Part of an original digital-mystery series.
+  Hashtags   : #shorts #mystery #smarthome
+  Pinned     : Original fiction, written for this channel - not a real house and not a real device. If the room has no door, what has been cleaning the floor?
+

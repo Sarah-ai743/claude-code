@@ -1,0 +1,122 @@
+{
+  "id": "003",
+  "concept_id": "HOME-005",
+  "working_title": "The Extra Room",
+  "target_seconds": 47,
+  "aspect_ratio": "9:16",
+  "character_lock": "the same woman, late thirties, dark hair tied back, oversized cardigan, phone always in her left hand, seen in a warm-lit suburban hallway",
+  "style_lock": "warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos",
+  "scene_count": 10,
+  "scenes": [
+    {
+      "n": 1,
+      "start": 0,
+      "end": 2,
+      "duration": 2,
+      "caption": "Four rooms. Map shows FIVE.",
+      "visual": "Phone screen filling frame: a clean vector floor plan with one extra rectangle glowing.",
+      "prompt": "Phone screen close-up showing a minimal vector floor plan of a small house with one extra unexplained rectangular room, blue-on-dark interface. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "app chime, sharp sub hit",
+      "shot_change": "hard cut in"
+    },
+    {
+      "n": 2,
+      "start": 2,
+      "end": 7,
+      "duration": 5,
+      "caption": "She checks AGAIN",
+      "visual": "She refreshes. Same map. Her face lit from below by the phone in a dark hallway.",
+      "prompt": "A woman standing in a dim domestic hallway looking down at a phone, face lit from below, cardigan, night, warm and cold light mixing. the same woman, late thirties, dark hair tied back, oversized cardigan, phone always in her left hand, seen in a warm-lit suburban hallway. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "pull-to-refresh click, house settling",
+      "shot_change": "cut"
+    },
+    {
+      "n": 3,
+      "start": 7,
+      "end": 12,
+      "duration": 5,
+      "caption": "Right where the WALL is",
+      "visual": "Overlay of the map onto the real hallway. The extra rectangle sits inside solid plaster.",
+      "prompt": "A plain suburban hallway with a translucent blue floor-plan overlay showing a rectangular room inside the solid wall, night interior. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "low drone enters",
+      "shot_change": "graphic overlay"
+    },
+    {
+      "n": 4,
+      "start": 12,
+      "end": 17,
+      "duration": 5,
+      "caption": "NINE years here",
+      "visual": "Quick flashes of family photos along the hallway, all with the same blank wall behind them.",
+      "prompt": "A row of framed family photographs along a hallway wall, warm lamplight, the same blank plaster visible behind every frame. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "photo-flip whoosh, muted music swell",
+      "shot_change": "rapid cuts"
+    },
+    {
+      "n": 5,
+      "start": 17,
+      "end": 23,
+      "duration": 6,
+      "caption": "Nothing BEHIND it",
+      "visual": "Tape measure pulled along the hallway, then against the outside of the house. The numbers match.",
+      "prompt": "A metal tape measure stretched along a hallway wall and then against exterior brickwork, hands only, overcast daylight. the same woman, late thirties, dark hair tied back, oversized cardigan, phone always in her left hand, seen in a warm-lit suburban hallway. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "tape measure snap and rewind",
+      "shot_change": "cut"
+    },
+    {
+      "n": 6,
+      "start": 23,
+      "end": 28,
+      "duration": 5,
+      "caption": "Every night. ELEVEN FORTY.",
+      "visual": "Travel log list scrolling: identical entries, identical durations, months deep.",
+      "prompt": "Scrolling app log of identical nightly cleaning entries with matching timestamps, dark interface, repeated rows blurring. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "scroll ticks accelerating",
+      "shot_change": "cut"
+    },
+    {
+      "n": 7,
+      "start": 28,
+      "end": 34,
+      "duration": 6,
+      "caption": "The robot is NOT MOVING",
+      "visual": "The robot sits still on its dock. Her phone beside it says CLEANING with a timer running.",
+      "prompt": "A robot vacuum sitting motionless on its charging dock in a dark living room, a phone on the floor beside it showing an active timer. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "dock charging hum, no motor",
+      "shot_change": "locked-off shot"
+    },
+    {
+      "n": 8,
+      "start": 34,
+      "end": 40,
+      "duration": 6,
+      "caption": "So she CUTS the wall",
+      "visual": "Utility knife into plaster. Dust. A rectangle of darkness widening.",
+      "prompt": "A hand cutting into a plaster wall with a utility knife, plaster dust in lamplight, a dark opening widening beyond. the same woman, late thirties, dark hair tied back, oversized cardigan, phone always in her left hand, seen in a warm-lit suburban hallway. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "blade through plaster, dust fall, silence",
+      "shot_change": "handheld close"
+    },
+    {
+      "n": 9,
+      "start": 40,
+      "end": 44,
+      "duration": 4,
+      "caption": "Exactly as MAPPED",
+      "visual": "Torchlight reveals a bare rectangular room with a doorway shape and no door.",
+      "prompt": "Torchlight revealing a bare sealed rectangular room with a doorway-shaped opening and no door, clean empty floor, no dust. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "reverb changes, breath",
+      "shot_change": "reveal push"
+    },
+    {
+      "n": 10,
+      "start": 44,
+      "end": 47,
+      "duration": 3,
+      "caption": "And the floor is CLEAN",
+      "visual": "Tight on the spotless floor inside the sealed room while the hallway behind is thick with plaster dust.",
+      "prompt": "Extreme close-up of a perfectly clean bare floor inside a sealed room, plaster dust falling in the torch beam above it. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "single sub-bass hit, hard silence",
+      "shot_change": "cut to black"
+    }
+  ]
+}

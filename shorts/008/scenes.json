@@ -1,0 +1,122 @@
+{
+  "id": "008",
+  "concept_id": "PIX-004",
+  "working_title": "Nineteen Ninety-Eight",
+  "target_seconds": 47,
+  "aspect_ratio": "9:16",
+  "character_lock": "the same man, forties, close-cropped hair, plain dark shirt, seen at a desk in a beige-walled room with an anglepoise lamp and an open laptop",
+  "style_lock": "two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos",
+  "scene_count": 10,
+  "scenes": [
+    {
+      "n": 1,
+      "start": 0,
+      "end": 2,
+      "duration": 2,
+      "caption": "1998. A FLAT screen.",
+      "visual": "Camcorder footage of a birthday party. A thin dark rectangle sits wrong in the back corner.",
+      "prompt": "Degraded 1990s camcorder footage of a family birthday party in a living room with date burn-in, a thin dark flat rectangle in the back corner, colour bleed. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "tape warble, muffled party noise",
+      "shot_change": "hard cut in"
+    },
+    {
+      "n": 2,
+      "start": 2,
+      "end": 8,
+      "duration": 6,
+      "caption": "Behind the CAKE",
+      "visual": "The camcorder pans past candles and faces; the rectangle passes through frame twice.",
+      "prompt": "Handheld 1990s camcorder pan across birthday candles and blurred faces, heavy motion smear, a dark flat panel drifting through the background. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "singing, tape hiss, dropout crackle",
+      "shot_change": "handheld pan"
+    },
+    {
+      "n": 3,
+      "start": 8,
+      "end": 13,
+      "duration": 5,
+      "caption": "Wrong by FIFTEEN years",
+      "visual": "Freeze frame with the rectangle isolated. Everything else in the room is period correct.",
+      "prompt": "Freeze frame of a 1990s living room with one anachronistic flat panel isolated in sharp focus, surrounding décor period accurate, video noise. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "freeze click, drone enters",
+      "shot_change": "freeze"
+    },
+    {
+      "n": 4,
+      "start": 13,
+      "end": 19,
+      "duration": 6,
+      "caption": "He ZOOMS in",
+      "visual": "Modern capture rig, tape deck spinning, digital zoom crawling into the corner pixel by pixel.",
+      "prompt": "A modern laptop and video capture rig connected to an old tape deck, digital zoom crawling into a degraded video frame, cold desk light. the same man, forties, close-cropped hair, plain dark shirt, seen at a desk in a beige-walled room with an anglepoise lamp and an open laptop. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "tape deck mechanism, digital zoom whine",
+      "shot_change": "cut"
+    },
+    {
+      "n": 5,
+      "start": 19,
+      "end": 25,
+      "duration": 6,
+      "caption": "The screen is ON",
+      "visual": "The rectangle resolves: it is lit, and there is an image on it.",
+      "prompt": "A heavily pixelated flat screen resolving out of video noise, faint image becoming visible on its surface, extreme digital magnification. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "noise floor rising, hum",
+      "shot_change": "continuous zoom"
+    },
+    {
+      "n": 6,
+      "start": 25,
+      "end": 31,
+      "duration": 6,
+      "caption": "Beige walls. A DESK.",
+      "visual": "The image on the 1998 screen: a modern room, anglepoise lamp, open laptop.",
+      "prompt": "A low-resolution image of a plain beige-walled modern room with an anglepoise lamp and an open laptop on a desk, seen through heavy video artefacting. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "everything drops to a single tone",
+      "shot_change": "cut"
+    },
+    {
+      "n": 7,
+      "start": 31,
+      "end": 36,
+      "duration": 5,
+      "caption": "It is THIS room",
+      "visual": "Hard cut between the pixelated image and the real room he is sitting in. Identical.",
+      "prompt": "Split comparison between a pixelated video still of a room and the identical real room shot cleanly, matching lamp and laptop positions. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "two hard cuts, silence between",
+      "shot_change": "match cut"
+    },
+    {
+      "n": 8,
+      "start": 36,
+      "end": 41,
+      "duration": 5,
+      "caption": "He looks UP. Nothing.",
+      "visual": "He turns in his chair. The room behind him is empty. Lamp buzzing.",
+      "prompt": "A man turning to look over his shoulder in a plain beige room lit by an anglepoise lamp, empty space behind him, clean modern cinematography. the same man, forties, close-cropped hair, plain dark shirt, seen at a desk in a beige-walled room with an anglepoise lamp and an open laptop. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "chair creak, lamp buzz, no music",
+      "shot_change": "cut"
+    },
+    {
+      "n": 9,
+      "start": 41,
+      "end": 45,
+      "duration": 4,
+      "caption": "They all TURN",
+      "visual": "Back in 1998: one face, then another, then the whole party turning toward the corner screen.",
+      "prompt": "Degraded camcorder footage of party guests one by one turning their heads to look toward the back corner of the room, faces blurred by motion. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "party noise cutting out abruptly",
+      "shot_change": "series of quick cuts"
+    },
+    {
+      "n": 10,
+      "start": 45,
+      "end": 47,
+      "duration": 2,
+      "caption": "Looking at HIM",
+      "visual": "Every face in 1998 held still, facing camera. His own face in the laptop reflection over the top.",
+      "prompt": "A frozen degraded camcorder frame of a room of people all facing the camera directly, a faint modern face reflected over the image in a screen. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "one tape stop clunk, silence",
+      "shot_change": "freeze to black"
+    }
+  ]
+}

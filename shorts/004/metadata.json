@@ -1,0 +1,45 @@
+{
+  "id": "004",
+  "concept_id": "PH-003",
+  "working_title": "One Step Closer",
+  "anomaly_class": "B5",
+  "twist_architecture": "G6",
+  "fiction_notice": "Original fiction. Not a real event, person, company or recording.",
+  "target_seconds": 46,
+  "voiceover_words": 127,
+  "estimated_seconds": 42.3,
+  "hooks": [
+    {
+      "text": "Delete the photo and it moves closer.",
+      "words": 7,
+      "note": "Seven words. Contains the anomaly and the mechanism. Nothing to explain.",
+      "selected": true
+    },
+    {
+      "text": "There is a photo of a hallway on his phone. He did not take it.",
+      "words": 15,
+      "note": "Solid, but spends the first two seconds on setup.",
+      "selected": false
+    },
+    {
+      "text": "He has deleted the same photograph fourteen times.",
+      "words": 8,
+      "note": "Good rhythm, but the impossibility is only implied.",
+      "selected": false
+    }
+  ],
+  "hook_rationale": "Hook 1 is the shortest in the entire batch and the only one that states cause and effect together. It also invites the viewer to want him to delete it, which makes the escalation feel like their idea.",
+  "final_twist": "Deleting never moved the photograph. Looking did. The hallway has been walking toward him at the speed of his own attention, and it has arrived.",
+  "music_mood": "No music for the first twenty seconds, only room tone. A single low pulse enters at 0:24 and doubles in speed every eight seconds until it stops dead on the final shutter.",
+  "sound_bed": "Phone UI sounds used as percussion, deadbolt click, camera shutter, and two complete silences.",
+  "youtube_title": "Every Time He Deletes The Photo It Gets One Step Closer",
+  "description": "Original fiction - not a real event. A photograph he never took, a hallway he does not recognise, and a distance that closes every time he looks. Part of an original digital-mystery series.",
+  "hashtags": [
+    "#shorts",
+    "#mystery",
+    "#scarystories"
+  ],
+  "pinned_comment": "Original fiction, written for this channel - no real photo, no real hallway. It moves when someone looks at it. You just watched it nine times.",
+  "on_screen_fiction_tag": "FICTION tag, bottom corner, from 0:02 to end",
+  "synthetic_media_disclosure": "Tick YouTube altered/synthetic content disclosure if realistic AI footage is used."
+}

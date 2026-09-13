@@ -1,0 +1,122 @@
+{
+  "id": "009",
+  "concept_id": "EXP-001",
+  "working_title": "Sold From Your House",
+  "target_seconds": 47,
+  "aspect_ratio": "9:16",
+  "character_lock": "the same woman, forties, short greying hair, glasses on a cord, cardigan, seen in a cluttered warm living room with a brass table lamp",
+  "style_lock": "warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos",
+  "scene_count": 10,
+  "scenes": [
+    {
+      "n": 1,
+      "start": 0,
+      "end": 2,
+      "duration": 2,
+      "caption": "That is HER living room",
+      "visual": "Phone marketplace listing filling frame: a brass lamp photographed on a familiar cluttered table.",
+      "prompt": "A phone marketplace listing showing a brass table lamp photographed in a warm cluttered living room, amateur snapshot lighting, listing interface. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "notification ping, sub hit",
+      "shot_change": "hard cut in"
+    },
+    {
+      "n": 2,
+      "start": 2,
+      "end": 8,
+      "duration": 6,
+      "caption": "Her lamp. Her WINDOW.",
+      "visual": "Cut between the listing photo and the real room. Identical curtain fold, identical clutter.",
+      "prompt": "Side by side comparison of a listing photograph and a real living room, identical curtain folds and objects, warm domestic light. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "two-tone cut, clock ticking",
+      "shot_change": "A/B cut"
+    },
+    {
+      "n": 3,
+      "start": 8,
+      "end": 13,
+      "duration": 5,
+      "caption": "Seller has NO NAME",
+      "visual": "Scrolling the seller profile: blank avatar, no reviews, no other listings, joined today.",
+      "prompt": "A blank marketplace seller profile on a phone screen with an empty avatar, no reviews and no listings, cold interface on a dark background. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "scroll ticks, drone entering",
+      "shot_change": "cut"
+    },
+    {
+      "n": 4,
+      "start": 13,
+      "end": 19,
+      "duration": 6,
+      "caption": "Taken from the DOORWAY",
+      "visual": "She stands in the doorway holding the phone up, matching the photo's exact angle.",
+      "prompt": "A woman standing in a living room doorway holding a phone up to match a photograph's angle, warm lamplight, from behind her shoulder. the same woman, forties, short greying hair, glasses on a cord, cardigan, seen in a cluttered warm living room with a brass table lamp. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "footsteps, floorboard creak",
+      "shot_change": "cut"
+    },
+    {
+      "n": 5,
+      "start": 19,
+      "end": 25,
+      "duration": 6,
+      "caption": "So she BUYS it",
+      "visual": "Thumb on the buy button. Confirmation screen. Delivery estimate: Thursday.",
+      "prompt": "A thumb pressing a purchase confirmation button on a phone, order confirmed screen with a delivery date, warm room reflected in the glass. the same woman, forties, short greying hair, glasses on a cord, cardigan, seen in a cluttered warm living room with a brass table lamp. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "purchase chime, held silence after",
+      "shot_change": "macro cut"
+    },
+    {
+      "n": 6,
+      "start": 25,
+      "end": 31,
+      "duration": 6,
+      "caption": "The parcel ARRIVES",
+      "visual": "A plain box on the doormat. She opens it at the table. Brown paper, no label.",
+      "prompt": "A plain unlabelled cardboard parcel being opened on a wooden table, brown paper packing, warm window light, hands only. the same woman, forties, short greying hair, glasses on a cord, cardigan, seen in a cluttered warm living room with a brass table lamp. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "tape peel, paper rustle",
+      "shot_change": "cut"
+    },
+    {
+      "n": 7,
+      "start": 31,
+      "end": 37,
+      "duration": 6,
+      "caption": "The CHIP on the base",
+      "visual": "Macro on the delivered lamp: a chipped brass base, a cable repaired with old tape.",
+      "prompt": "Macro shot of a chipped brass lamp base and a power cable repaired with yellowed tape, warm soft light, shallow focus. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "brass on wood, drone thickening",
+      "shot_change": "macro"
+    },
+    {
+      "n": 8,
+      "start": 37,
+      "end": 42,
+      "duration": 5,
+      "caption": "The table lamp is NEW",
+      "visual": "Pan from the delivered lamp to the one on the table: flawless, unchipped, unrepaired.",
+      "prompt": "Slow pan between two identical brass table lamps, one worn and chipped and one flawless and new, same warm living room light. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "pan whoosh, sudden silence",
+      "shot_change": "slow pan"
+    },
+    {
+      "n": 9,
+      "start": 42,
+      "end": 45,
+      "duration": 3,
+      "caption": "EVERY object she owns",
+      "visual": "Fast montage of household objects, each flashing a purchase-history overlay and a date.",
+      "prompt": "Rapid montage of ordinary household objects each overlaid with a small clinical purchase record and date stamp, warm interior, cold overlays. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "rapid stacked notification tones",
+      "shot_change": "rapid cut montage"
+    },
+    {
+      "n": 10,
+      "start": 45,
+      "end": 47,
+      "duration": 2,
+      "caption": "None of the buyers are HER",
+      "visual": "A purchase list scrolling, every buyer name blurred, her own name nowhere on it.",
+      "prompt": "A scrolling purchase history list with every buyer name obscured, one empty highlighted row, clinical interface on black. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "scroll stops dead, single low hit",
+      "shot_change": "cut to black"
+    }
+  ]
+}

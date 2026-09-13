@@ -1,0 +1,45 @@
+{
+  "id": "006",
+  "concept_id": "EXP-005",
+  "working_title": "Still Online",
+  "anomaly_class": "B5",
+  "twist_architecture": "G7",
+  "fiction_notice": "Original fiction. Not a real event, person, company or recording.",
+  "target_seconds": 47,
+  "voiceover_words": 114,
+  "estimated_seconds": 38.0,
+  "hooks": [
+    {
+      "text": "Two hundred thousand messages. Every one of them his.",
+      "words": 9,
+      "note": "Good volume shock, but the impossibility is only implied.",
+      "selected": false
+    },
+    {
+      "text": "He boots the old computer. The conversation never stopped.",
+      "words": 9,
+      "note": "Nine words, cause and impossibility together, no technical knowledge needed.",
+      "selected": true
+    },
+    {
+      "text": "The machine has been in a drawer since 2001. It is still logged in.",
+      "words": 14,
+      "note": "Strong, but too long to land inside the first two seconds.",
+      "selected": false
+    }
+  ],
+  "hook_rationale": "Hook 2 puts an ordinary action and an impossible result in the same breath, and the word 'stopped' implies a duration the viewer immediately wants measured. Hook 3 says the same thing with five more words, which is five words too many at second zero.",
+  "final_twist": "The chatroom is not an old conversation still running. It is the live one, and everything the man has said online for twenty-five years has been a delayed copy of it.",
+  "music_mood": "A single warm analogue drone that sounds like hardware rather than music, sitting just under the CRT hum. It drops out entirely at 0:31 and does not return, so the last sixteen seconds run on room tone and cursor clicks.",
+  "sound_bed": "CRT degauss, fan hum, mechanical keyboard, and a deliberate three-second delay applied to every modern sound in the final shots.",
+  "youtube_title": "He Turned On A Computer From 2001 And The Chat Was Still Going",
+  "description": "Original fiction - not a real event. Two hundred thousand messages, all in his own handwriting, all saying things he had not thought of yet. Part of an original digital-mystery series.",
+  "hashtags": [
+    "#shorts",
+    "#mystery",
+    "#retrotech"
+  ],
+  "pinned_comment": "Original fiction, written for this channel - no real machine and no real chatroom. If he is three seconds behind, which one of them typed this comment first?",
+  "on_screen_fiction_tag": "FICTION tag, bottom corner, from 0:02 to end",
+  "synthetic_media_disclosure": "Tick YouTube altered/synthetic content disclosure if realistic AI footage is used."
+}

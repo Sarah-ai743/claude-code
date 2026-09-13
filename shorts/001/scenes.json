@@ -1,0 +1,122 @@
+{
+  "id": "001",
+  "concept_id": "PIX-002",
+  "working_title": "One Frame Longer",
+  "target_seconds": 48,
+  "aspect_ratio": "9:16",
+  "character_lock": "the same man, late twenties, short dark hair, plain grey t-shirt, thin silver ring on his right hand, seen mostly as hands and a partial face lit by a monitor",
+  "style_lock": "cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos",
+  "scene_count": 10,
+  "scenes": [
+    {
+      "n": 1,
+      "start": 0,
+      "end": 2,
+      "duration": 2,
+      "caption": "One frame LONGER",
+      "visual": "Extreme macro on a video scrubber. The duration readout ticks up by a single frame. Phone-screen glow.",
+      "prompt": "Extreme macro of a video player progress bar on a dark screen, duration counter frozen mid-tick, heavy pixel texture, cold blue monitor glow. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "single dry UI click, low sub drop",
+      "shot_change": "hard cut in"
+    },
+    {
+      "n": 2,
+      "start": 2,
+      "end": 7,
+      "duration": 5,
+      "caption": "Same file. Same HASH.",
+      "visual": "File properties panel. Size and checksum identical across two windows side by side. His hand enters frame to point.",
+      "prompt": "A hand with a thin silver ring pointing at two identical file property windows on a dim monitor, cluttered desk, night. the same man, late twenties, short dark hair, plain grey t-shirt, thin silver ring on his right hand, seen mostly as hands and a partial face lit by a monitor. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "hard drive tick, keyboard tap",
+      "shot_change": "cut"
+    },
+    {
+      "n": 3,
+      "start": 7,
+      "end": 12,
+      "duration": 5,
+      "caption": "He plays it ELEVEN times",
+      "visual": "Fast rhythmic cuts of a finger hitting play, eleven times, each cut slightly tighter on the screen.",
+      "prompt": "Close-up of a finger repeatedly pressing a play button on a keyboard, motion blur, monitor light flickering on skin, night interior. the same man, late twenties, short dark hair, plain grey t-shirt, thin silver ring on his right hand, seen mostly as hands and a partial face lit by a monitor. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "eleven overlapping play clicks building into one tone",
+      "shot_change": "rapid cut montage"
+    },
+    {
+      "n": 4,
+      "start": 12,
+      "end": 17,
+      "duration": 5,
+      "caption": "The new frames are a ROOM",
+      "visual": "The appended frames fill the screen: a plain empty room, static camera, window at the left.",
+      "prompt": "Static wide shot of an empty plain room with a bare window, dust in the air, security-camera flatness, muted colours. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "tape hiss, distant room tone",
+      "shot_change": "match cut into the footage"
+    },
+    {
+      "n": 5,
+      "start": 17,
+      "end": 23,
+      "duration": 6,
+      "caption": "EMPTY. Still. Waiting.",
+      "visual": "Time-lapse of the window light shifting across the empty floor while the frame counter climbs.",
+      "prompt": "Time-lapse of sunlight moving across the bare floor of an empty room, long shadows rotating, unchanging furniture, cold light. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "rising low drone under a ticking frame counter",
+      "shot_change": "dissolve"
+    },
+    {
+      "n": 6,
+      "start": 23,
+      "end": 28,
+      "duration": 5,
+      "caption": "FOUR HUNDRED plays",
+      "visual": "His face in monitor light, unblinking, as reflected frame counts race in his glasses.",
+      "prompt": "A man's face lit only by a monitor at night, eyes reflecting scrolling numbers, exhausted, unblinking, tight vertical framing. the same man, late twenties, short dark hair, plain grey t-shirt, thin silver ring on his right hand, seen mostly as hands and a partial face lit by a monitor. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "click loop compressed into a stutter",
+      "shot_change": "cut"
+    },
+    {
+      "n": 7,
+      "start": 28,
+      "end": 33,
+      "duration": 5,
+      "caption": "Ten thousand EMPTY frames",
+      "visual": "Frame counter racing past ten thousand over the unchanging empty room.",
+      "prompt": "Empty room shot with a large frame counter overlay racing upward, heavy compression artefacts, static composition. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "counter whirr, everything else muted",
+      "shot_change": "cut"
+    },
+    {
+      "n": 8,
+      "start": 33,
+      "end": 39,
+      "duration": 6,
+      "caption": "Then the DOOR opens",
+      "visual": "In the footage, the far door swings inward. Half a second of total silence before it moves.",
+      "prompt": "A door slowly opening into an empty plain room, seen from a fixed low-quality camera, deep shadow beyond the doorway. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "total silence, then a single wooden creak",
+      "shot_change": "hold, no cut"
+    },
+    {
+      "n": 9,
+      "start": 39,
+      "end": 44,
+      "duration": 5,
+      "caption": "It moves when you WATCH",
+      "visual": "A figure sits in a chair in the centre of the room and turns to face the lens. Held still.",
+      "prompt": "A seated figure in the centre of an empty room facing the camera directly, face in shadow, absolutely still, grainy footage. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "sub-bass swell, room tone drops out",
+      "shot_change": "slow push in"
+    },
+    {
+      "n": 10,
+      "start": 44,
+      "end": 48,
+      "duration": 4,
+      "caption": "YOUR turn.",
+      "visual": "Cut to black except the video player, paused, with the replay button pulsing. Duration ticks up once more.",
+      "prompt": "A paused video player on a black screen with a glowing replay icon, single frame counter ticking upward, nothing else visible. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "one dry click, then silence",
+      "shot_change": "cut to black"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+009 - Sold From Your House
+============================================================
+Concept:       EXP-001  (B8/G3)
+Target length: 47s
+Voiceover:     113 words (~38s at 3.0 w/s)
+Scenes:        10
+
+ORIGINAL FICTION. Not a real event, person, company or recording.
+
+------------------------------------------------------------
+1. ALTERNATIVE OPENING HOOKS
+------------------------------------------------------------
+  [1] "The listing is a photo of her living room."  (9 words)  <-- SELECTED
+      Nine words, immediately visual, and the violation is obvious without explanation.
+  [2] "Someone is selling her lamp. It is still on her table."  (11 words)
+      Excellent contradiction, slightly longer, and names the object before the intrusion.
+  [3] "The marketplace photo was taken inside her house."  (8 words)
+      Strong, but 'was taken inside' is a small extra step of reasoning.
+
+2. HOOK SELECTION
+  Hook 1 is the only one where the viewer's own recognition does the work. A shopping listing showing someone's private living room is understood instantly and in any market, and the intrusion lands before a single fact has been explained.
+
+------------------------------------------------------------
+3. VOICEOVER
+------------------------------------------------------------
+  The listing is a photo of her living room.
+  Her lamp. Her table. Her window behind it.
+  Posted two weeks ago. The seller has no name.
+  The lamp is still on the table.
+  She checks the angle. It is from the doorway.
+  Nobody has been in that room but her.
+  So she buys it.
+  [BEAT] The parcel arrives on Thursday.
+  It is her lamp. The chip on the base. The taped cable.
+  She turns to the table.
+  The lamp there is perfect. New. Unmarked.
+  So she searches the rest of the house.
+  Every object she owns is in somebody's purchase history.
+  Bought years ago. Delivered years ago.
+  None of the buyers are her.
+
+------------------------------------------------------------
+4/5/6. SCENES, CAPTIONS, VISUALS
+------------------------------------------------------------
+  SCENE  1  [ 0.0s -  2.0s]
+    CAPTION : That is HER living room
+    VISUAL  : Phone marketplace listing filling frame: a brass lamp photographed on a familiar cluttered table.
+    SFX     : notification ping, sub hit
+
+  SCENE  2  [ 2.0s -  8.0s]
+    CAPTION : Her lamp. Her WINDOW.
+    VISUAL  : Cut between the listing photo and the real room. Identical curtain fold, identical clutter.
+    SFX     : two-tone cut, clock ticking
+
+  SCENE  3  [ 8.0s - 13.0s]
+    CAPTION : Seller has NO NAME
+    VISUAL  : Scrolling the seller profile: blank avatar, no reviews, no other listings, joined today.
+    SFX     : scroll ticks, drone entering
+
+  SCENE  4  [13.0s - 19.0s]
+    CAPTION : Taken from the DOORWAY
+    VISUAL  : She stands in the doorway holding the phone up, matching the photo's exact angle.
+    SFX     : footsteps, floorboard creak
+
+  SCENE  5  [19.0s - 25.0s]
+    CAPTION : So she BUYS it
+    VISUAL  : Thumb on the buy button. Confirmation screen. Delivery estimate: Thursday.
+    SFX     : purchase chime, held silence after
+
+  SCENE  6  [25.0s - 31.0s]
+    CAPTION : The parcel ARRIVES
+    VISUAL  : A plain box on the doormat. She opens it at the table. Brown paper, no label.
+    SFX     : tape peel, paper rustle
+
+  SCENE  7  [31.0s - 37.0s]
+    CAPTION : The CHIP on the base
+    VISUAL  : Macro on the delivered lamp: a chipped brass base, a cable repaired with old tape.
+    SFX     : brass on wood, drone thickening
+
+  SCENE  8  [37.0s - 42.0s]
+    CAPTION : The table lamp is NEW
+    VISUAL  : Pan from the delivered lamp to the one on the table: flawless, unchipped, unrepaired.
+    SFX     : pan whoosh, sudden silence
+
+  SCENE  9  [42.0s - 45.0s]
+    CAPTION : EVERY object she owns
+    VISUAL  : Fast montage of household objects, each flashing a purchase-history overlay and a date.
+    SFX     : rapid stacked notification tones
+
+  SCENE 10  [45.0s - 47.0s]
+    CAPTION : None of the buyers are HER
+    VISUAL  : A purchase list scrolling, every buyer name blurred, her own name nowhere on it.
+    SFX     : scroll stops dead, single low hit
+
+------------------------------------------------------------
+8/9. SOUND AND MUSIC
+------------------------------------------------------------
+  Music mood: Warm domestic strings that slowly lose their reverb until they sound like they are being played in a much smaller room. Total silence from 0:37 to 0:42, then one low hit on the last line.
+  Sound bed : Clock tick, floorboards, tape peel, brass on wood, and marketplace notification tones used as rhythm.
+
+------------------------------------------------------------
+10. FINAL TWIST
+------------------------------------------------------------
+  The lamp that arrived is the real one. Everything currently in her house is a replacement, and all of it has already been bought and delivered to somebody else.
+
+------------------------------------------------------------
+11/12/13/14. PUBLISHING
+------------------------------------------------------------
+  Title      : Someone Listed Her Lamp For Sale. It Was Still On Her Table.
+  Description: Original fiction - not a real event. A marketplace listing photographed inside her own living room, two weeks before she ever saw it. Part of an original digital-mystery series.
+  Hashtags   : #shorts #mystery #strangestories
+  Pinned     : Original fiction, written for this channel - no real listing and no real seller. She bought her own lamp back. Check the table lamp in the very first shot.
+

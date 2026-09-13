@@ -1,0 +1,24 @@
+# 005 - The Hour Ahead - IMAGE / VIDEO PROMPTS
+# 10 scenes | 9:16 vertical
+# CHARACTER LOCK: the same building manager, forties, glasses, fleece jacket over a shirt, clipboard or torch in hand, seen in a stripped office and a plant room
+# STYLE LOCK: flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos
+
+[01] A CCTV archive file list on a dim monitor where a future date already holds a recording, cursor hovering, cold interface. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[02] Empty stripped office interior at night seen through a ceiling CCTV camera with a running timestamp overlay, flat infrared grey. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[03] A man in a fleece dragging an office chair across a dark empty office floor, torch on a desk, wristwatch visible. the same building manager, forties, glasses, fleece jacket over a shirt, clipboard or torch in hand, seen in a stripped office and a plant room. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[04] A man watching a CCTV playback on a laptop showing himself dragging a chair, his face lit by the screen, dark office. the same building manager, forties, glasses, fleece jacket over a shirt, clipboard or torch in hand, seen in a stripped office and a plant room. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[05] A simple technical diagram overlay on a dark office showing a ceiling camera cone and a second lower viewpoint marked in red, schematic lines. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[06] A man standing with both palms flat against a blank magnolia office wall at eye level, torchlight raking across the surface. the same building manager, forties, glasses, fleece jacket over a shirt, clipboard or torch in hand, seen in a stripped office and a plant room. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[07] Slow lateral pan across an unbroken plaster wall with no fittings or cable runs, raking torchlight, dust in the beam. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[08] A hammer breaking through plasterboard revealing a dark wall cavity, dust cloud, a small glass lens catching torchlight inside. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[09] An old dust-covered security camera inside a wall cavity with a steady red indicator light, cobwebs, close macro, torchlight. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[10] Reverse view from inside a wall cavity looking out at a modern ceiling-corner security camera perfectly centred in frame. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.

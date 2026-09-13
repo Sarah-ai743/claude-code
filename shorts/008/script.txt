@@ -1,0 +1,113 @@
+008 - Nineteen Ninety-Eight
+============================================================
+Concept:       PIX-004  (B1/G5)
+Target length: 47s
+Voiceover:     112 words (~37s at 3.0 w/s)
+Scenes:        10
+
+ORIGINAL FICTION. Not a real event, person, company or recording.
+
+------------------------------------------------------------
+1. ALTERNATIVE OPENING HOOKS
+------------------------------------------------------------
+  [1] "The 1998 tape has a flat screen in it."  (9 words)  <-- SELECTED
+      Nine words. The anachronism does all the work and needs no explaining.
+  [2] "There is a television in the old tape that did not exist yet."  (13 words)
+      Clearer but longer, and the phrase 'did not exist yet' explains the joke.
+  [3] "Something in the corner of the old tape is showing today."  (11 words)
+      Atmospheric, but 'today' is vague until the reveal.
+
+2. HOOK SELECTION
+  Hook 1 trusts the audience. Anyone who has seen a 1998 living room knows a flat screen does not belong in one, so the viewer catches the anomaly themselves in under two seconds, which is far stronger than being told about it.
+
+------------------------------------------------------------
+3. VOICEOVER
+------------------------------------------------------------
+  The 1998 tape has a flat screen in it.
+  Back corner of the room. Behind the cake.
+  Flat. Thin. Wrong by about fifteen years.
+  He digitises it and zooms in.
+  The screen is on. It is showing a room.
+  Beige walls. A desk. A laptop open on it.
+  [BEAT] It is this room.
+  It is the room he is sitting in right now.
+  Same angle. Same lamp. Same laptop.
+  He looks up. Nothing behind him.
+  He looks back at 1998.
+  And one by one, everyone at the party turns.
+  His mother. His uncle. A child he does not know.
+  All of them looking at the screen.
+  All of them looking at him.
+
+------------------------------------------------------------
+4/5/6. SCENES, CAPTIONS, VISUALS
+------------------------------------------------------------
+  SCENE  1  [ 0.0s -  2.0s]
+    CAPTION : 1998. A FLAT screen.
+    VISUAL  : Camcorder footage of a birthday party. A thin dark rectangle sits wrong in the back corner.
+    SFX     : tape warble, muffled party noise
+
+  SCENE  2  [ 2.0s -  8.0s]
+    CAPTION : Behind the CAKE
+    VISUAL  : The camcorder pans past candles and faces; the rectangle passes through frame twice.
+    SFX     : singing, tape hiss, dropout crackle
+
+  SCENE  3  [ 8.0s - 13.0s]
+    CAPTION : Wrong by FIFTEEN years
+    VISUAL  : Freeze frame with the rectangle isolated. Everything else in the room is period correct.
+    SFX     : freeze click, drone enters
+
+  SCENE  4  [13.0s - 19.0s]
+    CAPTION : He ZOOMS in
+    VISUAL  : Modern capture rig, tape deck spinning, digital zoom crawling into the corner pixel by pixel.
+    SFX     : tape deck mechanism, digital zoom whine
+
+  SCENE  5  [19.0s - 25.0s]
+    CAPTION : The screen is ON
+    VISUAL  : The rectangle resolves: it is lit, and there is an image on it.
+    SFX     : noise floor rising, hum
+
+  SCENE  6  [25.0s - 31.0s]
+    CAPTION : Beige walls. A DESK.
+    VISUAL  : The image on the 1998 screen: a modern room, anglepoise lamp, open laptop.
+    SFX     : everything drops to a single tone
+
+  SCENE  7  [31.0s - 36.0s]
+    CAPTION : It is THIS room
+    VISUAL  : Hard cut between the pixelated image and the real room he is sitting in. Identical.
+    SFX     : two hard cuts, silence between
+
+  SCENE  8  [36.0s - 41.0s]
+    CAPTION : He looks UP. Nothing.
+    VISUAL  : He turns in his chair. The room behind him is empty. Lamp buzzing.
+    SFX     : chair creak, lamp buzz, no music
+
+  SCENE  9  [41.0s - 45.0s]
+    CAPTION : They all TURN
+    VISUAL  : Back in 1998: one face, then another, then the whole party turning toward the corner screen.
+    SFX     : party noise cutting out abruptly
+
+  SCENE 10  [45.0s - 47.0s]
+    CAPTION : Looking at HIM
+    VISUAL  : Every face in 1998 held still, facing camera. His own face in the laptop reflection over the top.
+    SFX     : one tape stop clunk, silence
+
+------------------------------------------------------------
+8/9. SOUND AND MUSIC
+------------------------------------------------------------
+  Music mood: Warm nostalgic tape-saturated pad for the first fifteen seconds that curdles into a single held dissonance once the zoom begins. No music at all from 0:36, so the last eleven seconds are lamp buzz and tape noise.
+  Sound bed : Camcorder warble, tape dropouts, capture-deck mechanism, anglepoise buzz, and one abrupt removal of all party sound.
+
+------------------------------------------------------------
+10. FINAL TWIST
+------------------------------------------------------------
+  The screen in 1998 is showing the room where the tape is being watched, which means the party was looking at the viewer twenty-eight years before he sat down.
+
+------------------------------------------------------------
+11/12/13/14. PUBLISHING
+------------------------------------------------------------
+  Title      : There Is A Flat Screen In The Background Of This 1998 Tape
+  Description: Original fiction - not a real event. A family birthday, a thin dark rectangle in the back corner, and an image on it that should not be possible. Part of an original digital-mystery series.
+  Hashtags   : #shorts #mystery #analoghorror
+  Pinned     : Original fiction, written for this channel - no real tape and no real family. Watch the back corner from the first second. Someone turns before he starts zooming.
+

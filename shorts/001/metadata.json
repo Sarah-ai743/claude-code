@@ -1,0 +1,45 @@
+{
+  "id": "001",
+  "concept_id": "PIX-002",
+  "working_title": "One Frame Longer",
+  "anomaly_class": "B5",
+  "twist_architecture": "G6",
+  "fiction_notice": "Original fiction. Not a real event, person, company or recording.",
+  "target_seconds": 48,
+  "voiceover_words": 114,
+  "estimated_seconds": 38.0,
+  "hooks": [
+    {
+      "text": "The video gets one frame longer every play.",
+      "words": 8,
+      "note": "Eight words. States the anomaly and implicates the viewer in it.",
+      "selected": true
+    },
+    {
+      "text": "He has played the file eleven times. It is eleven frames longer.",
+      "words": 12,
+      "note": "Stronger specificity, but spends a second on the man before the strangeness.",
+      "selected": false
+    },
+    {
+      "text": "The file never changes size. It keeps getting longer.",
+      "words": 9,
+      "note": "Nice contradiction, but needs a beat of technical understanding to land.",
+      "selected": false
+    }
+  ],
+  "hook_rationale": "Hook 1 is the only one that is fully legible before the viewer has decided to scroll. It contains the anomaly noun, a complete impossibility, and a second-person address that makes the viewer complicit in the mechanism that drives the story.",
+  "final_twist": "The footage advances only while somebody is watching it, which means the figure in the room is waiting for the next viewer, and the Short ends by handing that role to the person watching.",
+  "music_mood": "Slow sub-bass pulse at roughly 60 bpm with a single detuned piano note. No melody, no drums. Drops to near silence at 0:33 and returns as a rising low drone under the final ten seconds.",
+  "sound_bed": "Hard drive ticks, keyboard taps, tape hiss, room tone that cuts out completely twice.",
+  "youtube_title": "The Video That Gets One Frame Longer Every Time You Play It",
+  "description": "Original fiction - not a real event. A man notices a video file growing by a single frame with every play, and the frames are not noise. Part of an original digital-mystery series.",
+  "hashtags": [
+    "#shorts",
+    "#mystery",
+    "#creepytech"
+  ],
+  "pinned_comment": "Original fiction, written for this channel - nothing here is a real recording. The frames only advance while somebody is watching. So what happens now that you have?",
+  "on_screen_fiction_tag": "FICTION tag, bottom corner, from 0:02 to end",
+  "synthetic_media_disclosure": "Tick YouTube altered/synthetic content disclosure if realistic AI footage is used."
+}

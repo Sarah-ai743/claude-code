@@ -1,0 +1,122 @@
+{
+  "id": "006",
+  "concept_id": "EXP-005",
+  "working_title": "Still Online",
+  "target_seconds": 47,
+  "aspect_ratio": "9:16",
+  "character_lock": "the same man, fifties, thinning hair, reading glasses pushed up, wool jumper, seen lit by a beige CRT monitor in a cluttered loft",
+  "style_lock": "amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos",
+  "scene_count": 10,
+  "scenes": [
+    {
+      "n": 1,
+      "start": 0,
+      "end": 2,
+      "duration": 2,
+      "caption": "It NEVER stopped",
+      "visual": "A beige CRT flickers awake in a dark loft. Text is already scrolling before the boot finishes.",
+      "prompt": "A beige CRT monitor flickering on in a dark dusty loft, green text already scrolling before the boot sequence ends, amber phosphor glow. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "CRT degauss thunk, fan spin-up",
+      "shot_change": "hard cut in"
+    },
+    {
+      "n": 2,
+      "start": 2,
+      "end": 8,
+      "duration": 6,
+      "caption": "TWENTY-FIVE years in a drawer",
+      "visual": "Hands lift a dusty tower from a drawer, cables tangled, yellowed plastic.",
+      "prompt": "Hands lifting a dusty yellowed desktop computer tower out of a drawer, tangled beige cables, loft storage clutter, dim light. the same man, fifties, thinning hair, reading glasses pushed up, wool jumper, seen lit by a beige CRT monitor in a cluttered loft. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "dust, cable rattle, drawer scrape",
+      "shot_change": "cut"
+    },
+    {
+      "n": 3,
+      "start": 8,
+      "end": 13,
+      "duration": 5,
+      "caption": "Two hundred thousand LINES",
+      "visual": "Endless chat log scrolling at speed, his handle repeating down the left column.",
+      "prompt": "Fast-scrolling retro text chatroom log on a CRT screen, one username repeating down the left column, heavy scanlines and bloom. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "scroll whirr rising in pitch",
+      "shot_change": "cut"
+    },
+    {
+      "n": 4,
+      "start": 13,
+      "end": 19,
+      "duration": 6,
+      "caption": "His RHYTHM. His mistakes.",
+      "visual": "Close on individual lines: the same typo, the same double space, decades apart.",
+      "prompt": "Extreme close-up of retro chat text on a curved CRT showing a repeated typing mistake, phosphor bleed, single characters filling frame. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "keystroke clicks, low drone entering",
+      "shot_change": "macro cut"
+    },
+    {
+      "n": 5,
+      "start": 19,
+      "end": 25,
+      "duration": 6,
+      "caption": "But NOT his life",
+      "visual": "His face, glasses reflecting the scroll, mouth slightly open.",
+      "prompt": "A man in his fifties lit only by an amber CRT, reading glasses reflecting scrolling text, mouth slightly open, dark loft behind. the same man, fifties, thinning hair, reading glasses pushed up, wool jumper, seen lit by a beige CRT monitor in a cluttered loft. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "breath, fan hum",
+      "shot_change": "cut"
+    },
+    {
+      "n": 6,
+      "start": 25,
+      "end": 31,
+      "duration": 6,
+      "caption": "1999. A job from LAST YEAR.",
+      "visual": "A single line highlighted, timestamp 1999, describing something recent. Then a second line, 2003.",
+      "prompt": "A single highlighted line of retro chat text with a 1999 timestamp on a CRT screen, cursor blinking beside it, everything else dimmed. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "highlight click, drone thickening",
+      "shot_change": "cut"
+    },
+    {
+      "n": 7,
+      "start": 31,
+      "end": 37,
+      "duration": 6,
+      "caption": "Words that did not EXIST yet",
+      "visual": "Words lift off the screen one by one, isolated against black, all of them modern.",
+      "prompt": "Individual words floating off a CRT screen into black space, retro phosphor glow trailing behind each character, dark void. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "silence, then a single tone",
+      "shot_change": "graphic lift"
+    },
+    {
+      "n": 8,
+      "start": 37,
+      "end": 42,
+      "duration": 5,
+      "caption": "He types HELLO",
+      "visual": "His finger over the enter key. The reply appears on screen before he presses it.",
+      "prompt": "A finger hovering above a worn beige keyboard enter key, a reply already visible on the CRT above, amber light on skin. the same man, fifties, thinning hair, reading glasses pushed up, wool jumper, seen lit by a beige CRT monitor in a cluttered loft. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "held silence, one keystroke that lands late",
+      "shot_change": "locked-off close"
+    },
+    {
+      "n": 9,
+      "start": 42,
+      "end": 45,
+      "duration": 3,
+      "caption": "Everything since is the ECHO",
+      "visual": "Modern phone screen beside the CRT, showing the same words a beat later.",
+      "prompt": "A modern phone lying beside a glowing CRT monitor, identical text on both screens, the phone slightly delayed, amber and blue light mixing. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "doubled notification, phase offset",
+      "shot_change": "cut"
+    },
+    {
+      "n": 10,
+      "start": 45,
+      "end": 47,
+      "duration": 2,
+      "caption": "Three seconds BEHIND",
+      "visual": "The CRT cursor blinks. The phone's cursor blinks three seconds later. Black.",
+      "prompt": "Two blinking text cursors on separate screens in darkness, one clearly lagging behind the other, tight macro framing. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "two clicks out of sync, cut to silence",
+      "shot_change": "cut to black"
+    }
+  ]
+}

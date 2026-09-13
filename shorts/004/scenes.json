@@ -1,0 +1,122 @@
+{
+  "id": "004",
+  "concept_id": "PH-003",
+  "working_title": "One Step Closer",
+  "target_seconds": 46,
+  "aspect_ratio": "9:16",
+  "character_lock": "the same young man, early twenties, cropped hair, dark hoodie, bitten fingernails, only ever seen in phone light or as hands holding a phone",
+  "style_lock": "near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos",
+  "scene_count": 10,
+  "scenes": [
+    {
+      "n": 1,
+      "start": 0,
+      "end": 2,
+      "duration": 2,
+      "caption": "Delete it. It moves CLOSER.",
+      "visual": "A thumb swipes delete. The photo reappears instantly, a fraction deeper into the hallway.",
+      "prompt": "A thumb swiping a delete gesture on a phone photo of a dim hallway, the image reappearing slightly closer, harsh screen glow in darkness. the same young man, early twenties, cropped hair, dark hoodie, bitten fingernails, only ever seen in phone light or as hands holding a phone. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "delete whoosh, sub-bass thud",
+      "shot_change": "hard cut in"
+    },
+    {
+      "n": 2,
+      "start": 2,
+      "end": 7,
+      "duration": 5,
+      "caption": "He did not TAKE it",
+      "visual": "The photo full screen: grey carpet, one ceiling light, a closed door at the far end.",
+      "prompt": "A flash-lit phone photograph of an empty grey-carpeted hallway with one ceiling light and a closed door at the far end, amateur snapshot quality. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "room tone, faint phone hum",
+      "shot_change": "cut"
+    },
+    {
+      "n": 3,
+      "start": 7,
+      "end": 12,
+      "duration": 5,
+      "caption": "TWO steps further in",
+      "visual": "Two versions side by side, the second measurably deeper. A ruler line drawn between them.",
+      "prompt": "Two nearly identical photographs of the same hallway side by side, the second taken two paces further forward, comparison framing. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "shutter click doubled",
+      "shot_change": "split screen"
+    },
+    {
+      "n": 4,
+      "start": 12,
+      "end": 18,
+      "duration": 6,
+      "caption": "He deletes it AGAIN",
+      "visual": "Rapid montage of deletions across days, the hallway advancing each time, timestamps flicking forward.",
+      "prompt": "Rapid montage of the same hallway photograph advancing forward frame by frame, changing timestamps, phone interface elements. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "stacked delete tones rising in pitch",
+      "shot_change": "rapid cut montage"
+    },
+    {
+      "n": 5,
+      "start": 18,
+      "end": 24,
+      "duration": 6,
+      "caption": "So he STOPS",
+      "visual": "The phone face down on a table for days. Dust settles. Light changes across it.",
+      "prompt": "A phone lying face down on a wooden table through a day-to-night time-lapse, dust settling, changing window light. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "time-lapse hush, distant traffic",
+      "shot_change": "time-lapse"
+    },
+    {
+      "n": 6,
+      "start": 24,
+      "end": 30,
+      "duration": 6,
+      "caption": "Only when he LOOKS",
+      "visual": "He glances at the screen. The image jumps forward in the instant his eyes land on it.",
+      "prompt": "A young man's eyes reflected in a phone screen at night, the reflected image jumping forward the moment he looks, tight vertical framing. the same young man, early twenties, cropped hair, dark hoodie, bitten fingernails, only ever seen in phone light or as hands holding a phone. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "single frame-jump click, held breath",
+      "shot_change": "cut"
+    },
+    {
+      "n": 7,
+      "start": 30,
+      "end": 36,
+      "duration": 6,
+      "caption": "The door is OPEN",
+      "visual": "The far door now standing open onto blackness. Nothing visible beyond it.",
+      "prompt": "A phone photograph of a hallway where the far door now stands open onto complete darkness, flash falling short of the doorway. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "drone rises, room tone thins",
+      "shot_change": "push in"
+    },
+    {
+      "n": 8,
+      "start": 36,
+      "end": 41,
+      "duration": 5,
+      "caption": "A stairwell he KNOWS",
+      "visual": "The photo is now his own building's stairwell, his own scuffed step, his own post.",
+      "prompt": "A flash photograph of a familiar shabby apartment stairwell with a scuffed step and a pile of post on the landing, night. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "recognition sting, heartbeat low in mix",
+      "shot_change": "cut"
+    },
+    {
+      "n": 9,
+      "start": 41,
+      "end": 44,
+      "duration": 3,
+      "caption": "His OWN front door",
+      "visual": "The photo shows his door, from outside, in the dark. He is behind it, holding the phone.",
+      "prompt": "A flash photograph of a locked apartment front door photographed from the corridor outside at night, peeling paint, number plate. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "silence, then one deadbolt click",
+      "shot_change": "hard cut"
+    },
+    {
+      "n": 10,
+      "start": 44,
+      "end": 46,
+      "duration": 2,
+      "caption": "A hand. Holding a PHONE.",
+      "visual": "Crop into the corner of that photo: a hand at the edge of frame, already raising a phone.",
+      "prompt": "Extreme crop into the dark corner of a flash photograph revealing a hand at the frame edge already raising a phone, heavy noise. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "sfx": "one camera shutter, cut to silence",
+      "shot_change": "crop zoom"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# 004 - One Step Closer - IMAGE / VIDEO PROMPTS
+# 10 scenes | 9:16 vertical
+# CHARACTER LOCK: the same young man, early twenties, cropped hair, dark hoodie, bitten fingernails, only ever seen in phone light or as hands holding a phone
+# STYLE LOCK: near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos
+
+[01] A thumb swiping a delete gesture on a phone photo of a dim hallway, the image reappearing slightly closer, harsh screen glow in darkness. the same young man, early twenties, cropped hair, dark hoodie, bitten fingernails, only ever seen in phone light or as hands holding a phone. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[02] A flash-lit phone photograph of an empty grey-carpeted hallway with one ceiling light and a closed door at the far end, amateur snapshot quality. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[03] Two nearly identical photographs of the same hallway side by side, the second taken two paces further forward, comparison framing. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[04] Rapid montage of the same hallway photograph advancing forward frame by frame, changing timestamps, phone interface elements. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[05] A phone lying face down on a wooden table through a day-to-night time-lapse, dust settling, changing window light. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[06] A young man's eyes reflected in a phone screen at night, the reflected image jumping forward the moment he looks, tight vertical framing. the same young man, early twenties, cropped hair, dark hoodie, bitten fingernails, only ever seen in phone light or as hands holding a phone. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[07] A phone photograph of a hallway where the far door now stands open onto complete darkness, flash falling short of the doorway. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[08] A flash photograph of a familiar shabby apartment stairwell with a scuffed step and a pile of post on the landing, night. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[09] A flash photograph of a locked apartment front door photographed from the corridor outside at night, peeling paint, number plate. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+
+[10] Extreme crop into the dark corner of a flash photograph revealing a hand at the frame edge already raising a phone, heavy noise. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.

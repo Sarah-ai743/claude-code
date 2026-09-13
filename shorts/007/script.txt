@@ -1,0 +1,113 @@
+007 - Significant Locations
+============================================================
+Concept:       PH-019  (B2/G1)
+Target length: 48s
+Voiceover:     113 words (~38s at 3.0 w/s)
+Scenes:        10
+
+ORIGINAL FICTION. Not a real event, person, company or recording.
+
+------------------------------------------------------------
+1. ALTERNATIVE OPENING HOOKS
+------------------------------------------------------------
+  [1] "Two hundred hours at an address he's never been."  (9 words)  <-- SELECTED
+      A number plus a contradiction. Nine words, instantly legible.
+  [2] "His phone has a second home address."  (7 words)
+      Very short and eerie, but ambiguous enough to lose some viewers.
+  [3] "Every Wednesday at two in the morning his phone goes somewhere."  (11 words)
+      Good rhythm, but the anomaly arrives too late in the line.
+
+2. HOOK SELECTION
+  Hook 1 gives the viewer a quantity to be shocked by and a contradiction to resolve, in one clause each. Hook 2 is shorter but requires the viewer to infer what a second home address means, and inference is slower than arithmetic.
+
+------------------------------------------------------------
+3. VOICEOVER
+------------------------------------------------------------
+  Two hundred hours at an address he's never been.
+  It is in his location history. Under frequent places.
+  Three hours away. Every Wednesday. Two until six.
+  For two years.
+  He has been asleep for every single one of them.
+  So he drives out there on a Wednesday.
+  It is a storage facility. Row nine. Unit forty-one.
+  The rental is in his name.
+  Paid monthly from an account he has never opened.
+  [BEAT] His signature is on the form.
+  The code on his own key ring works.
+  Inside, wall to wall, floor to ceiling: phones.
+  Hundreds. All his model. All charged. All unlocked.
+  And every screen is showing the same thing.
+  His location history.
+
+------------------------------------------------------------
+4/5/6. SCENES, CAPTIONS, VISUALS
+------------------------------------------------------------
+  SCENE  1  [ 0.0s -  2.0s]
+    CAPTION : 200 hours. NEVER been.
+    VISUAL  : Phone screen: a frequent-locations list with an unfamiliar address at the top and a huge hour count.
+    SFX     : sharp UI sting
+
+  SCENE  2  [ 2.0s -  8.0s]
+    CAPTION : Every WEDNESDAY. 2 to 6.
+    VISUAL  : Calendar grid filling with identical blocks, two years deep, animated fast.
+    SFX     : rapid tick accelerating
+
+  SCENE  3  [ 8.0s - 14.0s]
+    CAPTION : ASLEEP for all of it
+    VISUAL  : Him in bed, phone face down on the nightstand, sleep-tracker graph flat and undisturbed.
+    SFX     : breathing, room tone, distant traffic
+
+  SCENE  4  [14.0s - 20.0s]
+    CAPTION : So he DRIVES out there
+    VISUAL  : Night motorway from the driver's seat, sodium lights strobing across his face.
+    SFX     : road noise, indicator tick
+
+  SCENE  5  [20.0s - 26.0s]
+    CAPTION : Row nine. Unit FORTY-ONE.
+    VISUAL  : Corrugated storage corridor, identical orange doors receding, his torch swinging.
+    SFX     : footsteps echoing, strip light buzz
+
+  SCENE  6  [26.0s - 32.0s]
+    CAPTION : Rented in HIS NAME
+    VISUAL  : A rental form on a clipboard, his name typed, his signature at the bottom.
+    SFX     : paper handling, drone entering
+
+  SCENE  7  [32.0s - 38.0s]
+    CAPTION : His OWN key works
+    VISUAL  : He tries a key from his own ring on the padlock. It turns first time.
+    SFX     : padlock click, held breath
+
+  SCENE  8  [38.0s - 43.0s]
+    CAPTION : Wall to wall. PHONES.
+    VISUAL  : The door rolls up. Hundreds of identical phones on shelving, all screens lit.
+    SFX     : roller door rattle, a wall of soft electronic hum
+
+  SCENE  9  [43.0s - 46.0s]
+    CAPTION : All CHARGED. All unlocked.
+    VISUAL  : Slow track along a shelf: identical models, identical charge levels, no dust.
+    SFX     : hum thickening, footsteps stop
+
+  SCENE 10  [46.0s - 48.0s]
+    CAPTION : His LOCATION HISTORY
+    VISUAL  : Push into one screen: the same frequent-locations list, the same address, hours still counting.
+    SFX     : single counter tick, hard silence
+
+------------------------------------------------------------
+8/9. SOUND AND MUSIC
+------------------------------------------------------------
+  Music mood: Low motorway drone that never resolves, built from road noise pitched down. One rising tone from 0:38 that stops without landing when the counter ticks.
+  Sound bed : Road noise, strip-light buzz, roller door rattle, and a layered electronic hum that only appears once the unit is open.
+
+------------------------------------------------------------
+10. FINAL TWIST
+------------------------------------------------------------
+  The storage unit is real, rented and paid for in his name, and the hundreds of phones inside it have all been logging the same two hundred hours he has no memory of.
+
+------------------------------------------------------------
+11/12/13/14. PUBLISHING
+------------------------------------------------------------
+  Title      : His Phone Logged 200 Hours At An Address He Has Never Visited
+  Description: Original fiction - not a real event. Every Wednesday, two until six in the morning, for two years, while he was asleep. Part of an original digital-mystery series.
+  Hashtags   : #shorts #mystery #gps
+  Pinned     : Original fiction, written for this channel - no real address and no real facility. All the phones are unlocked. Whose thumbprint opened them?
+
