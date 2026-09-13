@@ -1,24 +1,161 @@
-# 009 - Sold From Your House - IMAGE / VIDEO PROMPTS
-# 10 scenes | 9:16 vertical
-# CHARACTER LOCK: the same woman, forties, short greying hair, glasses on a cord, cardigan, seen in a cluttered warm living room with a brass table lamp
-# STYLE LOCK: warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos
+009 - SOLD FROM YOUR HOUSE - PRODUCTION VISUAL PROMPTS
+==========================================================================
+10 scenes  |  9:16 vertical  |  cinematic digital mystery
+Original fiction. No real people, places, brands or products.
 
-[01] A phone marketplace listing showing a brass table lamp photographed in a warm cluttered living room, amateur snapshot lighting, listing interface. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+NO TEXT IS TO BE GENERATED INSIDE ANY IMAGE.
+Captions, timestamps, interface chrome and readable screen content are composited
+in the edit. Where a scene shows a screen, generate light and shape only:
+soft illegible glow, out-of-focus glyph texture, no legible characters.
 
-[02] Side by side comparison of a listing photograph and a real living room, identical curtain folds and objects, warm domestic light. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+==========================================================================
+STYLE - applies to every scene in this project
+==========================================================================
+LOOK       : Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss
+PROJECT    : warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos
+ASPECT     : 9:16 vertical, framed for a phone screen, action inside the centre 80%
+NEGATIVE   : no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces
 
-[03] A blank marketplace seller profile on a phone screen with an empty avatar, no reviews and no listings, cold interface on a dark background. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+==========================================================================
+CHARACTER REFERENCE - build these first, reuse the same seed
+==========================================================================
+[WOMAN_02] The Owner
+  PHYSICAL      : woman, 47, short greying hair cut close at the sides, fine lines around the eyes, glasses worn on a beaded cord, slight build
+  WARDROBE      : a soft grey cardigan over a collared shirt, a wristwatch with a worn leather strap
+  DISTINGUISHING: pushes her glasses up onto her head when she reads a screen; hands often in frame before her face is
+  CONTINUITY    : repeat this description verbatim in every scene tagged WOMAN_02. Do not restate it in scenes where WOMAN_02 does not appear.
 
-[04] A woman standing in a living room doorway holding a phone up to match a photograph's angle, warm lamplight, from behind her shoulder. the same woman, forties, short greying hair, glasses on a cord, cardigan, seen in a cluttered warm living room with a brass table lamp. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+==========================================================================
+SCENES
+==========================================================================
 
-[05] A thumb pressing a purchase confirmation button on a phone, order confirmed screen with a delivery date, warm room reflected in the glass. the same woman, forties, short greying hair, glasses on a cord, cardigan, seen in a cluttered warm living room with a brass table lamp. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+--- SCENE 01 | 0.0-2.0s (2.0s) | characters: none ---
+SUBJECT      : a phone marketplace listing showing a brass table lamp photographed in a warm cluttered living room
+ENVIRONMENT  : a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp
+CAMERA ANGLE : dead-on macro on the phone, 100mm
+COMPOSITION  : the listing photograph fills the frame, the phone's edge just visible
+LIGHTING     : soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph
+EMOTION      : recognition arriving too fast
+KEY OBJECTS  : a phone, a brass lamp in the listing image, a curtain fold behind it
+MOVEMENT     : static, one small thumb scroll
+CONTINUITY   : the listing image must match the real room exactly - same curtain fold, same clutter. Interface chrome is composited.
 
-[06] A plain unlabelled cardboard parcel being opened on a wooden table, brown paper packing, warm window light, hands only. the same woman, forties, short greying hair, glasses on a cord, cardigan, seen in a cluttered warm living room with a brass table lamp. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+PROMPT: a phone marketplace listing showing a brass table lamp photographed in a warm cluttered living room. a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp. dead-on macro on the phone, 100mm. the listing photograph fills the frame, the phone's edge just visible. soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph. mood: recognition arriving too fast. key objects: a phone, a brass lamp in the listing image, a curtain fold behind it. camera and motion: static, one small thumb scroll. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
 
-[07] Macro shot of a chipped brass lamp base and a power cable repaired with yellowed tape, warm soft light, shallow focus. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+--- SCENE 02 | 2.0-8.0s (6.0s) | characters: none ---
+SUBJECT      : a side-by-side of the listing photograph and the real living room, identical in every detail
+ENVIRONMENT  : a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp
+CAMERA ANGLE : one flat-to-screen, one eye-level into the room, 35mm
+COMPOSITION  : hard vertical split, the lamp at the same position on both sides
+LIGHTING     : soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph
+EMOTION      : the violation understood
+KEY OBJECTS  : a brass lamp, patterned curtains, a wooden side table, books
+MOVEMENT     : static split with a brief push on the right half
+CONTINUITY   : curtain folds and object placement must match to the centimetre across both halves
 
-[08] Slow pan between two identical brass table lamps, one worn and chipped and one flawless and new, same warm living room light. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+PROMPT: a side-by-side of the listing photograph and the real living room, identical in every detail. a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp. one flat-to-screen, one eye-level into the room, 35mm. hard vertical split, the lamp at the same position on both sides. soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph. mood: the violation understood. key objects: a brass lamp, patterned curtains, a wooden side table, books. camera and motion: static split with a brief push on the right half. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
 
-[09] Rapid montage of ordinary household objects each overlaid with a small clinical purchase record and date stamp, warm interior, cold overlays. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+--- SCENE 03 | 8.0-13.0s (5.0s) | characters: none ---
+SUBJECT      : a blank marketplace seller profile with an empty avatar and no listings
+ENVIRONMENT  : a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp
+CAMERA ANGLE : dead-on macro
+COMPOSITION  : a large empty circle in the upper third, empty rows below
+LIGHTING     : soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph
+EMOTION      : the absence where a person should be
+KEY OBJECTS  : a phone screen, an empty avatar circle
+MOVEMENT     : static, a slow scroll that reveals nothing
+CONTINUITY   : abstract shapes only - profile text is composited
 
-[10] A scrolling purchase history list with every buyer name obscured, one empty highlighted row, clinical interface on black. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+PROMPT: a blank marketplace seller profile with an empty avatar and no listings. a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp. dead-on macro. a large empty circle in the upper third, empty rows below. soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph. mood: the absence where a person should be. key objects: a phone screen, an empty avatar circle. camera and motion: static, a slow scroll that reveals nothing. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 04 | 13.0-19.0s (6.0s) | characters: WOMAN_02 ---
+SUBJECT      : WOMAN_02 standing in a living room doorway holding a phone up to match a photograph's angle
+ENVIRONMENT  : a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp
+CAMERA ANGLE : from behind her shoulder, eye-level, 35mm
+COMPOSITION  : she occupies the left third from behind, the room opening out to the right, the phone raised
+LIGHTING     : soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph
+EMOTION      : methodical, unwilling to conclude
+KEY OBJECTS  : a phone held up, a door frame, the lamp beyond
+MOVEMENT     : static, one small correction of the phone's angle
+CONTINUITY   : WOMAN_02 as described, glasses pushed up on her head in this scene
+
+PROMPT: WOMAN_02 standing in a living room doorway holding a phone up to match a photograph's angle. a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp. from behind her shoulder, eye-level, 35mm. she occupies the left third from behind, the room opening out to the right, the phone raised. soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph. mood: methodical, unwilling to conclude. key objects: a phone held up, a door frame, the lamp beyond. camera and motion: static, one small correction of the phone's angle. character WOMAN_02 - woman, 47, short greying hair cut close at the sides, fine lines around the eyes, glasses worn on a beaded cord, slight build; a soft grey cardigan over a collared shirt, a wristwatch with a worn leather strap; pushes her glasses up onto her head when she reads a screen; hands often in frame before her face is. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 05 | 19.0-25.0s (6.0s) | characters: WOMAN_02 ---
+SUBJECT      : a thumb pressing a purchase confirmation on a phone, the warm room reflected in the glass
+ENVIRONMENT  : a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp
+CAMERA ANGLE : macro, high three-quarter on the phone, 100mm
+COMPOSITION  : the phone fills the frame on a diagonal, the room reflected in the dark glass at the edges
+LIGHTING     : soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph
+EMOTION      : a decision made before it is understood
+KEY OBJECTS  : a phone, a thumb, a reflection of the lamp in the glass
+MOVEMENT     : a single press, then stillness
+CONTINUITY   : the reflected lamp in the glass must be the real lamp, matching its position in the room
+
+PROMPT: a thumb pressing a purchase confirmation on a phone, the warm room reflected in the glass. a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp. macro, high three-quarter on the phone, 100mm. the phone fills the frame on a diagonal, the room reflected in the dark glass at the edges. soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph. mood: a decision made before it is understood. key objects: a phone, a thumb, a reflection of the lamp in the glass. camera and motion: a single press, then stillness. character WOMAN_02 - woman, 47, short greying hair cut close at the sides, fine lines around the eyes, glasses worn on a beaded cord, slight build; a soft grey cardigan over a collared shirt, a wristwatch with a worn leather strap; pushes her glasses up onto her head when she reads a screen; hands often in frame before her face is. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 06 | 25.0-31.0s (6.0s) | characters: WOMAN_02 ---
+SUBJECT      : a plain unlabelled cardboard parcel being opened on a wooden table in window light
+ENVIRONMENT  : a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp
+CAMERA ANGLE : top-down, 35mm, directly over the table
+COMPOSITION  : the parcel centred, hands entering from the lower edge
+LIGHTING     : flat overcast window light, soft and shadowless
+EMOTION      : dread wearing the shape of an ordinary afternoon
+KEY OBJECTS  : brown paper, a plain box, packing tape, a wooden table
+MOVEMENT     : hands tearing tape, the flaps folding back
+CONTINUITY   : no printed labels, barcodes or markings on the parcel at all
+
+PROMPT: a plain unlabelled cardboard parcel being opened on a wooden table in window light. a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp. top-down, 35mm, directly over the table. the parcel centred, hands entering from the lower edge. flat overcast window light, soft and shadowless. mood: dread wearing the shape of an ordinary afternoon. key objects: brown paper, a plain box, packing tape, a wooden table. camera and motion: hands tearing tape, the flaps folding back. character WOMAN_02 - woman, 47, short greying hair cut close at the sides, fine lines around the eyes, glasses worn on a beaded cord, slight build; a soft grey cardigan over a collared shirt, a wristwatch with a worn leather strap; pushes her glasses up onto her head when she reads a screen; hands often in frame before her face is. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 07 | 31.0-37.0s (6.0s) | characters: WOMAN_02 ---
+SUBJECT      : a macro of a chipped brass lamp base and a power cable repaired with yellowed tape
+ENVIRONMENT  : a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp
+CAMERA ANGLE : extreme macro, 100mm, very shallow focus
+COMPOSITION  : the chip sits on the upper-third line, the taped cable running out of the lower frame
+LIGHTING     : soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph
+EMOTION      : certainty arriving through a small detail
+KEY OBJECTS  : a chipped brass base, yellowed tape, a frayed cable
+MOVEMENT     : a slow drift across the chip into the tape
+CONTINUITY   : THE DAMAGE. This exact chip and this exact tape repair identify the real lamp.
+
+PROMPT: a macro of a chipped brass lamp base and a power cable repaired with yellowed tape. a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp. extreme macro, 100mm, very shallow focus. the chip sits on the upper-third line, the taped cable running out of the lower frame. soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph. mood: certainty arriving through a small detail. key objects: a chipped brass base, yellowed tape, a frayed cable. camera and motion: a slow drift across the chip into the tape. character WOMAN_02 - woman, 47, short greying hair cut close at the sides, fine lines around the eyes, glasses worn on a beaded cord, slight build; a soft grey cardigan over a collared shirt, a wristwatch with a worn leather strap; pushes her glasses up onto her head when she reads a screen; hands often in frame before her face is. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 08 | 37.0-42.0s (5.0s) | characters: none ---
+SUBJECT      : a slow pan between two identical brass table lamps, one worn and chipped and one flawless
+ENVIRONMENT  : a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp
+CAMERA ANGLE : eye-level, lateral, 50mm
+COMPOSITION  : the worn lamp at frame left, the flawless one at frame right, the pan holding both briefly
+LIGHTING     : soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph
+EMOTION      : the ground moving under the whole house
+KEY OBJECTS  : two brass lamps, a wooden table, a cardboard box
+MOVEMENT     : a slow lateral pan, then a dead stop between them
+CONTINUITY   : the two lamps must be identical in every respect except the chip and the taped cable
+
+PROMPT: a slow pan between two identical brass table lamps, one worn and chipped and one flawless. a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp. eye-level, lateral, 50mm. the worn lamp at frame left, the flawless one at frame right, the pan holding both briefly. soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph. mood: the ground moving under the whole house. key objects: two brass lamps, a wooden table, a cardboard box. camera and motion: a slow lateral pan, then a dead stop between them. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 09 | 42.0-45.0s (3.0s) | characters: none ---
+SUBJECT      : a rapid montage of ordinary household objects, each held briefly in clinical flat light
+ENVIRONMENT  : a neutral flat surface with no background detail
+CAMERA ANGLE : a series of matched top-down product angles
+COMPOSITION  : each object centred on a neutral surface, identical framing every time
+LIGHTING     : clinical flat white product lighting, shadowless and cold
+EMOTION      : the whole house turning into inventory
+KEY OBJECTS  : a kettle, a clock, a chair, a pair of shoes, a book
+MOVEMENT     : eight fast cuts, each one shorter than the last
+CONTINUITY   : these are shot as listing photographs - flat white, no room context, deliberately breaking this project's warm palette
+
+PROMPT: a rapid montage of ordinary household objects, each held briefly in clinical flat light. a neutral flat surface with no background detail. a series of matched top-down product angles. each object centred on a neutral surface, identical framing every time. clinical flat white product lighting, shadowless and cold. mood: the whole house turning into inventory. key objects: a kettle, a clock, a chair, a pair of shoes, a book. camera and motion: eight fast cuts, each one shorter than the last. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 10 | 45.0-47.0s (2.0s) | characters: none ---
+SUBJECT      : a scrolling purchase history list with one empty highlighted row
+ENVIRONMENT  : a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp
+CAMERA ANGLE : dead-on macro
+COMPOSITION  : a column of rows filling the frame, one highlighted band near the centre
+LIGHTING     : soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph
+EMOTION      : the name that should be there and is not
+KEY OBJECTS  : a phone screen, a highlight band
+MOVEMENT     : a scroll that stops dead on the empty row
+CONTINUITY   : abstract rows only - names are composited in the edit
+
+PROMPT: a scrolling purchase history list with one empty highlighted row. a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp. dead-on macro. a column of rows filling the frame, one highlighted band near the centre. soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph. mood: the name that should be there and is not. key objects: a phone screen, a highlight band. camera and motion: a scroll that stops dead on the empty row. warm lived-in domestic interior, brass and wood textures, soft window light, then flat clinical marketplace product photography for listing shots, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+

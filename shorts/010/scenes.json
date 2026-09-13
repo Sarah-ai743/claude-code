@@ -15,7 +15,21 @@
       "duration": 2,
       "caption": "31 IN. Nobody out.",
       "visual": "Doorbell fisheye: a figure steps past the lens into the house. Counter overlay reads 31.",
-      "prompt": "Wide-angle doorbell camera view of a suburban porch as a figure steps past the lens into a doorway, heavy fisheye distortion and vignetting. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a wide-angle doorbell camera view of a figure stepping past the lens into a doorway. the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge. doorbell height, roughly 1.2m, extreme wide-angle with heavy barrel distortion. the porch splays outward, the figure crossing the lower right, the door in the centre. flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material. mood: the ordinary made strange by the lens. key objects: a tiled porch, a part-glazed door, a doormat, a figure passing. camera and motion: static camera, the figure crossing quickly and out of frame. character WOMAN_03 - woman, 33, long dark hair worn loose, a narrow face, dark eyes, a slightly forward-leaning walk, average height; a long charcoal wool coat, a canvas bag on the right shoulder, keys held in the right hand; a distinctive gait - a very slight favouring of the left leg and square-set shoulders that must be identical in every arrival shot, whatever she is wearing. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a wide-angle doorbell camera view of a figure stepping past the lens into a doorway",
+        "environment": "the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge",
+        "angle": "doorbell height, roughly 1.2m, extreme wide-angle with heavy barrel distortion",
+        "composition": "the porch splays outward, the figure crossing the lower right, the door in the centre",
+        "lighting": "flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material",
+        "emotion": "the ordinary made strange by the lens",
+        "objects": "a tiled porch, a part-glazed door, a doormat, a figure passing",
+        "movement": "static camera, the figure crossing quickly and out of frame",
+        "continuity": "THE PORCH CAMERA. Identical height, lens and distortion in every doorbell shot in this project.",
+        "tags": [
+          "WOMAN_03"
+        ]
+      },
       "sfx": "doorbell chime, sub drop",
       "shot_change": "hard cut in"
     },
@@ -26,7 +40,19 @@
       "duration": 6,
       "caption": "A YEAR of footage",
       "visual": "Rapid scrub through months of clips, seasons changing on the same porch.",
-      "prompt": "Rapid time-lapse of the same suburban porch across four seasons seen from a fixed doorbell camera, changing light and weather, fisheye framing. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a time-lapse of the same porch across four seasons from a fixed doorbell camera. the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge. the identical doorbell angle. identical framing, only the light and the hedge changing. flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material. mood: a year passing on one square of concrete. key objects: the porch, the hedge, the path, changing weather. camera and motion: time-lapse with light and weather cycling, camera fixed. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a time-lapse of the same porch across four seasons from a fixed doorbell camera",
+        "environment": "the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge",
+        "angle": "the identical doorbell angle",
+        "composition": "identical framing, only the light and the hedge changing",
+        "lighting": "flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material",
+        "emotion": "a year passing on one square of concrete",
+        "objects": "the porch, the hedge, the path, changing weather",
+        "movement": "time-lapse with light and weather cycling, camera fixed",
+        "continuity": "framing must not shift by a pixel across the whole time-lapse",
+        "tags": []
+      },
       "sfx": "scrub whirr, layered chimes",
       "shot_change": "fast scrub"
     },
@@ -37,7 +63,21 @@
       "duration": 6,
       "caption": "A plumber. Her SISTER.",
       "visual": "Three clips in sequence: each visitor approaches, the door opens, they step inside.",
-      "prompt": "Three sequential doorbell camera clips of different visitors approaching a front door and stepping inside, daylight, wide-angle distortion. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "three sequential doorbell clips of different visitors approaching the door and stepping inside. the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge. the identical doorbell angle. each visitor approaches along the same path and exits frame at the same point. flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material. mood: a pattern nobody has looked for. key objects: a toolbag, a parcel, a handbag, the same doormat. camera and motion: three separate approaches cut together, camera fixed. character WOMAN_03 - woman, 33, long dark hair worn loose, a narrow face, dark eyes, a slightly forward-leaning walk, average height; a long charcoal wool coat, a canvas bag on the right shoulder, keys held in the right hand; a distinctive gait - a very slight favouring of the left leg and square-set shoulders that must be identical in every arrival shot, whatever she is wearing. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "three sequential doorbell clips of different visitors approaching the door and stepping inside",
+        "environment": "the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge",
+        "angle": "the identical doorbell angle",
+        "composition": "each visitor approaches along the same path and exits frame at the same point",
+        "lighting": "flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material",
+        "emotion": "a pattern nobody has looked for",
+        "objects": "a toolbag, a parcel, a handbag, the same doormat",
+        "movement": "three separate approaches cut together, camera fixed",
+        "continuity": "each visitor must walk the same line at the same pace - the gait is the buried clue",
+        "tags": [
+          "WOMAN_03"
+        ]
+      },
       "sfx": "three door latches, no footsteps leaving",
       "shot_change": "cut, cut, cut"
     },
@@ -48,7 +88,19 @@
       "duration": 6,
       "caption": "The porch is EMPTY again",
       "visual": "The same porch after each visit, empty, no departure clip between them.",
-      "prompt": "An empty suburban porch shot from a doorbell camera in flat afternoon light, nothing moving, long static hold, fisheye edges. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "an empty suburban porch in flat afternoon light, held far longer than expected. the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge. the identical doorbell angle. the empty porch centred, nothing moving anywhere in frame. flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material. mood: the discomfort of an absence. key objects: an empty doormat, a closed door, a hedge shadow. camera and motion: absolutely static, one long hold. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "an empty suburban porch in flat afternoon light, held far longer than expected",
+        "environment": "the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge",
+        "angle": "the identical doorbell angle",
+        "composition": "the empty porch centred, nothing moving anywhere in frame",
+        "lighting": "flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material",
+        "emotion": "the discomfort of an absence",
+        "objects": "an empty doormat, a closed door, a hedge shadow",
+        "movement": "absolutely static, one long hold",
+        "continuity": "no person, no shadow, no movement at all in this frame",
+        "tags": []
+      },
       "sfx": "wind, distant dog, no chime",
       "shot_change": "hold"
     },
@@ -59,7 +111,19 @@
       "duration": 6,
       "caption": "No exits. NOT ONE.",
       "visual": "Clip list with every thumbnail labelled arrival. She scrolls to the bottom. All arrivals.",
-      "prompt": "A scrolling list of video clip thumbnails on a phone, every entry showing a person facing a front door, cold app interface. the same woman, thirties, long coat, hair down, always carrying a phone and keys, seen on a suburban porch in doorbell-camera fisheye and in clean reverse angles. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a scrolling list of video thumbnails, every entry showing a person facing a front door. the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge. dead-on macro on a phone screen. a grid of thumbnails filling the frame, all with the same composition. flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material. mood: the sameness becoming visible. key objects: a phone screen, a grid of identical-looking thumbnails. camera and motion: a scroll that slows and stops. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a scrolling list of video thumbnails, every entry showing a person facing a front door",
+        "environment": "the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge",
+        "angle": "dead-on macro on a phone screen",
+        "composition": "a grid of thumbnails filling the frame, all with the same composition",
+        "lighting": "flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material",
+        "emotion": "the sameness becoming visible",
+        "objects": "a phone screen, a grid of identical-looking thumbnails",
+        "movement": "a scroll that slows and stops",
+        "continuity": "thumbnail images are abstract shapes only - interface chrome is composited",
+        "tags": []
+      },
       "sfx": "scroll ticks slowing to a stop",
       "shot_change": "cut"
     },
@@ -70,7 +134,21 @@
       "duration": 6,
       "caption": "So she SLOWS it down",
       "visual": "Frame-by-frame scrub of an arrival clip, the walk broken into separate steps.",
-      "prompt": "Frame-by-frame scrub of doorbell footage showing a visitor's walk broken into individual steps, heavy motion stutter, fisheye distortion. the same woman, thirties, long coat, hair down, always carrying a phone and keys, seen on a suburban porch in doorbell-camera fisheye and in clean reverse angles. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a frame-by-frame scrub of doorbell footage, a visitor's walk broken into separate steps. the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge. the identical doorbell angle, stepped through. the figure held at four positions along the path in one strip. flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material. mood: forensic attention. key objects: a stepping figure, the path, the hedge. camera and motion: hard frame steps with visible motion stutter, camera fixed. character WOMAN_03 - woman, 33, long dark hair worn loose, a narrow face, dark eyes, a slightly forward-leaning walk, average height; a long charcoal wool coat, a canvas bag on the right shoulder, keys held in the right hand; a distinctive gait - a very slight favouring of the left leg and square-set shoulders that must be identical in every arrival shot, whatever she is wearing. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a frame-by-frame scrub of doorbell footage, a visitor's walk broken into separate steps",
+        "environment": "the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge",
+        "angle": "the identical doorbell angle, stepped through",
+        "composition": "the figure held at four positions along the path in one strip",
+        "lighting": "flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material",
+        "emotion": "forensic attention",
+        "objects": "a stepping figure, the path, the hedge",
+        "movement": "hard frame steps with visible motion stutter, camera fixed",
+        "continuity": "the gait must be legible as identical across all stepped positions",
+        "tags": [
+          "WOMAN_03"
+        ]
+      },
       "sfx": "repeating key jingle, layered",
       "shot_change": "rhythmic montage"
     },
@@ -81,7 +159,21 @@
       "duration": 5,
       "caption": "The plumber's HANDS are hers",
       "visual": "Macro on a paused frame: the visitor's hand on the door, and her hand beside it.",
-      "prompt": "Split macro comparison of two hands reaching for the same front door handle, identical knuckles and nail shape, harsh doorbell camera light. the same woman, thirties, long coat, hair down, always carrying a phone and keys, seen on a suburban porch in doorbell-camera fisheye and in clean reverse angles. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a split macro comparison of two hands reaching for the same front door handle. the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge. macro on the handle from the doorbell position. a hard vertical split, the handle at the same position in both halves. flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material. mood: the first undeniable detail. key objects: a brass door handle, two hands, a chipped door frame. camera and motion: static split, one slow cross-dissolve. character WOMAN_03 - woman, 33, long dark hair worn loose, a narrow face, dark eyes, a slightly forward-leaning walk, average height; a long charcoal wool coat, a canvas bag on the right shoulder, keys held in the right hand; a distinctive gait - a very slight favouring of the left leg and square-set shoulders that must be identical in every arrival shot, whatever she is wearing. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a split macro comparison of two hands reaching for the same front door handle",
+        "environment": "the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge",
+        "angle": "macro on the handle from the doorbell position",
+        "composition": "a hard vertical split, the handle at the same position in both halves",
+        "lighting": "flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material",
+        "emotion": "the first undeniable detail",
+        "objects": "a brass door handle, two hands, a chipped door frame",
+        "movement": "static split, one slow cross-dissolve",
+        "continuity": "the two hands must be the same hand - identical knuckles, nail shape and a small mark near the thumb",
+        "tags": [
+          "WOMAN_03"
+        ]
+      },
       "sfx": "all sound drops except her breathing",
       "shot_change": "cut"
     },
@@ -92,7 +184,21 @@
       "duration": 4,
       "caption": "Every visitor. Same GAIT.",
       "visual": "Six arrivals stacked and aligned. Different coats, one silhouette.",
-      "prompt": "Six overlaid silhouettes of people walking toward a front door, all aligning into one identical outline, ghosted multiple exposure. the same woman, thirties, long coat, hair down, always carrying a phone and keys, seen on a suburban porch in doorbell-camera fisheye and in clean reverse angles. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "six overlaid silhouettes of people walking toward a front door, aligning into one identical outline. the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge. the identical doorbell angle, multiple exposure. six ghosted figures superimposed, converging into a single silhouette. flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material. mood: the reveal arriving as a shape. key objects: six coats of different colours, one outline, the porch beyond. camera and motion: the silhouettes fade up one at a time and lock into alignment. character WOMAN_03 - woman, 33, long dark hair worn loose, a narrow face, dark eyes, a slightly forward-leaning walk, average height; a long charcoal wool coat, a canvas bag on the right shoulder, keys held in the right hand; a distinctive gait - a very slight favouring of the left leg and square-set shoulders that must be identical in every arrival shot, whatever she is wearing. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "six overlaid silhouettes of people walking toward a front door, aligning into one identical outline",
+        "environment": "the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge",
+        "angle": "the identical doorbell angle, multiple exposure",
+        "composition": "six ghosted figures superimposed, converging into a single silhouette",
+        "lighting": "flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material",
+        "emotion": "the reveal arriving as a shape",
+        "objects": "six coats of different colours, one outline, the porch beyond",
+        "movement": "the silhouettes fade up one at a time and lock into alignment",
+        "continuity": "the coats differ, the outline does not - that is the entire shot",
+        "tags": [
+          "WOMAN_03"
+        ]
+      },
       "sfx": "feed static, one held tone",
       "shot_change": "split screen"
     },
@@ -103,7 +209,21 @@
       "duration": 2,
       "caption": "All thirty-one are HER",
       "visual": "The clip grid, every thumbnail now showing the same woman in a different coat.",
-      "prompt": "A grid of video thumbnails all showing the same woman approaching a front door in different coats and different light, cold app interface. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a grid of video thumbnails all showing the same woman approaching a front door in different coats. the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge. dead-on macro on a phone screen. a dense grid, the same figure repeating in every cell in different light. flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material. mood: the scale of it. key objects: a phone screen, a grid of repeating figures. camera and motion: static, the grid extending beyond the frame edges. character WOMAN_03 - woman, 33, long dark hair worn loose, a narrow face, dark eyes, a slightly forward-leaning walk, average height; a long charcoal wool coat, a canvas bag on the right shoulder, keys held in the right hand; a distinctive gait - a very slight favouring of the left leg and square-set shoulders that must be identical in every arrival shot, whatever she is wearing. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a grid of video thumbnails all showing the same woman approaching a front door in different coats",
+        "environment": "the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge",
+        "angle": "dead-on macro on a phone screen",
+        "composition": "a dense grid, the same figure repeating in every cell in different light",
+        "lighting": "flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material",
+        "emotion": "the scale of it",
+        "objects": "a phone screen, a grid of repeating figures",
+        "movement": "static, the grid extending beyond the frame edges",
+        "continuity": "WOMAN_03 recognisable in every cell by gait and shoulders despite different coats and hair",
+        "tags": [
+          "WOMAN_03"
+        ]
+      },
       "sfx": "door latch, loud in the silence",
       "shot_change": "hard cut"
     },
@@ -114,7 +234,19 @@
       "duration": 2,
       "caption": "Recording the NEXT one",
       "visual": "The live feed: the porch, empty, the recording indicator already lit.",
-      "prompt": "A doorbell camera live feed of an empty dusk porch with a red recording indicator lit in the corner, nothing moving. the same woman, thirties, long coat, hair down, always carrying a phone and keys, seen on a suburban porch in doorbell-camera fisheye and in clean reverse angles. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a doorbell camera live feed of an empty dusk porch with a small recording indicator lit. the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge. the identical doorbell angle. the empty porch centred, the indicator a single small point in the upper corner. flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material. mood: the loop continuing without her. key objects: an empty porch, a closed door, a small lit indicator. camera and motion: static, one slow pulse of the indicator. wide-angle doorbell-camera fisheye with heavy vignetting and night infrared for footage shots, clean neutral daylight for real-world shots, suburban porch, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a doorbell camera live feed of an empty dusk porch with a small recording indicator lit",
+        "environment": "the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge",
+        "angle": "the identical doorbell angle",
+        "composition": "the empty porch centred, the indicator a single small point in the upper corner",
+        "lighting": "flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material",
+        "emotion": "the loop continuing without her",
+        "objects": "an empty porch, a closed door, a small lit indicator",
+        "movement": "static, one slow pulse of the indicator",
+        "continuity": "the indicator is a light source only, not a graphic - the interface is composited",
+        "tags": []
+      },
       "sfx": "status chime, cut to silence",
       "shot_change": "cut to black"
     }

@@ -27,13 +27,71 @@ def vo_text(s):
     return " ".join(s["voiceover"])
 
 
+HOUSE_STYLE = ("Cinematic digital mystery. Modern realistic environment, photographed not "
+               "illustrated. Atmospheric lighting, high contrast, deep shadow retention. "
+               "Subtle technological unease. Premium streaming-thriller grade. Shot on a "
+               "full-frame sensor with anamorphic character, fine natural grain, no gloss")
+
+NEGATIVE = ("no text, no lettering, no numerals, no captions, no watermark, no logos, no "
+            "readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D "
+            "render, no plastic skin, no stock-photo lighting, no lens flare spam, no "
+            "oversaturation, no extra fingers, no warped faces")
+
+
+def characters_of(s):
+    """Structured cast, falling back to the older single character_lock string."""
+    if s.get("characters"):
+        return {c["tag"]: c for c in s["characters"]}
+    return {"MAIN": {"tag": "MAIN", "name": "Main character",
+                     "description": s.get("character_lock", ""), "wardrobe": "",
+                     "distinguishing": ""}}
+
+
+def char_line(c):
+    bits = [c["description"]]
+    if c.get("wardrobe"):
+        bits.append(c["wardrobe"])
+    if c.get("distinguishing"):
+        bits.append(c["distinguishing"])
+    return "; ".join(b.rstrip(". ") for b in bits if b)
+
+
+def spec_of(scene, s):
+    """Nine-field visual specification, inheriting the project defaults where a scene
+    does not override them."""
+    v = scene.get("v", {})
+    cast = characters_of(s)
+    tags = scene.get("characters", ["MAIN"] if scene.get("character") else [])
+    return {
+        "subject": v.get("subject", scene["visual"]),
+        "environment": v.get("environment", s.get("default_environment", "")),
+        "angle": v.get("angle", "eye-level, locked off"),
+        "composition": v.get("composition", "single clear focal subject centred in the vertical frame"),
+        "lighting": v.get("lighting", s.get("default_lighting", "")),
+        "emotion": v.get("emotion", "cold unease"),
+        "objects": v.get("objects", ""),
+        "movement": v.get("movement", "static frame"),
+        "continuity": v.get("continuity", ""),
+        "tags": [t for t in tags if t in cast],
+    }
+
+
 def compose_prompt(scene, s):
-    bits = [scene["prompt"].rstrip(". ")]
-    if scene.get("character"):
-        bits.append(s["character_lock"])
-    bits.append(s["style_lock"])
-    bits.append("vertical 9:16 composition, single clear focal subject")
-    return ". ".join(bits) + "."
+    sp = spec_of(scene, s)
+    cast = characters_of(s)
+    bits = [sp["subject"], sp["environment"], sp["angle"], sp["composition"],
+            sp["lighting"], f"mood: {sp['emotion']}"]
+    if sp["objects"]:
+        bits.append(f"key objects: {sp['objects']}")
+    if sp["movement"]:
+        bits.append(f"camera and motion: {sp['movement']}")
+    for t in sp["tags"]:
+        bits.append(f"character {t} - {char_line(cast[t])}")
+    bits.append(s.get("style_lock", ""))
+    bits.append(HOUSE_STYLE)
+    bits.append("vertical 9:16 composition, framed for a phone screen")
+    bits.append(f"negative: {NEGATIVE}")
+    return ". ".join(b.rstrip(". ") for b in bits if b) + "."
 
 
 def render_script(s):
@@ -125,6 +183,7 @@ def render_scenes(s):
             "caption": sc["caption"],
             "visual": sc["visual"],
             "prompt": compose_prompt(sc, s),
+            "visual_spec": spec_of(sc, s),
             "sfx": sc["sfx"],
             "shot_change": sc.get("shot_change", "cut"),
         } for sc in s["scenes"]],
@@ -158,16 +217,54 @@ def render_metadata(s):
     }, indent=2, ensure_ascii=False) + "\n"
 
 
+BAR = "=" * 74
+
+
 def render_prompts(s):
-    L = [f"# {s['id']} - {s['working_title']} - IMAGE / VIDEO PROMPTS",
-         f"# {len(s['scenes'])} scenes | 9:16 vertical",
-         f"# CHARACTER LOCK: {s['character_lock']}",
-         f"# STYLE LOCK: {s['style_lock']}",
-         ""]
-    for sc in s["scenes"]:
-        L.append(f"[{sc['n']:02d}] {compose_prompt(sc, s)}")
+    cast = characters_of(s)
+    L = [f"{s['id']} - {s['working_title'].upper()} - PRODUCTION VISUAL PROMPTS",
+         BAR,
+         f"{len(s['scenes'])} scenes  |  9:16 vertical  |  cinematic digital mystery",
+         "Original fiction. No real people, places, brands or products.",
+         "",
+         "NO TEXT IS TO BE GENERATED INSIDE ANY IMAGE.",
+         "Captions, timestamps, interface chrome and readable screen content are composited",
+         "in the edit. Where a scene shows a screen, generate light and shape only:",
+         "soft illegible glow, out-of-focus glyph texture, no legible characters.",
+         "",
+         BAR, "STYLE - applies to every scene in this project", BAR,
+         f"LOOK       : {HOUSE_STYLE}",
+         f"PROJECT    : {s['style_lock']}",
+         f"ASPECT     : 9:16 vertical, framed for a phone screen, action inside the centre 80%",
+         f"NEGATIVE   : {NEGATIVE}",
+         "",
+         BAR, "CHARACTER REFERENCE - build these first, reuse the same seed", BAR]
+    for t, c in cast.items():
+        L.append(f"[{t}] {c.get('name', t)}")
+        L.append(f"  PHYSICAL      : {c['description']}")
+        if c.get("wardrobe"):
+            L.append(f"  WARDROBE      : {c['wardrobe']}")
+        if c.get("distinguishing"):
+            L.append(f"  DISTINGUISHING: {c['distinguishing']}")
+        L.append(f"  CONTINUITY    : repeat this description verbatim in every scene tagged "
+                 f"{t}. Do not restate it in scenes where {t} does not appear.")
         L.append("")
-    return "\n".join(L)
+    L += [BAR, "SCENES", BAR, ""]
+    for sc in s["scenes"]:
+        sp = spec_of(sc, s)
+        tags = ", ".join(sp["tags"]) if sp["tags"] else "none"
+        L.append(f"--- SCENE {sc['n']:02d} | {sc['start']:.1f}-{sc['end']:.1f}s "
+                 f"({sc['end'] - sc['start']:.1f}s) | characters: {tags} ---")
+        for label, key in [("SUBJECT", "subject"), ("ENVIRONMENT", "environment"),
+                           ("CAMERA ANGLE", "angle"), ("COMPOSITION", "composition"),
+                           ("LIGHTING", "lighting"), ("EMOTION", "emotion"),
+                           ("KEY OBJECTS", "objects"), ("MOVEMENT", "movement"),
+                           ("CONTINUITY", "continuity")]:
+            L.append(f"{label:<13}: {sp[key] or '-'}")
+        L.append("")
+        L.append(f"PROMPT: {compose_prompt(sc, s)}")
+        L.append("")
+    return "\n".join(L) + "\n"
 
 
 def build(s):

@@ -15,7 +15,19 @@
       "duration": 2,
       "caption": "One frame LONGER",
       "visual": "Extreme macro on a video scrubber. The duration readout ticks up by a single frame. Phone-screen glow.",
-      "prompt": "Extreme macro of a video player progress bar on a dark screen, duration counter frozen mid-tick, heavy pixel texture, cold blue monitor glow. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "extreme macro of a video player's progress bar, the scrubber caught mid-step. the surface of a matte monitor panel, individual pixels visible at this distance. dead-on macro, sensor parallel to the screen, 100mm. the scrubber runs across the lower third, the upper two thirds are empty black panel. self-lit by the screen, cold blue, faint bloom spilling into the surrounding black. mood: clinical curiosity, something very small being very wrong. key objects: progress bar, scrubber handle, a scatter of dust on the panel. camera and motion: static frame; the only motion is one pixel-step of the scrubber. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "extreme macro of a video player's progress bar, the scrubber caught mid-step",
+        "environment": "the surface of a matte monitor panel, individual pixels visible at this distance",
+        "angle": "dead-on macro, sensor parallel to the screen, 100mm",
+        "composition": "the scrubber runs across the lower third, the upper two thirds are empty black panel",
+        "lighting": "self-lit by the screen, cold blue, faint bloom spilling into the surrounding black",
+        "emotion": "clinical curiosity, something very small being very wrong",
+        "objects": "progress bar, scrubber handle, a scatter of dust on the panel",
+        "movement": "static frame; the only motion is one pixel-step of the scrubber",
+        "continuity": "screen content is abstract light only, no legible numerals - the readout is composited in the edit. Establishes the cold blue screen key used throughout.",
+        "tags": []
+      },
       "sfx": "single dry UI click, low sub drop",
       "shot_change": "hard cut in"
     },
@@ -26,7 +38,21 @@
       "duration": 5,
       "caption": "Same file. Same HASH.",
       "visual": "File properties panel. Size and checksum identical across two windows side by side. His hand enters frame to point.",
-      "prompt": "A hand with a thin silver ring pointing at two identical file property windows on a dim monitor, cluttered desk, night. the same man, late twenties, short dark hair, plain grey t-shirt, thin silver ring on his right hand, seen mostly as hands and a partial face lit by a monitor. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a hand entering frame to point at two stacked property panels on a monitor. a small rented flat converted into a workspace at night: a desk against a blank wall, a stack of external drives, one monitor, blackout curtains half drawn. over-the-shoulder, high three-quarter, 35mm. hand and forearm entering on a diagonal from frame right, monitor filling the upper two thirds, focus on the fingertip. screen light rims the knuckles and the silver band, the rest of the arm falls into shadow. mood: methodical, mildly unsettled. key objects: two glowing abstract panels, a silver ring, a worn mechanical keyboard. camera and motion: the hand pushes slowly into frame and stops, no camera move. character MAN_01 - man, 28, narrow face, short dark brown hair worn slightly long at the front, three days of stubble, grey-blue eyes with dark circles beneath, lean build, long fingers; plain heather-grey cotton t-shirt with a slightly stretched neckline, thin silver band on the right index finger; a small white scar through the left eyebrow, nails bitten short; shot from the chest up or as hands only, with one side of the face always held in shadow. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a hand entering frame to point at two stacked property panels on a monitor",
+        "environment": "a small rented flat converted into a workspace at night: a desk against a blank wall, a stack of external drives, one monitor, blackout curtains half drawn",
+        "angle": "over-the-shoulder, high three-quarter, 35mm",
+        "composition": "hand and forearm entering on a diagonal from frame right, monitor filling the upper two thirds, focus on the fingertip",
+        "lighting": "screen light rims the knuckles and the silver band, the rest of the arm falls into shadow",
+        "emotion": "methodical, mildly unsettled",
+        "objects": "two glowing abstract panels, a silver ring, a worn mechanical keyboard",
+        "movement": "the hand pushes slowly into frame and stops, no camera move",
+        "continuity": "the silver band on the right index finger must be visible - it is the identifier in every hands-only shot. Screen content abstract.",
+        "tags": [
+          "MAN_01"
+        ]
+      },
       "sfx": "hard drive tick, keyboard tap",
       "shot_change": "cut"
     },
@@ -37,7 +63,21 @@
       "duration": 5,
       "caption": "He plays it ELEVEN times",
       "visual": "Fast rhythmic cuts of a finger hitting play, eleven times, each cut slightly tighter on the screen.",
-      "prompt": "Close-up of a finger repeatedly pressing a play button on a keyboard, motion blur, monitor light flickering on skin, night interior. the same man, late twenties, short dark hair, plain grey t-shirt, thin silver ring on his right hand, seen mostly as hands and a partial face lit by a monitor. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a fingertip striking a keyboard key, the same action repeated. a small rented flat converted into a workspace at night: a desk against a blank wall, a stack of external drives, one monitor, blackout curtains half drawn. low macro from the side of the keyboard, 50mm, close to the key plane. the finger fills the left half against black falloff, key caps receding out of focus to the right. hard screen light from the front, strong specular on the nail, deep shadow beneath the hand. mood: compulsion building into something mechanical. key objects: keyboard, fingertip, bitten nail. camera and motion: eleven rapid strikes cut together, each framed a little tighter, with subtle handheld drift. character MAN_01 - man, 28, narrow face, short dark brown hair worn slightly long at the front, three days of stubble, grey-blue eyes with dark circles beneath, lean build, long fingers; plain heather-grey cotton t-shirt with a slightly stretched neckline, thin silver band on the right index finger; a small white scar through the left eyebrow, nails bitten short; shot from the chest up or as hands only, with one side of the face always held in shadow. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a fingertip striking a keyboard key, the same action repeated",
+        "environment": "a small rented flat converted into a workspace at night: a desk against a blank wall, a stack of external drives, one monitor, blackout curtains half drawn",
+        "angle": "low macro from the side of the keyboard, 50mm, close to the key plane",
+        "composition": "the finger fills the left half against black falloff, key caps receding out of focus to the right",
+        "lighting": "hard screen light from the front, strong specular on the nail, deep shadow beneath the hand",
+        "emotion": "compulsion building into something mechanical",
+        "objects": "keyboard, fingertip, bitten nail",
+        "movement": "eleven rapid strikes cut together, each framed a little tighter, with subtle handheld drift",
+        "continuity": "same hand, same ring, same bitten nail; the desk dressing never changes across scenes 02, 03, 06 and 10.",
+        "tags": [
+          "MAN_01"
+        ]
+      },
       "sfx": "eleven overlapping play clicks building into one tone",
       "shot_change": "rapid cut montage"
     },
@@ -48,7 +88,19 @@
       "duration": 5,
       "caption": "The new frames are a ROOM",
       "visual": "The appended frames fill the screen: a plain empty room, static camera, window at the left.",
-      "prompt": "Static wide shot of an empty plain room with a bare window, dust in the air, security-camera flatness, muted colours. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a plain empty upper room recorded by a fixed camera, a sash window at the left and a closed door at the right. an unfurnished room in an old house, pale plaster walls, bare wooden floorboards, no furniture at all. fixed wide at chest height, mildly wide-angle as a cheap fixed camera would be. the window throws a hard trapezoid of light across the floor from frame left, the far door sits in the right third. overcast daylight only, flat and grey, with slight vignetting from the cheap lens. mood: abandonment, a held breath. key objects: sash window, closed far door, dust suspended in the air. camera and motion: absolutely static - this is the footage, not the film. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a plain empty upper room recorded by a fixed camera, a sash window at the left and a closed door at the right",
+        "environment": "an unfurnished room in an old house, pale plaster walls, bare wooden floorboards, no furniture at all",
+        "angle": "fixed wide at chest height, mildly wide-angle as a cheap fixed camera would be",
+        "composition": "the window throws a hard trapezoid of light across the floor from frame left, the far door sits in the right third",
+        "lighting": "overcast daylight only, flat and grey, with slight vignetting from the cheap lens",
+        "emotion": "abandonment, a held breath",
+        "objects": "sash window, closed far door, dust suspended in the air",
+        "movement": "absolutely static - this is the footage, not the film",
+        "continuity": "THE ROOM. Identical framing, lens and window position in scenes 04, 05, 07, 08 and 09. Only the light and the occupancy ever change.",
+        "tags": []
+      },
       "sfx": "tape hiss, distant room tone",
       "shot_change": "match cut into the footage"
     },
@@ -59,7 +111,19 @@
       "duration": 6,
       "caption": "EMPTY. Still. Waiting.",
       "visual": "Time-lapse of the window light shifting across the empty floor while the frame counter climbs.",
-      "prompt": "Time-lapse of sunlight moving across the bare floor of an empty room, long shadows rotating, unchanging furniture, cold light. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "the same empty room as a full day of light crosses it. the identical unfurnished room, unchanged. identical fixed wide to scene 04 - do not reframe. identical to scene 04; the trapezoid of light sweeps right to left across the floorboards. a day compressed - cold morning, hard noon, long amber evening, blue dusk. mood: time passing with nobody present to feel it. key objects: floorboards, window, the moving edge of the light. camera and motion: time-lapse, no camera move whatsoever. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "the same empty room as a full day of light crosses it",
+        "environment": "the identical unfurnished room, unchanged",
+        "angle": "identical fixed wide to scene 04 - do not reframe",
+        "composition": "identical to scene 04; the trapezoid of light sweeps right to left across the floorboards",
+        "lighting": "a day compressed - cold morning, hard noon, long amber evening, blue dusk",
+        "emotion": "time passing with nobody present to feel it",
+        "objects": "floorboards, window, the moving edge of the light",
+        "movement": "time-lapse, no camera move whatsoever",
+        "continuity": "must match scene 04 exactly in framing and lens; only the light changes.",
+        "tags": []
+      },
       "sfx": "rising low drone under a ticking frame counter",
       "shot_change": "dissolve"
     },
@@ -70,7 +134,21 @@
       "duration": 5,
       "caption": "FOUR HUNDRED plays",
       "visual": "His face in monitor light, unblinking, as reflected frame counts race in his glasses.",
-      "prompt": "A man's face lit only by a monitor at night, eyes reflecting scrolling numbers, exhausted, unblinking, tight vertical framing. the same man, late twenties, short dark hair, plain grey t-shirt, thin silver ring on his right hand, seen mostly as hands and a partial face lit by a monitor. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "MAN_01's face lit only by the monitor, refusing to blink. a small rented flat converted into a workspace at night: a desk against a blank wall, a stack of external drives, one monitor, blackout curtains half drawn. slightly low, dead-on, 85mm, camera placed where the monitor sits. face in the upper centre with the eyes on the upper-third line, black filling the lower third. a single cold source from front-below, hard falloff, a rectangular catchlight in each eye. mood: exhaustion tipping over into fixation. key objects: the man's face, the reflected rectangle in each eye. camera and motion: static; the only motion is a blink withheld a second too long. character MAN_01 - man, 28, narrow face, short dark brown hair worn slightly long at the front, three days of stubble, grey-blue eyes with dark circles beneath, lean build, long fingers; plain heather-grey cotton t-shirt with a slightly stretched neckline, thin silver band on the right index finger; a small white scar through the left eyebrow, nails bitten short; shot from the chest up or as hands only, with one side of the face always held in shadow. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "MAN_01's face lit only by the monitor, refusing to blink",
+        "environment": "a small rented flat converted into a workspace at night: a desk against a blank wall, a stack of external drives, one monitor, blackout curtains half drawn",
+        "angle": "slightly low, dead-on, 85mm, camera placed where the monitor sits",
+        "composition": "face in the upper centre with the eyes on the upper-third line, black filling the lower third",
+        "lighting": "a single cold source from front-below, hard falloff, a rectangular catchlight in each eye",
+        "emotion": "exhaustion tipping over into fixation",
+        "objects": "the man's face, the reflected rectangle in each eye",
+        "movement": "static; the only motion is a blink withheld a second too long",
+        "continuity": "same stubble length, shirt and scar as scene 02.",
+        "tags": [
+          "MAN_01"
+        ]
+      },
       "sfx": "click loop compressed into a stutter",
       "shot_change": "cut"
     },
@@ -81,7 +159,19 @@
       "duration": 5,
       "caption": "Ten thousand EMPTY frames",
       "visual": "Frame counter racing past ten thousand over the unchanging empty room.",
-      "prompt": "Empty room shot with a large frame counter overlay racing upward, heavy compression artefacts, static composition. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "the empty room again, held far longer than is comfortable. the identical unfurnished room. identical fixed wide. identical to scenes 04 and 05, deliberately unchanged so the viewer starts searching the frame. flat grey daylight, slightly more degraded, heavier compression mush in the shadows. mood: impatience curdling into dread. key objects: the same window, floor and closed door. camera and motion: static, with a faint compression shimmer in the shadow areas. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "the empty room again, held far longer than is comfortable",
+        "environment": "the identical unfurnished room",
+        "angle": "identical fixed wide",
+        "composition": "identical to scenes 04 and 05, deliberately unchanged so the viewer starts searching the frame",
+        "lighting": "flat grey daylight, slightly more degraded, heavier compression mush in the shadows",
+        "emotion": "impatience curdling into dread",
+        "objects": "the same window, floor and closed door",
+        "movement": "static, with a faint compression shimmer in the shadow areas",
+        "continuity": "the frame counter is composited in post - generate no numerals.",
+        "tags": []
+      },
       "sfx": "counter whirr, everything else muted",
       "shot_change": "cut"
     },
@@ -92,7 +182,19 @@
       "duration": 6,
       "caption": "Then the DOOR opens",
       "visual": "In the footage, the far door swings inward. Half a second of total silence before it moves.",
-      "prompt": "A door slowly opening into an empty plain room, seen from a fixed low-quality camera, deep shadow beyond the doorway. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "the far door of the empty room swinging inward onto darkness. the identical unfurnished room. identical fixed wide. identical framing, the door in the right third, the opening a black wedge. the same grey daylight; nothing illuminates the space beyond the door. mood: the first real fear in the film. key objects: the door, its worn handle, the blackness beyond. camera and motion: the door swings slowly inward across four seconds, the camera does not move. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "the far door of the empty room swinging inward onto darkness",
+        "environment": "the identical unfurnished room",
+        "angle": "identical fixed wide",
+        "composition": "identical framing, the door in the right third, the opening a black wedge",
+        "lighting": "the same grey daylight; nothing illuminates the space beyond the door",
+        "emotion": "the first real fear in the film",
+        "objects": "the door, its worn handle, the blackness beyond",
+        "movement": "the door swings slowly inward across four seconds, the camera does not move",
+        "continuity": "room identical to 04, 05 and 07 - same window light, same floorboards.",
+        "tags": []
+      },
       "sfx": "total silence, then a single wooden creak",
       "shot_change": "hold, no cut"
     },
@@ -103,7 +205,21 @@
       "duration": 5,
       "caption": "Since 2003. NEVER stopped.",
       "visual": "A figure sits in a chair in the centre of the room and turns to face the lens. Held still.",
-      "prompt": "A seated figure in the centre of an empty room facing the camera directly, face in shadow, absolutely still, grainy footage. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "FIGURE_01 seated in the centre of the empty room, facing the lens, face unreadable. the identical unfurnished room. identical fixed wide, then a very slow push in. the figure centred and small in frame, window light behind and to the left so the face stays unreadable. backlit by the window, reading as a silhouette with no facial detail recoverable. mood: patience, which is far worse than threat. key objects: a plain wooden chair that was not in any earlier scene. camera and motion: a 10% push in over five seconds; the figure does not move at all. character FIGURE_01 - an adult human silhouette of indeterminate age and sex, seated upright with hands flat on the knees, reading only as shape and posture; dark, plain, era-neutral clothing with no discernible detail; never lit from the front and never resolved; if facial features become legible the shot is wrong. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "FIGURE_01 seated in the centre of the empty room, facing the lens, face unreadable",
+        "environment": "the identical unfurnished room",
+        "angle": "identical fixed wide, then a very slow push in",
+        "composition": "the figure centred and small in frame, window light behind and to the left so the face stays unreadable",
+        "lighting": "backlit by the window, reading as a silhouette with no facial detail recoverable",
+        "emotion": "patience, which is far worse than threat",
+        "objects": "a plain wooden chair that was not in any earlier scene",
+        "movement": "a 10% push in over five seconds; the figure does not move at all",
+        "continuity": "FIGURE_01 must never resolve. Same room, same window, same lens as scene 04.",
+        "tags": [
+          "FIGURE_01"
+        ]
+      },
       "sfx": "sub-bass swell, room tone drops out",
       "shot_change": "slow push in"
     },
@@ -114,7 +230,19 @@
       "duration": 4,
       "caption": "It grew ALREADY",
       "visual": "Cut to black except the video player, paused, with the replay button pulsing. Duration ticks up once more.",
-      "prompt": "A paused video player on a black screen with a glowing replay icon, single frame counter ticking upward, nothing else visible. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a video player paused on black with a single lit circular control. pure black, the screen filling the entire frame. dead-on macro. the control sits dead centre, everything else is empty black. self-lit and dim, a soft halo around the control. mood: invitation. key objects: a circular replay control, shape only, no text. camera and motion: static, with one faint pulse of the control. cold desaturated palette, deep shadows, one practical light source, fine digital grain, shallow depth of field, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a video player paused on black with a single lit circular control",
+        "environment": "pure black, the screen filling the entire frame",
+        "angle": "dead-on macro",
+        "composition": "the control sits dead centre, everything else is empty black",
+        "lighting": "self-lit and dim, a soft halo around the control",
+        "emotion": "invitation",
+        "objects": "a circular replay control, shape only, no text",
+        "movement": "static, with one faint pulse of the control",
+        "continuity": "closing frame; matches the screen key of scene 01. The duration readout is composited.",
+        "tags": []
+      },
       "sfx": "one dry click, then silence",
       "shot_change": "cut to black"
     }

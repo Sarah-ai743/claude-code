@@ -15,7 +15,21 @@
       "duration": 2,
       "caption": "Delete it. It moves CLOSER.",
       "visual": "A thumb swipes delete. The photo reappears instantly, a fraction deeper into the hallway.",
-      "prompt": "A thumb swiping a delete gesture on a phone photo of a dim hallway, the image reappearing slightly closer, harsh screen glow in darkness. the same young man, early twenties, cropped hair, dark hoodie, bitten fingernails, only ever seen in phone light or as hands holding a phone. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a thumb swiping a delete gesture across a phone photo of a dim hallway. a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street. top-down macro on the phone, 100mm. the phone fills the frame on a slight diagonal, the thumb entering from the lower right. one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame. mood: irritation, not yet fear. key objects: phone, thumb, bitten nail, the hallway image. camera and motion: a fast swipe, then the image snapping back in place. character MAN_02 - man, 22, pale, sharp cheekbones, cropped dark hair, sparse patchy stubble, wide anxious eyes, thin frame; black hooded sweatshirt with the hood down and the sleeves pulled over the palms; bitten fingernails and a pale untanned band where a watch used to be; almost never fully visible - hands, jaw or eyes only. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a thumb swiping a delete gesture across a phone photo of a dim hallway",
+        "environment": "a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street",
+        "angle": "top-down macro on the phone, 100mm",
+        "composition": "the phone fills the frame on a slight diagonal, the thumb entering from the lower right",
+        "lighting": "one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame",
+        "emotion": "irritation, not yet fear",
+        "objects": "phone, thumb, bitten nail, the hallway image",
+        "movement": "a fast swipe, then the image snapping back in place",
+        "continuity": "screen content is the hallway plate only - no UI chrome, which is composited in the edit",
+        "tags": [
+          "MAN_02"
+        ]
+      },
       "sfx": "delete whoosh, sub-bass thud",
       "shot_change": "hard cut in"
     },
@@ -26,7 +40,19 @@
       "duration": 5,
       "caption": "He did not TAKE it",
       "visual": "The photo full screen: grey carpet, one ceiling light, a closed door at the far end.",
-      "prompt": "A flash-lit phone photograph of an empty grey-carpeted hallway with one ceiling light and a closed door at the far end, amateur snapshot quality. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a flash-lit photograph of an empty grey-carpeted hallway with one ceiling light and a closed door at the far end. an anonymous residential corridor, grey cord carpet, off-white walls, one ceiling fitting, a pale door at the end. fixed, chest height, dead centre down the hallway, mild wide-angle. one-point perspective, the door dead centre at the vanishing point, walls converging symmetrically. a hard on-camera flash falling off fast, the far end of the hallway swallowed in black. mood: the specific dread of an ordinary place. key objects: grey carpet, one ceiling light, a closed pale door, a skirting board scuff. camera and motion: absolutely static, a single flash exposure. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a flash-lit photograph of an empty grey-carpeted hallway with one ceiling light and a closed door at the far end",
+        "environment": "an anonymous residential corridor, grey cord carpet, off-white walls, one ceiling fitting, a pale door at the end",
+        "angle": "fixed, chest height, dead centre down the hallway, mild wide-angle",
+        "composition": "one-point perspective, the door dead centre at the vanishing point, walls converging symmetrically",
+        "lighting": "a hard on-camera flash falling off fast, the far end of the hallway swallowed in black",
+        "emotion": "the specific dread of an ordinary place",
+        "objects": "grey carpet, one ceiling light, a closed pale door, a skirting board scuff",
+        "movement": "absolutely static, a single flash exposure",
+        "continuity": "THE HALLWAY. Identical lens, height and centre line in scenes 02, 03, 04, 07, 08. Only the distance to the door changes.",
+        "tags": []
+      },
       "sfx": "room tone, faint phone hum",
       "shot_change": "cut"
     },
@@ -37,7 +63,19 @@
       "duration": 5,
       "caption": "TWO steps further in",
       "visual": "Two versions side by side, the second measurably deeper. A ruler line drawn between them.",
-      "prompt": "Two nearly identical photographs of the same hallway side by side, the second taken two paces further forward, comparison framing. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "two near-identical hallway photographs side by side, the second taken two paces further forward. a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street. both fixed and dead-on, presented as a split. a hard vertical split, the vanishing point at the same height on both sides. one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame. mood: measurement replacing instinct. key objects: two hallway frames, the same scuff visible at different scale. camera and motion: static split, a brief cross-dissolve between them. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "two near-identical hallway photographs side by side, the second taken two paces further forward",
+        "environment": "a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street",
+        "angle": "both fixed and dead-on, presented as a split",
+        "composition": "a hard vertical split, the vanishing point at the same height on both sides",
+        "lighting": "one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame",
+        "emotion": "measurement replacing instinct",
+        "objects": "two hallway frames, the same scuff visible at different scale",
+        "movement": "static split, a brief cross-dissolve between them",
+        "continuity": "identical lens and centre line - only the camera distance differs",
+        "tags": []
+      },
       "sfx": "shutter click doubled",
       "shot_change": "split screen"
     },
@@ -48,7 +86,19 @@
       "duration": 6,
       "caption": "He deletes it AGAIN",
       "visual": "Rapid montage of deletions across days, the hallway advancing each time, timestamps flicking forward.",
-      "prompt": "Rapid montage of the same hallway photograph advancing forward frame by frame, changing timestamps, phone interface elements. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "the same hallway advancing frame by frame in a rapid montage. a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street. fixed, dead-on, advancing. the vanishing point holds dead centre while the door grows in the frame. one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame. mood: acceleration, loss of control. key objects: the hallway, the door, the ceiling light passing overhead. camera and motion: eight to ten hard cuts, each one pace further in, quickening. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "the same hallway advancing frame by frame in a rapid montage",
+        "environment": "a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street",
+        "angle": "fixed, dead-on, advancing",
+        "composition": "the vanishing point holds dead centre while the door grows in the frame",
+        "lighting": "one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame",
+        "emotion": "acceleration, loss of control",
+        "objects": "the hallway, the door, the ceiling light passing overhead",
+        "movement": "eight to ten hard cuts, each one pace further in, quickening",
+        "continuity": "the ceiling light must pass out of the top of frame as the camera advances - it is the depth cue",
+        "tags": []
+      },
       "sfx": "stacked delete tones rising in pitch",
       "shot_change": "rapid cut montage"
     },
@@ -59,7 +109,19 @@
       "duration": 6,
       "caption": "So he STOPS",
       "visual": "The phone face down on a table for days. Dust settles. Light changes across it.",
-      "prompt": "A phone lying face down on a wooden table through a day-to-night time-lapse, dust settling, changing window light. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a phone lying face down on a laminate table through a day-to-night time-lapse. a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street. high three-quarter, 35mm, looking down at the table. the phone sits off-centre left, the table surface running to the frame edge. one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame. mood: avoidance. key objects: face-down phone, a ring of coffee, a scatter of dust. camera and motion: time-lapse, light crossing the table and fading, no camera move. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a phone lying face down on a laminate table through a day-to-night time-lapse",
+        "environment": "a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street",
+        "angle": "high three-quarter, 35mm, looking down at the table",
+        "composition": "the phone sits off-centre left, the table surface running to the frame edge",
+        "lighting": "one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame",
+        "emotion": "avoidance",
+        "objects": "face-down phone, a ring of coffee, a scatter of dust",
+        "movement": "time-lapse, light crossing the table and fading, no camera move",
+        "continuity": "the phone does not move at all across the entire time-lapse",
+        "tags": []
+      },
       "sfx": "time-lapse hush, distant traffic",
       "shot_change": "time-lapse"
     },
@@ -70,7 +132,21 @@
       "duration": 6,
       "caption": "Only when he LOOKS",
       "visual": "He glances at the screen. The image jumps forward in the instant his eyes land on it.",
-      "prompt": "A young man's eyes reflected in a phone screen at night, the reflected image jumping forward the moment he looks, tight vertical framing. the same young man, early twenties, cropped hair, dark hoodie, bitten fingernails, only ever seen in phone light or as hands holding a phone. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "MAN_02's eyes reflected in a phone screen at night. a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street. extreme close-up, 100mm, slightly above the screen. the eyes on the upper-third line, the reflected rectangle visible in each iris. one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame. mood: the moment of being caught looking. key objects: eyes, phone reflection, a strand of hair. camera and motion: static, then one involuntary flinch. character MAN_02 - man, 22, pale, sharp cheekbones, cropped dark hair, sparse patchy stubble, wide anxious eyes, thin frame; black hooded sweatshirt with the hood down and the sleeves pulled over the palms; bitten fingernails and a pale untanned band where a watch used to be; almost never fully visible - hands, jaw or eyes only. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "MAN_02's eyes reflected in a phone screen at night",
+        "environment": "a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street",
+        "angle": "extreme close-up, 100mm, slightly above the screen",
+        "composition": "the eyes on the upper-third line, the reflected rectangle visible in each iris",
+        "lighting": "one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame",
+        "emotion": "the moment of being caught looking",
+        "objects": "eyes, phone reflection, a strand of hair",
+        "movement": "static, then one involuntary flinch",
+        "continuity": "MAN_02 as described - wide anxious eyes, patchy stubble at the jaw",
+        "tags": [
+          "MAN_02"
+        ]
+      },
       "sfx": "single frame-jump click, held breath",
       "shot_change": "cut"
     },
@@ -81,7 +157,19 @@
       "duration": 6,
       "caption": "The door is OPEN",
       "visual": "The far door now standing open onto blackness. Nothing visible beyond it.",
-      "prompt": "A phone photograph of a hallway where the far door now stands open onto complete darkness, flash falling short of the doorway. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a photograph of the hallway where the far door now stands open onto complete darkness. a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street. fixed, dead-on, deeper into the hallway. identical centre line, the open doorway a black rectangle at the vanishing point. one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame. mood: the floor dropping away. key objects: the open door, the black beyond it, the flash falling short. camera and motion: static single flash frame. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a photograph of the hallway where the far door now stands open onto complete darkness",
+        "environment": "a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street",
+        "angle": "fixed, dead-on, deeper into the hallway",
+        "composition": "identical centre line, the open doorway a black rectangle at the vanishing point",
+        "lighting": "one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame",
+        "emotion": "the floor dropping away",
+        "objects": "the open door, the black beyond it, the flash falling short",
+        "movement": "static single flash frame",
+        "continuity": "the flash must fail to reach into the doorway - the darkness has to read as depthless",
+        "tags": []
+      },
       "sfx": "drone rises, room tone thins",
       "shot_change": "push in"
     },
@@ -92,7 +180,19 @@
       "duration": 5,
       "caption": "A stairwell he KNOWS",
       "visual": "The photo is now his own building's stairwell, his own scuffed step, his own post.",
-      "prompt": "A flash photograph of a familiar shabby apartment stairwell with a scuffed step and a pile of post on the landing, night. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a flash photograph of a shabby apartment stairwell, a scuffed step and a pile of post on the landing. a run-down communal stairwell, painted concrete, a metal handrail, one bare bulb. handheld, chest height, angled up the stairs. the stair rail leads the eye diagonally up to the right, post scattered in the lower left. one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame. mood: recognition. key objects: concrete stairs, a chipped handrail, unopened post, a scuffed step. camera and motion: a single flash frame, very slight handheld tilt. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a flash photograph of a shabby apartment stairwell, a scuffed step and a pile of post on the landing",
+        "environment": "a run-down communal stairwell, painted concrete, a metal handrail, one bare bulb",
+        "angle": "handheld, chest height, angled up the stairs",
+        "composition": "the stair rail leads the eye diagonally up to the right, post scattered in the lower left",
+        "lighting": "one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame",
+        "emotion": "recognition",
+        "objects": "concrete stairs, a chipped handrail, unopened post, a scuffed step",
+        "movement": "a single flash frame, very slight handheld tilt",
+        "continuity": "the pile of post must match the post by the door in the bedsit shots",
+        "tags": []
+      },
       "sfx": "recognition sting, heartbeat low in mix",
       "shot_change": "cut"
     },
@@ -103,7 +203,19 @@
       "duration": 3,
       "caption": "His OWN front door",
       "visual": "The photo shows his door, from outside, in the dark. He is behind it, holding the phone.",
-      "prompt": "A flash photograph of a locked apartment front door photographed from the corridor outside at night, peeling paint, number plate. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a flash photograph of a locked apartment front door photographed from the corridor outside at night. a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street. fixed, chest height, dead-on to the door. the door fills the frame, the number plate in the upper third, corridor darkness at the edges. one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame. mood: the inside becoming the outside. key objects: a peeling painted door, a number plate, a deadbolt, a worn mat. camera and motion: static single flash frame. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a flash photograph of a locked apartment front door photographed from the corridor outside at night",
+        "environment": "a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street",
+        "angle": "fixed, chest height, dead-on to the door",
+        "composition": "the door fills the frame, the number plate in the upper third, corridor darkness at the edges",
+        "lighting": "one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame",
+        "emotion": "the inside becoming the outside",
+        "objects": "a peeling painted door, a number plate, a deadbolt, a worn mat",
+        "movement": "static single flash frame",
+        "continuity": "this must be recognisably the door seen from inside in earlier shots",
+        "tags": []
+      },
       "sfx": "silence, then one deadbolt click",
       "shot_change": "hard cut"
     },
@@ -114,7 +226,21 @@
       "duration": 2,
       "caption": "A hand. Holding a PHONE.",
       "visual": "Crop into the corner of that photo: a hand at the edge of frame, already raising a phone.",
-      "prompt": "Extreme crop into the dark corner of a flash photograph revealing a hand at the frame edge already raising a phone, heavy noise. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "an extreme crop into the dark corner of that photograph, revealing a hand already raising a phone. a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street. digital crop into the frame corner, heavily magnified. the hand enters from the extreme frame edge, the rest is noise. one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame. mood: the last piece landing. key objects: a hand, a phone edge, heavy sensor noise. camera and motion: a fast punch-in crop, then a dead stop. character MAN_02 - man, 22, pale, sharp cheekbones, cropped dark hair, sparse patchy stubble, wide anxious eyes, thin frame; black hooded sweatshirt with the hood down and the sleeves pulled over the palms; bitten fingernails and a pale untanned band where a watch used to be; almost never fully visible - hands, jaw or eyes only. near-black interiors with one sodium-yellow light source, phone screen as the brightest object in frame, soft grain, claustrophobic framing, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "an extreme crop into the dark corner of that photograph, revealing a hand already raising a phone",
+        "environment": "a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street",
+        "angle": "digital crop into the frame corner, heavily magnified",
+        "composition": "the hand enters from the extreme frame edge, the rest is noise",
+        "lighting": "one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame",
+        "emotion": "the last piece landing",
+        "objects": "a hand, a phone edge, heavy sensor noise",
+        "movement": "a fast punch-in crop, then a dead stop",
+        "continuity": "the hand must show bitten nails and the pale watch band - it is MAN_02's own hand",
+        "tags": [
+          "MAN_02"
+        ]
+      },
       "sfx": "one camera shutter, cut to silence",
       "shot_change": "crop zoom"
     }

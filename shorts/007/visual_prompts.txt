@@ -1,24 +1,161 @@
-# 007 - Significant Locations - IMAGE / VIDEO PROMPTS
-# 10 scenes | 9:16 vertical
-# CHARACTER LOCK: the same man, thirties, stubble, dark work jacket, phone always in his right hand, seen driving at night and walking a storage corridor with a torch
-# STYLE LOCK: sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos
+007 - SIGNIFICANT LOCATIONS - PRODUCTION VISUAL PROMPTS
+==========================================================================
+10 scenes  |  9:16 vertical  |  cinematic digital mystery
+Original fiction. No real people, places, brands or products.
 
-[01] Phone screen close-up of a location history list with an unfamiliar address and a large hour total, dark interface, night. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+NO TEXT IS TO BE GENERATED INSIDE ANY IMAGE.
+Captions, timestamps, interface chrome and readable screen content are composited
+in the edit. Where a scene shows a screen, generate light and shape only:
+soft illegible glow, out-of-focus glyph texture, no legible characters.
 
-[02] An animated calendar grid filling with identical repeated time blocks across two years, cold blue data visualisation on black. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+==========================================================================
+STYLE - applies to every scene in this project
+==========================================================================
+LOOK       : Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss
+PROJECT    : sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos
+ASPECT     : 9:16 vertical, framed for a phone screen, action inside the centre 80%
+NEGATIVE   : no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces
 
-[03] A man asleep in a dark bedroom with a phone face down on the nightstand, faint screen glow on the ceiling, blue night light. the same man, thirties, stubble, dark work jacket, phone always in his right hand, seen driving at night and walking a storage corridor with a torch. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+==========================================================================
+CHARACTER REFERENCE - build these first, reuse the same seed
+==========================================================================
+[MAN_04] The Driver
+  PHYSICAL      : man, 34, dark stubble, heavy brows, short dark hair flattened on one side, a broken-and-set nose, wiry build
+  WARDROBE      : a dark canvas work jacket over a grey hoodie, keys on a carabiner at the belt
+  DISTINGUISHING: a healed split through the left eyebrow, phone always in the right hand; shot in profile or from behind while walking
+  CONTINUITY    : repeat this description verbatim in every scene tagged MAN_04. Do not restate it in scenes where MAN_04 does not appear.
 
-[04] Driver point of view on an empty night motorway, sodium lights strobing across a windscreen, wet tarmac reflections. the same man, thirties, stubble, dark work jacket, phone always in his right hand, seen driving at night and walking a storage corridor with a torch. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+==========================================================================
+SCENES
+==========================================================================
 
-[05] A long storage facility corridor of identical orange roller doors under harsh strip lighting, torch beam raking the floor. the same man, thirties, stubble, dark work jacket, phone always in his right hand, seen driving at night and walking a storage corridor with a torch. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+--- SCENE 01 | 0.0-2.0s (2.0s) | characters: MAN_04 ---
+SUBJECT      : a phone screen showing a location list with one unfamiliar entry carrying a large hour total
+ENVIRONMENT  : the surface of a phone held close in a dark car interior
+CAMERA ANGLE : dead-on macro, 100mm
+COMPOSITION  : the list fills the frame, one row isolated by contrast
+LIGHTING     : screen light only, cold, with orange sodium bleeding through the windscreen behind
+EMOTION      : an administrative fact that should be impossible
+KEY OBJECTS  : phone glass, a thumb at the frame edge
+MOVEMENT     : static, one slow scroll
+CONTINUITY   : abstract row shapes only - the address and hour count are composited
 
-[06] A paper storage rental agreement on a clipboard with a typed name and a handwritten signature at the bottom, harsh overhead light. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+PROMPT: a phone screen showing a location list with one unfamiliar entry carrying a large hour total. the surface of a phone held close in a dark car interior. dead-on macro, 100mm. the list fills the frame, one row isolated by contrast. screen light only, cold, with orange sodium bleeding through the windscreen behind. mood: an administrative fact that should be impossible. key objects: phone glass, a thumb at the frame edge. camera and motion: static, one slow scroll. character MAN_04 - man, 34, dark stubble, heavy brows, short dark hair flattened on one side, a broken-and-set nose, wiry build; a dark canvas work jacket over a grey hoodie, keys on a carabiner at the belt; a healed split through the left eyebrow, phone always in the right hand; shot in profile or from behind while walking. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
 
-[07] A hand fitting a small key into a padlock on an orange roller door, keyring hanging, harsh directional light, close macro. the same man, thirties, stubble, dark work jacket, phone always in his right hand, seen driving at night and walking a storage corridor with a torch. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+--- SCENE 02 | 2.0-8.0s (6.0s) | characters: none ---
+SUBJECT      : an animated calendar grid filling with identical repeated blocks across two years
+ENVIRONMENT  : a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows
+CAMERA ANGLE : dead-on, flat to the graphic plane
+COMPOSITION  : a dense grid filling the frame, blocks accumulating from the top left
+LIGHTING     : sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame
+EMOTION      : a pattern with no author
+KEY OBJECTS  : grid cells, accumulating blocks
+MOVEMENT     : the grid fills rapidly, accelerating
+CONTINUITY   : generate an abstract block-grid texture only - the calendar graphic is composited
 
-[08] A storage unit filled floor to ceiling with hundreds of identical lit phone screens on metal shelving, cold blue glow flooding outward. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+PROMPT: an animated calendar grid filling with identical repeated blocks across two years. a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows. dead-on, flat to the graphic plane. a dense grid filling the frame, blocks accumulating from the top left. sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame. mood: a pattern with no author. key objects: grid cells, accumulating blocks. camera and motion: the grid fills rapidly, accelerating. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
 
-[09] Slow tracking shot along a shelf of identical unlocked phones all showing the same interface, charging cables neatly routed, no dust. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+--- SCENE 03 | 8.0-14.0s (6.0s) | characters: MAN_04 ---
+SUBJECT      : MAN_04 asleep in a dark bedroom, a phone face down on the nightstand casting faint light on the ceiling
+ENVIRONMENT  : a small bedroom at night, curtains drawn, streetlight bleeding at the edges
+CAMERA ANGLE : high, from above the bed, 35mm
+COMPOSITION  : he lies in the lower third, the ceiling and its faint glow filling the upper frame
+LIGHTING     : the phone's screen glow on the ceiling as the only source, cold and weak
+EMOTION      : vulnerability without knowledge
+KEY OBJECTS  : a face-down phone, a nightstand, a crumpled duvet
+MOVEMENT     : static, only his breathing moving the frame
+CONTINUITY   : MAN_04 as described - the split eyebrow visible even asleep
 
-[10] Extreme close-up of one phone screen among many showing a location history list with a live incrementing hour counter, blue glow. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+PROMPT: MAN_04 asleep in a dark bedroom, a phone face down on the nightstand casting faint light on the ceiling. a small bedroom at night, curtains drawn, streetlight bleeding at the edges. high, from above the bed, 35mm. he lies in the lower third, the ceiling and its faint glow filling the upper frame. the phone's screen glow on the ceiling as the only source, cold and weak. mood: vulnerability without knowledge. key objects: a face-down phone, a nightstand, a crumpled duvet. camera and motion: static, only his breathing moving the frame. character MAN_04 - man, 34, dark stubble, heavy brows, short dark hair flattened on one side, a broken-and-set nose, wiry build; a dark canvas work jacket over a grey hoodie, keys on a carabiner at the belt; a healed split through the left eyebrow, phone always in the right hand; shot in profile or from behind while walking. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 04 | 14.0-20.0s (6.0s) | characters: MAN_04 ---
+SUBJECT      : a driver's point of view on an empty night motorway, sodium lights strobing across the windscreen
+ENVIRONMENT  : a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows
+CAMERA ANGLE : from the driver's seat, dead ahead through the glass, 28mm
+COMPOSITION  : the road runs to a vanishing point in the centre, the dashboard silhouetted along the bottom
+LIGHTING     : sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame
+EMOTION      : the long dread of a drive you did not plan
+KEY OBJECTS  : windscreen, wipers, dashboard glow, sodium lamps
+MOVEMENT     : forward travel with regular strobing light passes, slight vehicle vibration
+CONTINUITY   : this is the only sodium-orange sequence before the facility - the palette hard-cuts to white at the door
+
+PROMPT: a driver's point of view on an empty night motorway, sodium lights strobing across the windscreen. a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows. from the driver's seat, dead ahead through the glass, 28mm. the road runs to a vanishing point in the centre, the dashboard silhouetted along the bottom. sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame. mood: the long dread of a drive you did not plan. key objects: windscreen, wipers, dashboard glow, sodium lamps. camera and motion: forward travel with regular strobing light passes, slight vehicle vibration. character MAN_04 - man, 34, dark stubble, heavy brows, short dark hair flattened on one side, a broken-and-set nose, wiry build; a dark canvas work jacket over a grey hoodie, keys on a carabiner at the belt; a healed split through the left eyebrow, phone always in the right hand; shot in profile or from behind while walking. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 05 | 20.0-26.0s (6.0s) | characters: none ---
+SUBJECT      : a long storage corridor of identical orange roller doors under harsh strip lighting
+ENVIRONMENT  : a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows
+CAMERA ANGLE : dead-on down the corridor, chest height, 24mm
+COMPOSITION  : strict one-point perspective, doors converging to a distant vanishing point
+LIGHTING     : sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame
+EMOTION      : institutional infinity
+KEY OBJECTS  : roller doors, a sealed concrete floor, strip lights, a torch beam on the floor
+MOVEMENT     : a steady forward tracking shot down the centre line
+CONTINUITY   : THE CORRIDOR. Identical centre line and lens in scenes 05 and 07.
+
+PROMPT: a long storage corridor of identical orange roller doors under harsh strip lighting. a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows. dead-on down the corridor, chest height, 24mm. strict one-point perspective, doors converging to a distant vanishing point. sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame. mood: institutional infinity. key objects: roller doors, a sealed concrete floor, strip lights, a torch beam on the floor. camera and motion: a steady forward tracking shot down the centre line. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 06 | 26.0-32.0s (6.0s) | characters: none ---
+SUBJECT      : a paper rental agreement on a clipboard, a typed name and a handwritten signature
+ENVIRONMENT  : a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows
+CAMERA ANGLE : top-down macro on the paper, 100mm
+COMPOSITION  : the document fills the frame at a slight angle, the signature in the lower third
+LIGHTING     : sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame
+EMOTION      : the self implicated on paper
+KEY OBJECTS  : a clipboard, a creased form, a ballpoint signature
+MOVEMENT     : static, one hand entering to flatten a curled corner
+CONTINUITY   : no legible text - shoot at a raking angle so the writing reads as shape. Names are composited.
+
+PROMPT: a paper rental agreement on a clipboard, a typed name and a handwritten signature. a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows. top-down macro on the paper, 100mm. the document fills the frame at a slight angle, the signature in the lower third. sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame. mood: the self implicated on paper. key objects: a clipboard, a creased form, a ballpoint signature. camera and motion: static, one hand entering to flatten a curled corner. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 07 | 32.0-38.0s (6.0s) | characters: MAN_04 ---
+SUBJECT      : a hand fitting a small key into a padlock on an orange roller door
+ENVIRONMENT  : a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows
+CAMERA ANGLE : macro, slightly low, 85mm
+COMPOSITION  : the padlock sits centre-frame, the door's corrugations running vertically behind
+LIGHTING     : sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame
+EMOTION      : the moment the explanation runs out
+KEY OBJECTS  : a padlock, a small key, a carabiner of keys, a corrugated door
+MOVEMENT     : the key enters and turns, then everything stops
+CONTINUITY   : MAN_04's carabiner must match the one at his belt in scene 04
+
+PROMPT: a hand fitting a small key into a padlock on an orange roller door. a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows. macro, slightly low, 85mm. the padlock sits centre-frame, the door's corrugations running vertically behind. sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame. mood: the moment the explanation runs out. key objects: a padlock, a small key, a carabiner of keys, a corrugated door. camera and motion: the key enters and turns, then everything stops. character MAN_04 - man, 34, dark stubble, heavy brows, short dark hair flattened on one side, a broken-and-set nose, wiry build; a dark canvas work jacket over a grey hoodie, keys on a carabiner at the belt; a healed split through the left eyebrow, phone always in the right hand; shot in profile or from behind while walking. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 08 | 38.0-43.0s (5.0s) | characters: none ---
+SUBJECT      : a storage unit filled floor to ceiling with hundreds of identical lit phone screens on metal shelving
+ENVIRONMENT  : the interior of a single storage unit, breeze-block walls, shelving on three sides
+CAMERA ANGLE : from the doorway looking in, 24mm, chest height
+COMPOSITION  : the shelving fills the entire frame, cold light flooding out toward camera
+LIGHTING     : the massed phone screens are the only light source, cold blue, lighting the room from within
+EMOTION      : scale as horror
+KEY OBJECTS  : metal shelving, hundreds of phones, neat charging cables, cold light
+MOVEMENT     : the roller door rises and the light spills out; a slow step forward
+CONTINUITY   : the phones must all be the same model and all be lit - no dark units anywhere
+
+PROMPT: a storage unit filled floor to ceiling with hundreds of identical lit phone screens on metal shelving. the interior of a single storage unit, breeze-block walls, shelving on three sides. from the doorway looking in, 24mm, chest height. the shelving fills the entire frame, cold light flooding out toward camera. the massed phone screens are the only light source, cold blue, lighting the room from within. mood: scale as horror. key objects: metal shelving, hundreds of phones, neat charging cables, cold light. camera and motion: the roller door rises and the light spills out; a slow step forward. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 09 | 43.0-46.0s (3.0s) | characters: none ---
+SUBJECT      : a slow tracking shot along a shelf of identical lit phones with neatly routed charging cables
+ENVIRONMENT  : a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows
+CAMERA ANGLE : lateral track, macro depth, 50mm
+COMPOSITION  : the shelf runs the full width, phones in a strict repeating rhythm
+LIGHTING     : sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame
+EMOTION      : the neatness is the frightening part
+KEY OBJECTS  : phones, cable ties, shelf brackets, no dust at all
+MOVEMENT     : a slow steady lateral track, no handheld
+CONTINUITY   : absolutely no dust on the shelving - someone maintains this
+
+PROMPT: a slow tracking shot along a shelf of identical lit phones with neatly routed charging cables. a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows. lateral track, macro depth, 50mm. the shelf runs the full width, phones in a strict repeating rhythm. sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame. mood: the neatness is the frightening part. key objects: phones, cable ties, shelf brackets, no dust at all. camera and motion: a slow steady lateral track, no handheld. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 10 | 46.0-48.0s (2.0s) | characters: none ---
+SUBJECT      : an extreme close-up of one phone screen among many, a counter incrementing
+ENVIRONMENT  : a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows
+CAMERA ANGLE : macro, dead-on, 100mm, very shallow focus
+COMPOSITION  : one screen sharp in the centre, the rest of the wall bokeh behind
+LIGHTING     : sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame
+EMOTION      : the last turn of the screw
+KEY OBJECTS  : one phone screen, a field of out-of-focus light behind
+MOVEMENT     : static, a single increment
+CONTINUITY   : the counter is composited - generate abstract light only
+
+PROMPT: an extreme close-up of one phone screen among many, a counter incrementing. a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows. macro, dead-on, 100mm, very shallow focus. one screen sharp in the centre, the rest of the wall bokeh behind. sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame. mood: the last turn of the screw. key objects: one phone screen, a field of out-of-focus light behind. camera and motion: static, a single increment. sodium-orange motorway light and hard white storage-facility strip lighting, wet tarmac reflections, corrugated steel textures, cold shadows, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+

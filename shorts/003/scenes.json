@@ -15,7 +15,19 @@
       "duration": 2,
       "caption": "Four rooms. Map shows FIVE.",
       "visual": "Phone screen filling frame: a clean vector floor plan with one extra rectangle glowing.",
-      "prompt": "Phone screen close-up showing a minimal vector floor plan of a small house with one extra unexplained rectangular room, blue-on-dark interface. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a phone screen showing a minimal vector floor plan with one extra rectangle. the surface of a phone screen held close to camera. dead-on macro on the screen, 100mm. the plan fills the frame, the anomalous rectangle sitting off-centre. self-lit cold blue, warm room light spilling across the glass. mood: a small arithmetic wrongness. key objects: phone glass, fingerprints on the screen, a cracked corner. camera and motion: static, one slow zoom of the plan. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a phone screen showing a minimal vector floor plan with one extra rectangle",
+        "environment": "the surface of a phone screen held close to camera",
+        "angle": "dead-on macro on the screen, 100mm",
+        "composition": "the plan fills the frame, the anomalous rectangle sitting off-centre",
+        "lighting": "self-lit cold blue, warm room light spilling across the glass",
+        "emotion": "a small arithmetic wrongness",
+        "objects": "phone glass, fingerprints on the screen, a cracked corner",
+        "movement": "static, one slow zoom of the plan",
+        "continuity": "screen content is abstract shape only - the plan graphic is composited in the edit. No legible labels.",
+        "tags": []
+      },
       "sfx": "app chime, sharp sub hit",
       "shot_change": "hard cut in"
     },
@@ -26,7 +38,21 @@
       "duration": 5,
       "caption": "She checks AGAIN",
       "visual": "She refreshes. Same map. Her face lit from below by the phone in a dark hallway.",
-      "prompt": "A woman standing in a dim domestic hallway looking down at a phone, face lit from below, cardigan, night, warm and cold light mixing. the same woman, late thirties, dark hair tied back, oversized cardigan, phone always in her left hand, seen in a warm-lit suburban hallway. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "WOMAN_01 in a dark hallway looking down at a phone, face lit from below. a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end. eye-level, slightly wide, 35mm, from the far end of the hallway. she stands in the centre third, the hallway receding behind her into darkness. warm 2700K table lamps and hall light against cold blue night through the windows, the two colours meeting hard in the middle of the frame. mood: patient confusion. key objects: phone, cardigan, framed photographs on the wall behind. camera and motion: static frame, she refreshes the screen with her thumb. character WOMAN_01 - woman, 38, oval face, dark hair pulled back into a low knot with strands loose at the temples, tired eyes, no makeup, slim build; oversized oatmeal cardigan over a dark t-shirt, phone always held in the left hand; a thin gold chain and a plaster on one knuckle; barefoot in every indoor night shot. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "WOMAN_01 in a dark hallway looking down at a phone, face lit from below",
+        "environment": "a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end",
+        "angle": "eye-level, slightly wide, 35mm, from the far end of the hallway",
+        "composition": "she stands in the centre third, the hallway receding behind her into darkness",
+        "lighting": "warm 2700K table lamps and hall light against cold blue night through the windows, the two colours meeting hard in the middle of the frame",
+        "emotion": "patient confusion",
+        "objects": "phone, cardigan, framed photographs on the wall behind",
+        "movement": "static frame, she refreshes the screen with her thumb",
+        "continuity": "WOMAN_01 as described, barefoot, chain visible at the collar",
+        "tags": [
+          "WOMAN_01"
+        ]
+      },
       "sfx": "pull-to-refresh click, house settling",
       "shot_change": "cut"
     },
@@ -37,7 +63,19 @@
       "duration": 5,
       "caption": "Right where the WALL is",
       "visual": "Overlay of the map onto the real hallway. The extra rectangle sits inside solid plaster.",
-      "prompt": "A plain suburban hallway with a translucent blue floor-plan overlay showing a rectangular room inside the solid wall, night interior. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a translucent floor-plan overlay laid across a real hallway wall. a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end. eye-level, straight down the hallway, 35mm. the overlay rectangle sits inside solid plaster in the right third. warm 2700K table lamps and hall light against cold blue night through the windows, the two colours meeting hard in the middle of the frame. mood: the impossible made geometric. key objects: hallway wall, skirting board, carpet, the ghosted rectangle. camera and motion: a slow dolly forward down the hallway. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a translucent floor-plan overlay laid across a real hallway wall",
+        "environment": "a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end",
+        "angle": "eye-level, straight down the hallway, 35mm",
+        "composition": "the overlay rectangle sits inside solid plaster in the right third",
+        "lighting": "warm 2700K table lamps and hall light against cold blue night through the windows, the two colours meeting hard in the middle of the frame",
+        "emotion": "the impossible made geometric",
+        "objects": "hallway wall, skirting board, carpet, the ghosted rectangle",
+        "movement": "a slow dolly forward down the hallway",
+        "continuity": "the overlay is composited in post - generate the clean hallway plate only, with room in frame for it",
+        "tags": []
+      },
       "sfx": "low drone enters",
       "shot_change": "graphic overlay"
     },
@@ -48,7 +86,19 @@
       "duration": 5,
       "caption": "NINE years here",
       "visual": "Quick flashes of family photos along the hallway, all with the same blank wall behind them.",
-      "prompt": "A row of framed family photographs along a hallway wall, warm lamplight, the same blank plaster visible behind every frame. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a row of framed family photographs along a hallway wall, the same blank plaster behind every one. a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end. three-quarter, low, raking along the wall, 50mm. the frames recede in a diagonal line to the upper left. warm 2700K table lamps and hall light against cold blue night through the windows, the two colours meeting hard in the middle of the frame. mood: years of not noticing. key objects: picture frames, dusty glass, textured wallpaper. camera and motion: a lateral track along the frames, slightly faster than comfortable. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a row of framed family photographs along a hallway wall, the same blank plaster behind every one",
+        "environment": "a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end",
+        "angle": "three-quarter, low, raking along the wall, 50mm",
+        "composition": "the frames recede in a diagonal line to the upper left",
+        "lighting": "warm 2700K table lamps and hall light against cold blue night through the windows, the two colours meeting hard in the middle of the frame",
+        "emotion": "years of not noticing",
+        "objects": "picture frames, dusty glass, textured wallpaper",
+        "movement": "a lateral track along the frames, slightly faster than comfortable",
+        "continuity": "photographs must be non-specific - no recognisable faces, no legible dates",
+        "tags": []
+      },
       "sfx": "photo-flip whoosh, muted music swell",
       "shot_change": "rapid cuts"
     },
@@ -59,7 +109,21 @@
       "duration": 6,
       "caption": "Nothing BEHIND it",
       "visual": "Tape measure pulled along the hallway, then against the outside of the house. The numbers match.",
-      "prompt": "A metal tape measure stretched along a hallway wall and then against exterior brickwork, hands only, overcast daylight. the same woman, late thirties, dark hair tied back, oversized cardigan, phone always in her left hand, seen in a warm-lit suburban hallway. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a metal tape measure stretched along a hallway wall, then against exterior brickwork. a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end. top-down macro on the tape, then a matched exterior angle. the tape runs the full diagonal of the frame in both shots. overcast flat daylight for the exterior, breaking this project's night palette deliberately. mood: methodical disproof. key objects: steel tape measure, skirting board, weathered brick. camera and motion: static, then a hard cut to the matched exterior. character WOMAN_01 - woman, 38, oval face, dark hair pulled back into a low knot with strands loose at the temples, tired eyes, no makeup, slim build; oversized oatmeal cardigan over a dark t-shirt, phone always held in the left hand; a thin gold chain and a plaster on one knuckle; barefoot in every indoor night shot. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a metal tape measure stretched along a hallway wall, then against exterior brickwork",
+        "environment": "a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end",
+        "angle": "top-down macro on the tape, then a matched exterior angle",
+        "composition": "the tape runs the full diagonal of the frame in both shots",
+        "lighting": "overcast flat daylight for the exterior, breaking this project's night palette deliberately",
+        "emotion": "methodical disproof",
+        "objects": "steel tape measure, skirting board, weathered brick",
+        "movement": "static, then a hard cut to the matched exterior",
+        "continuity": "no numerals legible on the tape - shoot the blade at an angle that abstracts the markings",
+        "tags": [
+          "WOMAN_01"
+        ]
+      },
       "sfx": "tape measure snap and rewind",
       "shot_change": "cut"
     },
@@ -70,7 +134,19 @@
       "duration": 5,
       "caption": "Every night. ELEVEN FORTY.",
       "visual": "Travel log list scrolling: identical entries, identical durations, months deep.",
-      "prompt": "Scrolling app log of identical nightly cleaning entries with matching timestamps, dark interface, repeated rows blurring. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a scrolling list of identical app log entries. a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end. dead-on macro on the screen. identical rows stacking down the frame, blurring as the scroll accelerates. warm 2700K table lamps and hall light against cold blue night through the windows, the two colours meeting hard in the middle of the frame. mood: the dread of a pattern. key objects: phone screen, motion blur, thumb at the frame edge. camera and motion: fast vertical scroll, no camera move. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a scrolling list of identical app log entries",
+        "environment": "a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end",
+        "angle": "dead-on macro on the screen",
+        "composition": "identical rows stacking down the frame, blurring as the scroll accelerates",
+        "lighting": "warm 2700K table lamps and hall light against cold blue night through the windows, the two colours meeting hard in the middle of the frame",
+        "emotion": "the dread of a pattern",
+        "objects": "phone screen, motion blur, thumb at the frame edge",
+        "movement": "fast vertical scroll, no camera move",
+        "continuity": "abstract row shapes only - the log text is composited",
+        "tags": []
+      },
       "sfx": "scroll ticks accelerating",
       "shot_change": "cut"
     },
@@ -81,7 +157,19 @@
       "duration": 6,
       "caption": "The robot is NOT MOVING",
       "visual": "The robot sits still on its dock. Her phone beside it says CLEANING with a timer running.",
-      "prompt": "A robot vacuum sitting motionless on its charging dock in a dark living room, a phone on the floor beside it showing an active timer. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a robot vacuum sitting motionless on its charging dock in a dark living room, a phone on the floor beside it. a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end. very low, floor level, 24mm, the machine large in the foreground. the vacuum dominates the lower half, the dark room stretching away behind. the phone screen is the only light source, cold and low, throwing a long shadow from the dock. mood: watching something that is lying to you. key objects: robot vacuum, charging dock, a phone face up on the carpet. camera and motion: static, absolutely still, for an uncomfortably long hold. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a robot vacuum sitting motionless on its charging dock in a dark living room, a phone on the floor beside it",
+        "environment": "a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end",
+        "angle": "very low, floor level, 24mm, the machine large in the foreground",
+        "composition": "the vacuum dominates the lower half, the dark room stretching away behind",
+        "lighting": "the phone screen is the only light source, cold and low, throwing a long shadow from the dock",
+        "emotion": "watching something that is lying to you",
+        "objects": "robot vacuum, charging dock, a phone face up on the carpet",
+        "movement": "static, absolutely still, for an uncomfortably long hold",
+        "continuity": "the vacuum must be visibly docked and unmoving - this is the shot the whole twist rests on",
+        "tags": []
+      },
       "sfx": "dock charging hum, no motor",
       "shot_change": "locked-off shot"
     },
@@ -92,7 +180,21 @@
       "duration": 6,
       "caption": "So she CUTS the wall",
       "visual": "Utility knife into plaster. Dust. A rectangle of darkness widening.",
-      "prompt": "A hand cutting into a plaster wall with a utility knife, plaster dust in lamplight, a dark opening widening beyond. the same woman, late thirties, dark hair tied back, oversized cardigan, phone always in her left hand, seen in a warm-lit suburban hallway. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a hand cutting into plaster with a utility knife, dust falling through lamplight. a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end. close three-quarter over the shoulder, 50mm. the blade and the widening dark opening occupy the centre, hand entering from the right. warm 2700K table lamps and hall light against cold blue night through the windows, the two colours meeting hard in the middle of the frame. mood: commitment, past the point of return. key objects: utility knife, plaster dust, torn wallpaper, a widening black gap. camera and motion: handheld, tight, small corrective moves. character WOMAN_01 - woman, 38, oval face, dark hair pulled back into a low knot with strands loose at the temples, tired eyes, no makeup, slim build; oversized oatmeal cardigan over a dark t-shirt, phone always held in the left hand; a thin gold chain and a plaster on one knuckle; barefoot in every indoor night shot. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a hand cutting into plaster with a utility knife, dust falling through lamplight",
+        "environment": "a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end",
+        "angle": "close three-quarter over the shoulder, 50mm",
+        "composition": "the blade and the widening dark opening occupy the centre, hand entering from the right",
+        "lighting": "warm 2700K table lamps and hall light against cold blue night through the windows, the two colours meeting hard in the middle of the frame",
+        "emotion": "commitment, past the point of return",
+        "objects": "utility knife, plaster dust, torn wallpaper, a widening black gap",
+        "movement": "handheld, tight, small corrective moves",
+        "continuity": "WOMAN_01's plastered knuckle must be visible on the cutting hand",
+        "tags": [
+          "WOMAN_01"
+        ]
+      },
       "sfx": "blade through plaster, dust fall, silence",
       "shot_change": "handheld close"
     },
@@ -103,7 +205,19 @@
       "duration": 4,
       "caption": "Exactly as MAPPED",
       "visual": "Torchlight reveals a bare rectangular room with a doorway shape and no door.",
-      "prompt": "Torchlight revealing a bare sealed rectangular room with a doorway-shaped opening and no door, clean empty floor, no dust. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "torchlight revealing a bare sealed room with a doorway-shaped opening and no door. a sealed rectangular void inside the house: bare plaster, no skirting, no fittings, no door. from inside the cut opening looking in, 24mm, slightly low. the doorway shape sits in the centre of the far wall, floor running away beneath it. a single handheld torch, hard and directional, everything outside the beam crushed black. mood: awe before fear. key objects: bare plaster walls, an empty doorway aperture, a perfectly clean floor. camera and motion: a slow push through the opening, the torch beam widening. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "torchlight revealing a bare sealed room with a doorway-shaped opening and no door",
+        "environment": "a sealed rectangular void inside the house: bare plaster, no skirting, no fittings, no door",
+        "angle": "from inside the cut opening looking in, 24mm, slightly low",
+        "composition": "the doorway shape sits in the centre of the far wall, floor running away beneath it",
+        "lighting": "a single handheld torch, hard and directional, everything outside the beam crushed black",
+        "emotion": "awe before fear",
+        "objects": "bare plaster walls, an empty doorway aperture, a perfectly clean floor",
+        "movement": "a slow push through the opening, the torch beam widening",
+        "continuity": "the sealed room must read as the same proportions as the vector rectangle from scene 01",
+        "tags": []
+      },
       "sfx": "reverb changes, breath",
       "shot_change": "reveal push"
     },
@@ -114,7 +228,19 @@
       "duration": 3,
       "caption": "And the floor is CLEAN",
       "visual": "Tight on the spotless floor inside the sealed room while the hallway behind is thick with plaster dust.",
-      "prompt": "Extreme close-up of a perfectly clean bare floor inside a sealed room, plaster dust falling in the torch beam above it. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "extreme close-up of a spotless bare floor inside the sealed room, plaster dust falling through the beam above it. a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end. macro, floor level, looking along the boards. the clean floor fills the lower two thirds, dust falling through the light above. warm 2700K table lamps and hall light against cold blue night through the windows, the two colours meeting hard in the middle of the frame. mood: the wrongness landing quietly. key objects: clean floorboards, falling plaster dust, the torch beam edge. camera and motion: static, dust drifting. warm domestic lamplight against cold blue night windows, clean modern interior, soft film grain, handheld micro-movement, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "extreme close-up of a spotless bare floor inside the sealed room, plaster dust falling through the beam above it",
+        "environment": "a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end",
+        "angle": "macro, floor level, looking along the boards",
+        "composition": "the clean floor fills the lower two thirds, dust falling through the light above",
+        "lighting": "warm 2700K table lamps and hall light against cold blue night through the windows, the two colours meeting hard in the middle of the frame",
+        "emotion": "the wrongness landing quietly",
+        "objects": "clean floorboards, falling plaster dust, the torch beam edge",
+        "movement": "static, dust drifting",
+        "continuity": "the contrast is the point - thick dust in the air, none at all on the floor",
+        "tags": []
+      },
       "sfx": "single sub-bass hit, hard silence",
       "shot_change": "cut to black"
     }

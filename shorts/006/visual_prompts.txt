@@ -1,24 +1,161 @@
-# 006 - Still Online - IMAGE / VIDEO PROMPTS
-# 10 scenes | 9:16 vertical
-# CHARACTER LOCK: the same man, fifties, thinning hair, reading glasses pushed up, wool jumper, seen lit by a beige CRT monitor in a cluttered loft
-# STYLE LOCK: amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos
+006 - STILL ONLINE - PRODUCTION VISUAL PROMPTS
+==========================================================================
+10 scenes  |  9:16 vertical  |  cinematic digital mystery
+Original fiction. No real people, places, brands or products.
 
-[01] A beige CRT monitor flickering on in a dark dusty loft, green text already scrolling before the boot sequence ends, amber phosphor glow. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+NO TEXT IS TO BE GENERATED INSIDE ANY IMAGE.
+Captions, timestamps, interface chrome and readable screen content are composited
+in the edit. Where a scene shows a screen, generate light and shape only:
+soft illegible glow, out-of-focus glyph texture, no legible characters.
 
-[02] Hands lifting a dusty yellowed desktop computer tower out of a drawer, tangled beige cables, loft storage clutter, dim light. the same man, fifties, thinning hair, reading glasses pushed up, wool jumper, seen lit by a beige CRT monitor in a cluttered loft. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+==========================================================================
+STYLE - applies to every scene in this project
+==========================================================================
+LOOK       : Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss
+PROJECT    : amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos
+ASPECT     : 9:16 vertical, framed for a phone screen, action inside the centre 80%
+NEGATIVE   : no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces
 
-[03] Fast-scrolling retro text chatroom log on a CRT screen, one username repeating down the left column, heavy scanlines and bloom. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+==========================================================================
+CHARACTER REFERENCE - build these first, reuse the same seed
+==========================================================================
+[MAN_03] The Returner
+  PHYSICAL      : man, 53, thinning grey-brown hair combed back, reading glasses usually pushed up on his forehead, a heavy jaw, lined forehead, broad shoulders gone soft
+  WARDROBE      : a thick oatmeal wool jumper with a stretched collar, cord trousers, no watch
+  DISTINGUISHING: a nicotine-stained right index finger and a habit of resting it on his lip; shot in three-quarter profile lit from one side by the screen
+  CONTINUITY    : repeat this description verbatim in every scene tagged MAN_03. Do not restate it in scenes where MAN_03 does not appear.
 
-[04] Extreme close-up of retro chat text on a curved CRT showing a repeated typing mistake, phosphor bleed, single characters filling frame. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+==========================================================================
+SCENES
+==========================================================================
 
-[05] A man in his fifties lit only by an amber CRT, reading glasses reflecting scrolling text, mouth slightly open, dark loft behind. the same man, fifties, thinning hair, reading glasses pushed up, wool jumper, seen lit by a beige CRT monitor in a cluttered loft. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+--- SCENE 01 | 0.0-2.0s (2.0s) | characters: none ---
+SUBJECT      : a beige CRT flickering awake in a dark loft, text already scrolling before the boot finishes
+ENVIRONMENT  : a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects
+CAMERA ANGLE : low three-quarter on the monitor, 35mm
+COMPOSITION  : the CRT occupies the right two thirds, loft darkness filling the left
+LIGHTING     : amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam
+EMOTION      : something waking that should not have been asleep
+KEY OBJECTS  : a beige CRT, a dusty keyboard, a tangle of cables
+MOVEMENT     : a flicker-on with a degauss wobble, static frame
+CONTINUITY   : screen content is phosphor glyph texture only - no legible characters anywhere in this project
 
-[06] A single highlighted line of retro chat text with a 1999 timestamp on a CRT screen, cursor blinking beside it, everything else dimmed. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+PROMPT: a beige CRT flickering awake in a dark loft, text already scrolling before the boot finishes. a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects. low three-quarter on the monitor, 35mm. the CRT occupies the right two thirds, loft darkness filling the left. amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam. mood: something waking that should not have been asleep. key objects: a beige CRT, a dusty keyboard, a tangle of cables. camera and motion: a flicker-on with a degauss wobble, static frame. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
 
-[07] Individual words floating off a CRT screen into black space, retro phosphor glow trailing behind each character, dark void. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+--- SCENE 02 | 2.0-8.0s (6.0s) | characters: MAN_03 ---
+SUBJECT      : hands lifting a dusty yellowed computer tower out of a drawer
+ENVIRONMENT  : a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects
+CAMERA ANGLE : high three-quarter, looking down into the drawer, 35mm
+COMPOSITION  : the tower comes up through the lower frame, the drawer's darkness beneath
+LIGHTING     : amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam
+EMOTION      : reluctant excavation
+KEY OBJECTS  : a yellowed tower, tangled beige cables, dust sheets, old cables
+MOVEMENT     : a lift up out of frame, the camera tilting to follow
+CONTINUITY   : MAN_03's stained right index finger must be visible on the casing
 
-[08] A finger hovering above a worn beige keyboard enter key, a reply already visible on the CRT above, amber light on skin. the same man, fifties, thinning hair, reading glasses pushed up, wool jumper, seen lit by a beige CRT monitor in a cluttered loft. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+PROMPT: hands lifting a dusty yellowed computer tower out of a drawer. a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects. high three-quarter, looking down into the drawer, 35mm. the tower comes up through the lower frame, the drawer's darkness beneath. amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam. mood: reluctant excavation. key objects: a yellowed tower, tangled beige cables, dust sheets, old cables. camera and motion: a lift up out of frame, the camera tilting to follow. character MAN_03 - man, 53, thinning grey-brown hair combed back, reading glasses usually pushed up on his forehead, a heavy jaw, lined forehead, broad shoulders gone soft; a thick oatmeal wool jumper with a stretched collar, cord trousers, no watch; a nicotine-stained right index finger and a habit of resting it on his lip; shot in three-quarter profile lit from one side by the screen. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
 
-[09] A modern phone lying beside a glowing CRT monitor, identical text on both screens, the phone slightly delayed, amber and blue light mixing. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+--- SCENE 03 | 8.0-13.0s (5.0s) | characters: none ---
+SUBJECT      : fast-scrolling retro chat text on a CRT, one username repeating down the left column
+ENVIRONMENT  : a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects
+CAMERA ANGLE : dead-on macro on the tube face, 100mm
+COMPOSITION  : the curvature of the glass visible at the corners, the repeating column on the left third
+LIGHTING     : amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam
+EMOTION      : volume as a threat
+KEY OBJECTS  : curved glass, phosphor rows, a reflection of the room in the dark tube
+MOVEMENT     : an accelerating vertical scroll, no camera move
+CONTINUITY   : generate glyph texture with a visible repeating column shape - no readable words
 
-[10] Two blinking text cursors on separate screens in darkness, one clearly lagging behind the other, tight macro framing. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+PROMPT: fast-scrolling retro chat text on a CRT, one username repeating down the left column. a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects. dead-on macro on the tube face, 100mm. the curvature of the glass visible at the corners, the repeating column on the left third. amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam. mood: volume as a threat. key objects: curved glass, phosphor rows, a reflection of the room in the dark tube. camera and motion: an accelerating vertical scroll, no camera move. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 04 | 13.0-19.0s (6.0s) | characters: none ---
+SUBJECT      : an extreme close-up of a single repeated typing mistake in phosphor text
+ENVIRONMENT  : a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects
+CAMERA ANGLE : extreme macro, 100mm, so close the phosphor triads are visible
+COMPOSITION  : a few glyph shapes fill the entire frame, everything else falling out of focus
+LIGHTING     : amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam
+EMOTION      : recognising your own hand in someone else's writing
+KEY OBJECTS  : phosphor triads, screen dust, a scratch in the glass
+MOVEMENT     : a slow drift across the glyphs
+CONTINUITY   : abstract glyph forms only
+
+PROMPT: an extreme close-up of a single repeated typing mistake in phosphor text. a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects. extreme macro, 100mm, so close the phosphor triads are visible. a few glyph shapes fill the entire frame, everything else falling out of focus. amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam. mood: recognising your own hand in someone else's writing. key objects: phosphor triads, screen dust, a scratch in the glass. camera and motion: a slow drift across the glyphs. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 05 | 19.0-25.0s (6.0s) | characters: MAN_03 ---
+SUBJECT      : MAN_03 lit only by the amber CRT, reading glasses reflecting the scroll, mouth slightly open
+ENVIRONMENT  : a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects
+CAMERA ANGLE : three-quarter profile, eye-level, 85mm
+COMPOSITION  : his face on the left third, the loft darkness opening out behind him
+LIGHTING     : amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam
+EMOTION      : the moment before understanding
+KEY OBJECTS  : reading glasses, a wool collar, warm light on one cheek
+MOVEMENT     : static, a single slow swallow
+CONTINUITY   : MAN_03 as described, glasses down on the nose in this scene only
+
+PROMPT: MAN_03 lit only by the amber CRT, reading glasses reflecting the scroll, mouth slightly open. a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects. three-quarter profile, eye-level, 85mm. his face on the left third, the loft darkness opening out behind him. amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam. mood: the moment before understanding. key objects: reading glasses, a wool collar, warm light on one cheek. camera and motion: static, a single slow swallow. character MAN_03 - man, 53, thinning grey-brown hair combed back, reading glasses usually pushed up on his forehead, a heavy jaw, lined forehead, broad shoulders gone soft; a thick oatmeal wool jumper with a stretched collar, cord trousers, no watch; a nicotine-stained right index finger and a habit of resting it on his lip; shot in three-quarter profile lit from one side by the screen. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 06 | 25.0-31.0s (6.0s) | characters: none ---
+SUBJECT      : a single highlighted line of chat text with everything around it dimmed
+ENVIRONMENT  : a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects
+CAMERA ANGLE : dead-on macro
+COMPOSITION  : the highlighted band runs across the centre third, darkness above and below
+LIGHTING     : amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam
+EMOTION      : a fact that cannot be true
+KEY OBJECTS  : a phosphor highlight bar, a blinking cursor block
+MOVEMENT     : static, the cursor blinking
+CONTINUITY   : the highlight is a light shape only - the date and text are composited
+
+PROMPT: a single highlighted line of chat text with everything around it dimmed. a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects. dead-on macro. the highlighted band runs across the centre third, darkness above and below. amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam. mood: a fact that cannot be true. key objects: a phosphor highlight bar, a blinking cursor block. camera and motion: static, the cursor blinking. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 07 | 31.0-37.0s (6.0s) | characters: none ---
+SUBJECT      : individual glyph shapes lifting off the screen into black space, phosphor trails behind them
+ENVIRONMENT  : a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects
+CAMERA ANGLE : dead-on, then floating free of the screen plane
+COMPOSITION  : glyph forms scattered through black with depth, trails pointing back to the vanished screen
+LIGHTING     : amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam
+EMOTION      : language coming loose
+KEY OBJECTS  : phosphor glyphs, motion trails, particulate dust
+MOVEMENT     : a slow drift outward and toward camera
+CONTINUITY   : abstract letterforms with no readable content - deliberately unreadable shapes
+
+PROMPT: individual glyph shapes lifting off the screen into black space, phosphor trails behind them. a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects. dead-on, then floating free of the screen plane. glyph forms scattered through black with depth, trails pointing back to the vanished screen. amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam. mood: language coming loose. key objects: phosphor glyphs, motion trails, particulate dust. camera and motion: a slow drift outward and toward camera. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 08 | 37.0-42.0s (5.0s) | characters: MAN_03 ---
+SUBJECT      : a finger hovering above a worn beige enter key, a reply already visible on the CRT above
+ENVIRONMENT  : a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects
+CAMERA ANGLE : low macro at the key plane, 50mm
+COMPOSITION  : the finger enters from the upper right, the key in the lower third, the screen glow bleeding in at the top
+LIGHTING     : amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam
+EMOTION      : the held breath
+KEY OBJECTS  : a yellowed keycap, a stained fingertip, amber glow
+MOVEMENT     : the finger descends very slowly and stops without landing
+CONTINUITY   : the stained right index finger identifies MAN_03 - it must be the finger used
+
+PROMPT: a finger hovering above a worn beige enter key, a reply already visible on the CRT above. a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects. low macro at the key plane, 50mm. the finger enters from the upper right, the key in the lower third, the screen glow bleeding in at the top. amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam. mood: the held breath. key objects: a yellowed keycap, a stained fingertip, amber glow. camera and motion: the finger descends very slowly and stops without landing. character MAN_03 - man, 53, thinning grey-brown hair combed back, reading glasses usually pushed up on his forehead, a heavy jaw, lined forehead, broad shoulders gone soft; a thick oatmeal wool jumper with a stretched collar, cord trousers, no watch; a nicotine-stained right index finger and a habit of resting it on his lip; shot in three-quarter profile lit from one side by the screen. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 09 | 42.0-45.0s (3.0s) | characters: none ---
+SUBJECT      : a modern phone lying beside the glowing CRT, the same shapes on both screens
+ENVIRONMENT  : a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects
+CAMERA ANGLE : high three-quarter looking down at the desk, 35mm
+COMPOSITION  : the CRT glow fills the upper left, the phone sits lower right on the desk
+LIGHTING     : amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam
+EMOTION      : two eras caught disagreeing
+KEY OBJECTS  : a modern phone, a beige CRT, an old mug, dust
+MOVEMENT     : static, the two screens updating a beat apart
+CONTINUITY   : the colour contrast is the point - amber phosphor against cold phone blue
+
+PROMPT: a modern phone lying beside the glowing CRT, the same shapes on both screens. a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects. high three-quarter looking down at the desk, 35mm. the CRT glow fills the upper left, the phone sits lower right on the desk. amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam. mood: two eras caught disagreeing. key objects: a modern phone, a beige CRT, an old mug, dust. camera and motion: static, the two screens updating a beat apart. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 10 | 45.0-47.0s (2.0s) | characters: none ---
+SUBJECT      : two blinking text cursors on separate screens in darkness, one clearly lagging the other
+ENVIRONMENT  : a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects
+CAMERA ANGLE : extreme macro across both screens, shallow focus
+COMPOSITION  : the two cursor blocks sit on a diagonal, everything else black
+LIGHTING     : amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam
+EMOTION      : the lag as the whole story
+KEY OBJECTS  : two cursor blocks, screen dust, black
+MOVEMENT     : static, the right cursor blinking a beat behind the left
+CONTINUITY   : the offset must be visible without any text at all
+
+PROMPT: two blinking text cursors on separate screens in darkness, one clearly lagging the other. a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects. extreme macro across both screens, shallow focus. the two cursor blocks sit on a diagonal, everything else black. amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam. mood: the lag as the whole story. key objects: two cursor blocks, screen dust, black. camera and motion: static, the right cursor blinking a beat behind the left. amber CRT phosphor glow against cold loft darkness, visible scanlines and screen curvature, dust in the air, warm plastic and beige hardware, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+

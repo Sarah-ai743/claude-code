@@ -1,24 +1,167 @@
-# 008 - Nineteen Ninety-Eight - IMAGE / VIDEO PROMPTS
-# 10 scenes | 9:16 vertical
-# CHARACTER LOCK: the same man, forties, close-cropped hair, plain dark shirt, seen at a desk in a beige-walled room with an anglepoise lamp and an open laptop
-# STYLE LOCK: two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos
+008 - NINETEEN NINETY-EIGHT - PRODUCTION VISUAL PROMPTS
+==========================================================================
+10 scenes  |  9:16 vertical  |  cinematic digital mystery
+Original fiction. No real people, places, brands or products.
 
-[01] Degraded 1990s camcorder footage of a family birthday party in a living room with date burn-in, a thin dark flat rectangle in the back corner, colour bleed. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+NO TEXT IS TO BE GENERATED INSIDE ANY IMAGE.
+Captions, timestamps, interface chrome and readable screen content are composited
+in the edit. Where a scene shows a screen, generate light and shape only:
+soft illegible glow, out-of-focus glyph texture, no legible characters.
 
-[02] Handheld 1990s camcorder pan across birthday candles and blurred faces, heavy motion smear, a dark flat panel drifting through the background. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+==========================================================================
+STYLE - applies to every scene in this project
+==========================================================================
+LOOK       : Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss
+PROJECT    : two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos
+ASPECT     : 9:16 vertical, framed for a phone screen, action inside the centre 80%
+NEGATIVE   : no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces
 
-[03] Freeze frame of a 1990s living room with one anachronistic flat panel isolated in sharp focus, surrounding décor period accurate, video noise. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+==========================================================================
+CHARACTER REFERENCE - build these first, reuse the same seed
+==========================================================================
+[MAN_05] The Archivist
+  PHYSICAL      : man, 44, close-cropped dark hair going grey at the temples, a heavy brow, clean-shaven, a squarish face, average build
+  WARDROBE      : a plain dark shirt with the sleeves buttoned, no jewellery
+  DISTINGUISHING: a habit of sitting very still with one hand flat on the desk; only ever seen in the modern room, never in the 1998 material
+  CONTINUITY    : repeat this description verbatim in every scene tagged MAN_05. Do not restate it in scenes where MAN_05 does not appear.
 
-[04] A modern laptop and video capture rig connected to an old tape deck, digital zoom crawling into a degraded video frame, cold desk light. the same man, forties, close-cropped hair, plain dark shirt, seen at a desk in a beige-walled room with an anglepoise lamp and an open laptop. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+[PARTY_CROWD] The 1998 Party
+  PHYSICAL      : eight to ten adults and children at a birthday party, period-accurate late-1990s hair and clothing, faces soft with motion blur and video smear
+  WARDROBE      : 1990s knitwear, patterned shirts, a paper party hat or two
+  DISTINGUISHING: faces must remain slightly indistinct in every shot - readable as people, never as individuals
+  CONTINUITY    : repeat this description verbatim in every scene tagged PARTY_CROWD. Do not restate it in scenes where PARTY_CROWD does not appear.
 
-[05] A heavily pixelated flat screen resolving out of video noise, faint image becoming visible on its surface, extreme digital magnification. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+==========================================================================
+SCENES
+==========================================================================
 
-[06] A low-resolution image of a plain beige-walled modern room with an anglepoise lamp and an open laptop on a desk, seen through heavy video artefacting. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+--- SCENE 01 | 0.0-2.0s (2.0s) | characters: PARTY_CROWD ---
+SUBJECT      : degraded camcorder footage of a family birthday party, a thin dark flat rectangle wrong in the back corner
+ENVIRONMENT  : two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk
+CAMERA ANGLE : handheld, chest height, 4:3 material framed into a 9:16 safe area with soft black above and below
+COMPOSITION  : the party occupies the lower centre, the anomalous rectangle sits high in the back corner
+LIGHTING     : blown-out tungsten highlights, smeared colour, heavy video noise in the shadows
+EMOTION      : warmth with something wrong in it
+KEY OBJECTS  : a birthday cake, candles, patterned wallpaper, a gas fire, a thin flat panel
+MOVEMENT     : loose handheld drift with a slow zoom, low frame rate and colour bleed
+CONTINUITY   : THE 1998 WORLD. Every 1998 shot uses this degraded look. The flat panel must be present but unremarked in scenes 01, 02 and 03.
 
-[07] Split comparison between a pixelated video still of a room and the identical real room shot cleanly, matching lamp and laptop positions. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+PROMPT: degraded camcorder footage of a family birthday party, a thin dark flat rectangle wrong in the back corner. two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk. handheld, chest height, 4:3 material framed into a 9:16 safe area with soft black above and below. the party occupies the lower centre, the anomalous rectangle sits high in the back corner. blown-out tungsten highlights, smeared colour, heavy video noise in the shadows. mood: warmth with something wrong in it. key objects: a birthday cake, candles, patterned wallpaper, a gas fire, a thin flat panel. camera and motion: loose handheld drift with a slow zoom, low frame rate and colour bleed. character PARTY_CROWD - eight to ten adults and children at a birthday party, period-accurate late-1990s hair and clothing, faces soft with motion blur and video smear; 1990s knitwear, patterned shirts, a paper party hat or two; faces must remain slightly indistinct in every shot - readable as people, never as individuals. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
 
-[08] A man turning to look over his shoulder in a plain beige room lit by an anglepoise lamp, empty space behind him, clean modern cinematography. the same man, forties, close-cropped hair, plain dark shirt, seen at a desk in a beige-walled room with an anglepoise lamp and an open laptop. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+--- SCENE 02 | 2.0-8.0s (6.0s) | characters: PARTY_CROWD ---
+SUBJECT      : a handheld camcorder pan across candles and blurred faces, the dark panel drifting through the background
+ENVIRONMENT  : two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk
+CAMERA ANGLE : handheld, chest height, panning
+COMPOSITION  : the pan carries left to right, the panel crossing the upper background twice
+LIGHTING     : warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two
+EMOTION      : nostalgia doing its work
+KEY OBJECTS  : candles, party hats, blurred faces, the flat panel
+MOVEMENT     : a loose handheld pan with motion smear
+CONTINUITY   : PARTY_CROWD faces must stay indistinct
 
-[09] Degraded camcorder footage of party guests one by one turning their heads to look toward the back corner of the room, faces blurred by motion. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+PROMPT: a handheld camcorder pan across candles and blurred faces, the dark panel drifting through the background. two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk. handheld, chest height, panning. the pan carries left to right, the panel crossing the upper background twice. warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two. mood: nostalgia doing its work. key objects: candles, party hats, blurred faces, the flat panel. camera and motion: a loose handheld pan with motion smear. character PARTY_CROWD - eight to ten adults and children at a birthday party, period-accurate late-1990s hair and clothing, faces soft with motion blur and video smear; 1990s knitwear, patterned shirts, a paper party hat or two; faces must remain slightly indistinct in every shot - readable as people, never as individuals. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
 
-[10] A frozen degraded camcorder frame of a room of people all facing the camera directly, a faint modern face reflected over the image in a screen. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.
+--- SCENE 03 | 8.0-13.0s (5.0s) | characters: PARTY_CROWD ---
+SUBJECT      : a freeze frame of the 1990s living room with the anachronistic panel isolated in sharper focus
+ENVIRONMENT  : two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk
+CAMERA ANGLE : the same handheld frame, held still
+COMPOSITION  : everything softened except the panel in the upper right
+LIGHTING     : warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two
+EMOTION      : the anomaly stepping forward
+KEY OBJECTS  : the flat panel, period furniture, a gas fire
+MOVEMENT     : frozen frame with a faint video judder
+CONTINUITY   : all surrounding décor must be period-accurate - the panel is the only wrong object
+
+PROMPT: a freeze frame of the 1990s living room with the anachronistic panel isolated in sharper focus. two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk. the same handheld frame, held still. everything softened except the panel in the upper right. warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two. mood: the anomaly stepping forward. key objects: the flat panel, period furniture, a gas fire. camera and motion: frozen frame with a faint video judder. character PARTY_CROWD - eight to ten adults and children at a birthday party, period-accurate late-1990s hair and clothing, faces soft with motion blur and video smear; 1990s knitwear, patterned shirts, a paper party hat or two; faces must remain slightly indistinct in every shot - readable as people, never as individuals. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 04 | 13.0-19.0s (6.0s) | characters: MAN_05 ---
+SUBJECT      : a modern laptop and capture deck connected to an old tape machine, a digital zoom crawling into a degraded frame
+ENVIRONMENT  : a plain beige-walled room with a desk, an anglepoise lamp and an open laptop
+CAMERA ANGLE : high three-quarter over the desk, 35mm
+COMPOSITION  : the deck in the lower left, the laptop screen filling the upper right
+LIGHTING     : a single anglepoise lamp, cold and directional, the room falling off behind
+EMOTION      : patient forensic work
+KEY OBJECTS  : a tape deck, a capture box, cables, a laptop, a mug
+MOVEMENT     : a slow crawling digital zoom on the screen, no camera move
+CONTINUITY   : THE MODERN WORLD. Cold, clean, sharp - the visual opposite of the 1998 material.
+
+PROMPT: a modern laptop and capture deck connected to an old tape machine, a digital zoom crawling into a degraded frame. a plain beige-walled room with a desk, an anglepoise lamp and an open laptop. high three-quarter over the desk, 35mm. the deck in the lower left, the laptop screen filling the upper right. a single anglepoise lamp, cold and directional, the room falling off behind. mood: patient forensic work. key objects: a tape deck, a capture box, cables, a laptop, a mug. camera and motion: a slow crawling digital zoom on the screen, no camera move. character MAN_05 - man, 44, close-cropped dark hair going grey at the temples, a heavy brow, clean-shaven, a squarish face, average build; a plain dark shirt with the sleeves buttoned, no jewellery; a habit of sitting very still with one hand flat on the desk; only ever seen in the modern room, never in the 1998 material. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 05 | 19.0-25.0s (6.0s) | characters: none ---
+SUBJECT      : a heavily pixelated flat screen resolving out of video noise, a faint image becoming visible on its surface
+ENVIRONMENT  : two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk
+CAMERA ANGLE : dead-on, continuing the digital zoom
+COMPOSITION  : the screen surface fills the entire frame, artefact blocks resolving toward the centre
+LIGHTING     : warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two
+EMOTION      : something coming into focus that should not
+KEY OBJECTS  : compression blocks, phosphor noise, an emerging rectangle of image
+MOVEMENT     : a continuous zoom with progressive resolution
+CONTINUITY   : abstract image content only - no legible detail on the inner screen
+
+PROMPT: a heavily pixelated flat screen resolving out of video noise, a faint image becoming visible on its surface. two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk. dead-on, continuing the digital zoom. the screen surface fills the entire frame, artefact blocks resolving toward the centre. warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two. mood: something coming into focus that should not. key objects: compression blocks, phosphor noise, an emerging rectangle of image. camera and motion: a continuous zoom with progressive resolution. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 06 | 25.0-31.0s (6.0s) | characters: none ---
+SUBJECT      : a low-resolution image of a plain beige-walled modern room with an anglepoise lamp and an open laptop
+ENVIRONMENT  : two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk
+CAMERA ANGLE : dead-on, flat to the inner screen
+COMPOSITION  : the inner room's composition mirrors the modern-world framing exactly
+LIGHTING     : warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two
+EMOTION      : the two worlds touching
+KEY OBJECTS  : an anglepoise lamp, a desk, a laptop, beige walls
+MOVEMENT     : static, heavy artefacting shimmer
+CONTINUITY   : this must match the modern room of scene 04 in layout, lamp position and angle
+
+PROMPT: a low-resolution image of a plain beige-walled modern room with an anglepoise lamp and an open laptop. two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk. dead-on, flat to the inner screen. the inner room's composition mirrors the modern-world framing exactly. warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two. mood: the two worlds touching. key objects: an anglepoise lamp, a desk, a laptop, beige walls. camera and motion: static, heavy artefacting shimmer. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 07 | 31.0-36.0s (5.0s) | characters: none ---
+SUBJECT      : a split comparison between the pixelated video still and the identical real room shot cleanly
+ENVIRONMENT  : two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk
+CAMERA ANGLE : two matched angles, one degraded and one clean
+COMPOSITION  : a hard vertical split, the lamp and laptop at the same coordinates on both sides
+LIGHTING     : warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two
+EMOTION      : confirmation
+KEY OBJECTS  : an anglepoise lamp, a laptop, beige walls, a desk edge
+MOVEMENT     : static split with two hard cuts
+CONTINUITY   : the two halves must match to the pixel in layout - only quality differs
+
+PROMPT: a split comparison between the pixelated video still and the identical real room shot cleanly. two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk. two matched angles, one degraded and one clean. a hard vertical split, the lamp and laptop at the same coordinates on both sides. warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two. mood: confirmation. key objects: an anglepoise lamp, a laptop, beige walls, a desk edge. camera and motion: static split with two hard cuts. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 08 | 36.0-41.0s (5.0s) | characters: MAN_05 ---
+SUBJECT      : MAN_05 turning to look over his shoulder into an empty beige room
+ENVIRONMENT  : two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk
+CAMERA ANGLE : eye-level behind him, 50mm
+COMPOSITION  : he occupies the right third turning into profile, the empty room open behind him
+LIGHTING     : warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two
+EMOTION      : the fear of an empty room
+KEY OBJECTS  : an anglepoise lamp, a plain wall, an empty doorway
+MOVEMENT     : a fast turn, then absolute stillness
+CONTINUITY   : MAN_05 as described, plain dark shirt, sleeves buttoned
+
+PROMPT: MAN_05 turning to look over his shoulder into an empty beige room. two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk. eye-level behind him, 50mm. he occupies the right third turning into profile, the empty room open behind him. warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two. mood: the fear of an empty room. key objects: an anglepoise lamp, a plain wall, an empty doorway. camera and motion: a fast turn, then absolute stillness. character MAN_05 - man, 44, close-cropped dark hair going grey at the temples, a heavy brow, clean-shaven, a squarish face, average build; a plain dark shirt with the sleeves buttoned, no jewellery; a habit of sitting very still with one hand flat on the desk; only ever seen in the modern room, never in the 1998 material. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 09 | 41.0-45.0s (4.0s) | characters: PARTY_CROWD ---
+SUBJECT      : PARTY_CROWD turning their heads one by one toward the back corner of the 1998 room
+ENVIRONMENT  : two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk
+CAMERA ANGLE : the same degraded handheld framing
+COMPOSITION  : the guests spread across the lower two thirds, all heads rotating toward the upper right
+LIGHTING     : warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two
+EMOTION      : being noticed across time
+KEY OBJECTS  : party guests, paper hats, the cake, the flat panel
+MOVEMENT     : a series of quick cuts, each with one more head turned
+CONTINUITY   : 1998 degraded look, indistinct faces, identical room dressing to scene 01
+
+PROMPT: PARTY_CROWD turning their heads one by one toward the back corner of the 1998 room. two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk. the same degraded handheld framing. the guests spread across the lower two thirds, all heads rotating toward the upper right. warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two. mood: being noticed across time. key objects: party guests, paper hats, the cake, the flat panel. camera and motion: a series of quick cuts, each with one more head turned. character PARTY_CROWD - eight to ten adults and children at a birthday party, period-accurate late-1990s hair and clothing, faces soft with motion blur and video smear; 1990s knitwear, patterned shirts, a paper party hat or two; faces must remain slightly indistinct in every shot - readable as people, never as individuals. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+
+--- SCENE 10 | 45.0-47.0s (2.0s) | characters: PARTY_CROWD, MAN_05 ---
+SUBJECT      : a frozen degraded frame of a room of people all facing camera, a faint modern face reflected over the image
+ENVIRONMENT  : two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk
+CAMERA ANGLE : the same degraded handheld framing, frozen
+COMPOSITION  : the crowd fills the frame facing forward, a soft modern reflection laid over the glass
+LIGHTING     : warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two
+EMOTION      : the exchange completed
+KEY OBJECTS  : party guests facing camera, a reflected modern face on the screen surface
+MOVEMENT     : frozen, with a slow fade of the reflection
+CONTINUITY   : the reflection must read as MAN_05 without ever being sharp
+
+PROMPT: a frozen degraded frame of a room of people all facing camera, a faint modern face reflected over the image. two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk. the same degraded handheld framing, frozen. the crowd fills the frame facing forward, a soft modern reflection laid over the glass. warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two. mood: the exchange completed. key objects: party guests facing camera, a reflected modern face on the screen surface. camera and motion: frozen, with a slow fade of the reflection. character PARTY_CROWD - eight to ten adults and children at a birthday party, period-accurate late-1990s hair and clothing, faces soft with motion blur and video smear; 1990s knitwear, patterned shirts, a paper party hat or two; faces must remain slightly indistinct in every shot - readable as people, never as individuals. character MAN_05 - man, 44, close-cropped dark hair going grey at the temples, a heavy brow, clean-shaven, a squarish face, average build; a plain dark shirt with the sleeves buttoned, no jewellery; a habit of sitting very still with one hand flat on the desk; only ever seen in the modern room, never in the 1998 material. two visual worlds held apart - degraded 4:3 camcorder video with date burn-in and colour bleed for the past, and clean cold modern digital for the present, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.
+

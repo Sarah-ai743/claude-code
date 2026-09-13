@@ -50,8 +50,19 @@
         "visual": "Extreme macro on a video scrubber. The duration readout ticks up by a single frame. Phone-screen glow.",
         "prompt": "Extreme macro of a video player progress bar on a dark screen, duration counter frozen mid-tick, heavy pixel texture, cold blue monitor glow",
         "sfx": "single dry UI click, low sub drop",
-        "character": false,
-        "shot_change": "hard cut in"
+        "shot_change": "hard cut in",
+        "v": {
+          "subject": "extreme macro of a video player's progress bar, the scrubber caught mid-step",
+          "environment": "the surface of a matte monitor panel, individual pixels visible at this distance",
+          "angle": "dead-on macro, sensor parallel to the screen, 100mm",
+          "composition": "the scrubber runs across the lower third, the upper two thirds are empty black panel",
+          "lighting": "self-lit by the screen, cold blue, faint bloom spilling into the surrounding black",
+          "emotion": "clinical curiosity, something very small being very wrong",
+          "objects": "progress bar, scrubber handle, a scatter of dust on the panel",
+          "movement": "static frame; the only motion is one pixel-step of the scrubber",
+          "continuity": "screen content is abstract light only, no legible numerals - the readout is composited in the edit. Establishes the cold blue screen key used throughout."
+        },
+        "characters": []
       },
       {
         "n": 2,
@@ -61,8 +72,20 @@
         "visual": "File properties panel. Size and checksum identical across two windows side by side. His hand enters frame to point.",
         "prompt": "A hand with a thin silver ring pointing at two identical file property windows on a dim monitor, cluttered desk, night",
         "sfx": "hard drive tick, keyboard tap",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a hand entering frame to point at two stacked property panels on a monitor",
+          "angle": "over-the-shoulder, high three-quarter, 35mm",
+          "composition": "hand and forearm entering on a diagonal from frame right, monitor filling the upper two thirds, focus on the fingertip",
+          "lighting": "screen light rims the knuckles and the silver band, the rest of the arm falls into shadow",
+          "emotion": "methodical, mildly unsettled",
+          "objects": "two glowing abstract panels, a silver ring, a worn mechanical keyboard",
+          "movement": "the hand pushes slowly into frame and stops, no camera move",
+          "continuity": "the silver band on the right index finger must be visible - it is the identifier in every hands-only shot. Screen content abstract."
+        },
+        "characters": [
+          "MAN_01"
+        ]
       },
       {
         "n": 3,
@@ -72,8 +95,20 @@
         "visual": "Fast rhythmic cuts of a finger hitting play, eleven times, each cut slightly tighter on the screen.",
         "prompt": "Close-up of a finger repeatedly pressing a play button on a keyboard, motion blur, monitor light flickering on skin, night interior",
         "sfx": "eleven overlapping play clicks building into one tone",
-        "character": true,
-        "shot_change": "rapid cut montage"
+        "shot_change": "rapid cut montage",
+        "v": {
+          "subject": "a fingertip striking a keyboard key, the same action repeated",
+          "angle": "low macro from the side of the keyboard, 50mm, close to the key plane",
+          "composition": "the finger fills the left half against black falloff, key caps receding out of focus to the right",
+          "lighting": "hard screen light from the front, strong specular on the nail, deep shadow beneath the hand",
+          "emotion": "compulsion building into something mechanical",
+          "objects": "keyboard, fingertip, bitten nail",
+          "movement": "eleven rapid strikes cut together, each framed a little tighter, with subtle handheld drift",
+          "continuity": "same hand, same ring, same bitten nail; the desk dressing never changes across scenes 02, 03, 06 and 10."
+        },
+        "characters": [
+          "MAN_01"
+        ]
       },
       {
         "n": 4,
@@ -83,8 +118,19 @@
         "visual": "The appended frames fill the screen: a plain empty room, static camera, window at the left.",
         "prompt": "Static wide shot of an empty plain room with a bare window, dust in the air, security-camera flatness, muted colours",
         "sfx": "tape hiss, distant room tone",
-        "character": false,
-        "shot_change": "match cut into the footage"
+        "shot_change": "match cut into the footage",
+        "v": {
+          "subject": "a plain empty upper room recorded by a fixed camera, a sash window at the left and a closed door at the right",
+          "environment": "an unfurnished room in an old house, pale plaster walls, bare wooden floorboards, no furniture at all",
+          "angle": "fixed wide at chest height, mildly wide-angle as a cheap fixed camera would be",
+          "composition": "the window throws a hard trapezoid of light across the floor from frame left, the far door sits in the right third",
+          "lighting": "overcast daylight only, flat and grey, with slight vignetting from the cheap lens",
+          "emotion": "abandonment, a held breath",
+          "objects": "sash window, closed far door, dust suspended in the air",
+          "movement": "absolutely static - this is the footage, not the film",
+          "continuity": "THE ROOM. Identical framing, lens and window position in scenes 04, 05, 07, 08 and 09. Only the light and the occupancy ever change."
+        },
+        "characters": []
       },
       {
         "n": 5,
@@ -94,8 +140,19 @@
         "visual": "Time-lapse of the window light shifting across the empty floor while the frame counter climbs.",
         "prompt": "Time-lapse of sunlight moving across the bare floor of an empty room, long shadows rotating, unchanging furniture, cold light",
         "sfx": "rising low drone under a ticking frame counter",
-        "character": false,
-        "shot_change": "dissolve"
+        "shot_change": "dissolve",
+        "v": {
+          "subject": "the same empty room as a full day of light crosses it",
+          "environment": "the identical unfurnished room, unchanged",
+          "angle": "identical fixed wide to scene 04 - do not reframe",
+          "composition": "identical to scene 04; the trapezoid of light sweeps right to left across the floorboards",
+          "lighting": "a day compressed - cold morning, hard noon, long amber evening, blue dusk",
+          "emotion": "time passing with nobody present to feel it",
+          "objects": "floorboards, window, the moving edge of the light",
+          "movement": "time-lapse, no camera move whatsoever",
+          "continuity": "must match scene 04 exactly in framing and lens; only the light changes."
+        },
+        "characters": []
       },
       {
         "n": 6,
@@ -105,8 +162,20 @@
         "visual": "His face in monitor light, unblinking, as reflected frame counts race in his glasses.",
         "prompt": "A man's face lit only by a monitor at night, eyes reflecting scrolling numbers, exhausted, unblinking, tight vertical framing",
         "sfx": "click loop compressed into a stutter",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "MAN_01's face lit only by the monitor, refusing to blink",
+          "angle": "slightly low, dead-on, 85mm, camera placed where the monitor sits",
+          "composition": "face in the upper centre with the eyes on the upper-third line, black filling the lower third",
+          "lighting": "a single cold source from front-below, hard falloff, a rectangular catchlight in each eye",
+          "emotion": "exhaustion tipping over into fixation",
+          "objects": "the man's face, the reflected rectangle in each eye",
+          "movement": "static; the only motion is a blink withheld a second too long",
+          "continuity": "same stubble length, shirt and scar as scene 02."
+        },
+        "characters": [
+          "MAN_01"
+        ]
       },
       {
         "n": 7,
@@ -116,8 +185,19 @@
         "visual": "Frame counter racing past ten thousand over the unchanging empty room.",
         "prompt": "Empty room shot with a large frame counter overlay racing upward, heavy compression artefacts, static composition",
         "sfx": "counter whirr, everything else muted",
-        "character": false,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "the empty room again, held far longer than is comfortable",
+          "environment": "the identical unfurnished room",
+          "angle": "identical fixed wide",
+          "composition": "identical to scenes 04 and 05, deliberately unchanged so the viewer starts searching the frame",
+          "lighting": "flat grey daylight, slightly more degraded, heavier compression mush in the shadows",
+          "emotion": "impatience curdling into dread",
+          "objects": "the same window, floor and closed door",
+          "movement": "static, with a faint compression shimmer in the shadow areas",
+          "continuity": "the frame counter is composited in post - generate no numerals."
+        },
+        "characters": []
       },
       {
         "n": 8,
@@ -127,8 +207,19 @@
         "visual": "In the footage, the far door swings inward. Half a second of total silence before it moves.",
         "prompt": "A door slowly opening into an empty plain room, seen from a fixed low-quality camera, deep shadow beyond the doorway",
         "sfx": "total silence, then a single wooden creak",
-        "character": false,
-        "shot_change": "hold, no cut"
+        "shot_change": "hold, no cut",
+        "v": {
+          "subject": "the far door of the empty room swinging inward onto darkness",
+          "environment": "the identical unfurnished room",
+          "angle": "identical fixed wide",
+          "composition": "identical framing, the door in the right third, the opening a black wedge",
+          "lighting": "the same grey daylight; nothing illuminates the space beyond the door",
+          "emotion": "the first real fear in the film",
+          "objects": "the door, its worn handle, the blackness beyond",
+          "movement": "the door swings slowly inward across four seconds, the camera does not move",
+          "continuity": "room identical to 04, 05 and 07 - same window light, same floorboards."
+        },
+        "characters": []
       },
       {
         "n": 9,
@@ -138,8 +229,21 @@
         "visual": "A figure sits in a chair in the centre of the room and turns to face the lens. Held still.",
         "prompt": "A seated figure in the centre of an empty room facing the camera directly, face in shadow, absolutely still, grainy footage",
         "sfx": "sub-bass swell, room tone drops out",
-        "character": false,
-        "shot_change": "slow push in"
+        "shot_change": "slow push in",
+        "v": {
+          "subject": "FIGURE_01 seated in the centre of the empty room, facing the lens, face unreadable",
+          "environment": "the identical unfurnished room",
+          "angle": "identical fixed wide, then a very slow push in",
+          "composition": "the figure centred and small in frame, window light behind and to the left so the face stays unreadable",
+          "lighting": "backlit by the window, reading as a silhouette with no facial detail recoverable",
+          "emotion": "patience, which is far worse than threat",
+          "objects": "a plain wooden chair that was not in any earlier scene",
+          "movement": "a 10% push in over five seconds; the figure does not move at all",
+          "continuity": "FIGURE_01 must never resolve. Same room, same window, same lens as scene 04."
+        },
+        "characters": [
+          "FIGURE_01"
+        ]
       },
       {
         "n": 10,
@@ -149,8 +253,19 @@
         "visual": "Cut to black except the video player, paused, with the replay button pulsing. Duration ticks up once more.",
         "prompt": "A paused video player on a black screen with a glowing replay icon, single frame counter ticking upward, nothing else visible",
         "sfx": "one dry click, then silence",
-        "character": false,
-        "shot_change": "cut to black"
+        "shot_change": "cut to black",
+        "v": {
+          "subject": "a video player paused on black with a single lit circular control",
+          "environment": "pure black, the screen filling the entire frame",
+          "angle": "dead-on macro",
+          "composition": "the control sits dead centre, everything else is empty black",
+          "lighting": "self-lit and dim, a soft halo around the control",
+          "emotion": "invitation",
+          "objects": "a circular replay control, shape only, no text",
+          "movement": "static, with one faint pulse of the control",
+          "continuity": "closing frame; matches the screen key of scene 01. The duration readout is composited."
+        },
+        "characters": []
       }
     ],
     "music_mood": "Slow sub-bass pulse at roughly 60 bpm with a single detuned piano note. No melody, no drums. Drops to near silence at 0:33 and returns as a rising low drone under the final ten seconds.",
@@ -163,7 +278,25 @@
       "#mystery",
       "#creepytech"
     ],
-    "pinned_comment": "Original fiction, written for this channel - nothing here is a real recording. The camera never stopped. So somebody has been sitting in that room since long before he found the file."
+    "pinned_comment": "Original fiction, written for this channel - nothing here is a real recording. The camera never stopped. So somebody has been sitting in that room since long before he found the file.",
+    "default_environment": "a small rented flat converted into a workspace at night: a desk against a blank wall, a stack of external drives, one monitor, blackout curtains half drawn",
+    "default_lighting": "monitor light as the only key, cold 6500K, falling off to near black within a metre, no practical behind camera",
+    "characters": [
+      {
+        "tag": "MAN_01",
+        "name": "The Collector",
+        "description": "man, 28, narrow face, short dark brown hair worn slightly long at the front, three days of stubble, grey-blue eyes with dark circles beneath, lean build, long fingers",
+        "wardrobe": "plain heather-grey cotton t-shirt with a slightly stretched neckline, thin silver band on the right index finger",
+        "distinguishing": "a small white scar through the left eyebrow, nails bitten short; shot from the chest up or as hands only, with one side of the face always held in shadow"
+      },
+      {
+        "tag": "FIGURE_01",
+        "name": "The Seated Figure",
+        "description": "an adult human silhouette of indeterminate age and sex, seated upright with hands flat on the knees, reading only as shape and posture",
+        "wardrobe": "dark, plain, era-neutral clothing with no discernible detail",
+        "distinguishing": "never lit from the front and never resolved; if facial features become legible the shot is wrong"
+      }
+    ]
   },
   {
     "id": "002",
@@ -217,8 +350,18 @@
         "visual": "A wall of CCTV monitors in a dark room. One monitor is black with a file icon on it.",
         "prompt": "A wall of old CCTV monitors glowing in a dark security room, one screen black except a single file icon, scanlines, night",
         "sfx": "fluorescent hum, faint electrical buzz",
-        "character": false,
-        "shot_change": "hard cut in"
+        "shot_change": "hard cut in",
+        "v": {
+          "subject": "a wall of eleven CRT monitors glowing in a dark room, one screen black but for a single lit icon",
+          "angle": "wide, slightly low, 28mm, looking up at the rack",
+          "composition": "the monitor grid fills the upper two thirds, the black screen sits off-centre right",
+          "lighting": "green-grey monitor wash with a hard fluorescent kick from above, deep black corners",
+          "emotion": "institutional boredom about to end",
+          "objects": "eleven CRTs, a steel rack, cable trunking, one dark screen",
+          "movement": "static with a slow fluorescent flicker",
+          "continuity": "count the monitors - eleven, always eleven. The twelfth position stays empty in every scene."
+        },
+        "characters": []
       },
       {
         "n": 2,
@@ -228,8 +371,19 @@
         "visual": "Screen recording of an archive folder, files listed by camera number, scrolling.",
         "prompt": "Close-up of a security archive file listing on a dim CRT monitor, rows of camera folders, green-grey interface, heavy scanlines",
         "sfx": "mouse scroll, hard drive seek",
-        "character": false,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a security archive listing scrolling on a curved CRT",
+          "environment": "the same basement room, tight on one monitor",
+          "angle": "dead-on macro on the tube face, 85mm",
+          "composition": "the curved glass fills the frame, the curvature visible at the corners",
+          "lighting": "self-lit phosphor, heavy scanlines and bloom",
+          "emotion": "routine, one beat before it breaks",
+          "objects": "CRT glass, phosphor rows, dust on the screen",
+          "movement": "slow vertical scroll, no camera move",
+          "continuity": "generate glyph texture only - no legible characters. The file names are composited in the edit."
+        },
+        "characters": []
       },
       {
         "n": 3,
@@ -239,8 +393,20 @@
         "visual": "He counts the monitors with a finger. Eleven live feeds. The twelfth screen is the file.",
         "prompt": "A guard's hand counting along a row of CCTV monitors, eleven live feeds visible, one dark screen at the end, dim room",
         "sfx": "finger taps on glass, counted breaths",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "GUARD_01's hand counting along the row of monitors",
+          "angle": "tracking profile at monitor height, 50mm",
+          "composition": "the hand leads frame left to right, screens receding into shallow focus behind",
+          "lighting": "each screen he passes throws a fresh green kick across his knuckles",
+          "emotion": "the first prickle of doubt",
+          "objects": "eleven screens, a thick hand, a lanyard swinging into frame",
+          "movement": "lateral tracking with the hand, slight handheld weight",
+          "continuity": "GUARD_01 as described - the band on the chain must be visible as the lanyard swings."
+        },
+        "characters": [
+          "GUARD_01"
+        ]
       },
       {
         "n": 4,
@@ -250,8 +416,19 @@
         "visual": "Torch beam across a blank ceiling corner. Nothing mounted. Dust undisturbed.",
         "prompt": "A torch beam sweeping across a bare ceiling corner in a dim room, no camera mounted, dust and cobwebs, harsh directional light",
         "sfx": "torch click, footsteps on lino",
-        "character": false,
-        "shot_change": "handheld"
+        "shot_change": "handheld",
+        "v": {
+          "subject": "a torch beam sweeping a bare ceiling corner where no camera is mounted",
+          "environment": "the same basement room, corner above the monitor rack",
+          "angle": "low, steep upward, handheld 24mm",
+          "composition": "the corner meets at the upper third, the beam cutting a hard diagonal across it",
+          "lighting": "a single hard torch beam, everything outside it crushed to black, dust and cobweb catching the light",
+          "emotion": "searching for something that should be there",
+          "objects": "bare plaster corner, cobwebs, an empty fixing hole, dust in the beam",
+          "movement": "handheld sweep left to right, unsteady",
+          "continuity": "no camera, no bracket, no cable may be visible in this corner in any shot."
+        },
+        "characters": []
       },
       {
         "n": 5,
@@ -261,8 +438,20 @@
         "visual": "The file plays: the guard from behind, seated, watching the same wall of monitors.",
         "prompt": "CCTV-style shot from behind a seated security guard facing a wall of monitors, grainy, low frame rate, green cast",
         "sfx": "video playback hiss, chair creak",
-        "character": true,
-        "shot_change": "match cut"
+        "shot_change": "match cut",
+        "v": {
+          "subject": "GUARD_01 seen from behind, seated, facing the wall of monitors",
+          "angle": "high behind, from the upper corner of the room, as a mounted camera would sit",
+          "composition": "the back of his head and shoulders occupy the lower third, the monitor wall glowing beyond",
+          "lighting": "the monitors light him from the front so he reads as a dark mass against a green glow",
+          "emotion": "the vertigo of seeing yourself from outside",
+          "objects": "swivel chair, rolled sleeves, monitor wall",
+          "movement": "static, low frame rate, occasional dropped frames as degraded footage",
+          "continuity": "this is the impossible angle - it must be from a position scene 04 proved is empty."
+        },
+        "characters": [
+          "GUARD_01"
+        ]
       },
       {
         "n": 6,
@@ -272,8 +461,20 @@
         "visual": "He spins in his chair toward the empty corner. Cut to the empty corner. Cut back.",
         "prompt": "A security guard turning sharply in his chair to look behind him at an empty dim room corner, motion blur, fluorescent light",
         "sfx": "chair swivel, sudden silence",
-        "character": true,
-        "shot_change": "whip pan"
+        "shot_change": "whip pan",
+        "v": {
+          "subject": "GUARD_01 turning sharply in his chair to look behind him",
+          "angle": "eye-level, slightly wide, 35mm, from the empty corner",
+          "composition": "he turns into a three-quarter profile, the empty room filling the frame behind him",
+          "lighting": "monitor wash from behind him now, rimming his ear and shoulder, his face in shadow",
+          "emotion": "alarm that has nowhere to land",
+          "objects": "swivel chair, loosened tie, empty doorway beyond",
+          "movement": "fast whip pan following the turn, then a dead stop",
+          "continuity": "same shirt, same rolled sleeves, same stubble as scene 03."
+        },
+        "characters": [
+          "GUARD_01"
+        ]
       },
       {
         "n": 7,
@@ -283,8 +484,20 @@
         "visual": "Split screen: his real movement and the recorded movement, perfectly in step.",
         "prompt": "Split screen of the same seated guard turning in his chair, one side live and one side degraded CCTV footage, identical motion",
         "sfx": "doubled chair creak, slight phase offset",
-        "character": true,
-        "shot_change": "split screen"
+        "shot_change": "split screen",
+        "v": {
+          "subject": "the same seated turn shown twice at once, live and as degraded footage",
+          "angle": "two matched angles side by side, both from behind",
+          "composition": "a hard vertical split, identical framing either side, the man's motion mirrored exactly",
+          "lighting": "clean monitor wash on the left, the same wash degraded and green-shifted on the right",
+          "emotion": "the sickening confirmation",
+          "objects": "two identical chairs, two identical monitor walls",
+          "movement": "identical motion on both sides with a few frames of offset",
+          "continuity": "the two halves must match in framing and wardrobe exactly; only the image quality differs."
+        },
+        "characters": [
+          "GUARD_01"
+        ]
       },
       {
         "n": 8,
@@ -294,8 +507,18 @@
         "visual": "Zoom into the footage's own monitor wall, which shows the same room from the same angle.",
         "prompt": "Slow digital zoom into a CCTV image of a monitor wall which itself displays the same monitor wall, recursive nesting, heavy artefacting",
         "sfx": "digital zoom whine, drone rising",
-        "character": false,
-        "shot_change": "continuous zoom"
+        "shot_change": "continuous zoom",
+        "v": {
+          "subject": "a slow digital zoom into a monitor that is displaying the same monitor wall",
+          "angle": "dead-on, pushing into the screen plane",
+          "composition": "nested rectangles receding toward the centre of the frame",
+          "lighting": "each nested generation dimmer and greener than the one outside it",
+          "emotion": "the floor going out from under the story",
+          "objects": "nested screens, phosphor bloom, scanlines multiplying",
+          "movement": "continuous digital zoom, no cut, accelerating slightly",
+          "continuity": "the nesting must stay geometrically consistent - each layer the same room from the same angle."
+        },
+        "characters": []
       },
       {
         "n": 9,
@@ -305,8 +528,18 @@
         "visual": "Continuous recursive zoom, each layer more degraded, a counter in the corner climbing to eleven.",
         "prompt": "Deep recursive zoom through nested monitor screens, each generation more degraded and darker, infinite corridor of screens",
         "sfx": "pitch-descending drone, counter ticks",
-        "character": false,
-        "shot_change": "continuous zoom"
+        "shot_change": "continuous zoom",
+        "v": {
+          "subject": "a deep recursive corridor of nested screens, each generation more degraded",
+          "angle": "continuing the same dead-on push",
+          "composition": "a tunnel of rectangles converging on a dark centre",
+          "lighting": "light draining out layer by layer until only the centre glows",
+          "emotion": "falling",
+          "objects": "screen frames, dust, compression artefacts",
+          "movement": "continuous zoom, faster now, no cut",
+          "continuity": "count the layers - the edit needs eleven distinguishable generations."
+        },
+        "characters": []
       },
       {
         "n": 10,
@@ -316,8 +549,18 @@
         "visual": "Final layer: the same room, the chair empty, the door standing open behind it.",
         "prompt": "A degraded CCTV frame of an empty office chair in front of a monitor wall, a door standing open in the darkness behind it",
         "sfx": "everything cuts to silence, one distant door knock",
-        "character": false,
-        "shot_change": "hard stop"
+        "shot_change": "hard stop",
+        "v": {
+          "subject": "a degraded frame of an empty office chair in front of the monitor wall, a door standing open behind it",
+          "angle": "the same nested angle, now at its deepest",
+          "composition": "the empty chair centred, the open doorway a black rectangle behind and to the left",
+          "lighting": "heavily degraded green, almost monochrome, the doorway completely black",
+          "emotion": "absence",
+          "objects": "empty swivel chair, open door, still-glowing monitors",
+          "movement": "static, the zoom having stopped dead",
+          "continuity": "same chair and same monitor wall as scene 01, now without GUARD_01."
+        },
+        "characters": []
       }
     ],
     "music_mood": "Single sustained low string tone, slowly detuning. No percussion. A pitch-descending drone enters at 0:34 and falls continuously through the recursive zoom, stopping dead at the final frame.",
@@ -330,7 +573,18 @@
       "#mystery",
       "#unexplained"
     ],
-    "pinned_comment": "Original fiction, written for this channel - no real footage, no real building. Count the layers again on a rewatch. The door is open on more than one of them."
+    "pinned_comment": "Original fiction, written for this channel - no real footage, no real building. Count the layers again on a rewatch. The door is open on more than one of them.",
+    "default_environment": "a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls",
+    "default_lighting": "one failing overhead fluorescent tube plus the green-grey wash of eleven monitors; no daylight exists anywhere in this project",
+    "characters": [
+      {
+        "tag": "GUARD_01",
+        "name": "The Night Guard",
+        "description": "man, 54, heavyset, square jaw under grey stubble, close-cropped grey hair receding at the temples, heavy brows, deep lines from nose to mouth, thick forearms",
+        "wardrobe": "navy uniform shirt with the sleeves rolled to the elbow, a loosened dark tie, a black lanyard",
+        "distinguishing": "wears his wedding band on the lanyard chain rather than on his finger; shot from behind or in three-quarter profile in almost every scene"
+      }
+    ]
   },
   {
     "id": "003",
@@ -383,8 +637,19 @@
         "visual": "Phone screen filling frame: a clean vector floor plan with one extra rectangle glowing.",
         "prompt": "Phone screen close-up showing a minimal vector floor plan of a small house with one extra unexplained rectangular room, blue-on-dark interface",
         "sfx": "app chime, sharp sub hit",
-        "character": false,
-        "shot_change": "hard cut in"
+        "shot_change": "hard cut in",
+        "v": {
+          "subject": "a phone screen showing a minimal vector floor plan with one extra rectangle",
+          "angle": "dead-on macro on the screen, 100mm",
+          "composition": "the plan fills the frame, the anomalous rectangle sitting off-centre",
+          "emotion": "a small arithmetic wrongness",
+          "objects": "phone glass, fingerprints on the screen, a cracked corner",
+          "movement": "static, one slow zoom of the plan",
+          "continuity": "screen content is abstract shape only - the plan graphic is composited in the edit. No legible labels.",
+          "environment": "the surface of a phone screen held close to camera",
+          "lighting": "self-lit cold blue, warm room light spilling across the glass"
+        },
+        "characters": []
       },
       {
         "n": 2,
@@ -394,8 +659,19 @@
         "visual": "She refreshes. Same map. Her face lit from below by the phone in a dark hallway.",
         "prompt": "A woman standing in a dim domestic hallway looking down at a phone, face lit from below, cardigan, night, warm and cold light mixing",
         "sfx": "pull-to-refresh click, house settling",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "WOMAN_01 in a dark hallway looking down at a phone, face lit from below",
+          "angle": "eye-level, slightly wide, 35mm, from the far end of the hallway",
+          "composition": "she stands in the centre third, the hallway receding behind her into darkness",
+          "emotion": "patient confusion",
+          "objects": "phone, cardigan, framed photographs on the wall behind",
+          "movement": "static frame, she refreshes the screen with her thumb",
+          "continuity": "WOMAN_01 as described, barefoot, chain visible at the collar"
+        },
+        "characters": [
+          "WOMAN_01"
+        ]
       },
       {
         "n": 3,
@@ -405,8 +681,17 @@
         "visual": "Overlay of the map onto the real hallway. The extra rectangle sits inside solid plaster.",
         "prompt": "A plain suburban hallway with a translucent blue floor-plan overlay showing a rectangular room inside the solid wall, night interior",
         "sfx": "low drone enters",
-        "character": false,
-        "shot_change": "graphic overlay"
+        "shot_change": "graphic overlay",
+        "v": {
+          "subject": "a translucent floor-plan overlay laid across a real hallway wall",
+          "angle": "eye-level, straight down the hallway, 35mm",
+          "composition": "the overlay rectangle sits inside solid plaster in the right third",
+          "emotion": "the impossible made geometric",
+          "objects": "hallway wall, skirting board, carpet, the ghosted rectangle",
+          "movement": "a slow dolly forward down the hallway",
+          "continuity": "the overlay is composited in post - generate the clean hallway plate only, with room in frame for it"
+        },
+        "characters": []
       },
       {
         "n": 4,
@@ -416,8 +701,17 @@
         "visual": "Quick flashes of family photos along the hallway, all with the same blank wall behind them.",
         "prompt": "A row of framed family photographs along a hallway wall, warm lamplight, the same blank plaster visible behind every frame",
         "sfx": "photo-flip whoosh, muted music swell",
-        "character": false,
-        "shot_change": "rapid cuts"
+        "shot_change": "rapid cuts",
+        "v": {
+          "subject": "a row of framed family photographs along a hallway wall, the same blank plaster behind every one",
+          "angle": "three-quarter, low, raking along the wall, 50mm",
+          "composition": "the frames recede in a diagonal line to the upper left",
+          "emotion": "years of not noticing",
+          "objects": "picture frames, dusty glass, textured wallpaper",
+          "movement": "a lateral track along the frames, slightly faster than comfortable",
+          "continuity": "photographs must be non-specific - no recognisable faces, no legible dates"
+        },
+        "characters": []
       },
       {
         "n": 5,
@@ -427,8 +721,20 @@
         "visual": "Tape measure pulled along the hallway, then against the outside of the house. The numbers match.",
         "prompt": "A metal tape measure stretched along a hallway wall and then against exterior brickwork, hands only, overcast daylight",
         "sfx": "tape measure snap and rewind",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a metal tape measure stretched along a hallway wall, then against exterior brickwork",
+          "angle": "top-down macro on the tape, then a matched exterior angle",
+          "composition": "the tape runs the full diagonal of the frame in both shots",
+          "emotion": "methodical disproof",
+          "objects": "steel tape measure, skirting board, weathered brick",
+          "movement": "static, then a hard cut to the matched exterior",
+          "continuity": "no numerals legible on the tape - shoot the blade at an angle that abstracts the markings",
+          "lighting": "overcast flat daylight for the exterior, breaking this project's night palette deliberately"
+        },
+        "characters": [
+          "WOMAN_01"
+        ]
       },
       {
         "n": 6,
@@ -438,8 +744,17 @@
         "visual": "Travel log list scrolling: identical entries, identical durations, months deep.",
         "prompt": "Scrolling app log of identical nightly cleaning entries with matching timestamps, dark interface, repeated rows blurring",
         "sfx": "scroll ticks accelerating",
-        "character": false,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a scrolling list of identical app log entries",
+          "angle": "dead-on macro on the screen",
+          "composition": "identical rows stacking down the frame, blurring as the scroll accelerates",
+          "emotion": "the dread of a pattern",
+          "objects": "phone screen, motion blur, thumb at the frame edge",
+          "movement": "fast vertical scroll, no camera move",
+          "continuity": "abstract row shapes only - the log text is composited"
+        },
+        "characters": []
       },
       {
         "n": 7,
@@ -449,8 +764,18 @@
         "visual": "The robot sits still on its dock. Her phone beside it says CLEANING with a timer running.",
         "prompt": "A robot vacuum sitting motionless on its charging dock in a dark living room, a phone on the floor beside it showing an active timer",
         "sfx": "dock charging hum, no motor",
-        "character": false,
-        "shot_change": "locked-off shot"
+        "shot_change": "locked-off shot",
+        "v": {
+          "subject": "a robot vacuum sitting motionless on its charging dock in a dark living room, a phone on the floor beside it",
+          "angle": "very low, floor level, 24mm, the machine large in the foreground",
+          "composition": "the vacuum dominates the lower half, the dark room stretching away behind",
+          "emotion": "watching something that is lying to you",
+          "objects": "robot vacuum, charging dock, a phone face up on the carpet",
+          "movement": "static, absolutely still, for an uncomfortably long hold",
+          "continuity": "the vacuum must be visibly docked and unmoving - this is the shot the whole twist rests on",
+          "lighting": "the phone screen is the only light source, cold and low, throwing a long shadow from the dock"
+        },
+        "characters": []
       },
       {
         "n": 8,
@@ -460,8 +785,19 @@
         "visual": "Utility knife into plaster. Dust. A rectangle of darkness widening.",
         "prompt": "A hand cutting into a plaster wall with a utility knife, plaster dust in lamplight, a dark opening widening beyond",
         "sfx": "blade through plaster, dust fall, silence",
-        "character": true,
-        "shot_change": "handheld close"
+        "shot_change": "handheld close",
+        "v": {
+          "subject": "a hand cutting into plaster with a utility knife, dust falling through lamplight",
+          "angle": "close three-quarter over the shoulder, 50mm",
+          "composition": "the blade and the widening dark opening occupy the centre, hand entering from the right",
+          "emotion": "commitment, past the point of return",
+          "objects": "utility knife, plaster dust, torn wallpaper, a widening black gap",
+          "movement": "handheld, tight, small corrective moves",
+          "continuity": "WOMAN_01's plastered knuckle must be visible on the cutting hand"
+        },
+        "characters": [
+          "WOMAN_01"
+        ]
       },
       {
         "n": 9,
@@ -471,8 +807,19 @@
         "visual": "Torchlight reveals a bare rectangular room with a doorway shape and no door.",
         "prompt": "Torchlight revealing a bare sealed rectangular room with a doorway-shaped opening and no door, clean empty floor, no dust",
         "sfx": "reverb changes, breath",
-        "character": false,
-        "shot_change": "reveal push"
+        "shot_change": "reveal push",
+        "v": {
+          "subject": "torchlight revealing a bare sealed room with a doorway-shaped opening and no door",
+          "angle": "from inside the cut opening looking in, 24mm, slightly low",
+          "composition": "the doorway shape sits in the centre of the far wall, floor running away beneath it",
+          "emotion": "awe before fear",
+          "objects": "bare plaster walls, an empty doorway aperture, a perfectly clean floor",
+          "movement": "a slow push through the opening, the torch beam widening",
+          "continuity": "the sealed room must read as the same proportions as the vector rectangle from scene 01",
+          "environment": "a sealed rectangular void inside the house: bare plaster, no skirting, no fittings, no door",
+          "lighting": "a single handheld torch, hard and directional, everything outside the beam crushed black"
+        },
+        "characters": []
       },
       {
         "n": 10,
@@ -482,8 +829,17 @@
         "visual": "Tight on the spotless floor inside the sealed room while the hallway behind is thick with plaster dust.",
         "prompt": "Extreme close-up of a perfectly clean bare floor inside a sealed room, plaster dust falling in the torch beam above it",
         "sfx": "single sub-bass hit, hard silence",
-        "character": false,
-        "shot_change": "cut to black"
+        "shot_change": "cut to black",
+        "v": {
+          "subject": "extreme close-up of a spotless bare floor inside the sealed room, plaster dust falling through the beam above it",
+          "angle": "macro, floor level, looking along the boards",
+          "composition": "the clean floor fills the lower two thirds, dust falling through the light above",
+          "emotion": "the wrongness landing quietly",
+          "objects": "clean floorboards, falling plaster dust, the torch beam edge",
+          "movement": "static, dust drifting",
+          "continuity": "the contrast is the point - thick dust in the air, none at all on the floor"
+        },
+        "characters": []
       }
     ],
     "music_mood": "Warm domestic pad that slowly sours into a minor drone. Percussion only as household ticks. Everything drops out at 0:34 and only a single sub-bass hit returns at the final line.",
@@ -496,7 +852,18 @@
       "#mystery",
       "#smarthome"
     ],
-    "pinned_comment": "Original fiction, written for this channel - not a real house and not a real device. If the room has no door, what has been cleaning the floor?"
+    "pinned_comment": "Original fiction, written for this channel - not a real house and not a real device. If the room has no door, what has been cleaning the floor?",
+    "default_environment": "a 1970s British semi-detached house at night: magnolia hallway, textured wallpaper, fitted carpet, a row of framed family photographs, a closed door at the end",
+    "default_lighting": "warm 2700K table lamps and hall light against cold blue night through the windows, the two colours meeting hard in the middle of the frame",
+    "characters": [
+      {
+        "tag": "WOMAN_01",
+        "name": "The Owner",
+        "description": "woman, 38, oval face, dark hair pulled back into a low knot with strands loose at the temples, tired eyes, no makeup, slim build",
+        "wardrobe": "oversized oatmeal cardigan over a dark t-shirt, phone always held in the left hand",
+        "distinguishing": "a thin gold chain and a plaster on one knuckle; barefoot in every indoor night shot"
+      }
+    ]
   },
   {
     "id": "004",
@@ -548,8 +915,19 @@
         "visual": "A thumb swipes delete. The photo reappears instantly, a fraction deeper into the hallway.",
         "prompt": "A thumb swiping a delete gesture on a phone photo of a dim hallway, the image reappearing slightly closer, harsh screen glow in darkness",
         "sfx": "delete whoosh, sub-bass thud",
-        "character": true,
-        "shot_change": "hard cut in"
+        "shot_change": "hard cut in",
+        "v": {
+          "subject": "a thumb swiping a delete gesture across a phone photo of a dim hallway",
+          "angle": "top-down macro on the phone, 100mm",
+          "composition": "the phone fills the frame on a slight diagonal, the thumb entering from the lower right",
+          "emotion": "irritation, not yet fear",
+          "objects": "phone, thumb, bitten nail, the hallway image",
+          "movement": "a fast swipe, then the image snapping back in place",
+          "continuity": "screen content is the hallway plate only - no UI chrome, which is composited in the edit"
+        },
+        "characters": [
+          "MAN_02"
+        ]
       },
       {
         "n": 2,
@@ -559,8 +937,19 @@
         "visual": "The photo full screen: grey carpet, one ceiling light, a closed door at the far end.",
         "prompt": "A flash-lit phone photograph of an empty grey-carpeted hallway with one ceiling light and a closed door at the far end, amateur snapshot quality",
         "sfx": "room tone, faint phone hum",
-        "character": false,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a flash-lit photograph of an empty grey-carpeted hallway with one ceiling light and a closed door at the far end",
+          "angle": "fixed, chest height, dead centre down the hallway, mild wide-angle",
+          "composition": "one-point perspective, the door dead centre at the vanishing point, walls converging symmetrically",
+          "emotion": "the specific dread of an ordinary place",
+          "objects": "grey carpet, one ceiling light, a closed pale door, a skirting board scuff",
+          "movement": "absolutely static, a single flash exposure",
+          "continuity": "THE HALLWAY. Identical lens, height and centre line in scenes 02, 03, 04, 07, 08. Only the distance to the door changes.",
+          "environment": "an anonymous residential corridor, grey cord carpet, off-white walls, one ceiling fitting, a pale door at the end",
+          "lighting": "a hard on-camera flash falling off fast, the far end of the hallway swallowed in black"
+        },
+        "characters": []
       },
       {
         "n": 3,
@@ -570,8 +959,17 @@
         "visual": "Two versions side by side, the second measurably deeper. A ruler line drawn between them.",
         "prompt": "Two nearly identical photographs of the same hallway side by side, the second taken two paces further forward, comparison framing",
         "sfx": "shutter click doubled",
-        "character": false,
-        "shot_change": "split screen"
+        "shot_change": "split screen",
+        "v": {
+          "subject": "two near-identical hallway photographs side by side, the second taken two paces further forward",
+          "angle": "both fixed and dead-on, presented as a split",
+          "composition": "a hard vertical split, the vanishing point at the same height on both sides",
+          "emotion": "measurement replacing instinct",
+          "objects": "two hallway frames, the same scuff visible at different scale",
+          "movement": "static split, a brief cross-dissolve between them",
+          "continuity": "identical lens and centre line - only the camera distance differs"
+        },
+        "characters": []
       },
       {
         "n": 4,
@@ -581,8 +979,17 @@
         "visual": "Rapid montage of deletions across days, the hallway advancing each time, timestamps flicking forward.",
         "prompt": "Rapid montage of the same hallway photograph advancing forward frame by frame, changing timestamps, phone interface elements",
         "sfx": "stacked delete tones rising in pitch",
-        "character": false,
-        "shot_change": "rapid cut montage"
+        "shot_change": "rapid cut montage",
+        "v": {
+          "subject": "the same hallway advancing frame by frame in a rapid montage",
+          "angle": "fixed, dead-on, advancing",
+          "composition": "the vanishing point holds dead centre while the door grows in the frame",
+          "emotion": "acceleration, loss of control",
+          "objects": "the hallway, the door, the ceiling light passing overhead",
+          "movement": "eight to ten hard cuts, each one pace further in, quickening",
+          "continuity": "the ceiling light must pass out of the top of frame as the camera advances - it is the depth cue"
+        },
+        "characters": []
       },
       {
         "n": 5,
@@ -592,8 +999,17 @@
         "visual": "The phone face down on a table for days. Dust settles. Light changes across it.",
         "prompt": "A phone lying face down on a wooden table through a day-to-night time-lapse, dust settling, changing window light",
         "sfx": "time-lapse hush, distant traffic",
-        "character": false,
-        "shot_change": "time-lapse"
+        "shot_change": "time-lapse",
+        "v": {
+          "subject": "a phone lying face down on a laminate table through a day-to-night time-lapse",
+          "angle": "high three-quarter, 35mm, looking down at the table",
+          "composition": "the phone sits off-centre left, the table surface running to the frame edge",
+          "emotion": "avoidance",
+          "objects": "face-down phone, a ring of coffee, a scatter of dust",
+          "movement": "time-lapse, light crossing the table and fading, no camera move",
+          "continuity": "the phone does not move at all across the entire time-lapse"
+        },
+        "characters": []
       },
       {
         "n": 6,
@@ -603,8 +1019,19 @@
         "visual": "He glances at the screen. The image jumps forward in the instant his eyes land on it.",
         "prompt": "A young man's eyes reflected in a phone screen at night, the reflected image jumping forward the moment he looks, tight vertical framing",
         "sfx": "single frame-jump click, held breath",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "MAN_02's eyes reflected in a phone screen at night",
+          "angle": "extreme close-up, 100mm, slightly above the screen",
+          "composition": "the eyes on the upper-third line, the reflected rectangle visible in each iris",
+          "emotion": "the moment of being caught looking",
+          "objects": "eyes, phone reflection, a strand of hair",
+          "movement": "static, then one involuntary flinch",
+          "continuity": "MAN_02 as described - wide anxious eyes, patchy stubble at the jaw"
+        },
+        "characters": [
+          "MAN_02"
+        ]
       },
       {
         "n": 7,
@@ -614,8 +1041,17 @@
         "visual": "The far door now standing open onto blackness. Nothing visible beyond it.",
         "prompt": "A phone photograph of a hallway where the far door now stands open onto complete darkness, flash falling short of the doorway",
         "sfx": "drone rises, room tone thins",
-        "character": false,
-        "shot_change": "push in"
+        "shot_change": "push in",
+        "v": {
+          "subject": "a photograph of the hallway where the far door now stands open onto complete darkness",
+          "angle": "fixed, dead-on, deeper into the hallway",
+          "composition": "identical centre line, the open doorway a black rectangle at the vanishing point",
+          "emotion": "the floor dropping away",
+          "objects": "the open door, the black beyond it, the flash falling short",
+          "movement": "static single flash frame",
+          "continuity": "the flash must fail to reach into the doorway - the darkness has to read as depthless"
+        },
+        "characters": []
       },
       {
         "n": 8,
@@ -625,8 +1061,18 @@
         "visual": "The photo is now his own building's stairwell, his own scuffed step, his own post.",
         "prompt": "A flash photograph of a familiar shabby apartment stairwell with a scuffed step and a pile of post on the landing, night",
         "sfx": "recognition sting, heartbeat low in mix",
-        "character": false,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a flash photograph of a shabby apartment stairwell, a scuffed step and a pile of post on the landing",
+          "angle": "handheld, chest height, angled up the stairs",
+          "composition": "the stair rail leads the eye diagonally up to the right, post scattered in the lower left",
+          "emotion": "recognition",
+          "objects": "concrete stairs, a chipped handrail, unopened post, a scuffed step",
+          "movement": "a single flash frame, very slight handheld tilt",
+          "continuity": "the pile of post must match the post by the door in the bedsit shots",
+          "environment": "a run-down communal stairwell, painted concrete, a metal handrail, one bare bulb"
+        },
+        "characters": []
       },
       {
         "n": 9,
@@ -636,8 +1082,17 @@
         "visual": "The photo shows his door, from outside, in the dark. He is behind it, holding the phone.",
         "prompt": "A flash photograph of a locked apartment front door photographed from the corridor outside at night, peeling paint, number plate",
         "sfx": "silence, then one deadbolt click",
-        "character": false,
-        "shot_change": "hard cut"
+        "shot_change": "hard cut",
+        "v": {
+          "subject": "a flash photograph of a locked apartment front door photographed from the corridor outside at night",
+          "angle": "fixed, chest height, dead-on to the door",
+          "composition": "the door fills the frame, the number plate in the upper third, corridor darkness at the edges",
+          "emotion": "the inside becoming the outside",
+          "objects": "a peeling painted door, a number plate, a deadbolt, a worn mat",
+          "movement": "static single flash frame",
+          "continuity": "this must be recognisably the door seen from inside in earlier shots"
+        },
+        "characters": []
       },
       {
         "n": 10,
@@ -647,8 +1102,19 @@
         "visual": "Crop into the corner of that photo: a hand at the edge of frame, already raising a phone.",
         "prompt": "Extreme crop into the dark corner of a flash photograph revealing a hand at the frame edge already raising a phone, heavy noise",
         "sfx": "one camera shutter, cut to silence",
-        "character": false,
-        "shot_change": "crop zoom"
+        "shot_change": "crop zoom",
+        "v": {
+          "subject": "an extreme crop into the dark corner of that photograph, revealing a hand already raising a phone",
+          "angle": "digital crop into the frame corner, heavily magnified",
+          "composition": "the hand enters from the extreme frame edge, the rest is noise",
+          "emotion": "the last piece landing",
+          "objects": "a hand, a phone edge, heavy sensor noise",
+          "movement": "a fast punch-in crop, then a dead stop",
+          "continuity": "the hand must show bitten nails and the pale watch band - it is MAN_02's own hand"
+        },
+        "characters": [
+          "MAN_02"
+        ]
       }
     ],
     "music_mood": "No music for the first twenty seconds, only room tone. A single low pulse enters at 0:24 and doubles in speed every eight seconds until it stops dead on the final shutter.",
@@ -661,7 +1127,18 @@
       "#mystery",
       "#scarystories"
     ],
-    "pinned_comment": "Original fiction, written for this channel - no real photo, no real hallway. It moves when someone looks at it. You just watched it nine times."
+    "pinned_comment": "Original fiction, written for this channel - no real photo, no real hallway. It moves when someone looks at it. You just watched it nine times.",
+    "default_environment": "a cramped bedsit at night: a single mattress on the floor, a laminate table, unopened post by the door, a window onto a sodium-lit street",
+    "default_lighting": "one sodium-orange streetlight through a thin curtain plus the phone screen; the phone is always the brightest object in the frame",
+    "characters": [
+      {
+        "tag": "MAN_02",
+        "name": "The Recipient",
+        "description": "man, 22, pale, sharp cheekbones, cropped dark hair, sparse patchy stubble, wide anxious eyes, thin frame",
+        "wardrobe": "black hooded sweatshirt with the hood down and the sleeves pulled over the palms",
+        "distinguishing": "bitten fingernails and a pale untanned band where a watch used to be; almost never fully visible - hands, jaw or eyes only"
+      }
+    ]
   },
   {
     "id": "005",
@@ -715,8 +1192,19 @@
         "visual": "A file list where tomorrow's date already has an entry. Cursor hovering over it.",
         "prompt": "A CCTV archive file list on a dim monitor where a future date already holds a recording, cursor hovering, cold interface",
         "sfx": "sharp digital sting",
-        "character": false,
-        "shot_change": "hard cut in"
+        "shot_change": "hard cut in",
+        "v": {
+          "subject": "a CCTV archive listing on a dim monitor where a future date already holds a recording",
+          "angle": "dead-on macro on the monitor",
+          "composition": "the list fills the frame, one row isolated by the cursor",
+          "emotion": "administrative wrongness",
+          "objects": "monitor, cursor, dust on the screen",
+          "movement": "static, a cursor hovering",
+          "continuity": "abstract row shapes only - dates and file names are composited in the edit",
+          "environment": "a site office: a folding table, one monitor, a kettle, boxes of files",
+          "lighting": "the monitor is the only light, cold and low"
+        },
+        "characters": []
       },
       {
         "n": 2,
@@ -726,8 +1214,18 @@
         "visual": "Timestamp overlay ticking through the same hour. Empty office, stripped desks.",
         "prompt": "Empty stripped office interior at night seen through a ceiling CCTV camera with a running timestamp overlay, flat infrared grey",
         "sfx": "IR filter click, low hum",
-        "character": false,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "an empty stripped office at night seen through a ceiling-corner security camera",
+          "angle": "very high corner, steep down-angle, wide-angle with barrel distortion",
+          "composition": "the room splays out below, desks in the lower third, the door in the upper left",
+          "emotion": "surveillance indifference",
+          "objects": "pushed-together desks, an office chair, a fire door",
+          "movement": "absolutely static, low frame rate",
+          "continuity": "THE OFFICE from the ceiling camera. Identical corner, height and distortion in scenes 02, 04 and 10.",
+          "lighting": "infrared grey, flat and shadowless, a slight hot spot at frame centre"
+        },
+        "characters": []
       },
       {
         "n": 3,
@@ -737,8 +1235,19 @@
         "visual": "He drags a chair two metres to the left, checks his watch. 02:15.",
         "prompt": "A man in a fleece dragging an office chair across a dark empty office floor, torch on a desk, wristwatch visible",
         "sfx": "chair legs scraping lino",
-        "character": true,
-        "shot_change": "handheld"
+        "shot_change": "handheld",
+        "v": {
+          "subject": "MANAGER_01 dragging an office chair across a dark floor, a torch standing on a desk",
+          "angle": "eye-level, wide, 28mm, from floor level",
+          "composition": "he crosses the frame left to right, the torch throwing his shadow up the far wall",
+          "emotion": "deliberate provocation",
+          "objects": "an office chair, a standing torch, a long cast shadow",
+          "movement": "a slow pan following him, handheld weight",
+          "continuity": "MANAGER_01 as described, fleece and lanyard, glasses catching the torchlight"
+        },
+        "characters": [
+          "MANAGER_01"
+        ]
       },
       {
         "n": 4,
@@ -748,8 +1257,19 @@
         "visual": "He scrubs yesterday's recording. The chair moves on screen exactly as he just moved it.",
         "prompt": "A man watching a CCTV playback on a laptop showing himself dragging a chair, his face lit by the screen, dark office",
         "sfx": "scrub whine, doubled chair scrape",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "MANAGER_01 watching CCTV playback on a laptop, his face lit by the screen",
+          "angle": "close, slightly low, 50mm, from behind the laptop",
+          "composition": "his face in the upper centre, the open laptop a bright bar across the lower frame",
+          "emotion": "disbelief being overruled by evidence",
+          "objects": "laptop, glasses, reflected screen light on the lenses",
+          "movement": "static, one slow removal of the glasses",
+          "continuity": "the reflection in his lenses must be abstract light, not legible footage"
+        },
+        "characters": [
+          "MANAGER_01"
+        ]
       },
       {
         "n": 5,
@@ -759,8 +1279,17 @@
         "visual": "Split diagram: the ceiling camera's cone versus the footage's actual viewpoint.",
         "prompt": "A simple technical diagram overlay on a dark office showing a ceiling camera cone and a second lower viewpoint marked in red, schematic lines",
         "sfx": "drone enters, pen scratch",
-        "character": false,
-        "shot_change": "graphic overlay"
+        "shot_change": "graphic overlay",
+        "v": {
+          "subject": "a schematic overlay on the dark office showing a ceiling camera cone and a second lower viewpoint",
+          "angle": "the same high ceiling-corner angle",
+          "composition": "clean diagonal schematic lines over the plate, the second viewpoint marked at mid-wall height",
+          "emotion": "geometry turning hostile",
+          "objects": "ceiling camera, cone lines, a marked point on a blank wall",
+          "movement": "static plate, the overlay animating in post",
+          "continuity": "generate the clean plate only - all schematic lines and markers are composited"
+        },
+        "characters": []
       },
       {
         "n": 6,
@@ -770,8 +1299,19 @@
         "visual": "He stands where the footage's viewpoint must be, palms flat on blank magnolia plaster.",
         "prompt": "A man standing with both palms flat against a blank magnolia office wall at eye level, torchlight raking across the surface",
         "sfx": "palms on plaster, breathing",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "MANAGER_01 standing with both palms flat against a blank magnolia wall at eye level",
+          "angle": "profile, eye-level, 50mm",
+          "composition": "he occupies the left third in profile, the blank wall running away to the right",
+          "emotion": "the body checking what the mind refuses",
+          "objects": "flat palms, blank plaster, a torch on the floor throwing raking light",
+          "movement": "static, a single slow lean of the head toward the wall",
+          "continuity": "no fittings, sockets or cable runs anywhere on this wall in any shot"
+        },
+        "characters": [
+          "MANAGER_01"
+        ]
       },
       {
         "n": 7,
@@ -781,8 +1321,17 @@
         "visual": "Slow pan across unbroken plaster. No fittings, no cable run, no seams.",
         "prompt": "Slow lateral pan across an unbroken plaster wall with no fittings or cable runs, raking torchlight, dust in the beam",
         "sfx": "silence except torch buzz",
-        "character": false,
-        "shot_change": "slow pan"
+        "shot_change": "slow pan",
+        "v": {
+          "subject": "a slow lateral pan across unbroken plaster, raking torchlight, dust in the beam",
+          "angle": "eye-level, dead-on to the wall, 35mm",
+          "composition": "the wall fills the entire frame, no feature to fix the eye on",
+          "emotion": "the dread of a featureless surface",
+          "objects": "plaster, torch beam, suspended dust",
+          "movement": "a slow steady lateral pan, no cut",
+          "continuity": "the wall must remain genuinely featureless for the whole pan"
+        },
+        "characters": []
       },
       {
         "n": 8,
@@ -792,8 +1341,17 @@
         "visual": "A hammer breaks through. Dust. A dark cavity. Something inside reflects the torch.",
         "prompt": "A hammer breaking through plasterboard revealing a dark wall cavity, dust cloud, a small glass lens catching torchlight inside",
         "sfx": "plaster crack, dust fall, one hum starting",
-        "character": false,
-        "shot_change": "impact cut"
+        "shot_change": "impact cut",
+        "v": {
+          "subject": "a hammer breaking through plasterboard, dust bursting into torchlight, a small lens catching the beam inside",
+          "angle": "close three-quarter, 35mm, slightly low",
+          "composition": "the impact point sits centre-right, dust filling the upper frame",
+          "emotion": "violence in service of proof",
+          "objects": "hammer, torn plasterboard, dust cloud, a glint of glass in the cavity",
+          "movement": "a hard impact, then the dust settling; the camera shakes once with the blow",
+          "continuity": "the glint must be barely visible here - the reveal belongs to scene 09"
+        },
+        "characters": []
       },
       {
         "n": 9,
@@ -803,8 +1361,18 @@
         "visual": "An old camera in the cavity, thick with dust, its indicator light steady red.",
         "prompt": "An old dust-covered security camera inside a wall cavity with a steady red indicator light, cobwebs, close macro, torchlight",
         "sfx": "electrical hum rising",
-        "character": false,
-        "shot_change": "macro push"
+        "shot_change": "macro push",
+        "v": {
+          "subject": "an old dust-covered security camera inside a wall cavity, its indicator light steady red",
+          "angle": "macro, straight into the cavity, 85mm",
+          "composition": "the camera body fills the frame, the indicator a small hard point in the upper left",
+          "emotion": "the past still running",
+          "objects": "an obsolete camera body, thick dust, cobwebs, a red indicator, an old cable",
+          "movement": "a slow push into the cavity, the beam steadying",
+          "continuity": "the camera must look thirty years older than anything else in the film, and be visibly powered",
+          "environment": "the inside of a sealed stud cavity: bare timber, old wiring, decades of dust"
+        },
+        "characters": []
       },
       {
         "n": 10,
@@ -814,8 +1382,17 @@
         "visual": "Reverse angle: the old lens is aimed precisely at the modern camera in the ceiling corner.",
         "prompt": "Reverse view from inside a wall cavity looking out at a modern ceiling-corner security camera perfectly centred in frame",
         "sfx": "hum cuts to total silence",
-        "character": false,
-        "shot_change": "reverse angle"
+        "shot_change": "reverse angle",
+        "v": {
+          "subject": "a reverse view from inside the wall cavity looking out at a modern ceiling-corner camera",
+          "angle": "from within the cavity looking out, framed by torn plasterboard",
+          "composition": "the modern camera sits perfectly centred in the ragged aperture",
+          "emotion": "being watched by the wrong thing",
+          "objects": "a ragged plaster aperture, the modern camera, the ceiling grid beyond",
+          "movement": "static, absolutely still",
+          "continuity": "the modern camera must be the same unit established in scene 02"
+        },
+        "characters": []
       }
     ],
     "music_mood": "Institutional quiet. A single fluorescent-pitched tone held throughout, bending very slowly downward. A second tone joins at 0:37 and the two beat against each other until the final cut.",
@@ -828,6 +1405,17 @@
       "#mystery",
       "#cctv"
     ],
-    "pinned_comment": "Original fiction, written for this channel - no real building and no real footage. If the old camera is watching the new one, what has the new one been watching?"
+    "pinned_comment": "Original fiction, written for this channel - no real building and no real footage. If the old camera is watching the new one, what has the new one been watching?",
+    "default_environment": "a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing",
+    "default_lighting": "flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project",
+    "characters": [
+      {
+        "tag": "MANAGER_01",
+        "name": "The Building Manager",
+        "description": "man, 46, thinning sandy hair, wire-framed glasses, a long face with a permanent slight frown, average build, slightly stooped",
+        "wardrobe": "a navy fleece over an open-collar shirt, lanyard, a torch clipped to the belt",
+        "distinguishing": "cleans his glasses on his shirt hem when uncertain; always carries either a clipboard or a torch, never both"
+      }
+    ]
   }
 ]

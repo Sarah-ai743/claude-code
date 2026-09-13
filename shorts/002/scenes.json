@@ -15,7 +15,19 @@
       "duration": 2,
       "caption": "No camera. FOOTAGE anyway.",
       "visual": "A wall of CCTV monitors in a dark room. One monitor is black with a file icon on it.",
-      "prompt": "A wall of old CCTV monitors glowing in a dark security room, one screen black except a single file icon, scanlines, night. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a wall of eleven CRT monitors glowing in a dark room, one screen black but for a single lit icon. a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls. wide, slightly low, 28mm, looking up at the rack. the monitor grid fills the upper two thirds, the black screen sits off-centre right. green-grey monitor wash with a hard fluorescent kick from above, deep black corners. mood: institutional boredom about to end. key objects: eleven CRTs, a steel rack, cable trunking, one dark screen. camera and motion: static with a slow fluorescent flicker. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a wall of eleven CRT monitors glowing in a dark room, one screen black but for a single lit icon",
+        "environment": "a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls",
+        "angle": "wide, slightly low, 28mm, looking up at the rack",
+        "composition": "the monitor grid fills the upper two thirds, the black screen sits off-centre right",
+        "lighting": "green-grey monitor wash with a hard fluorescent kick from above, deep black corners",
+        "emotion": "institutional boredom about to end",
+        "objects": "eleven CRTs, a steel rack, cable trunking, one dark screen",
+        "movement": "static with a slow fluorescent flicker",
+        "continuity": "count the monitors - eleven, always eleven. The twelfth position stays empty in every scene.",
+        "tags": []
+      },
       "sfx": "fluorescent hum, faint electrical buzz",
       "shot_change": "hard cut in"
     },
@@ -26,7 +38,19 @@
       "duration": 5,
       "caption": "Normal folder. Normal NAME.",
       "visual": "Screen recording of an archive folder, files listed by camera number, scrolling.",
-      "prompt": "Close-up of a security archive file listing on a dim CRT monitor, rows of camera folders, green-grey interface, heavy scanlines. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a security archive listing scrolling on a curved CRT. the same basement room, tight on one monitor. dead-on macro on the tube face, 85mm. the curved glass fills the frame, the curvature visible at the corners. self-lit phosphor, heavy scanlines and bloom. mood: routine, one beat before it breaks. key objects: CRT glass, phosphor rows, dust on the screen. camera and motion: slow vertical scroll, no camera move. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a security archive listing scrolling on a curved CRT",
+        "environment": "the same basement room, tight on one monitor",
+        "angle": "dead-on macro on the tube face, 85mm",
+        "composition": "the curved glass fills the frame, the curvature visible at the corners",
+        "lighting": "self-lit phosphor, heavy scanlines and bloom",
+        "emotion": "routine, one beat before it breaks",
+        "objects": "CRT glass, phosphor rows, dust on the screen",
+        "movement": "slow vertical scroll, no camera move",
+        "continuity": "generate glyph texture only - no legible characters. The file names are composited in the edit.",
+        "tags": []
+      },
       "sfx": "mouse scroll, hard drive seek",
       "shot_change": "cut"
     },
@@ -37,7 +61,21 @@
       "duration": 5,
       "caption": "There are ELEVEN cameras",
       "visual": "He counts the monitors with a finger. Eleven live feeds. The twelfth screen is the file.",
-      "prompt": "A guard's hand counting along a row of CCTV monitors, eleven live feeds visible, one dark screen at the end, dim room. the same night security guard, fifties, grey stubble, navy uniform shirt with the sleeves rolled, lanyard, seen from behind or in profile in a dim monitor room. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "GUARD_01's hand counting along the row of monitors. a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls. tracking profile at monitor height, 50mm. the hand leads frame left to right, screens receding into shallow focus behind. each screen he passes throws a fresh green kick across his knuckles. mood: the first prickle of doubt. key objects: eleven screens, a thick hand, a lanyard swinging into frame. camera and motion: lateral tracking with the hand, slight handheld weight. character GUARD_01 - man, 54, heavyset, square jaw under grey stubble, close-cropped grey hair receding at the temples, heavy brows, deep lines from nose to mouth, thick forearms; navy uniform shirt with the sleeves rolled to the elbow, a loosened dark tie, a black lanyard; wears his wedding band on the lanyard chain rather than on his finger; shot from behind or in three-quarter profile in almost every scene. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "GUARD_01's hand counting along the row of monitors",
+        "environment": "a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls",
+        "angle": "tracking profile at monitor height, 50mm",
+        "composition": "the hand leads frame left to right, screens receding into shallow focus behind",
+        "lighting": "each screen he passes throws a fresh green kick across his knuckles",
+        "emotion": "the first prickle of doubt",
+        "objects": "eleven screens, a thick hand, a lanyard swinging into frame",
+        "movement": "lateral tracking with the hand, slight handheld weight",
+        "continuity": "GUARD_01 as described - the band on the chain must be visible as the lanyard swings.",
+        "tags": [
+          "GUARD_01"
+        ]
+      },
       "sfx": "finger taps on glass, counted breaths",
       "shot_change": "cut"
     },
@@ -48,7 +86,19 @@
       "duration": 5,
       "caption": "No lens. No CABLE.",
       "visual": "Torch beam across a blank ceiling corner. Nothing mounted. Dust undisturbed.",
-      "prompt": "A torch beam sweeping across a bare ceiling corner in a dim room, no camera mounted, dust and cobwebs, harsh directional light. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a torch beam sweeping a bare ceiling corner where no camera is mounted. the same basement room, corner above the monitor rack. low, steep upward, handheld 24mm. the corner meets at the upper third, the beam cutting a hard diagonal across it. a single hard torch beam, everything outside it crushed to black, dust and cobweb catching the light. mood: searching for something that should be there. key objects: bare plaster corner, cobwebs, an empty fixing hole, dust in the beam. camera and motion: handheld sweep left to right, unsteady. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a torch beam sweeping a bare ceiling corner where no camera is mounted",
+        "environment": "the same basement room, corner above the monitor rack",
+        "angle": "low, steep upward, handheld 24mm",
+        "composition": "the corner meets at the upper third, the beam cutting a hard diagonal across it",
+        "lighting": "a single hard torch beam, everything outside it crushed to black, dust and cobweb catching the light",
+        "emotion": "searching for something that should be there",
+        "objects": "bare plaster corner, cobwebs, an empty fixing hole, dust in the beam",
+        "movement": "handheld sweep left to right, unsteady",
+        "continuity": "no camera, no bracket, no cable may be visible in this corner in any shot.",
+        "tags": []
+      },
       "sfx": "torch click, footsteps on lino",
       "shot_change": "handheld"
     },
@@ -59,7 +109,21 @@
       "duration": 6,
       "caption": "It is HIM. From behind.",
       "visual": "The file plays: the guard from behind, seated, watching the same wall of monitors.",
-      "prompt": "CCTV-style shot from behind a seated security guard facing a wall of monitors, grainy, low frame rate, green cast. the same night security guard, fifties, grey stubble, navy uniform shirt with the sleeves rolled, lanyard, seen from behind or in profile in a dim monitor room. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "GUARD_01 seen from behind, seated, facing the wall of monitors. a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls. high behind, from the upper corner of the room, as a mounted camera would sit. the back of his head and shoulders occupy the lower third, the monitor wall glowing beyond. the monitors light him from the front so he reads as a dark mass against a green glow. mood: the vertigo of seeing yourself from outside. key objects: swivel chair, rolled sleeves, monitor wall. camera and motion: static, low frame rate, occasional dropped frames as degraded footage. character GUARD_01 - man, 54, heavyset, square jaw under grey stubble, close-cropped grey hair receding at the temples, heavy brows, deep lines from nose to mouth, thick forearms; navy uniform shirt with the sleeves rolled to the elbow, a loosened dark tie, a black lanyard; wears his wedding band on the lanyard chain rather than on his finger; shot from behind or in three-quarter profile in almost every scene. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "GUARD_01 seen from behind, seated, facing the wall of monitors",
+        "environment": "a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls",
+        "angle": "high behind, from the upper corner of the room, as a mounted camera would sit",
+        "composition": "the back of his head and shoulders occupy the lower third, the monitor wall glowing beyond",
+        "lighting": "the monitors light him from the front so he reads as a dark mass against a green glow",
+        "emotion": "the vertigo of seeing yourself from outside",
+        "objects": "swivel chair, rolled sleeves, monitor wall",
+        "movement": "static, low frame rate, occasional dropped frames as degraded footage",
+        "continuity": "this is the impossible angle - it must be from a position scene 04 proved is empty.",
+        "tags": [
+          "GUARD_01"
+        ]
+      },
       "sfx": "video playback hiss, chair creak",
       "shot_change": "match cut"
     },
@@ -70,7 +134,21 @@
       "duration": 5,
       "caption": "He turns. NOTHING there.",
       "visual": "He spins in his chair toward the empty corner. Cut to the empty corner. Cut back.",
-      "prompt": "A security guard turning sharply in his chair to look behind him at an empty dim room corner, motion blur, fluorescent light. the same night security guard, fifties, grey stubble, navy uniform shirt with the sleeves rolled, lanyard, seen from behind or in profile in a dim monitor room. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "GUARD_01 turning sharply in his chair to look behind him. a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls. eye-level, slightly wide, 35mm, from the empty corner. he turns into a three-quarter profile, the empty room filling the frame behind him. monitor wash from behind him now, rimming his ear and shoulder, his face in shadow. mood: alarm that has nowhere to land. key objects: swivel chair, loosened tie, empty doorway beyond. camera and motion: fast whip pan following the turn, then a dead stop. character GUARD_01 - man, 54, heavyset, square jaw under grey stubble, close-cropped grey hair receding at the temples, heavy brows, deep lines from nose to mouth, thick forearms; navy uniform shirt with the sleeves rolled to the elbow, a loosened dark tie, a black lanyard; wears his wedding band on the lanyard chain rather than on his finger; shot from behind or in three-quarter profile in almost every scene. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "GUARD_01 turning sharply in his chair to look behind him",
+        "environment": "a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls",
+        "angle": "eye-level, slightly wide, 35mm, from the empty corner",
+        "composition": "he turns into a three-quarter profile, the empty room filling the frame behind him",
+        "lighting": "monitor wash from behind him now, rimming his ear and shoulder, his face in shadow",
+        "emotion": "alarm that has nowhere to land",
+        "objects": "swivel chair, loosened tie, empty doorway beyond",
+        "movement": "fast whip pan following the turn, then a dead stop",
+        "continuity": "same shirt, same rolled sleeves, same stubble as scene 03.",
+        "tags": [
+          "GUARD_01"
+        ]
+      },
       "sfx": "chair swivel, sudden silence",
       "shot_change": "whip pan"
     },
@@ -81,7 +159,21 @@
       "duration": 6,
       "caption": "The footage turns TOO",
       "visual": "Split screen: his real movement and the recorded movement, perfectly in step.",
-      "prompt": "Split screen of the same seated guard turning in his chair, one side live and one side degraded CCTV footage, identical motion. the same night security guard, fifties, grey stubble, navy uniform shirt with the sleeves rolled, lanyard, seen from behind or in profile in a dim monitor room. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "the same seated turn shown twice at once, live and as degraded footage. a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls. two matched angles side by side, both from behind. a hard vertical split, identical framing either side, the man's motion mirrored exactly. clean monitor wash on the left, the same wash degraded and green-shifted on the right. mood: the sickening confirmation. key objects: two identical chairs, two identical monitor walls. camera and motion: identical motion on both sides with a few frames of offset. character GUARD_01 - man, 54, heavyset, square jaw under grey stubble, close-cropped grey hair receding at the temples, heavy brows, deep lines from nose to mouth, thick forearms; navy uniform shirt with the sleeves rolled to the elbow, a loosened dark tie, a black lanyard; wears his wedding band on the lanyard chain rather than on his finger; shot from behind or in three-quarter profile in almost every scene. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "the same seated turn shown twice at once, live and as degraded footage",
+        "environment": "a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls",
+        "angle": "two matched angles side by side, both from behind",
+        "composition": "a hard vertical split, identical framing either side, the man's motion mirrored exactly",
+        "lighting": "clean monitor wash on the left, the same wash degraded and green-shifted on the right",
+        "emotion": "the sickening confirmation",
+        "objects": "two identical chairs, two identical monitor walls",
+        "movement": "identical motion on both sides with a few frames of offset",
+        "continuity": "the two halves must match in framing and wardrobe exactly; only the image quality differs.",
+        "tags": [
+          "GUARD_01"
+        ]
+      },
       "sfx": "doubled chair creak, slight phase offset",
       "shot_change": "split screen"
     },
@@ -92,7 +184,19 @@
       "duration": 6,
       "caption": "The monitors INSIDE it",
       "visual": "Zoom into the footage's own monitor wall, which shows the same room from the same angle.",
-      "prompt": "Slow digital zoom into a CCTV image of a monitor wall which itself displays the same monitor wall, recursive nesting, heavy artefacting. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a slow digital zoom into a monitor that is displaying the same monitor wall. a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls. dead-on, pushing into the screen plane. nested rectangles receding toward the centre of the frame. each nested generation dimmer and greener than the one outside it. mood: the floor going out from under the story. key objects: nested screens, phosphor bloom, scanlines multiplying. camera and motion: continuous digital zoom, no cut, accelerating slightly. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a slow digital zoom into a monitor that is displaying the same monitor wall",
+        "environment": "a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls",
+        "angle": "dead-on, pushing into the screen plane",
+        "composition": "nested rectangles receding toward the centre of the frame",
+        "lighting": "each nested generation dimmer and greener than the one outside it",
+        "emotion": "the floor going out from under the story",
+        "objects": "nested screens, phosphor bloom, scanlines multiplying",
+        "movement": "continuous digital zoom, no cut, accelerating slightly",
+        "continuity": "the nesting must stay geometrically consistent - each layer the same room from the same angle.",
+        "tags": []
+      },
       "sfx": "digital zoom whine, drone rising",
       "shot_change": "continuous zoom"
     },
@@ -103,7 +207,19 @@
       "duration": 5,
       "caption": "ELEVEN layers deep",
       "visual": "Continuous recursive zoom, each layer more degraded, a counter in the corner climbing to eleven.",
-      "prompt": "Deep recursive zoom through nested monitor screens, each generation more degraded and darker, infinite corridor of screens. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a deep recursive corridor of nested screens, each generation more degraded. a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls. continuing the same dead-on push. a tunnel of rectangles converging on a dark centre. light draining out layer by layer until only the centre glows. mood: falling. key objects: screen frames, dust, compression artefacts. camera and motion: continuous zoom, faster now, no cut. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a deep recursive corridor of nested screens, each generation more degraded",
+        "environment": "a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls",
+        "angle": "continuing the same dead-on push",
+        "composition": "a tunnel of rectangles converging on a dark centre",
+        "lighting": "light draining out layer by layer until only the centre glows",
+        "emotion": "falling",
+        "objects": "screen frames, dust, compression artefacts",
+        "movement": "continuous zoom, faster now, no cut",
+        "continuity": "count the layers - the edit needs eleven distinguishable generations.",
+        "tags": []
+      },
       "sfx": "pitch-descending drone, counter ticks",
       "shot_change": "continuous zoom"
     },
@@ -114,7 +230,19 @@
       "duration": 4,
       "caption": "The chair is EMPTY",
       "visual": "Final layer: the same room, the chair empty, the door standing open behind it.",
-      "prompt": "A degraded CCTV frame of an empty office chair in front of a monitor wall, a door standing open in the darkness behind it. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a degraded frame of an empty office chair in front of the monitor wall, a door standing open behind it. a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls. the same nested angle, now at its deepest. the empty chair centred, the open doorway a black rectangle behind and to the left. heavily degraded green, almost monochrome, the doorway completely black. mood: absence. key objects: empty swivel chair, open door, still-glowing monitors. camera and motion: static, the zoom having stopped dead. green-grey CCTV colour cast, heavy interlacing and scanlines, one overhead fluorescent tube, deep black corners, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a degraded frame of an empty office chair in front of the monitor wall, a door standing open behind it",
+        "environment": "a windowless basement security room: eleven small CRT monitors on a steel rack, a worn swivel chair, a desk ringed with coffee marks, cable trunking along the walls",
+        "angle": "the same nested angle, now at its deepest",
+        "composition": "the empty chair centred, the open doorway a black rectangle behind and to the left",
+        "lighting": "heavily degraded green, almost monochrome, the doorway completely black",
+        "emotion": "absence",
+        "objects": "empty swivel chair, open door, still-glowing monitors",
+        "movement": "static, the zoom having stopped dead",
+        "continuity": "same chair and same monitor wall as scene 01, now without GUARD_01.",
+        "tags": []
+      },
       "sfx": "everything cuts to silence, one distant door knock",
       "shot_change": "hard stop"
     }

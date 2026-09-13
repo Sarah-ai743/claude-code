@@ -50,8 +50,17 @@
         "visual": "A beige CRT flickers awake in a dark loft. Text is already scrolling before the boot finishes.",
         "prompt": "A beige CRT monitor flickering on in a dark dusty loft, green text already scrolling before the boot sequence ends, amber phosphor glow",
         "sfx": "CRT degauss thunk, fan spin-up",
-        "character": false,
-        "shot_change": "hard cut in"
+        "shot_change": "hard cut in",
+        "v": {
+          "subject": "a beige CRT flickering awake in a dark loft, text already scrolling before the boot finishes",
+          "angle": "low three-quarter on the monitor, 35mm",
+          "composition": "the CRT occupies the right two thirds, loft darkness filling the left",
+          "emotion": "something waking that should not have been asleep",
+          "objects": "a beige CRT, a dusty keyboard, a tangle of cables",
+          "movement": "a flicker-on with a degauss wobble, static frame",
+          "continuity": "screen content is phosphor glyph texture only - no legible characters anywhere in this project"
+        },
+        "characters": []
       },
       {
         "n": 2,
@@ -61,8 +70,19 @@
         "visual": "Hands lift a dusty tower from a drawer, cables tangled, yellowed plastic.",
         "prompt": "Hands lifting a dusty yellowed desktop computer tower out of a drawer, tangled beige cables, loft storage clutter, dim light",
         "sfx": "dust, cable rattle, drawer scrape",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "hands lifting a dusty yellowed computer tower out of a drawer",
+          "angle": "high three-quarter, looking down into the drawer, 35mm",
+          "composition": "the tower comes up through the lower frame, the drawer's darkness beneath",
+          "emotion": "reluctant excavation",
+          "objects": "a yellowed tower, tangled beige cables, dust sheets, old cables",
+          "movement": "a lift up out of frame, the camera tilting to follow",
+          "continuity": "MAN_03's stained right index finger must be visible on the casing"
+        },
+        "characters": [
+          "MAN_03"
+        ]
       },
       {
         "n": 3,
@@ -72,8 +92,17 @@
         "visual": "Endless chat log scrolling at speed, his handle repeating down the left column.",
         "prompt": "Fast-scrolling retro text chatroom log on a CRT screen, one username repeating down the left column, heavy scanlines and bloom",
         "sfx": "scroll whirr rising in pitch",
-        "character": false,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "fast-scrolling retro chat text on a CRT, one username repeating down the left column",
+          "angle": "dead-on macro on the tube face, 100mm",
+          "composition": "the curvature of the glass visible at the corners, the repeating column on the left third",
+          "emotion": "volume as a threat",
+          "objects": "curved glass, phosphor rows, a reflection of the room in the dark tube",
+          "movement": "an accelerating vertical scroll, no camera move",
+          "continuity": "generate glyph texture with a visible repeating column shape - no readable words"
+        },
+        "characters": []
       },
       {
         "n": 4,
@@ -83,8 +112,17 @@
         "visual": "Close on individual lines: the same typo, the same double space, decades apart.",
         "prompt": "Extreme close-up of retro chat text on a curved CRT showing a repeated typing mistake, phosphor bleed, single characters filling frame",
         "sfx": "keystroke clicks, low drone entering",
-        "character": false,
-        "shot_change": "macro cut"
+        "shot_change": "macro cut",
+        "v": {
+          "subject": "an extreme close-up of a single repeated typing mistake in phosphor text",
+          "angle": "extreme macro, 100mm, so close the phosphor triads are visible",
+          "composition": "a few glyph shapes fill the entire frame, everything else falling out of focus",
+          "emotion": "recognising your own hand in someone else's writing",
+          "objects": "phosphor triads, screen dust, a scratch in the glass",
+          "movement": "a slow drift across the glyphs",
+          "continuity": "abstract glyph forms only"
+        },
+        "characters": []
       },
       {
         "n": 5,
@@ -94,8 +132,19 @@
         "visual": "His face, glasses reflecting the scroll, mouth slightly open.",
         "prompt": "A man in his fifties lit only by an amber CRT, reading glasses reflecting scrolling text, mouth slightly open, dark loft behind",
         "sfx": "breath, fan hum",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "MAN_03 lit only by the amber CRT, reading glasses reflecting the scroll, mouth slightly open",
+          "angle": "three-quarter profile, eye-level, 85mm",
+          "composition": "his face on the left third, the loft darkness opening out behind him",
+          "emotion": "the moment before understanding",
+          "objects": "reading glasses, a wool collar, warm light on one cheek",
+          "movement": "static, a single slow swallow",
+          "continuity": "MAN_03 as described, glasses down on the nose in this scene only"
+        },
+        "characters": [
+          "MAN_03"
+        ]
       },
       {
         "n": 6,
@@ -105,8 +154,17 @@
         "visual": "A single line highlighted, timestamp 1999, describing something recent. Then a second line, 2003.",
         "prompt": "A single highlighted line of retro chat text with a 1999 timestamp on a CRT screen, cursor blinking beside it, everything else dimmed",
         "sfx": "highlight click, drone thickening",
-        "character": false,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a single highlighted line of chat text with everything around it dimmed",
+          "angle": "dead-on macro",
+          "composition": "the highlighted band runs across the centre third, darkness above and below",
+          "emotion": "a fact that cannot be true",
+          "objects": "a phosphor highlight bar, a blinking cursor block",
+          "movement": "static, the cursor blinking",
+          "continuity": "the highlight is a light shape only - the date and text are composited"
+        },
+        "characters": []
       },
       {
         "n": 7,
@@ -116,8 +174,17 @@
         "visual": "Words lift off the screen one by one, isolated against black, all of them modern.",
         "prompt": "Individual words floating off a CRT screen into black space, retro phosphor glow trailing behind each character, dark void",
         "sfx": "silence, then a single tone",
-        "character": false,
-        "shot_change": "graphic lift"
+        "shot_change": "graphic lift",
+        "v": {
+          "subject": "individual glyph shapes lifting off the screen into black space, phosphor trails behind them",
+          "angle": "dead-on, then floating free of the screen plane",
+          "composition": "glyph forms scattered through black with depth, trails pointing back to the vanished screen",
+          "emotion": "language coming loose",
+          "objects": "phosphor glyphs, motion trails, particulate dust",
+          "movement": "a slow drift outward and toward camera",
+          "continuity": "abstract letterforms with no readable content - deliberately unreadable shapes"
+        },
+        "characters": []
       },
       {
         "n": 8,
@@ -127,8 +194,19 @@
         "visual": "His finger over the enter key. The reply appears on screen before he presses it.",
         "prompt": "A finger hovering above a worn beige keyboard enter key, a reply already visible on the CRT above, amber light on skin",
         "sfx": "held silence, one keystroke that lands late",
-        "character": true,
-        "shot_change": "locked-off close"
+        "shot_change": "locked-off close",
+        "v": {
+          "subject": "a finger hovering above a worn beige enter key, a reply already visible on the CRT above",
+          "angle": "low macro at the key plane, 50mm",
+          "composition": "the finger enters from the upper right, the key in the lower third, the screen glow bleeding in at the top",
+          "emotion": "the held breath",
+          "objects": "a yellowed keycap, a stained fingertip, amber glow",
+          "movement": "the finger descends very slowly and stops without landing",
+          "continuity": "the stained right index finger identifies MAN_03 - it must be the finger used"
+        },
+        "characters": [
+          "MAN_03"
+        ]
       },
       {
         "n": 9,
@@ -138,8 +216,17 @@
         "visual": "Modern phone screen beside the CRT, showing the same words a beat later.",
         "prompt": "A modern phone lying beside a glowing CRT monitor, identical text on both screens, the phone slightly delayed, amber and blue light mixing",
         "sfx": "doubled notification, phase offset",
-        "character": false,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a modern phone lying beside the glowing CRT, the same shapes on both screens",
+          "angle": "high three-quarter looking down at the desk, 35mm",
+          "composition": "the CRT glow fills the upper left, the phone sits lower right on the desk",
+          "emotion": "two eras caught disagreeing",
+          "objects": "a modern phone, a beige CRT, an old mug, dust",
+          "movement": "static, the two screens updating a beat apart",
+          "continuity": "the colour contrast is the point - amber phosphor against cold phone blue"
+        },
+        "characters": []
       },
       {
         "n": 10,
@@ -149,8 +236,17 @@
         "visual": "The CRT cursor blinks. The phone's cursor blinks three seconds later. Black.",
         "prompt": "Two blinking text cursors on separate screens in darkness, one clearly lagging behind the other, tight macro framing",
         "sfx": "two clicks out of sync, cut to silence",
-        "character": false,
-        "shot_change": "cut to black"
+        "shot_change": "cut to black",
+        "v": {
+          "subject": "two blinking text cursors on separate screens in darkness, one clearly lagging the other",
+          "angle": "extreme macro across both screens, shallow focus",
+          "composition": "the two cursor blocks sit on a diagonal, everything else black",
+          "emotion": "the lag as the whole story",
+          "objects": "two cursor blocks, screen dust, black",
+          "movement": "static, the right cursor blinking a beat behind the left",
+          "continuity": "the offset must be visible without any text at all"
+        },
+        "characters": []
       }
     ],
     "music_mood": "A single warm analogue drone that sounds like hardware rather than music, sitting just under the CRT hum. It drops out entirely at 0:31 and does not return, so the last sixteen seconds run on room tone and cursor clicks.",
@@ -163,7 +259,18 @@
       "#mystery",
       "#retrotech"
     ],
-    "pinned_comment": "Original fiction, written for this channel - no real machine and no real chatroom. If he is three seconds behind, which one of them typed this comment first?"
+    "pinned_comment": "Original fiction, written for this channel - no real machine and no real chatroom. If he is three seconds behind, which one of them typed this comment first?",
+    "default_environment": "a cold cluttered loft: stacked boxes, a folding table, exposed rafters, a dormer window painted over, decades of stored objects",
+    "default_lighting": "amber CRT phosphor as the only warm source against the cold blue-grey of an unheated loft; visible dust in every beam",
+    "characters": [
+      {
+        "tag": "MAN_03",
+        "name": "The Returner",
+        "description": "man, 53, thinning grey-brown hair combed back, reading glasses usually pushed up on his forehead, a heavy jaw, lined forehead, broad shoulders gone soft",
+        "wardrobe": "a thick oatmeal wool jumper with a stretched collar, cord trousers, no watch",
+        "distinguishing": "a nicotine-stained right index finger and a habit of resting it on his lip; shot in three-quarter profile lit from one side by the screen"
+      }
+    ]
   },
   {
     "id": "007",
@@ -216,8 +323,21 @@
         "visual": "Phone screen: a frequent-locations list with an unfamiliar address at the top and a huge hour count.",
         "prompt": "Phone screen close-up of a location history list with an unfamiliar address and a large hour total, dark interface, night",
         "sfx": "sharp UI sting",
-        "character": false,
-        "shot_change": "hard cut in"
+        "shot_change": "hard cut in",
+        "v": {
+          "subject": "a phone screen showing a location list with one unfamiliar entry carrying a large hour total",
+          "angle": "dead-on macro, 100mm",
+          "composition": "the list fills the frame, one row isolated by contrast",
+          "emotion": "an administrative fact that should be impossible",
+          "objects": "phone glass, a thumb at the frame edge",
+          "movement": "static, one slow scroll",
+          "continuity": "abstract row shapes only - the address and hour count are composited",
+          "environment": "the surface of a phone held close in a dark car interior",
+          "lighting": "screen light only, cold, with orange sodium bleeding through the windscreen behind"
+        },
+        "characters": [
+          "MAN_04"
+        ]
       },
       {
         "n": 2,
@@ -227,8 +347,17 @@
         "visual": "Calendar grid filling with identical blocks, two years deep, animated fast.",
         "prompt": "An animated calendar grid filling with identical repeated time blocks across two years, cold blue data visualisation on black",
         "sfx": "rapid tick accelerating",
-        "character": false,
-        "shot_change": "graphic"
+        "shot_change": "graphic",
+        "v": {
+          "subject": "an animated calendar grid filling with identical repeated blocks across two years",
+          "angle": "dead-on, flat to the graphic plane",
+          "composition": "a dense grid filling the frame, blocks accumulating from the top left",
+          "emotion": "a pattern with no author",
+          "objects": "grid cells, accumulating blocks",
+          "movement": "the grid fills rapidly, accelerating",
+          "continuity": "generate an abstract block-grid texture only - the calendar graphic is composited"
+        },
+        "characters": []
       },
       {
         "n": 3,
@@ -238,8 +367,21 @@
         "visual": "Him in bed, phone face down on the nightstand, sleep-tracker graph flat and undisturbed.",
         "prompt": "A man asleep in a dark bedroom with a phone face down on the nightstand, faint screen glow on the ceiling, blue night light",
         "sfx": "breathing, room tone, distant traffic",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "MAN_04 asleep in a dark bedroom, a phone face down on the nightstand casting faint light on the ceiling",
+          "angle": "high, from above the bed, 35mm",
+          "composition": "he lies in the lower third, the ceiling and its faint glow filling the upper frame",
+          "emotion": "vulnerability without knowledge",
+          "objects": "a face-down phone, a nightstand, a crumpled duvet",
+          "movement": "static, only his breathing moving the frame",
+          "continuity": "MAN_04 as described - the split eyebrow visible even asleep",
+          "environment": "a small bedroom at night, curtains drawn, streetlight bleeding at the edges",
+          "lighting": "the phone's screen glow on the ceiling as the only source, cold and weak"
+        },
+        "characters": [
+          "MAN_04"
+        ]
       },
       {
         "n": 4,
@@ -249,8 +391,19 @@
         "visual": "Night motorway from the driver's seat, sodium lights strobing across his face.",
         "prompt": "Driver point of view on an empty night motorway, sodium lights strobing across a windscreen, wet tarmac reflections",
         "sfx": "road noise, indicator tick",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a driver's point of view on an empty night motorway, sodium lights strobing across the windscreen",
+          "angle": "from the driver's seat, dead ahead through the glass, 28mm",
+          "composition": "the road runs to a vanishing point in the centre, the dashboard silhouetted along the bottom",
+          "emotion": "the long dread of a drive you did not plan",
+          "objects": "windscreen, wipers, dashboard glow, sodium lamps",
+          "movement": "forward travel with regular strobing light passes, slight vehicle vibration",
+          "continuity": "this is the only sodium-orange sequence before the facility - the palette hard-cuts to white at the door"
+        },
+        "characters": [
+          "MAN_04"
+        ]
       },
       {
         "n": 5,
@@ -260,8 +413,17 @@
         "visual": "Corrugated storage corridor, identical orange doors receding, his torch swinging.",
         "prompt": "A long storage facility corridor of identical orange roller doors under harsh strip lighting, torch beam raking the floor",
         "sfx": "footsteps echoing, strip light buzz",
-        "character": true,
-        "shot_change": "tracking shot"
+        "shot_change": "tracking shot",
+        "v": {
+          "subject": "a long storage corridor of identical orange roller doors under harsh strip lighting",
+          "angle": "dead-on down the corridor, chest height, 24mm",
+          "composition": "strict one-point perspective, doors converging to a distant vanishing point",
+          "emotion": "institutional infinity",
+          "objects": "roller doors, a sealed concrete floor, strip lights, a torch beam on the floor",
+          "movement": "a steady forward tracking shot down the centre line",
+          "continuity": "THE CORRIDOR. Identical centre line and lens in scenes 05 and 07."
+        },
+        "characters": []
       },
       {
         "n": 6,
@@ -271,8 +433,17 @@
         "visual": "A rental form on a clipboard, his name typed, his signature at the bottom.",
         "prompt": "A paper storage rental agreement on a clipboard with a typed name and a handwritten signature at the bottom, harsh overhead light",
         "sfx": "paper handling, drone entering",
-        "character": false,
-        "shot_change": "insert cut"
+        "shot_change": "insert cut",
+        "v": {
+          "subject": "a paper rental agreement on a clipboard, a typed name and a handwritten signature",
+          "angle": "top-down macro on the paper, 100mm",
+          "composition": "the document fills the frame at a slight angle, the signature in the lower third",
+          "emotion": "the self implicated on paper",
+          "objects": "a clipboard, a creased form, a ballpoint signature",
+          "movement": "static, one hand entering to flatten a curled corner",
+          "continuity": "no legible text - shoot at a raking angle so the writing reads as shape. Names are composited."
+        },
+        "characters": []
       },
       {
         "n": 7,
@@ -282,8 +453,19 @@
         "visual": "He tries a key from his own ring on the padlock. It turns first time.",
         "prompt": "A hand fitting a small key into a padlock on an orange roller door, keyring hanging, harsh directional light, close macro",
         "sfx": "padlock click, held breath",
-        "character": true,
-        "shot_change": "macro cut"
+        "shot_change": "macro cut",
+        "v": {
+          "subject": "a hand fitting a small key into a padlock on an orange roller door",
+          "angle": "macro, slightly low, 85mm",
+          "composition": "the padlock sits centre-frame, the door's corrugations running vertically behind",
+          "emotion": "the moment the explanation runs out",
+          "objects": "a padlock, a small key, a carabiner of keys, a corrugated door",
+          "movement": "the key enters and turns, then everything stops",
+          "continuity": "MAN_04's carabiner must match the one at his belt in scene 04"
+        },
+        "characters": [
+          "MAN_04"
+        ]
       },
       {
         "n": 8,
@@ -293,8 +475,19 @@
         "visual": "The door rolls up. Hundreds of identical phones on shelving, all screens lit.",
         "prompt": "A storage unit filled floor to ceiling with hundreds of identical lit phone screens on metal shelving, cold blue glow flooding outward",
         "sfx": "roller door rattle, a wall of soft electronic hum",
-        "character": false,
-        "shot_change": "reveal"
+        "shot_change": "reveal",
+        "v": {
+          "subject": "a storage unit filled floor to ceiling with hundreds of identical lit phone screens on metal shelving",
+          "angle": "from the doorway looking in, 24mm, chest height",
+          "composition": "the shelving fills the entire frame, cold light flooding out toward camera",
+          "emotion": "scale as horror",
+          "objects": "metal shelving, hundreds of phones, neat charging cables, cold light",
+          "movement": "the roller door rises and the light spills out; a slow step forward",
+          "continuity": "the phones must all be the same model and all be lit - no dark units anywhere",
+          "environment": "the interior of a single storage unit, breeze-block walls, shelving on three sides",
+          "lighting": "the massed phone screens are the only light source, cold blue, lighting the room from within"
+        },
+        "characters": []
       },
       {
         "n": 9,
@@ -304,8 +497,17 @@
         "visual": "Slow track along a shelf: identical models, identical charge levels, no dust.",
         "prompt": "Slow tracking shot along a shelf of identical unlocked phones all showing the same interface, charging cables neatly routed, no dust",
         "sfx": "hum thickening, footsteps stop",
-        "character": false,
-        "shot_change": "slow track"
+        "shot_change": "slow track",
+        "v": {
+          "subject": "a slow tracking shot along a shelf of identical lit phones with neatly routed charging cables",
+          "angle": "lateral track, macro depth, 50mm",
+          "composition": "the shelf runs the full width, phones in a strict repeating rhythm",
+          "emotion": "the neatness is the frightening part",
+          "objects": "phones, cable ties, shelf brackets, no dust at all",
+          "movement": "a slow steady lateral track, no handheld",
+          "continuity": "absolutely no dust on the shelving - someone maintains this"
+        },
+        "characters": []
       },
       {
         "n": 10,
@@ -315,8 +517,17 @@
         "visual": "Push into one screen: the same frequent-locations list, the same address, hours still counting.",
         "prompt": "Extreme close-up of one phone screen among many showing a location history list with a live incrementing hour counter, blue glow",
         "sfx": "single counter tick, hard silence",
-        "character": false,
-        "shot_change": "push to black"
+        "shot_change": "push to black",
+        "v": {
+          "subject": "an extreme close-up of one phone screen among many, a counter incrementing",
+          "angle": "macro, dead-on, 100mm, very shallow focus",
+          "composition": "one screen sharp in the centre, the rest of the wall bokeh behind",
+          "emotion": "the last turn of the screw",
+          "objects": "one phone screen, a field of out-of-focus light behind",
+          "movement": "static, a single increment",
+          "continuity": "the counter is composited - generate abstract light only"
+        },
+        "characters": []
       }
     ],
     "music_mood": "Low motorway drone that never resolves, built from road noise pitched down. One rising tone from 0:38 that stops without landing when the counter ticks.",
@@ -329,7 +540,18 @@
       "#mystery",
       "#gps"
     ],
-    "pinned_comment": "Original fiction, written for this channel - no real address and no real facility. All the phones are unlocked. Whose thumbprint opened them?"
+    "pinned_comment": "Original fiction, written for this channel - no real address and no real facility. All the phones are unlocked. Whose thumbprint opened them?",
+    "default_environment": "a self-storage facility off a bypass at night: corrugated steel roller doors in long rows, sealed concrete floor, strip lights every six metres, no windows",
+    "default_lighting": "sodium orange outdoors and on wet tarmac, hard white strip light indoors; the two never mix in the same frame",
+    "characters": [
+      {
+        "tag": "MAN_04",
+        "name": "The Driver",
+        "description": "man, 34, dark stubble, heavy brows, short dark hair flattened on one side, a broken-and-set nose, wiry build",
+        "wardrobe": "a dark canvas work jacket over a grey hoodie, keys on a carabiner at the belt",
+        "distinguishing": "a healed split through the left eyebrow, phone always in the right hand; shot in profile or from behind while walking"
+      }
+    ]
   },
   {
     "id": "008",
@@ -383,8 +605,20 @@
         "visual": "Camcorder footage of a birthday party. A thin dark rectangle sits wrong in the back corner.",
         "prompt": "Degraded 1990s camcorder footage of a family birthday party in a living room with date burn-in, a thin dark flat rectangle in the back corner, colour bleed",
         "sfx": "tape warble, muffled party noise",
-        "character": false,
-        "shot_change": "hard cut in"
+        "shot_change": "hard cut in",
+        "v": {
+          "subject": "degraded camcorder footage of a family birthday party, a thin dark flat rectangle wrong in the back corner",
+          "angle": "handheld, chest height, 4:3 material framed into a 9:16 safe area with soft black above and below",
+          "composition": "the party occupies the lower centre, the anomalous rectangle sits high in the back corner",
+          "emotion": "warmth with something wrong in it",
+          "objects": "a birthday cake, candles, patterned wallpaper, a gas fire, a thin flat panel",
+          "movement": "loose handheld drift with a slow zoom, low frame rate and colour bleed",
+          "continuity": "THE 1998 WORLD. Every 1998 shot uses this degraded look. The flat panel must be present but unremarked in scenes 01, 02 and 03.",
+          "lighting": "blown-out tungsten highlights, smeared colour, heavy video noise in the shadows"
+        },
+        "characters": [
+          "PARTY_CROWD"
+        ]
       },
       {
         "n": 2,
@@ -394,8 +628,19 @@
         "visual": "The camcorder pans past candles and faces; the rectangle passes through frame twice.",
         "prompt": "Handheld 1990s camcorder pan across birthday candles and blurred faces, heavy motion smear, a dark flat panel drifting through the background",
         "sfx": "singing, tape hiss, dropout crackle",
-        "character": false,
-        "shot_change": "handheld pan"
+        "shot_change": "handheld pan",
+        "v": {
+          "subject": "a handheld camcorder pan across candles and blurred faces, the dark panel drifting through the background",
+          "angle": "handheld, chest height, panning",
+          "composition": "the pan carries left to right, the panel crossing the upper background twice",
+          "emotion": "nostalgia doing its work",
+          "objects": "candles, party hats, blurred faces, the flat panel",
+          "movement": "a loose handheld pan with motion smear",
+          "continuity": "PARTY_CROWD faces must stay indistinct"
+        },
+        "characters": [
+          "PARTY_CROWD"
+        ]
       },
       {
         "n": 3,
@@ -405,8 +650,19 @@
         "visual": "Freeze frame with the rectangle isolated. Everything else in the room is period correct.",
         "prompt": "Freeze frame of a 1990s living room with one anachronistic flat panel isolated in sharp focus, surrounding décor period accurate, video noise",
         "sfx": "freeze click, drone enters",
-        "character": false,
-        "shot_change": "freeze"
+        "shot_change": "freeze",
+        "v": {
+          "subject": "a freeze frame of the 1990s living room with the anachronistic panel isolated in sharper focus",
+          "angle": "the same handheld frame, held still",
+          "composition": "everything softened except the panel in the upper right",
+          "emotion": "the anomaly stepping forward",
+          "objects": "the flat panel, period furniture, a gas fire",
+          "movement": "frozen frame with a faint video judder",
+          "continuity": "all surrounding décor must be period-accurate - the panel is the only wrong object"
+        },
+        "characters": [
+          "PARTY_CROWD"
+        ]
       },
       {
         "n": 4,
@@ -416,8 +672,21 @@
         "visual": "Modern capture rig, tape deck spinning, digital zoom crawling into the corner pixel by pixel.",
         "prompt": "A modern laptop and video capture rig connected to an old tape deck, digital zoom crawling into a degraded video frame, cold desk light",
         "sfx": "tape deck mechanism, digital zoom whine",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a modern laptop and capture deck connected to an old tape machine, a digital zoom crawling into a degraded frame",
+          "angle": "high three-quarter over the desk, 35mm",
+          "composition": "the deck in the lower left, the laptop screen filling the upper right",
+          "emotion": "patient forensic work",
+          "objects": "a tape deck, a capture box, cables, a laptop, a mug",
+          "movement": "a slow crawling digital zoom on the screen, no camera move",
+          "continuity": "THE MODERN WORLD. Cold, clean, sharp - the visual opposite of the 1998 material.",
+          "environment": "a plain beige-walled room with a desk, an anglepoise lamp and an open laptop",
+          "lighting": "a single anglepoise lamp, cold and directional, the room falling off behind"
+        },
+        "characters": [
+          "MAN_05"
+        ]
       },
       {
         "n": 5,
@@ -427,8 +696,17 @@
         "visual": "The rectangle resolves: it is lit, and there is an image on it.",
         "prompt": "A heavily pixelated flat screen resolving out of video noise, faint image becoming visible on its surface, extreme digital magnification",
         "sfx": "noise floor rising, hum",
-        "character": false,
-        "shot_change": "continuous zoom"
+        "shot_change": "continuous zoom",
+        "v": {
+          "subject": "a heavily pixelated flat screen resolving out of video noise, a faint image becoming visible on its surface",
+          "angle": "dead-on, continuing the digital zoom",
+          "composition": "the screen surface fills the entire frame, artefact blocks resolving toward the centre",
+          "emotion": "something coming into focus that should not",
+          "objects": "compression blocks, phosphor noise, an emerging rectangle of image",
+          "movement": "a continuous zoom with progressive resolution",
+          "continuity": "abstract image content only - no legible detail on the inner screen"
+        },
+        "characters": []
       },
       {
         "n": 6,
@@ -438,8 +716,17 @@
         "visual": "The image on the 1998 screen: a modern room, anglepoise lamp, open laptop.",
         "prompt": "A low-resolution image of a plain beige-walled modern room with an anglepoise lamp and an open laptop on a desk, seen through heavy video artefacting",
         "sfx": "everything drops to a single tone",
-        "character": false,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a low-resolution image of a plain beige-walled modern room with an anglepoise lamp and an open laptop",
+          "angle": "dead-on, flat to the inner screen",
+          "composition": "the inner room's composition mirrors the modern-world framing exactly",
+          "emotion": "the two worlds touching",
+          "objects": "an anglepoise lamp, a desk, a laptop, beige walls",
+          "movement": "static, heavy artefacting shimmer",
+          "continuity": "this must match the modern room of scene 04 in layout, lamp position and angle"
+        },
+        "characters": []
       },
       {
         "n": 7,
@@ -449,8 +736,17 @@
         "visual": "Hard cut between the pixelated image and the real room he is sitting in. Identical.",
         "prompt": "Split comparison between a pixelated video still of a room and the identical real room shot cleanly, matching lamp and laptop positions",
         "sfx": "two hard cuts, silence between",
-        "character": false,
-        "shot_change": "match cut"
+        "shot_change": "match cut",
+        "v": {
+          "subject": "a split comparison between the pixelated video still and the identical real room shot cleanly",
+          "angle": "two matched angles, one degraded and one clean",
+          "composition": "a hard vertical split, the lamp and laptop at the same coordinates on both sides",
+          "emotion": "confirmation",
+          "objects": "an anglepoise lamp, a laptop, beige walls, a desk edge",
+          "movement": "static split with two hard cuts",
+          "continuity": "the two halves must match to the pixel in layout - only quality differs"
+        },
+        "characters": []
       },
       {
         "n": 8,
@@ -460,8 +756,19 @@
         "visual": "He turns in his chair. The room behind him is empty. Lamp buzzing.",
         "prompt": "A man turning to look over his shoulder in a plain beige room lit by an anglepoise lamp, empty space behind him, clean modern cinematography",
         "sfx": "chair creak, lamp buzz, no music",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "MAN_05 turning to look over his shoulder into an empty beige room",
+          "angle": "eye-level behind him, 50mm",
+          "composition": "he occupies the right third turning into profile, the empty room open behind him",
+          "emotion": "the fear of an empty room",
+          "objects": "an anglepoise lamp, a plain wall, an empty doorway",
+          "movement": "a fast turn, then absolute stillness",
+          "continuity": "MAN_05 as described, plain dark shirt, sleeves buttoned"
+        },
+        "characters": [
+          "MAN_05"
+        ]
       },
       {
         "n": 9,
@@ -471,8 +778,19 @@
         "visual": "Back in 1998: one face, then another, then the whole party turning toward the corner screen.",
         "prompt": "Degraded camcorder footage of party guests one by one turning their heads to look toward the back corner of the room, faces blurred by motion",
         "sfx": "party noise cutting out abruptly",
-        "character": false,
-        "shot_change": "series of quick cuts"
+        "shot_change": "series of quick cuts",
+        "v": {
+          "subject": "PARTY_CROWD turning their heads one by one toward the back corner of the 1998 room",
+          "angle": "the same degraded handheld framing",
+          "composition": "the guests spread across the lower two thirds, all heads rotating toward the upper right",
+          "emotion": "being noticed across time",
+          "objects": "party guests, paper hats, the cake, the flat panel",
+          "movement": "a series of quick cuts, each with one more head turned",
+          "continuity": "1998 degraded look, indistinct faces, identical room dressing to scene 01"
+        },
+        "characters": [
+          "PARTY_CROWD"
+        ]
       },
       {
         "n": 10,
@@ -482,8 +800,20 @@
         "visual": "Every face in 1998 held still, facing camera. His own face in the laptop reflection over the top.",
         "prompt": "A frozen degraded camcorder frame of a room of people all facing the camera directly, a faint modern face reflected over the image in a screen",
         "sfx": "one tape stop clunk, silence",
-        "character": false,
-        "shot_change": "freeze to black"
+        "shot_change": "freeze to black",
+        "v": {
+          "subject": "a frozen degraded frame of a room of people all facing camera, a faint modern face reflected over the image",
+          "angle": "the same degraded handheld framing, frozen",
+          "composition": "the crowd fills the frame facing forward, a soft modern reflection laid over the glass",
+          "emotion": "the exchange completed",
+          "objects": "party guests facing camera, a reflected modern face on the screen surface",
+          "movement": "frozen, with a slow fade of the reflection",
+          "continuity": "the reflection must read as MAN_05 without ever being sharp"
+        },
+        "characters": [
+          "PARTY_CROWD",
+          "MAN_05"
+        ]
       }
     ],
     "music_mood": "Warm nostalgic tape-saturated pad for the first fifteen seconds that curdles into a single held dissonance once the zoom begins. No music at all from 0:36, so the last eleven seconds are lamp buzz and tape noise.",
@@ -496,7 +826,25 @@
       "#mystery",
       "#analoghorror"
     ],
-    "pinned_comment": "Original fiction, written for this channel - no real tape and no real family. Watch the back corner from the first second. Someone turns before he starts zooming."
+    "pinned_comment": "Original fiction, written for this channel - no real tape and no real family. Watch the back corner from the first second. Someone turns before he starts zooming.",
+    "default_environment": "two separate worlds held apart: a 1998 suburban living room with patterned wallpaper, a gas fire and a bulky CRT television, and a plain modern beige-walled room with a desk",
+    "default_lighting": "warm tungsten and blown-out camcorder highlights for 1998, cold neutral desk light for the present; never blend the two",
+    "characters": [
+      {
+        "tag": "MAN_05",
+        "name": "The Archivist",
+        "description": "man, 44, close-cropped dark hair going grey at the temples, a heavy brow, clean-shaven, a squarish face, average build",
+        "wardrobe": "a plain dark shirt with the sleeves buttoned, no jewellery",
+        "distinguishing": "a habit of sitting very still with one hand flat on the desk; only ever seen in the modern room, never in the 1998 material"
+      },
+      {
+        "tag": "PARTY_CROWD",
+        "name": "The 1998 Party",
+        "description": "eight to ten adults and children at a birthday party, period-accurate late-1990s hair and clothing, faces soft with motion blur and video smear",
+        "wardrobe": "1990s knitwear, patterned shirts, a paper party hat or two",
+        "distinguishing": "faces must remain slightly indistinct in every shot - readable as people, never as individuals"
+      }
+    ]
   },
   {
     "id": "009",
@@ -549,8 +897,17 @@
         "visual": "Phone marketplace listing filling frame: a brass lamp photographed on a familiar cluttered table.",
         "prompt": "A phone marketplace listing showing a brass table lamp photographed in a warm cluttered living room, amateur snapshot lighting, listing interface",
         "sfx": "notification ping, sub hit",
-        "character": false,
-        "shot_change": "hard cut in"
+        "shot_change": "hard cut in",
+        "v": {
+          "subject": "a phone marketplace listing showing a brass table lamp photographed in a warm cluttered living room",
+          "angle": "dead-on macro on the phone, 100mm",
+          "composition": "the listing photograph fills the frame, the phone's edge just visible",
+          "emotion": "recognition arriving too fast",
+          "objects": "a phone, a brass lamp in the listing image, a curtain fold behind it",
+          "movement": "static, one small thumb scroll",
+          "continuity": "the listing image must match the real room exactly - same curtain fold, same clutter. Interface chrome is composited."
+        },
+        "characters": []
       },
       {
         "n": 2,
@@ -560,8 +917,17 @@
         "visual": "Cut between the listing photo and the real room. Identical curtain fold, identical clutter.",
         "prompt": "Side by side comparison of a listing photograph and a real living room, identical curtain folds and objects, warm domestic light",
         "sfx": "two-tone cut, clock ticking",
-        "character": false,
-        "shot_change": "A/B cut"
+        "shot_change": "A/B cut",
+        "v": {
+          "subject": "a side-by-side of the listing photograph and the real living room, identical in every detail",
+          "angle": "one flat-to-screen, one eye-level into the room, 35mm",
+          "composition": "hard vertical split, the lamp at the same position on both sides",
+          "emotion": "the violation understood",
+          "objects": "a brass lamp, patterned curtains, a wooden side table, books",
+          "movement": "static split with a brief push on the right half",
+          "continuity": "curtain folds and object placement must match to the centimetre across both halves"
+        },
+        "characters": []
       },
       {
         "n": 3,
@@ -571,8 +937,17 @@
         "visual": "Scrolling the seller profile: blank avatar, no reviews, no other listings, joined today.",
         "prompt": "A blank marketplace seller profile on a phone screen with an empty avatar, no reviews and no listings, cold interface on a dark background",
         "sfx": "scroll ticks, drone entering",
-        "character": false,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a blank marketplace seller profile with an empty avatar and no listings",
+          "angle": "dead-on macro",
+          "composition": "a large empty circle in the upper third, empty rows below",
+          "emotion": "the absence where a person should be",
+          "objects": "a phone screen, an empty avatar circle",
+          "movement": "static, a slow scroll that reveals nothing",
+          "continuity": "abstract shapes only - profile text is composited"
+        },
+        "characters": []
       },
       {
         "n": 4,
@@ -582,8 +957,19 @@
         "visual": "She stands in the doorway holding the phone up, matching the photo's exact angle.",
         "prompt": "A woman standing in a living room doorway holding a phone up to match a photograph's angle, warm lamplight, from behind her shoulder",
         "sfx": "footsteps, floorboard creak",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "WOMAN_02 standing in a living room doorway holding a phone up to match a photograph's angle",
+          "angle": "from behind her shoulder, eye-level, 35mm",
+          "composition": "she occupies the left third from behind, the room opening out to the right, the phone raised",
+          "emotion": "methodical, unwilling to conclude",
+          "objects": "a phone held up, a door frame, the lamp beyond",
+          "movement": "static, one small correction of the phone's angle",
+          "continuity": "WOMAN_02 as described, glasses pushed up on her head in this scene"
+        },
+        "characters": [
+          "WOMAN_02"
+        ]
       },
       {
         "n": 5,
@@ -593,8 +979,19 @@
         "visual": "Thumb on the buy button. Confirmation screen. Delivery estimate: Thursday.",
         "prompt": "A thumb pressing a purchase confirmation button on a phone, order confirmed screen with a delivery date, warm room reflected in the glass",
         "sfx": "purchase chime, held silence after",
-        "character": true,
-        "shot_change": "macro cut"
+        "shot_change": "macro cut",
+        "v": {
+          "subject": "a thumb pressing a purchase confirmation on a phone, the warm room reflected in the glass",
+          "angle": "macro, high three-quarter on the phone, 100mm",
+          "composition": "the phone fills the frame on a diagonal, the room reflected in the dark glass at the edges",
+          "emotion": "a decision made before it is understood",
+          "objects": "a phone, a thumb, a reflection of the lamp in the glass",
+          "movement": "a single press, then stillness",
+          "continuity": "the reflected lamp in the glass must be the real lamp, matching its position in the room"
+        },
+        "characters": [
+          "WOMAN_02"
+        ]
       },
       {
         "n": 6,
@@ -604,8 +1001,20 @@
         "visual": "A plain box on the doormat. She opens it at the table. Brown paper, no label.",
         "prompt": "A plain unlabelled cardboard parcel being opened on a wooden table, brown paper packing, warm window light, hands only",
         "sfx": "tape peel, paper rustle",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a plain unlabelled cardboard parcel being opened on a wooden table in window light",
+          "angle": "top-down, 35mm, directly over the table",
+          "composition": "the parcel centred, hands entering from the lower edge",
+          "emotion": "dread wearing the shape of an ordinary afternoon",
+          "objects": "brown paper, a plain box, packing tape, a wooden table",
+          "movement": "hands tearing tape, the flaps folding back",
+          "continuity": "no printed labels, barcodes or markings on the parcel at all",
+          "lighting": "flat overcast window light, soft and shadowless"
+        },
+        "characters": [
+          "WOMAN_02"
+        ]
       },
       {
         "n": 7,
@@ -615,8 +1024,19 @@
         "visual": "Macro on the delivered lamp: a chipped brass base, a cable repaired with old tape.",
         "prompt": "Macro shot of a chipped brass lamp base and a power cable repaired with yellowed tape, warm soft light, shallow focus",
         "sfx": "brass on wood, drone thickening",
-        "character": false,
-        "shot_change": "macro"
+        "shot_change": "macro",
+        "v": {
+          "subject": "a macro of a chipped brass lamp base and a power cable repaired with yellowed tape",
+          "angle": "extreme macro, 100mm, very shallow focus",
+          "composition": "the chip sits on the upper-third line, the taped cable running out of the lower frame",
+          "emotion": "certainty arriving through a small detail",
+          "objects": "a chipped brass base, yellowed tape, a frayed cable",
+          "movement": "a slow drift across the chip into the tape",
+          "continuity": "THE DAMAGE. This exact chip and this exact tape repair identify the real lamp."
+        },
+        "characters": [
+          "WOMAN_02"
+        ]
       },
       {
         "n": 8,
@@ -626,8 +1046,17 @@
         "visual": "Pan from the delivered lamp to the one on the table: flawless, unchipped, unrepaired.",
         "prompt": "Slow pan between two identical brass table lamps, one worn and chipped and one flawless and new, same warm living room light",
         "sfx": "pan whoosh, sudden silence",
-        "character": false,
-        "shot_change": "slow pan"
+        "shot_change": "slow pan",
+        "v": {
+          "subject": "a slow pan between two identical brass table lamps, one worn and chipped and one flawless",
+          "angle": "eye-level, lateral, 50mm",
+          "composition": "the worn lamp at frame left, the flawless one at frame right, the pan holding both briefly",
+          "emotion": "the ground moving under the whole house",
+          "objects": "two brass lamps, a wooden table, a cardboard box",
+          "movement": "a slow lateral pan, then a dead stop between them",
+          "continuity": "the two lamps must be identical in every respect except the chip and the taped cable"
+        },
+        "characters": []
       },
       {
         "n": 9,
@@ -637,8 +1066,19 @@
         "visual": "Fast montage of household objects, each flashing a purchase-history overlay and a date.",
         "prompt": "Rapid montage of ordinary household objects each overlaid with a small clinical purchase record and date stamp, warm interior, cold overlays",
         "sfx": "rapid stacked notification tones",
-        "character": false,
-        "shot_change": "rapid cut montage"
+        "shot_change": "rapid cut montage",
+        "v": {
+          "subject": "a rapid montage of ordinary household objects, each held briefly in clinical flat light",
+          "angle": "a series of matched top-down product angles",
+          "composition": "each object centred on a neutral surface, identical framing every time",
+          "emotion": "the whole house turning into inventory",
+          "objects": "a kettle, a clock, a chair, a pair of shoes, a book",
+          "movement": "eight fast cuts, each one shorter than the last",
+          "continuity": "these are shot as listing photographs - flat white, no room context, deliberately breaking this project's warm palette",
+          "environment": "a neutral flat surface with no background detail",
+          "lighting": "clinical flat white product lighting, shadowless and cold"
+        },
+        "characters": []
       },
       {
         "n": 10,
@@ -648,8 +1088,17 @@
         "visual": "A purchase list scrolling, every buyer name blurred, her own name nowhere on it.",
         "prompt": "A scrolling purchase history list with every buyer name obscured, one empty highlighted row, clinical interface on black",
         "sfx": "scroll stops dead, single low hit",
-        "character": false,
-        "shot_change": "cut to black"
+        "shot_change": "cut to black",
+        "v": {
+          "subject": "a scrolling purchase history list with one empty highlighted row",
+          "angle": "dead-on macro",
+          "composition": "a column of rows filling the frame, one highlighted band near the centre",
+          "emotion": "the name that should be there and is not",
+          "objects": "a phone screen, a highlight band",
+          "movement": "a scroll that stops dead on the empty row",
+          "continuity": "abstract rows only - names are composited in the edit"
+        },
+        "characters": []
       }
     ],
     "music_mood": "Warm domestic strings that slowly lose their reverb until they sound like they are being played in a much smaller room. Total silence from 0:37 to 0:42, then one low hit on the last line.",
@@ -662,7 +1111,18 @@
       "#mystery",
       "#strangestories"
     ],
-    "pinned_comment": "Original fiction, written for this channel - no real listing and no real seller. She bought her own lamp back. Check the table lamp in the very first shot."
+    "pinned_comment": "Original fiction, written for this channel - no real listing and no real seller. She bought her own lamp back. Check the table lamp in the very first shot.",
+    "default_environment": "a warm cluttered living room in an older terraced house: a wooden side table, heavy curtains, bookshelves, worn rugs, a brass table lamp",
+    "default_lighting": "soft window daylight by day and a single warm brass lamp by night; clinical flat white for every listing photograph",
+    "characters": [
+      {
+        "tag": "WOMAN_02",
+        "name": "The Owner",
+        "description": "woman, 47, short greying hair cut close at the sides, fine lines around the eyes, glasses worn on a beaded cord, slight build",
+        "wardrobe": "a soft grey cardigan over a collared shirt, a wristwatch with a worn leather strap",
+        "distinguishing": "pushes her glasses up onto her head when she reads a screen; hands often in frame before her face is"
+      }
+    ]
   },
   {
     "id": "010",
@@ -716,8 +1176,19 @@
         "visual": "Doorbell fisheye: a figure steps past the lens into the house. Counter overlay reads 31.",
         "prompt": "Wide-angle doorbell camera view of a suburban porch as a figure steps past the lens into a doorway, heavy fisheye distortion and vignetting",
         "sfx": "doorbell chime, sub drop",
-        "character": false,
-        "shot_change": "hard cut in"
+        "shot_change": "hard cut in",
+        "v": {
+          "subject": "a wide-angle doorbell camera view of a figure stepping past the lens into a doorway",
+          "angle": "doorbell height, roughly 1.2m, extreme wide-angle with heavy barrel distortion",
+          "composition": "the porch splays outward, the figure crossing the lower right, the door in the centre",
+          "emotion": "the ordinary made strange by the lens",
+          "objects": "a tiled porch, a part-glazed door, a doormat, a figure passing",
+          "movement": "static camera, the figure crossing quickly and out of frame",
+          "continuity": "THE PORCH CAMERA. Identical height, lens and distortion in every doorbell shot in this project."
+        },
+        "characters": [
+          "WOMAN_03"
+        ]
       },
       {
         "n": 2,
@@ -727,8 +1198,17 @@
         "visual": "Rapid scrub through months of clips, seasons changing on the same porch.",
         "prompt": "Rapid time-lapse of the same suburban porch across four seasons seen from a fixed doorbell camera, changing light and weather, fisheye framing",
         "sfx": "scrub whirr, layered chimes",
-        "character": false,
-        "shot_change": "fast scrub"
+        "shot_change": "fast scrub",
+        "v": {
+          "subject": "a time-lapse of the same porch across four seasons from a fixed doorbell camera",
+          "angle": "the identical doorbell angle",
+          "composition": "identical framing, only the light and the hedge changing",
+          "emotion": "a year passing on one square of concrete",
+          "objects": "the porch, the hedge, the path, changing weather",
+          "movement": "time-lapse with light and weather cycling, camera fixed",
+          "continuity": "framing must not shift by a pixel across the whole time-lapse"
+        },
+        "characters": []
       },
       {
         "n": 3,
@@ -738,8 +1218,19 @@
         "visual": "Three clips in sequence: each visitor approaches, the door opens, they step inside.",
         "prompt": "Three sequential doorbell camera clips of different visitors approaching a front door and stepping inside, daylight, wide-angle distortion",
         "sfx": "three door latches, no footsteps leaving",
-        "character": false,
-        "shot_change": "cut, cut, cut"
+        "shot_change": "cut, cut, cut",
+        "v": {
+          "subject": "three sequential doorbell clips of different visitors approaching the door and stepping inside",
+          "angle": "the identical doorbell angle",
+          "composition": "each visitor approaches along the same path and exits frame at the same point",
+          "emotion": "a pattern nobody has looked for",
+          "objects": "a toolbag, a parcel, a handbag, the same doormat",
+          "movement": "three separate approaches cut together, camera fixed",
+          "continuity": "each visitor must walk the same line at the same pace - the gait is the buried clue"
+        },
+        "characters": [
+          "WOMAN_03"
+        ]
       },
       {
         "n": 4,
@@ -749,8 +1240,17 @@
         "visual": "The same porch after each visit, empty, no departure clip between them.",
         "prompt": "An empty suburban porch shot from a doorbell camera in flat afternoon light, nothing moving, long static hold, fisheye edges",
         "sfx": "wind, distant dog, no chime",
-        "character": false,
-        "shot_change": "hold"
+        "shot_change": "hold",
+        "v": {
+          "subject": "an empty suburban porch in flat afternoon light, held far longer than expected",
+          "angle": "the identical doorbell angle",
+          "composition": "the empty porch centred, nothing moving anywhere in frame",
+          "emotion": "the discomfort of an absence",
+          "objects": "an empty doormat, a closed door, a hedge shadow",
+          "movement": "absolutely static, one long hold",
+          "continuity": "no person, no shadow, no movement at all in this frame"
+        },
+        "characters": []
       },
       {
         "n": 5,
@@ -760,8 +1260,17 @@
         "visual": "Clip list with every thumbnail labelled arrival. She scrolls to the bottom. All arrivals.",
         "prompt": "A scrolling list of video clip thumbnails on a phone, every entry showing a person facing a front door, cold app interface",
         "sfx": "scroll ticks slowing to a stop",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a scrolling list of video thumbnails, every entry showing a person facing a front door",
+          "angle": "dead-on macro on a phone screen",
+          "composition": "a grid of thumbnails filling the frame, all with the same composition",
+          "emotion": "the sameness becoming visible",
+          "objects": "a phone screen, a grid of identical-looking thumbnails",
+          "movement": "a scroll that slows and stops",
+          "continuity": "thumbnail images are abstract shapes only - interface chrome is composited"
+        },
+        "characters": []
       },
       {
         "n": 6,
@@ -771,8 +1280,19 @@
         "visual": "Frame-by-frame scrub of an arrival clip, the walk broken into separate steps.",
         "prompt": "Frame-by-frame scrub of doorbell footage showing a visitor's walk broken into individual steps, heavy motion stutter, fisheye distortion",
         "sfx": "repeating key jingle, layered",
-        "character": true,
-        "shot_change": "rhythmic montage"
+        "shot_change": "rhythmic montage",
+        "v": {
+          "subject": "a frame-by-frame scrub of doorbell footage, a visitor's walk broken into separate steps",
+          "angle": "the identical doorbell angle, stepped through",
+          "composition": "the figure held at four positions along the path in one strip",
+          "emotion": "forensic attention",
+          "objects": "a stepping figure, the path, the hedge",
+          "movement": "hard frame steps with visible motion stutter, camera fixed",
+          "continuity": "the gait must be legible as identical across all stepped positions"
+        },
+        "characters": [
+          "WOMAN_03"
+        ]
       },
       {
         "n": 7,
@@ -782,8 +1302,19 @@
         "visual": "Macro on a paused frame: the visitor's hand on the door, and her hand beside it.",
         "prompt": "Split macro comparison of two hands reaching for the same front door handle, identical knuckles and nail shape, harsh doorbell camera light",
         "sfx": "all sound drops except her breathing",
-        "character": true,
-        "shot_change": "cut"
+        "shot_change": "cut",
+        "v": {
+          "subject": "a split macro comparison of two hands reaching for the same front door handle",
+          "angle": "macro on the handle from the doorbell position",
+          "composition": "a hard vertical split, the handle at the same position in both halves",
+          "emotion": "the first undeniable detail",
+          "objects": "a brass door handle, two hands, a chipped door frame",
+          "movement": "static split, one slow cross-dissolve",
+          "continuity": "the two hands must be the same hand - identical knuckles, nail shape and a small mark near the thumb"
+        },
+        "characters": [
+          "WOMAN_03"
+        ]
       },
       {
         "n": 8,
@@ -793,8 +1324,19 @@
         "visual": "Six arrivals stacked and aligned. Different coats, one silhouette.",
         "prompt": "Six overlaid silhouettes of people walking toward a front door, all aligning into one identical outline, ghosted multiple exposure",
         "sfx": "feed static, one held tone",
-        "character": true,
-        "shot_change": "split screen"
+        "shot_change": "split screen",
+        "v": {
+          "subject": "six overlaid silhouettes of people walking toward a front door, aligning into one identical outline",
+          "angle": "the identical doorbell angle, multiple exposure",
+          "composition": "six ghosted figures superimposed, converging into a single silhouette",
+          "emotion": "the reveal arriving as a shape",
+          "objects": "six coats of different colours, one outline, the porch beyond",
+          "movement": "the silhouettes fade up one at a time and lock into alignment",
+          "continuity": "the coats differ, the outline does not - that is the entire shot"
+        },
+        "characters": [
+          "WOMAN_03"
+        ]
       },
       {
         "n": 9,
@@ -804,8 +1346,19 @@
         "visual": "The clip grid, every thumbnail now showing the same woman in a different coat.",
         "prompt": "A grid of video thumbnails all showing the same woman approaching a front door in different coats and different light, cold app interface",
         "sfx": "door latch, loud in the silence",
-        "character": false,
-        "shot_change": "hard cut"
+        "shot_change": "hard cut",
+        "v": {
+          "subject": "a grid of video thumbnails all showing the same woman approaching a front door in different coats",
+          "angle": "dead-on macro on a phone screen",
+          "composition": "a dense grid, the same figure repeating in every cell in different light",
+          "emotion": "the scale of it",
+          "objects": "a phone screen, a grid of repeating figures",
+          "movement": "static, the grid extending beyond the frame edges",
+          "continuity": "WOMAN_03 recognisable in every cell by gait and shoulders despite different coats and hair"
+        },
+        "characters": [
+          "WOMAN_03"
+        ]
       },
       {
         "n": 10,
@@ -815,8 +1368,17 @@
         "visual": "The live feed: the porch, empty, the recording indicator already lit.",
         "prompt": "A doorbell camera live feed of an empty dusk porch with a red recording indicator lit in the corner, nothing moving",
         "sfx": "status chime, cut to silence",
-        "character": true,
-        "shot_change": "cut to black"
+        "shot_change": "cut to black",
+        "v": {
+          "subject": "a doorbell camera live feed of an empty dusk porch with a small recording indicator lit",
+          "angle": "the identical doorbell angle",
+          "composition": "the empty porch centred, the indicator a single small point in the upper corner",
+          "emotion": "the loop continuing without her",
+          "objects": "an empty porch, a closed door, a small lit indicator",
+          "movement": "static, one slow pulse of the indicator",
+          "continuity": "the indicator is a light source only, not a graphic - the interface is composited"
+        },
+        "characters": []
       }
     ],
     "music_mood": "Suburban quiet with a single low pulse tied to the doorbell chime, so the music and the device sound are the same thing. The pulse stops entirely at 0:32 and the last thirteen seconds have no music at all.",
@@ -829,6 +1391,17 @@
       "#mystery",
       "#unsolved"
     ],
-    "pinned_comment": "Original fiction, written for this channel - no real house and no real footage. Thirty-one arrivals, one person. Watch the shoulders on a rewatch."
+    "pinned_comment": "Original fiction, written for this channel - no real house and no real footage. Thirty-one arrivals, one person. Watch the shoulders on a rewatch.",
+    "default_environment": "the front of a 1930s suburban semi: a tiled porch, a part-glazed front door, a low garden wall, a concrete path, a privet hedge",
+    "default_lighting": "flat overcast daylight or blue dusk for real-world shots, infrared grey for night doorbell footage; the fisheye vignette is always present in camera material",
+    "characters": [
+      {
+        "tag": "WOMAN_03",
+        "name": "The Resident",
+        "description": "woman, 33, long dark hair worn loose, a narrow face, dark eyes, a slightly forward-leaning walk, average height",
+        "wardrobe": "a long charcoal wool coat, a canvas bag on the right shoulder, keys held in the right hand",
+        "distinguishing": "a distinctive gait - a very slight favouring of the left leg and square-set shoulders that must be identical in every arrival shot, whatever she is wearing"
+      }
+    ]
   }
 ]

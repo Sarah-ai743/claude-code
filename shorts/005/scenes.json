@@ -15,7 +15,19 @@
       "duration": 2,
       "caption": "It already recorded TONIGHT",
       "visual": "A file list where tomorrow's date already has an entry. Cursor hovering over it.",
-      "prompt": "A CCTV archive file list on a dim monitor where a future date already holds a recording, cursor hovering, cold interface. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a CCTV archive listing on a dim monitor where a future date already holds a recording. a site office: a folding table, one monitor, a kettle, boxes of files. dead-on macro on the monitor. the list fills the frame, one row isolated by the cursor. the monitor is the only light, cold and low. mood: administrative wrongness. key objects: monitor, cursor, dust on the screen. camera and motion: static, a cursor hovering. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a CCTV archive listing on a dim monitor where a future date already holds a recording",
+        "environment": "a site office: a folding table, one monitor, a kettle, boxes of files",
+        "angle": "dead-on macro on the monitor",
+        "composition": "the list fills the frame, one row isolated by the cursor",
+        "lighting": "the monitor is the only light, cold and low",
+        "emotion": "administrative wrongness",
+        "objects": "monitor, cursor, dust on the screen",
+        "movement": "static, a cursor hovering",
+        "continuity": "abstract row shapes only - dates and file names are composited in the edit",
+        "tags": []
+      },
       "sfx": "sharp digital sting",
       "shot_change": "hard cut in"
     },
@@ -26,7 +38,19 @@
       "duration": 5,
       "caption": "02:00 to 03:00. ALWAYS.",
       "visual": "Timestamp overlay ticking through the same hour. Empty office, stripped desks.",
-      "prompt": "Empty stripped office interior at night seen through a ceiling CCTV camera with a running timestamp overlay, flat infrared grey. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "an empty stripped office at night seen through a ceiling-corner security camera. a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing. very high corner, steep down-angle, wide-angle with barrel distortion. the room splays out below, desks in the lower third, the door in the upper left. infrared grey, flat and shadowless, a slight hot spot at frame centre. mood: surveillance indifference. key objects: pushed-together desks, an office chair, a fire door. camera and motion: absolutely static, low frame rate. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "an empty stripped office at night seen through a ceiling-corner security camera",
+        "environment": "a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing",
+        "angle": "very high corner, steep down-angle, wide-angle with barrel distortion",
+        "composition": "the room splays out below, desks in the lower third, the door in the upper left",
+        "lighting": "infrared grey, flat and shadowless, a slight hot spot at frame centre",
+        "emotion": "surveillance indifference",
+        "objects": "pushed-together desks, an office chair, a fire door",
+        "movement": "absolutely static, low frame rate",
+        "continuity": "THE OFFICE from the ceiling camera. Identical corner, height and distortion in scenes 02, 04 and 10.",
+        "tags": []
+      },
       "sfx": "IR filter click, low hum",
       "shot_change": "cut"
     },
@@ -37,7 +61,21 @@
       "duration": 6,
       "caption": "So he TESTS it",
       "visual": "He drags a chair two metres to the left, checks his watch. 02:15.",
-      "prompt": "A man in a fleece dragging an office chair across a dark empty office floor, torch on a desk, wristwatch visible. the same building manager, forties, glasses, fleece jacket over a shirt, clipboard or torch in hand, seen in a stripped office and a plant room. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "MANAGER_01 dragging an office chair across a dark floor, a torch standing on a desk. a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing. eye-level, wide, 28mm, from floor level. he crosses the frame left to right, the torch throwing his shadow up the far wall. flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project. mood: deliberate provocation. key objects: an office chair, a standing torch, a long cast shadow. camera and motion: a slow pan following him, handheld weight. character MANAGER_01 - man, 46, thinning sandy hair, wire-framed glasses, a long face with a permanent slight frown, average build, slightly stooped; a navy fleece over an open-collar shirt, lanyard, a torch clipped to the belt; cleans his glasses on his shirt hem when uncertain; always carries either a clipboard or a torch, never both. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "MANAGER_01 dragging an office chair across a dark floor, a torch standing on a desk",
+        "environment": "a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing",
+        "angle": "eye-level, wide, 28mm, from floor level",
+        "composition": "he crosses the frame left to right, the torch throwing his shadow up the far wall",
+        "lighting": "flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project",
+        "emotion": "deliberate provocation",
+        "objects": "an office chair, a standing torch, a long cast shadow",
+        "movement": "a slow pan following him, handheld weight",
+        "continuity": "MANAGER_01 as described, fleece and lanyard, glasses catching the torchlight",
+        "tags": [
+          "MANAGER_01"
+        ]
+      },
       "sfx": "chair legs scraping lino",
       "shot_change": "handheld"
     },
@@ -48,7 +86,21 @@
       "duration": 6,
       "caption": "YESTERDAY'S file shows it",
       "visual": "He scrubs yesterday's recording. The chair moves on screen exactly as he just moved it.",
-      "prompt": "A man watching a CCTV playback on a laptop showing himself dragging a chair, his face lit by the screen, dark office. the same building manager, forties, glasses, fleece jacket over a shirt, clipboard or torch in hand, seen in a stripped office and a plant room. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "MANAGER_01 watching CCTV playback on a laptop, his face lit by the screen. a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing. close, slightly low, 50mm, from behind the laptop. his face in the upper centre, the open laptop a bright bar across the lower frame. flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project. mood: disbelief being overruled by evidence. key objects: laptop, glasses, reflected screen light on the lenses. camera and motion: static, one slow removal of the glasses. character MANAGER_01 - man, 46, thinning sandy hair, wire-framed glasses, a long face with a permanent slight frown, average build, slightly stooped; a navy fleece over an open-collar shirt, lanyard, a torch clipped to the belt; cleans his glasses on his shirt hem when uncertain; always carries either a clipboard or a torch, never both. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "MANAGER_01 watching CCTV playback on a laptop, his face lit by the screen",
+        "environment": "a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing",
+        "angle": "close, slightly low, 50mm, from behind the laptop",
+        "composition": "his face in the upper centre, the open laptop a bright bar across the lower frame",
+        "lighting": "flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project",
+        "emotion": "disbelief being overruled by evidence",
+        "objects": "laptop, glasses, reflected screen light on the lenses",
+        "movement": "static, one slow removal of the glasses",
+        "continuity": "the reflection in his lenses must be abstract light, not legible footage",
+        "tags": [
+          "MANAGER_01"
+        ]
+      },
       "sfx": "scrub whine, doubled chair scrape",
       "shot_change": "cut"
     },
@@ -59,7 +111,19 @@
       "duration": 6,
       "caption": "Then he notices the ANGLE",
       "visual": "Split diagram: the ceiling camera's cone versus the footage's actual viewpoint.",
-      "prompt": "A simple technical diagram overlay on a dark office showing a ceiling camera cone and a second lower viewpoint marked in red, schematic lines. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a schematic overlay on the dark office showing a ceiling camera cone and a second lower viewpoint. a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing. the same high ceiling-corner angle. clean diagonal schematic lines over the plate, the second viewpoint marked at mid-wall height. flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project. mood: geometry turning hostile. key objects: ceiling camera, cone lines, a marked point on a blank wall. camera and motion: static plate, the overlay animating in post. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a schematic overlay on the dark office showing a ceiling camera cone and a second lower viewpoint",
+        "environment": "a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing",
+        "angle": "the same high ceiling-corner angle",
+        "composition": "clean diagonal schematic lines over the plate, the second viewpoint marked at mid-wall height",
+        "lighting": "flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project",
+        "emotion": "geometry turning hostile",
+        "objects": "ceiling camera, cone lines, a marked point on a blank wall",
+        "movement": "static plate, the overlay animating in post",
+        "continuity": "generate the clean plate only - all schematic lines and markers are composited",
+        "tags": []
+      },
       "sfx": "drone enters, pen scratch",
       "shot_change": "graphic overlay"
     },
@@ -70,7 +134,21 @@
       "duration": 6,
       "caption": "EYE LEVEL. Wrong wall.",
       "visual": "He stands where the footage's viewpoint must be, palms flat on blank magnolia plaster.",
-      "prompt": "A man standing with both palms flat against a blank magnolia office wall at eye level, torchlight raking across the surface. the same building manager, forties, glasses, fleece jacket over a shirt, clipboard or torch in hand, seen in a stripped office and a plant room. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "MANAGER_01 standing with both palms flat against a blank magnolia wall at eye level. a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing. profile, eye-level, 50mm. he occupies the left third in profile, the blank wall running away to the right. flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project. mood: the body checking what the mind refuses. key objects: flat palms, blank plaster, a torch on the floor throwing raking light. camera and motion: static, a single slow lean of the head toward the wall. character MANAGER_01 - man, 46, thinning sandy hair, wire-framed glasses, a long face with a permanent slight frown, average build, slightly stooped; a navy fleece over an open-collar shirt, lanyard, a torch clipped to the belt; cleans his glasses on his shirt hem when uncertain; always carries either a clipboard or a torch, never both. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "MANAGER_01 standing with both palms flat against a blank magnolia wall at eye level",
+        "environment": "a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing",
+        "angle": "profile, eye-level, 50mm",
+        "composition": "he occupies the left third in profile, the blank wall running away to the right",
+        "lighting": "flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project",
+        "emotion": "the body checking what the mind refuses",
+        "objects": "flat palms, blank plaster, a torch on the floor throwing raking light",
+        "movement": "static, a single slow lean of the head toward the wall",
+        "continuity": "no fittings, sockets or cable runs anywhere on this wall in any shot",
+        "tags": [
+          "MANAGER_01"
+        ]
+      },
       "sfx": "palms on plaster, breathing",
       "shot_change": "cut"
     },
@@ -81,7 +159,19 @@
       "duration": 6,
       "caption": "There is NO CAMERA there",
       "visual": "Slow pan across unbroken plaster. No fittings, no cable run, no seams.",
-      "prompt": "Slow lateral pan across an unbroken plaster wall with no fittings or cable runs, raking torchlight, dust in the beam. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a slow lateral pan across unbroken plaster, raking torchlight, dust in the beam. a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing. eye-level, dead-on to the wall, 35mm. the wall fills the entire frame, no feature to fix the eye on. flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project. mood: the dread of a featureless surface. key objects: plaster, torch beam, suspended dust. camera and motion: a slow steady lateral pan, no cut. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a slow lateral pan across unbroken plaster, raking torchlight, dust in the beam",
+        "environment": "a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing",
+        "angle": "eye-level, dead-on to the wall, 35mm",
+        "composition": "the wall fills the entire frame, no feature to fix the eye on",
+        "lighting": "flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project",
+        "emotion": "the dread of a featureless surface",
+        "objects": "plaster, torch beam, suspended dust",
+        "movement": "a slow steady lateral pan, no cut",
+        "continuity": "the wall must remain genuinely featureless for the whole pan",
+        "tags": []
+      },
       "sfx": "silence except torch buzz",
       "shot_change": "slow pan"
     },
@@ -92,7 +182,19 @@
       "duration": 5,
       "caption": "They open the WALL",
       "visual": "A hammer breaks through. Dust. A dark cavity. Something inside reflects the torch.",
-      "prompt": "A hammer breaking through plasterboard revealing a dark wall cavity, dust cloud, a small glass lens catching torchlight inside. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a hammer breaking through plasterboard, dust bursting into torchlight, a small lens catching the beam inside. a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing. close three-quarter, 35mm, slightly low. the impact point sits centre-right, dust filling the upper frame. flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project. mood: violence in service of proof. key objects: hammer, torn plasterboard, dust cloud, a glint of glass in the cavity. camera and motion: a hard impact, then the dust settling; the camera shakes once with the blow. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a hammer breaking through plasterboard, dust bursting into torchlight, a small lens catching the beam inside",
+        "environment": "a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing",
+        "angle": "close three-quarter, 35mm, slightly low",
+        "composition": "the impact point sits centre-right, dust filling the upper frame",
+        "lighting": "flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project",
+        "emotion": "violence in service of proof",
+        "objects": "hammer, torn plasterboard, dust cloud, a glint of glass in the cavity",
+        "movement": "a hard impact, then the dust settling; the camera shakes once with the blow",
+        "continuity": "the glint must be barely visible here - the reveal belongs to scene 09",
+        "tags": []
+      },
       "sfx": "plaster crack, dust fall, one hum starting",
       "shot_change": "impact cut"
     },
@@ -103,7 +205,19 @@
       "duration": 4,
       "caption": "Dust covered. STILL POWERED.",
       "visual": "An old camera in the cavity, thick with dust, its indicator light steady red.",
-      "prompt": "An old dust-covered security camera inside a wall cavity with a steady red indicator light, cobwebs, close macro, torchlight. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "an old dust-covered security camera inside a wall cavity, its indicator light steady red. the inside of a sealed stud cavity: bare timber, old wiring, decades of dust. macro, straight into the cavity, 85mm. the camera body fills the frame, the indicator a small hard point in the upper left. flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project. mood: the past still running. key objects: an obsolete camera body, thick dust, cobwebs, a red indicator, an old cable. camera and motion: a slow push into the cavity, the beam steadying. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "an old dust-covered security camera inside a wall cavity, its indicator light steady red",
+        "environment": "the inside of a sealed stud cavity: bare timber, old wiring, decades of dust",
+        "angle": "macro, straight into the cavity, 85mm",
+        "composition": "the camera body fills the frame, the indicator a small hard point in the upper left",
+        "lighting": "flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project",
+        "emotion": "the past still running",
+        "objects": "an obsolete camera body, thick dust, cobwebs, a red indicator, an old cable",
+        "movement": "a slow push into the cavity, the beam steadying",
+        "continuity": "the camera must look thirty years older than anything else in the film, and be visibly powered",
+        "tags": []
+      },
       "sfx": "electrical hum rising",
       "shot_change": "macro push"
     },
@@ -114,7 +228,19 @@
       "duration": 2,
       "caption": "Pointed at the NEW camera",
       "visual": "Reverse angle: the old lens is aimed precisely at the modern camera in the ceiling corner.",
-      "prompt": "Reverse view from inside a wall cavity looking out at a modern ceiling-corner security camera perfectly centred in frame. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. vertical 9:16 composition, single clear focal subject.",
+      "prompt": "a reverse view from inside the wall cavity looking out at a modern ceiling-corner camera. a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing. from within the cavity looking out, framed by torn plasterboard. the modern camera sits perfectly centred in the ragged aperture. flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project. mood: being watched by the wrong thing. key objects: a ragged plaster aperture, the modern camera, the ceiling grid beyond. camera and motion: static, absolutely still. flat institutional lighting, magnolia walls, CCTV timestamp overlays in the corner of footage shots, dust motes, no text, no watermark, no logos. Cinematic digital mystery. Modern realistic environment, photographed not illustrated. Atmospheric lighting, high contrast, deep shadow retention. Subtle technological unease. Premium streaming-thriller grade. Shot on a full-frame sensor with anamorphic character, fine natural grain, no gloss. vertical 9:16 composition, framed for a phone screen. negative: no text, no lettering, no numerals, no captions, no watermark, no logos, no readable UI, no brand marks, not cartoon, not anime, not illustration, not a 3D render, no plastic skin, no stock-photo lighting, no lens flare spam, no oversaturation, no extra fingers, no warped faces.",
+      "visual_spec": {
+        "subject": "a reverse view from inside the wall cavity looking out at a modern ceiling-corner camera",
+        "environment": "a stripped office floor in a building being cleared: magnolia walls, lino tiles, desks pushed to one side, ceiling grid with half the tiles missing",
+        "angle": "from within the cavity looking out, framed by torn plasterboard",
+        "composition": "the modern camera sits perfectly centred in the ragged aperture",
+        "lighting": "flat institutional fluorescent where the power is still on, infrared grey where it is not; no warm light anywhere in this project",
+        "emotion": "being watched by the wrong thing",
+        "objects": "a ragged plaster aperture, the modern camera, the ceiling grid beyond",
+        "movement": "static, absolutely still",
+        "continuity": "the modern camera must be the same unit established in scene 02",
+        "tags": []
+      },
       "sfx": "hum cuts to total silence",
       "shot_change": "reverse angle"
     }
