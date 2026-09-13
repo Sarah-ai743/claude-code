@@ -1,0 +1,26 @@
+{
+  "id": "005",
+  "reviewer": "editorial review against the QC rubric",
+  "round": 1,
+  "scores": {
+    "hook": 14,
+    "retention": 7,
+    "originality": 7,
+    "twist": 8,
+    "visual": 4,
+    "clarity": 4
+  },
+  "reasons": {
+    "hook": "Six words. The shortest complete impossibility in the batch and the fastest to read.",
+    "retention": "The chair test at 0:07 is the strongest mid-video beat in the set - the character proves the anomaly on camera instead of describing it.",
+    "originality": "Precognitive footage is common; a second camera sealed in the wall pointed at the first is not, and it converts the premise from prophecy to surveillance.",
+    "twist": "Strong category flip. Docked one because the wall-opening is telegraphed by the angle discussion thirty seconds earlier.",
+    "visual": "Institutional corridors and a dust-covered lens in a cavity. Good, not spectacular.",
+    "clarity": "The angle explanation is the only place a viewer might need a second pass, and the diagram shot covers it."
+  },
+  "triggers": {},
+  "overrides": {
+    "weak_ending": "Flagged because the closing pair repeats 'camera'. Overridden: the repetition is the reveal - the sentence turns on which camera it means, and swapping the word out would destroy the line."
+  },
+  "notes": "Approved."
+}

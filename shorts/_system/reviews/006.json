@@ -1,0 +1,24 @@
+{
+  "id": "006",
+  "reviewer": "editorial review against the QC rubric",
+  "round": 1,
+  "scores": {
+    "hook": 12,
+    "retention": 7,
+    "originality": 7,
+    "twist": 9,
+    "visual": 4,
+    "clarity": 3
+  },
+  "reasons": {
+    "hook": "Nine words, an ordinary action against an impossible result. Docked three because 'the conversation' has no antecedent yet, so the first beat is slightly abstract.",
+    "retention": "The 1999 and 2003 lines are the turn, and they arrive on time. The scroll sequences risk feeling like texture rather than progress.",
+    "originality": "Old hardware still connected is familiar; the inversion that the modern life is the echo is not.",
+    "twist": "Full marks. It reverses the direction of the entire story rather than adding to it.",
+    "visual": "CRT phosphor and a loft. Atmospheric but text-heavy, and text is the hardest thing to read on a phone.",
+    "clarity": "Docked. 'He is three seconds behind' requires the viewer to hold two timelines at once, and at 0:45 there is no room left to help them."
+  },
+  "triggers": {},
+  "overrides": {},
+  "notes": "Approved. Clarity is the weak dimension; the sound design carries the final beat and must land."
+}

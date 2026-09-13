@@ -2,7 +2,7 @@
 ============================================================
 Concept:       CAM-004  (B4/G1)
 Target length: 45s
-Voiceover:     111 words (~37s at 3.0 w/s)
+Voiceover:     113 words (~38s at 3.0 w/s)
 Scenes:        10
 
 ORIGINAL FICTION. Not a real event, person, company or recording.
@@ -26,20 +26,19 @@ ORIGINAL FICTION. Not a real event, person, company or recording.
   Thirty-one people walked in. Nobody walked out.
   A year of doorbell footage. She checks all of it.
   Deliveries. A plumber. Her sister, twice.
-  She counts them twice. Thirty-one.
   Every one of them walks up and goes inside.
   The porch is always empty again afterwards.
-  No exits. Not one.
-  Not in a single year.
-  So she checks herself.
-  She arrives every evening at six.
-  [BEAT] She has never been recorded leaving either.
-  She steps outside with the live feed open.
-  The screen shows an empty porch.
-  Then the front door closes behind somebody.
-  She is standing on the path.
-  The door is already shut.
-  And the camera says the house is occupied.
+  No exits. Not one. Not in a single year.
+  So she slows the footage down.
+  The plumber's hands are her hands.
+  [BEAT] Every visitor has the same gait.
+  Thirty-one arrivals. All of them her.
+  Different coats. Different hours. Same shoulders.
+  She checks tonight's clip.
+  She arrives at six, like always.
+  The front door has been locked since Tuesday.
+  She has not left the house today.
+  And the camera is already recording the next one.
 
 ------------------------------------------------------------
 4/5/6. SCENES, CAPTIONS, VISUALS
@@ -70,28 +69,28 @@ ORIGINAL FICTION. Not a real event, person, company or recording.
     SFX     : scroll ticks slowing to a stop
 
   SCENE  6  [26.0s - 32.0s]
-    CAPTION : So she checks HERSELF
-    VISUAL  : Clips of her own arrivals, evening after evening, same coat, same keys.
+    CAPTION : So she SLOWS it down
+    VISUAL  : Frame-by-frame scrub of an arrival clip, the walk broken into separate steps.
     SFX     : repeating key jingle, layered
 
   SCENE  7  [32.0s - 37.0s]
-    CAPTION : She never LEAVES either
-    VISUAL  : Her face in the phone light on the porch, realising. Behind her the door stands open.
+    CAPTION : The plumber's HANDS are hers
+    VISUAL  : Macro on a paused frame: the visitor's hand on the door, and her hand beside it.
     SFX     : all sound drops except her breathing
 
   SCENE  8  [37.0s - 41.0s]
-    CAPTION : The screen shows NOTHING
-    VISUAL  : Split: she is clearly standing on the path, but the live feed shows an empty porch.
+    CAPTION : Every visitor. Same GAIT.
+    VISUAL  : Six arrivals stacked and aligned. Different coats, one silhouette.
     SFX     : feed static, one held tone
 
   SCENE  9  [41.0s - 43.0s]
-    CAPTION : The door CLOSES
-    VISUAL  : On the feed, the front door swings shut behind somebody who never appeared.
+    CAPTION : All thirty-one are HER
+    VISUAL  : The clip grid, every thumbnail now showing the same woman in a different coat.
     SFX     : door latch, loud in the silence
 
   SCENE 10  [43.0s - 45.0s]
-    CAPTION : House is OCCUPIED
-    VISUAL  : The app status flips to OCCUPIED while she stands outside on the path, locked out.
+    CAPTION : Recording the NEXT one
+    VISUAL  : The live feed: the porch, empty, the recording indicator already lit.
     SFX     : status chime, cut to silence
 
 ------------------------------------------------------------
@@ -103,13 +102,13 @@ ORIGINAL FICTION. Not a real event, person, company or recording.
 ------------------------------------------------------------
 10. FINAL TWIST
 ------------------------------------------------------------
-  Nobody has ever been recorded leaving the house, including her, and when she finally stands outside it the camera does not record her at all.
+  There were never thirty-one visitors. Every arrival in a year of footage is her, and the camera is already recording the next one.
 
 ------------------------------------------------------------
 11/12/13/14. PUBLISHING
 ------------------------------------------------------------
   Title      : 31 People Entered This House. The Camera Never Saw One Leave.
-  Description: Original fiction - not a real event. A year of doorbell footage, thirty-one arrivals, and no departures at all, including her own. Part of an original digital-mystery series.
+  Description: Original fiction - not a real event. A year of doorbell footage, thirty-one arrivals and not one departure. Then she slowed the footage down. Part of an original digital-mystery series.
   Hashtags   : #shorts #mystery #unsolved
-  Pinned     : Original fiction, written for this channel - no real house and no real footage. Count the arrivals on a rewatch. One of them is wearing her coat.
+  Pinned     : Original fiction, written for this channel - no real house and no real footage. Thirty-one arrivals, one person. Watch the shoulders on a rewatch.
 

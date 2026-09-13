@@ -32,14 +32,14 @@
       "They are all at the end. And they are not noise.",
       "It is the room where the video was filmed.",
       "Empty. Still. The light through the window keeps changing.",
-      "So he plays it again. And again. Four hundred times.",
-      "The room stays empty for ten thousand frames.",
-      "[BEAT] Then the door opens.",
-      "Someone sits down. Faces the lens. Waits.",
-      "The room only moves when somebody is watching.",
-      "He stops playing it.",
-      "So now it is your turn.",
-      "There is only one way to find out what he does next."
+      "[BEAT] The frames are continuous. The camera never stopped.",
+      "It has been filming that room since 2003.",
+      "Twenty-two years, played back one frame at a time.",
+      "He plays it four hundred times.",
+      "Ten thousand frames of nothing.",
+      "Then the door opens.",
+      "Someone sits down, faces the lens, and waits.",
+      "The file is longer now than when this started."
     ],
     "scenes": [
       {
@@ -134,7 +134,7 @@
         "n": 9,
         "start": 39,
         "end": 44,
-        "caption": "It moves when you WATCH",
+        "caption": "Since 2003. NEVER stopped.",
         "visual": "A figure sits in a chair in the centre of the room and turns to face the lens. Held still.",
         "prompt": "A seated figure in the centre of an empty room facing the camera directly, face in shadow, absolutely still, grainy footage",
         "sfx": "sub-bass swell, room tone drops out",
@@ -145,7 +145,7 @@
         "n": 10,
         "start": 44,
         "end": 48,
-        "caption": "YOUR turn.",
+        "caption": "It grew ALREADY",
         "visual": "Cut to black except the video player, paused, with the replay button pulsing. Duration ticks up once more.",
         "prompt": "A paused video player on a black screen with a glowing replay icon, single frame counter ticking upward, nothing else visible",
         "sfx": "one dry click, then silence",
@@ -155,7 +155,7 @@
     ],
     "music_mood": "Slow sub-bass pulse at roughly 60 bpm with a single detuned piano note. No melody, no drums. Drops to near silence at 0:33 and returns as a rising low drone under the final ten seconds.",
     "sound_bed": "Hard drive ticks, keyboard taps, tape hiss, room tone that cuts out completely twice.",
-    "final_twist": "The footage advances only while somebody is watching it, which means the figure in the room is waiting for the next viewer, and the Short ends by handing that role to the person watching.",
+    "final_twist": "The appended frames are not a glitch, they are continuous real time. The camera never stopped, and the ten thousand empty frames are twenty-two real years the file has been holding on to.",
     "youtube_title": "The Video That Gets One Frame Longer Every Time You Play It",
     "description": "Original fiction - not a real event. A man notices a video file growing by a single frame with every play, and the frames are not noise. Part of an original digital-mystery series.",
     "hashtags": [
@@ -163,7 +163,7 @@
       "#mystery",
       "#creepytech"
     ],
-    "pinned_comment": "Original fiction, written for this channel - nothing here is a real recording. The frames only advance while somebody is watching. So what happens now that you have?"
+    "pinned_comment": "Original fiction, written for this channel - nothing here is a real recording. The camera never stopped. So somebody has been sitting in that room since long before he found the file."
   },
   {
     "id": "002",

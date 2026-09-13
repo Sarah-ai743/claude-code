@@ -1,0 +1,24 @@
+{
+  "id": "009",
+  "reviewer": "editorial review against the QC rubric",
+  "round": 1,
+  "scores": {
+    "hook": 14,
+    "retention": 7,
+    "originality": 7,
+    "twist": 6,
+    "visual": 5,
+    "clarity": 3
+  },
+  "reasons": {
+    "hook": "Nine words and the violation is understood instantly in any market.",
+    "retention": "The purchase and the wait are good structure. The seller-profile beat at 0:08 is the softest.",
+    "originality": "A listing photographed inside the buyer's own home is a genuinely fresh seed, and the substitution reading is not the obvious one.",
+    "twist": "Docked. The final line is a scope statement rather than an image, and 'none of the buyers are her' asks the viewer to do arithmetic at the exact moment they should be feeling something.",
+    "visual": "Warm domestic against clinical product photography. Two lamps side by side is an excellent single frame.",
+    "clarity": "Docked. Which lamp is real takes a second pass to resolve, and the script does not have a second pass available."
+  },
+  "triggers": {},
+  "overrides": {},
+  "notes": "Approved. Weakest payoff of the approved set; if retention drops at 0:42 the ending is the reason."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "008",
+  "reviewer": "editorial review against the QC rubric",
+  "round": 2,
+  "scores": {
+    "hook": 13,
+    "retention": 7,
+    "originality": 7,
+    "twist": 8,
+    "visual": 5,
+    "clarity": 4
+  },
+  "reasons": {
+    "hook": "Unchanged.",
+    "retention": "Resolved. The longest stretch without new on-screen information is now under eight seconds, and the added line at 0:13 gives the zoom sequence a reason to exist beyond waiting.",
+    "originality": "Unchanged.",
+    "twist": "Unchanged in substance and better placed. The beat now falls at 50% of the voiceover instead of 40%, so the escalation has somewhere to go.",
+    "visual": "Unchanged. Still the strongest look in the batch.",
+    "clarity": "Unchanged."
+  },
+  "triggers": {},
+  "overrides": {
+    "weak_ending": "Flagged because the closing pair introduces no new vocabulary. Overridden: the repetition is the device. 'All of them looking at the screen / All of them looking at him' turns on the swapped object, and any new word in that position would break the anaphora. The lexical novelty test cannot see a rhetorical turn."
+  },
+  "notes": "Approved.",
+  "rewrite_note": "Rewrote the 0:13-0:25 stretch so every caption introduces new information, moved the twist beat from 40% to 50% of the voiceover, and replaced the duplicated 'screen is on' beat with a line that advances the reveal."
+}

@@ -6,8 +6,8 @@
   "twist_architecture": "G1",
   "fiction_notice": "Original fiction. Not a real event, person, company or recording.",
   "target_seconds": 45,
-  "voiceover_words": 111,
-  "estimated_seconds": 37.0,
+  "voiceover_words": 113,
+  "estimated_seconds": 37.7,
   "hooks": [
     {
       "text": "Thirty-one people walked in. Nobody walked out.",
@@ -29,17 +29,17 @@
     }
   ],
   "hook_rationale": "Hook 1 is a complete story in eight words: a number, an action, and an impossible absence. It needs no device knowledge, no setup, and no second sentence to become unsettling.",
-  "final_twist": "Nobody has ever been recorded leaving the house, including her, and when she finally stands outside it the camera does not record her at all.",
+  "final_twist": "There were never thirty-one visitors. Every arrival in a year of footage is her, and the camera is already recording the next one.",
   "music_mood": "Suburban quiet with a single low pulse tied to the doorbell chime, so the music and the device sound are the same thing. The pulse stops entirely at 0:32 and the last thirteen seconds have no music at all.",
   "sound_bed": "Doorbell chimes, key jingles, door latches, wind, and a deliberate absence of any footsteps walking away.",
   "youtube_title": "31 People Entered This House. The Camera Never Saw One Leave.",
-  "description": "Original fiction - not a real event. A year of doorbell footage, thirty-one arrivals, and no departures at all, including her own. Part of an original digital-mystery series.",
+  "description": "Original fiction - not a real event. A year of doorbell footage, thirty-one arrivals and not one departure. Then she slowed the footage down. Part of an original digital-mystery series.",
   "hashtags": [
     "#shorts",
     "#mystery",
     "#unsolved"
   ],
-  "pinned_comment": "Original fiction, written for this channel - no real house and no real footage. Count the arrivals on a rewatch. One of them is wearing her coat.",
+  "pinned_comment": "Original fiction, written for this channel - no real house and no real footage. Thirty-one arrivals, one person. Watch the shoulders on a rewatch.",
   "on_screen_fiction_tag": "FICTION tag, bottom corner, from 0:02 to end",
   "synthetic_media_disclosure": "Tick YouTube altered/synthetic content disclosure if realistic AI footage is used."
 }

@@ -1,0 +1,24 @@
+{
+  "id": "003",
+  "reviewer": "editorial review against the QC rubric",
+  "round": 1,
+  "scores": {
+    "hook": 14,
+    "retention": 7,
+    "originality": 6,
+    "twist": 7,
+    "visual": 5,
+    "clarity": 4
+  },
+  "reasons": {
+    "hook": "Arithmetic. Nine words, no technical knowledge, and the viewer spots the impossibility themselves.",
+    "retention": "The measuring beat and the travel log are both active investigation. The nine-years line at 0:12 is the one place the script pauses to tell rather than show.",
+    "originality": "A sealed room behind a wall is well-trodden ground. What earns the score is the route in - a cleaning log filling in for a room nobody can reach - rather than the destination.",
+    "twist": "Docked. By the time the travel log appears, most viewers have predicted a hidden room. The payoff is the clean floor, not the room, and the script arrives there a beat late.",
+    "visual": "A vector floor plan, a torch, plaster dust and a spotless floor. Immediately readable at phone size.",
+    "clarity": "Simple throughout."
+  },
+  "triggers": {},
+  "overrides": {},
+  "notes": "Approved. The twist is anticipated rather than surprising, but the final image carries it."
+}

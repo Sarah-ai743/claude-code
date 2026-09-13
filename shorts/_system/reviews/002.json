@@ -1,0 +1,24 @@
+{
+  "id": "002",
+  "reviewer": "editorial review against the QC rubric",
+  "round": 1,
+  "scores": {
+    "hook": 13,
+    "retention": 7,
+    "originality": 7,
+    "twist": 9,
+    "visual": 5,
+    "clarity": 4
+  },
+  "reasons": {
+    "hook": "An absence and a contradiction in eight words. Two points down only because 'the room' has to be established as a place rather than a thing.",
+    "retention": "Every beat adds a fact: the camera number, the count, the missing lens, the angle. Nothing repeats.",
+    "originality": "Recursion is a known shape, but the route in - a file with a camera ID that does not exist - is specific, and the eleventh-layer ending is not the usual infinite-mirror gag.",
+    "twist": "Full marks. The recursion is not a display error, it is eleven real vantage points, and the empty chair inverts the whole video.",
+    "visual": "Best-shot construction in the batch. Monitors inside monitors need zero narration.",
+    "clarity": "Every step is procedural and followable."
+  },
+  "triggers": {},
+  "overrides": {},
+  "notes": "Strongest script in the batch. Approved without changes."
+}

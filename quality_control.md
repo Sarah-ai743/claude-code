@@ -1,0 +1,492 @@
+# Quality Control
+
+Every script is scored out of 100 before it can be approved. Nothing is produced
+from an unapproved script.
+
+**Minimum approval score: 85/100. Maximum 3 rewrites, after which
+the script is retired and its concept returns to the pool.**
+
+## The rubric
+
+| Dimension | Weight | Automated | Review |
+|---|---|---|---|
+| Hook | 25 | 10 | 15 |
+| Retention structure | 20 | 12 | 8 |
+| Originality | 20 | 12 | 8 |
+| Twist / payoff | 15 | 6 | 9 |
+| Visual potential | 10 | 5 | 5 |
+| Clarity | 10 | 6 | 4 |
+| **Total** | **100** | **51** | **49** |
+
+The automated half is measured from the built package by `shorts/_system/qc.py`.
+The review half is editorial judgment, recorded per script in
+`shorts/_system/reviews/<id>.json` and reproduced in full below. **A script with no
+review on file cannot be approved** - the engine reports UNREVIEWED rather than
+guessing, because no automated check can tell you whether a twist is surprising.
+
+Automated checks are proxies tuned to catch failure, not to certify success. Passing
+all of them means nothing obvious is broken, not that the script is good.
+
+## Rejection triggers
+
+Any one of these rejects the script outright, whatever it scored.
+
+| Trigger | How it is caught |
+|---|---|
+| Weak hook | Automated: over 12 words or a banned opener. Review: strength judgment |
+| Confusing story | Review |
+| Predictable twist | Automated: twist restates the premise (>= 0.50 overlap). Review: judgment |
+| Resembles another story | Automated: >= 0.35 concept overlap with the database, or >= 0.30 vocabulary overlap with another script |
+| Too much exposition | Automated: explanatory sentences exceed 15% of the voiceover |
+| Nothing meaningful for over 8s | Automated: longest stretch introducing no new on-screen information |
+| Weak ending | Automated: final line over 14 words, a summary construction, or introducing nothing new. Review: judgment |
+| Depends on copyrighted material | Automated: protected-name list across script, prompts, title and description |
+| Feels mass-produced | Review |
+| Fabricated real-world claims | Automated: news-framing phrases, or a missing fiction disclosure |
+
+## Calibration note
+
+Scripts built through `shorts/_system/build.py` tend to score 50 or 51 out of 51 on the
+automated half, because the builder and the format validator enforce the same rules the
+automated checks measure. That is expected, and it means the automated half is a floor,
+not a discriminator: on pipeline-built scripts every point of real variation lives in
+the 49 review points.
+
+It also means **the 85 threshold is not what protects quality here - the triggers are.**
+Of the three scripts rejected in the first round, one scored 92 and one scored 87; both
+would have passed on score alone. Treat a high total as evidence that nothing is broken,
+and the trigger list as the actual gate.
+
+## Running it
+
+```bash
+python3 shorts/_system/qc.py          # score every script, rewrite this ledger
+python3 shorts/_system/qc.py 003      # score one
+```
+
+---
+
+# Ledger
+
+
+10 scripts scored, 10 approved, 3 required a rewrite.
+
+
+| Script | Title | Rounds | Final | Verdict |
+|---|---|---|---|---|
+| 001 | One Frame Longer | 2 | 95/100 | **APPROVED** |
+| 002 | From Behind | 1 | 96/100 | **APPROVED** |
+| 003 | The Extra Room | 1 | 94/100 | **APPROVED** |
+| 004 | One Step Closer | 1 | 95/100 | **APPROVED** |
+| 005 | The Hour Ahead | 1 | 94/100 | **APPROVED** |
+| 006 | Still Online | 1 | 93/100 | **APPROVED** |
+| 007 | Significant Locations | 1 | 94/100 | **APPROVED** |
+| 008 | Nineteen Ninety-Eight | 2 | 95/100 | **APPROVED** |
+| 009 | Sold From Your House | 1 | 93/100 | **APPROVED** |
+| 010 | Arrivals | 2 | 95/100 | **APPROVED** |
+
+---
+
+## 001 — One Frame Longer
+
+Concept `PIX-002`
+
+### Round 1 — REJECTED (92/100) · 2026-09-13
+
+| Dimension | Auto | Review | Score | Weight |
+|---|---|---|---|---|
+| Hook | 10/10 | 14/15 | **24** | 25 |
+| Retention | 12/12 | 7/8 | **19** | 20 |
+| Originality | 12/12 | 4/8 | **16** | 20 |
+| Twist | 6/6 | 8/9 | **14** | 15 |
+| Visual | 5/5 | 4/5 | **9** | 10 |
+| Clarity | 6/6 | 4/4 | **10** | 10 |
+| **Total** | 51/51 | 41/49 | **92** | 100 |
+
+**Rejection triggers fired:**
+
+- `resembles_another` — reviewer: Shares its central mechanism with 004 (One Step Closer). Two of the first ten Shorts would teach the audience the same rule.
+
+**Review reasoning:**
+
+- **hook** — Eight words, self-explanatory, and the second person makes the viewer the mechanism. Docked one because 'every play' takes a beat to register as impossible.
+- **retention** — Clean escalation from eleven plays to four hundred, and the frame counter gives the middle something to watch. The 0:17-0:23 time-lapse is the softest stretch.
+- **originality** — Heavily docked. The central mechanism - it advances only while somebody watches - is the same engine as 004 in this same batch. It is also not the source concept's mechanism: PIX-002's twist is that the appended frames are continuous real time. The script drifted into another script's idea.
+- **twist** — The reversal genuinely reframes the file from object to process, and the handover to the viewer is a strong comment driver.
+- **visual** — Progress bars and an empty room. Legible but screen-dominant; only three shots have real depth.
+- **clarity** — No ambiguity anywhere. Every line is a single fact.
+- **resembles_another** — Shares its central mechanism with 004 (One Step Closer). Two of the first ten Shorts would teach the audience the same rule.
+
+**Verdict note.** Rejected on mechanism overlap with 004, not on score. Rewrite must restore PIX-002's own twist and leave the observation mechanic to 004.
+
+### Round 2 — APPROVED (95/100) · 2026-09-13
+
+*Rewrite made before this round:* Removed the 'it only moves while somebody is watching' mechanism, which duplicated 004 and was not in the source concept. Replaced it with PIX-002's own twist: the appended frames are continuous real time and the camera never stopped. Final two lines and two captions rewritten to match.
+
+| Dimension | Auto | Review | Score | Weight |
+|---|---|---|---|---|
+| Hook | 10/10 | 14/15 | **24** | 25 |
+| Retention | 12/12 | 7/8 | **19** | 20 |
+| Originality | 12/12 | 7/8 | **19** | 20 |
+| Twist | 6/6 | 8/9 | **14** | 15 |
+| Visual | 5/5 | 4/5 | **9** | 10 |
+| Clarity | 6/6 | 4/4 | **10** | 10 |
+| **Total** | 51/51 | 44/49 | **95** | 100 |
+
+**Review reasoning:**
+
+- **hook** — Unchanged and still the second strongest in the batch.
+- **retention** — Unchanged. The 2003 line gives the middle a concrete anchor it did not have before.
+- **originality** — Resolved. The observation mechanic is gone and the script now runs on its own concept's twist - continuous real time - which no other script in the batch uses. The collision with 004 no longer exists.
+- **twist** — Slightly different in kind and equally strong: the reveal is now temporal rather than participatory. Twenty-two years of a room, played back one frame at a time, reframes the empty footage retroactively.
+- **visual** — Unchanged. Screen-dominant middle.
+- **clarity** — Unchanged. Every line is one fact.
+
+**Verdict note.** Approved. The rewrite also brought the script back in line with the concept it was commissioned from.
+
+
+---
+
+## 002 — From Behind
+
+Concept `CAM-009`
+
+### Round 1 — APPROVED (96/100) · 2026-09-13
+
+| Dimension | Auto | Review | Score | Weight |
+|---|---|---|---|---|
+| Hook | 10/10 | 13/15 | **23** | 25 |
+| Retention | 12/12 | 7/8 | **19** | 20 |
+| Originality | 12/12 | 7/8 | **19** | 20 |
+| Twist | 6/6 | 9/9 | **15** | 15 |
+| Visual | 5/5 | 5/5 | **10** | 10 |
+| Clarity | 6/6 | 4/4 | **10** | 10 |
+| **Total** | 51/51 | 45/49 | **96** | 100 |
+
+**Review reasoning:**
+
+- **hook** — An absence and a contradiction in eight words. Two points down only because 'the room' has to be established as a place rather than a thing.
+- **retention** — Every beat adds a fact: the camera number, the count, the missing lens, the angle. Nothing repeats.
+- **originality** — Recursion is a known shape, but the route in - a file with a camera ID that does not exist - is specific, and the eleventh-layer ending is not the usual infinite-mirror gag.
+- **twist** — Full marks. The recursion is not a display error, it is eleven real vantage points, and the empty chair inverts the whole video.
+- **visual** — Best-shot construction in the batch. Monitors inside monitors need zero narration.
+- **clarity** — Every step is procedural and followable.
+
+**Verdict note.** Strongest script in the batch. Approved without changes.
+
+
+---
+
+## 003 — The Extra Room
+
+Concept `HOME-005`
+
+### Round 1 — APPROVED (94/100) · 2026-09-13
+
+| Dimension | Auto | Review | Score | Weight |
+|---|---|---|---|---|
+| Hook | 10/10 | 14/15 | **24** | 25 |
+| Retention | 12/12 | 7/8 | **19** | 20 |
+| Originality | 12/12 | 6/8 | **18** | 20 |
+| Twist | 6/6 | 7/9 | **13** | 15 |
+| Visual | 5/5 | 5/5 | **10** | 10 |
+| Clarity | 6/6 | 4/4 | **10** | 10 |
+| **Total** | 51/51 | 43/49 | **94** | 100 |
+
+**Review reasoning:**
+
+- **hook** — Arithmetic. Nine words, no technical knowledge, and the viewer spots the impossibility themselves.
+- **retention** — The measuring beat and the travel log are both active investigation. The nine-years line at 0:12 is the one place the script pauses to tell rather than show.
+- **originality** — A sealed room behind a wall is well-trodden ground. What earns the score is the route in - a cleaning log filling in for a room nobody can reach - rather than the destination.
+- **twist** — Docked. By the time the travel log appears, most viewers have predicted a hidden room. The payoff is the clean floor, not the room, and the script arrives there a beat late.
+- **visual** — A vector floor plan, a torch, plaster dust and a spotless floor. Immediately readable at phone size.
+- **clarity** — Simple throughout.
+
+**Verdict note.** Approved. The twist is anticipated rather than surprising, but the final image carries it.
+
+
+---
+
+## 004 — One Step Closer
+
+Concept `PH-003`
+
+### Round 1 — APPROVED (95/100) · 2026-09-13
+
+| Dimension | Auto | Review | Score | Weight |
+|---|---|---|---|---|
+| Hook | 10/10 | 15/15 | **25** | 25 |
+| Retention | 12/12 | 7/8 | **19** | 20 |
+| Originality | 12/12 | 6/8 | **18** | 20 |
+| Twist | 6/6 | 8/9 | **14** | 15 |
+| Visual | 5/5 | 4/5 | **9** | 10 |
+| Clarity | 6/6 | 4/4 | **10** | 10 |
+| **Total** | 51/51 | 44/49 | **95** | 100 |
+
+**Review reasoning:**
+
+- **hook** — Seven words containing a cause and an effect. The best hook line in the batch.
+- **retention** — The week of leaving it alone is a genuine structural risk that pays off - it converts the viewer's own instinct into the escalation.
+- **originality** — Docked for sharing its observation mechanic with 001. This script owns the idea; 001 is the one being rewritten, but two scripts reaching for the same rule in one batch is a batch-level failure.
+- **twist** — 'It is not the deleting, it is the attention' is a real category flip rather than an escalation.
+- **visual** — Phone screen and one hallway. Strong final image, thin middle.
+- **clarity** — Short declaratives throughout.
+
+**Verdict note.** Approved. Originality docked for a batch-level collision that 001 is being rewritten to resolve.
+
+
+---
+
+## 005 — The Hour Ahead
+
+Concept `CAM-001`
+
+### Round 1 — APPROVED (94/100) · 2026-09-13
+
+| Dimension | Auto | Review | Score | Weight |
+|---|---|---|---|---|
+| Hook | 10/10 | 14/15 | **24** | 25 |
+| Retention | 12/12 | 7/8 | **19** | 20 |
+| Originality | 12/12 | 7/8 | **19** | 20 |
+| Twist | 5/6 | 8/9 | **13** | 15 |
+| Visual | 5/5 | 4/5 | **9** | 10 |
+| Clarity | 6/6 | 4/4 | **10** | 10 |
+| **Total** | 50/51 | 44/49 | **94** | 100 |
+
+**Automated checks failed:**
+
+- twist: twist line introduces at least two new terms
+
+**Review reasoning:**
+
+- **hook** — Six words. The shortest complete impossibility in the batch and the fastest to read.
+- **retention** — The chair test at 0:07 is the strongest mid-video beat in the set - the character proves the anomaly on camera instead of describing it.
+- **originality** — Precognitive footage is common; a second camera sealed in the wall pointed at the first is not, and it converts the premise from prophecy to surveillance.
+- **twist** — Strong category flip. Docked one because the wall-opening is telegraphed by the angle discussion thirty seconds earlier.
+- **visual** — Institutional corridors and a dust-covered lens in a cavity. Good, not spectacular.
+- **clarity** — The angle explanation is the only place a viewer might need a second pass, and the diagram shot covers it.
+
+**Verdict note.** Approved.
+
+
+---
+
+## 006 — Still Online
+
+Concept `EXP-005`
+
+### Round 1 — APPROVED (93/100) · 2026-09-13
+
+| Dimension | Auto | Review | Score | Weight |
+|---|---|---|---|---|
+| Hook | 10/10 | 12/15 | **22** | 25 |
+| Retention | 12/12 | 7/8 | **19** | 20 |
+| Originality | 12/12 | 7/8 | **19** | 20 |
+| Twist | 6/6 | 9/9 | **15** | 15 |
+| Visual | 5/5 | 4/5 | **9** | 10 |
+| Clarity | 6/6 | 3/4 | **9** | 10 |
+| **Total** | 51/51 | 42/49 | **93** | 100 |
+
+**Review reasoning:**
+
+- **hook** — Nine words, an ordinary action against an impossible result. Docked three because 'the conversation' has no antecedent yet, so the first beat is slightly abstract.
+- **retention** — The 1999 and 2003 lines are the turn, and they arrive on time. The scroll sequences risk feeling like texture rather than progress.
+- **originality** — Old hardware still connected is familiar; the inversion that the modern life is the echo is not.
+- **twist** — Full marks. It reverses the direction of the entire story rather than adding to it.
+- **visual** — CRT phosphor and a loft. Atmospheric but text-heavy, and text is the hardest thing to read on a phone.
+- **clarity** — Docked. 'He is three seconds behind' requires the viewer to hold two timelines at once, and at 0:45 there is no room left to help them.
+
+**Verdict note.** Approved. Clarity is the weak dimension; the sound design carries the final beat and must land.
+
+
+---
+
+## 007 — Significant Locations
+
+Concept `PH-019`
+
+### Round 1 — APPROVED (94/100) · 2026-09-13
+
+| Dimension | Auto | Review | Score | Weight |
+|---|---|---|---|---|
+| Hook | 10/10 | 13/15 | **23** | 25 |
+| Retention | 12/12 | 7/8 | **19** | 20 |
+| Originality | 12/12 | 7/8 | **19** | 20 |
+| Twist | 6/6 | 7/9 | **13** | 15 |
+| Visual | 5/5 | 5/5 | **10** | 10 |
+| Clarity | 6/6 | 4/4 | **10** | 10 |
+| **Total** | 51/51 | 43/49 | **94** | 100 |
+
+**Review reasoning:**
+
+- **hook** — A quantity and a contradiction. Docked two because 'two hundred hours' needs a half-beat to feel large.
+- **retention** — The drive is the weakest stretch - it is transit rather than investigation - but the rental form and the key recover it.
+- **originality** — Location-history anomalies are a known seed; the storage unit full of identical phones is specific enough to own.
+- **twist** — Docked. The unit is a spectacle rather than a reversal. Nothing the viewer believed at 0:20 is overturned; the scale simply increases.
+- **visual** — The single most arresting final image in the batch.
+- **clarity** — Procedural and easy to follow.
+
+**Verdict note.** Approved. Twist is the weak dimension and is worth watching in the retention data.
+
+
+---
+
+## 008 — Nineteen Ninety-Eight
+
+Concept `PIX-004`
+
+### Round 1 — REJECTED (87/100) · 2026-09-13
+
+| Dimension | Auto | Review | Score | Weight |
+|---|---|---|---|---|
+| Hook | 10/10 | 13/15 | **23** | 25 |
+| Retention | 9/12 | 5/8 | **14** | 20 |
+| Originality | 12/12 | 7/8 | **19** | 20 |
+| Twist | 3/6 | 8/9 | **11** | 15 |
+| Visual | 5/5 | 5/5 | **10** | 10 |
+| Clarity | 6/6 | 4/4 | **10** | 10 |
+| **Total** | 45/51 | 42/49 | **87** | 100 |
+
+**Rejection triggers fired:**
+
+- `dead_air` — reviewer: confirms the automated finding - between 0:13 and 0:25 the captions introduce nothing new, and twelve seconds is a long time to ask a viewer to wait.
+
+**Automated checks failed:**
+
+- retention: longest stretch with no new on-screen information: 12.0s (max 8s)
+- twist: twist beat at 40% through the voiceover (target 45-85%)
+- twist: twist line introduces at least two new terms
+
+**Review reasoning:**
+
+- **hook** — Nine words that trust the audience to know a 1998 living room. Docked two because it needs the viewer to picture the era.
+- **retention** — Confirms the automated finding. Between 0:13 and 0:25 the captions introduce nothing new - 'He zooms in' and 'The screen is on' are the same beat twice, and twelve seconds is a long time to ask a viewer to wait.
+- **originality** — An anachronism in old footage is a known device, but pointing it at the viewer's own room is a specific and well-earned turn.
+- **twist** — The screen showing the room the tape is being watched in is a genuine observer inversion.
+- **visual** — Two clearly separated visual worlds, which is the strongest look in the batch.
+- **clarity** — Clean.
+
+**Verdict note.** Rejected on the twelve-second dead patch and an early twist beat, both confirmed on reading. Score would otherwise have passed, which is the point of the triggers.
+
+### Round 2 — APPROVED (95/100) · 2026-09-13
+
+*Rewrite made before this round:* Rewrote the 0:13-0:25 stretch so every caption introduces new information, moved the twist beat from 40% to 50% of the voiceover, and replaced the duplicated 'screen is on' beat with a line that advances the reveal.
+
+| Dimension | Auto | Review | Score | Weight |
+|---|---|---|---|---|
+| Hook | 10/10 | 13/15 | **23** | 25 |
+| Retention | 12/12 | 7/8 | **19** | 20 |
+| Originality | 12/12 | 7/8 | **19** | 20 |
+| Twist | 6/6 | 8/9 | **14** | 15 |
+| Visual | 5/5 | 5/5 | **10** | 10 |
+| Clarity | 6/6 | 4/4 | **10** | 10 |
+| **Total** | 51/51 | 44/49 | **95** | 100 |
+
+**Automated flags overridden by the reviewer:**
+
+- `weak_ending` — flagged because closing pair introduces no new terms. Overridden: Flagged because the closing pair introduces no new vocabulary. Overridden: the repetition is the device. 'All of them looking at the screen / All of them looking at him' turns on the swapped object, and any new word in that position would break the anaphora. The lexical novelty test cannot see a rhetorical turn.
+
+**Review reasoning:**
+
+- **hook** — Unchanged.
+- **retention** — Resolved. The longest stretch without new on-screen information is now under eight seconds, and the added line at 0:13 gives the zoom sequence a reason to exist beyond waiting.
+- **originality** — Unchanged.
+- **twist** — Unchanged in substance and better placed. The beat now falls at 50% of the voiceover instead of 40%, so the escalation has somewhere to go.
+- **visual** — Unchanged. Still the strongest look in the batch.
+- **clarity** — Unchanged.
+
+**Verdict note.** Approved.
+
+
+---
+
+## 009 — Sold From Your House
+
+Concept `EXP-001`
+
+### Round 1 — APPROVED (93/100) · 2026-09-13
+
+| Dimension | Auto | Review | Score | Weight |
+|---|---|---|---|---|
+| Hook | 10/10 | 14/15 | **24** | 25 |
+| Retention | 12/12 | 7/8 | **19** | 20 |
+| Originality | 12/12 | 7/8 | **19** | 20 |
+| Twist | 6/6 | 6/9 | **12** | 15 |
+| Visual | 5/5 | 5/5 | **10** | 10 |
+| Clarity | 6/6 | 3/4 | **9** | 10 |
+| **Total** | 51/51 | 42/49 | **93** | 100 |
+
+**Review reasoning:**
+
+- **hook** — Nine words and the violation is understood instantly in any market.
+- **retention** — The purchase and the wait are good structure. The seller-profile beat at 0:08 is the softest.
+- **originality** — A listing photographed inside the buyer's own home is a genuinely fresh seed, and the substitution reading is not the obvious one.
+- **twist** — Docked. The final line is a scope statement rather than an image, and 'none of the buyers are her' asks the viewer to do arithmetic at the exact moment they should be feeling something.
+- **visual** — Warm domestic against clinical product photography. Two lamps side by side is an excellent single frame.
+- **clarity** — Docked. Which lamp is real takes a second pass to resolve, and the script does not have a second pass available.
+
+**Verdict note.** Approved. Weakest payoff of the approved set; if retention drops at 0:42 the ending is the reason.
+
+
+---
+
+## 010 — Arrivals
+
+Concept `CAM-004`
+
+### Round 1 — REJECTED (91/100) · 2026-09-13
+
+| Dimension | Auto | Review | Score | Weight |
+|---|---|---|---|---|
+| Hook | 10/10 | 15/15 | **25** | 25 |
+| Retention | 12/12 | 7/8 | **19** | 20 |
+| Originality | 12/12 | 5/8 | **17** | 20 |
+| Twist | 6/6 | 5/9 | **11** | 15 |
+| Visual | 5/5 | 4/5 | **9** | 10 |
+| Clarity | 6/6 | 4/4 | **10** | 10 |
+| **Total** | 51/51 | 40/49 | **91** | 100 |
+
+**Rejection triggers fired:**
+
+- `twist_predictable` — reviewer: 'she has never been recorded leaving either' is the ending most of the audience will have guessed by 0:20. A twist the viewer beats you to is not a twist.
+
+**Review reasoning:**
+
+- **hook** — Eight words and a complete mystery. Joint best in the batch.
+- **retention** — Well paced, and the seasons time-lapse earns its place.
+- **originality** — Docked hard. A house that people enter and never leave is the most familiar territory anything in this database touches, and the script does nothing structural to make it feel new.
+- **twist** — Rejected. 'She has never been recorded leaving either' is the ending most of the audience will have guessed by 0:20 - the script spends twelve seconds arriving somewhere the viewer already is. A twist the viewer beats you to is not a twist.
+- **visual** — Doorbell fisheye is instantly readable but visually monotonous across ten scenes.
+- **clarity** — Very clear.
+
+**Verdict note.** Rejected on a predictable payoff. The hook is too good to waste - rewrite the reversal, keep the first eight words.
+
+### Round 2 — APPROVED (95/100) · 2026-09-13
+
+*Rewrite made before this round:* Replaced the predictable payoff. The original ended on 'she has never been recorded leaving either', which the audience reaches by 0:20. The rewrite keeps the hook and the first five lines intact and turns the reversal into identity: every one of the thirty-one arrivals is her. Five captions, five visuals and five prompts rewritten accordingly.
+
+| Dimension | Auto | Review | Score | Weight |
+|---|---|---|---|---|
+| Hook | 10/10 | 15/15 | **25** | 25 |
+| Retention | 12/12 | 7/8 | **19** | 20 |
+| Originality | 12/12 | 7/8 | **19** | 20 |
+| Twist | 6/6 | 7/9 | **13** | 15 |
+| Visual | 5/5 | 4/5 | **9** | 10 |
+| Clarity | 6/6 | 4/4 | **10** | 10 |
+| **Total** | 51/51 | 44/49 | **95** | 100 |
+
+**Review reasoning:**
+
+- **hook** — Untouched by the rewrite, and still joint best in the batch.
+- **retention** — The slow-down sequence at 0:26 is a genuine investigation beat, which the original did not have - it replaced transit with discovery.
+- **originality** — Recovered. The script is no longer a house-that-keeps-people story; it is an identity story wearing that shape for the first twenty seconds, which is a far less worn position.
+- **twist** — Recovered but not full marks. 'All thirty-one are her' is a real reversal that very few viewers will predict from the opening, though the broader shape - the investigator is the subject - is itself familiar. The locked-door line is what makes it land.
+- **visual** — Unchanged. Doorbell fisheye across ten scenes is still visually monotonous; the overlaid-silhouettes shot helps.
+- **clarity** — Unchanged. Very clear.
+
+**Verdict note.** Approved. Visual monotony is the remaining weakness and is a shot-list problem, not a script problem.
+
+
+---
+
+*Every script assessed here is original fiction. The fabricated-claims trigger exists to keep it labelled that way.*

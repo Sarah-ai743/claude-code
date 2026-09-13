@@ -1,0 +1,26 @@
+{
+  "id": "004",
+  "reviewer": "editorial review against the QC rubric",
+  "round": 1,
+  "scores": {
+    "hook": 15,
+    "retention": 7,
+    "originality": 6,
+    "twist": 8,
+    "visual": 4,
+    "clarity": 4
+  },
+  "reasons": {
+    "hook": "Seven words containing a cause and an effect. The best hook line in the batch.",
+    "retention": "The week of leaving it alone is a genuine structural risk that pays off - it converts the viewer's own instinct into the escalation.",
+    "originality": "Docked for sharing its observation mechanic with 001. This script owns the idea; 001 is the one being rewritten, but two scripts reaching for the same rule in one batch is a batch-level failure.",
+    "twist": "'It is not the deleting, it is the attention' is a real category flip rather than an escalation.",
+    "visual": "Phone screen and one hallway. Strong final image, thin middle.",
+    "clarity": "Short declaratives throughout."
+  },
+  "triggers": {},
+  "overrides": {
+    "weak_ending": "Flagged for a fifteen-word final line. Overridden: the length is the point - the line holds the reveal until its last three words, and it introduces six terms that appear nowhere else in the script."
+  },
+  "notes": "Approved. Originality docked for a batch-level collision that 001 is being rewritten to resolve."
+}

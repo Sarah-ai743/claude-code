@@ -1,0 +1,26 @@
+{
+  "id": "007",
+  "reviewer": "editorial review against the QC rubric",
+  "round": 1,
+  "scores": {
+    "hook": 13,
+    "retention": 7,
+    "originality": 7,
+    "twist": 7,
+    "visual": 5,
+    "clarity": 4
+  },
+  "reasons": {
+    "hook": "A quantity and a contradiction. Docked two because 'two hundred hours' needs a half-beat to feel large.",
+    "retention": "The drive is the weakest stretch - it is transit rather than investigation - but the rental form and the key recover it.",
+    "originality": "Location-history anomalies are a known seed; the storage unit full of identical phones is specific enough to own.",
+    "twist": "Docked. The unit is a spectacle rather than a reversal. Nothing the viewer believed at 0:20 is overturned; the scale simply increases.",
+    "visual": "The single most arresting final image in the batch.",
+    "clarity": "Procedural and easy to follow."
+  },
+  "triggers": {},
+  "overrides": {
+    "weak_ending": "Flagged because the final line repeats the hook's phrase. Overridden: that is the construction - the last three words are a deliberate bookend, and the payoff is hearing the opening line again from inside the unit."
+  },
+  "notes": "Approved. Twist is the weak dimension and is worth watching in the retention data."
+}

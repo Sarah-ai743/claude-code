@@ -1,0 +1,25 @@
+{
+  "id": "001",
+  "reviewer": "editorial review against the QC rubric",
+  "round": 2,
+  "scores": {
+    "hook": 14,
+    "retention": 7,
+    "originality": 7,
+    "twist": 8,
+    "visual": 4,
+    "clarity": 4
+  },
+  "reasons": {
+    "hook": "Unchanged and still the second strongest in the batch.",
+    "retention": "Unchanged. The 2003 line gives the middle a concrete anchor it did not have before.",
+    "originality": "Resolved. The observation mechanic is gone and the script now runs on its own concept's twist - continuous real time - which no other script in the batch uses. The collision with 004 no longer exists.",
+    "twist": "Slightly different in kind and equally strong: the reveal is now temporal rather than participatory. Twenty-two years of a room, played back one frame at a time, reframes the empty footage retroactively.",
+    "visual": "Unchanged. Screen-dominant middle.",
+    "clarity": "Unchanged. Every line is one fact."
+  },
+  "triggers": {},
+  "overrides": {},
+  "notes": "Approved. The rewrite also brought the script back in line with the concept it was commissioned from.",
+  "rewrite_note": "Removed the 'it only moves while somebody is watching' mechanism, which duplicated 004 and was not in the source concept. Replaced it with PIX-002's own twist: the appended frames are continuous real time and the camera never stopped. Final two lines and two captions rewritten to match."
+}

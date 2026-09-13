@@ -1,0 +1,25 @@
+{
+  "id": "010",
+  "reviewer": "editorial review against the QC rubric",
+  "round": 2,
+  "scores": {
+    "hook": 15,
+    "retention": 7,
+    "originality": 7,
+    "twist": 7,
+    "visual": 4,
+    "clarity": 4
+  },
+  "reasons": {
+    "hook": "Untouched by the rewrite, and still joint best in the batch.",
+    "retention": "The slow-down sequence at 0:26 is a genuine investigation beat, which the original did not have - it replaced transit with discovery.",
+    "originality": "Recovered. The script is no longer a house-that-keeps-people story; it is an identity story wearing that shape for the first twenty seconds, which is a far less worn position.",
+    "twist": "Recovered but not full marks. 'All thirty-one are her' is a real reversal that very few viewers will predict from the opening, though the broader shape - the investigator is the subject - is itself familiar. The locked-door line is what makes it land.",
+    "visual": "Unchanged. Doorbell fisheye across ten scenes is still visually monotonous; the overlaid-silhouettes shot helps.",
+    "clarity": "Unchanged. Very clear."
+  },
+  "triggers": {},
+  "overrides": {},
+  "notes": "Approved. Visual monotony is the remaining weakness and is a shot-list problem, not a script problem.",
+  "rewrite_note": "Replaced the predictable payoff. The original ended on 'she has never been recorded leaving either', which the audience reaches by 0:20. The rewrite keeps the hook and the first five lines intact and turns the reversal into identity: every one of the thirty-one arrivals is her. Five captions, five visuals and five prompts rewritten accordingly."
+}

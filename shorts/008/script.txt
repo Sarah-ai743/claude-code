@@ -2,7 +2,7 @@
 ============================================================
 Concept:       PIX-004  (B1/G5)
 Target length: 47s
-Voiceover:     112 words (~37s at 3.0 w/s)
+Voiceover:     121 words (~40s at 3.0 w/s)
 Scenes:        10
 
 ORIGINAL FICTION. Not a real event, person, company or recording.
@@ -26,14 +26,15 @@ ORIGINAL FICTION. Not a real event, person, company or recording.
   The 1998 tape has a flat screen in it.
   Back corner of the room. Behind the cake.
   Flat. Thin. Wrong by about fifteen years.
+  Nobody at the party is looking at it.
   He digitises it and zooms in.
-  The screen is on. It is showing a room.
-  Beige walls. A desk. A laptop open on it.
-  [BEAT] It is this room.
-  It is the room he is sitting in right now.
+  The screen is lit. There is an image on it.
+  Beige walls. An anglepoise lamp. An open laptop.
+  He sits back from the screen.
+  [BEAT] He is sitting in that room right now.
   Same angle. Same lamp. Same laptop.
-  He looks up. Nothing behind him.
-  He looks back at 1998.
+  He turns around. Nothing behind him.
+  The tape is twenty-eight years old.
   And one by one, everyone at the party turns.
   His mother. His uncle. A child he does not know.
   All of them looking at the screen.
@@ -63,7 +64,7 @@ ORIGINAL FICTION. Not a real event, person, company or recording.
     SFX     : tape deck mechanism, digital zoom whine
 
   SCENE  5  [19.0s - 25.0s]
-    CAPTION : The screen is ON
+    CAPTION : There is an IMAGE on it
     VISUAL  : The rectangle resolves: it is lit, and there is an image on it.
     SFX     : noise floor rising, hum
 
@@ -78,7 +79,7 @@ ORIGINAL FICTION. Not a real event, person, company or recording.
     SFX     : two hard cuts, silence between
 
   SCENE  8  [36.0s - 41.0s]
-    CAPTION : He looks UP. Nothing.
+    CAPTION : He TURNS. Nothing there.
     VISUAL  : He turns in his chair. The room behind him is empty. Lamp buzzing.
     SFX     : chair creak, lamp buzz, no music
 
