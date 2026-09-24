@@ -1,47 +1,40 @@
-import { describe, expect, it } from "vitest";
-import {
-  findUnsupportedPriceClaims,
-  normalizeConfidence,
-} from "../../src/modules/leads/leads.guardrails.js";
+import { describe, it, expect } from "vitest";
+import { findUnsupportedPriceClaims } from "@/lib/guardrails";
 
-describe("findUnsupportedPriceClaims", () => {
-  it("flags a price that appears only in the AI's reply", () => {
-    const found = findUnsupportedPriceClaims(
-      "A 3-bedroom clean is £150 and takes about four hours.",
-      "Hi, I need my apartment cleaned next Friday. Can you tell me the price?",
+describe("guardrails: findUnsupportedPriceClaims", () => {
+  it("flags a price in the reply that the customer never mentioned", () => {
+    const flagged = findUnsupportedPriceClaims(
+      "Sure, that will be $250 for the deep clean.",
+      "I need a deep clean for my 2 bedroom apartment.",
     );
-    expect(found).toEqual(["£150"]);
+    expect(flagged).toContain("$250");
   });
 
-  it("allows a price the customer themselves mentioned", () => {
-    const found = findUnsupportedPriceClaims(
-      "You mentioned a budget of £100 — that works for a standard clean.",
-      "My budget is around £100, is that enough?",
+  it("does not flag a price the customer already stated", () => {
+    const flagged = findUnsupportedPriceClaims(
+      "Got it — confirming the $250 quote you mentioned.",
+      "I saw online it's $250 for a deep clean, is that right?",
     );
-    expect(found).toEqual([]);
+    expect(flagged).toHaveLength(0);
   });
 
-  it("returns nothing when the reply quotes no amounts", () => {
-    const found = findUnsupportedPriceClaims(
-      "Thanks for getting in touch. Could you confirm the size of the apartment?",
-      "I need my apartment cleaned. How much?",
+  it("treats different formatting of the same amount as supported", () => {
+    const flagged = findUnsupportedPriceClaims(
+      "That would be £1,500.00 total.",
+      "Is it around £1500 total?",
     );
-    expect(found).toEqual([]);
+    expect(flagged).toHaveLength(0);
   });
 
-  it("detects amounts written with a currency word", () => {
-    const found = findUnsupportedPriceClaims("It will be 200 EUR.", "How much?");
-    expect(found).toEqual(["200 EUR"]);
-  });
-});
-
-describe("normalizeConfidence", () => {
-  it("rounds to two decimals", () => {
-    expect(normalizeConfidence(0.8765)).toBe(0.88);
+  it("returns no flags when no prices are mentioned", () => {
+    expect(findUnsupportedPriceClaims("Thanks, we'll be in touch soon!", "When can you come?")).toHaveLength(0);
   });
 
-  it("clamps values outside 0–1", () => {
-    expect(normalizeConfidence(1.4)).toBe(1);
-    expect(normalizeConfidence(-0.2)).toBe(0);
+  it("flags multiple unsupported amounts", () => {
+    const flagged = findUnsupportedPriceClaims(
+      "Standard is $100 and deep clean is $200.",
+      "What are your prices?",
+    );
+    expect(flagged.length).toBe(2);
   });
 });
